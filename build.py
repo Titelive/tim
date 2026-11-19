@@ -68,11 +68,13 @@ def canon(p):
 
 
 def out_path(path):
-    """Chemin d'origine normalisé → chemin du fichier généré."""
+    """Chemin d'origine normalisé → chemin du fichier généré.
+    Les points des noms d'origine deviennent des tirets (ge.beta.01 → ge-beta-01) :
+    une adresse propre qui finirait par « .01 » ou « .guns » passerait pour un fichier."""
     if path.endswith("/"):
-        return path + "index.html"
+        return path.replace(".", "-") + "index.html"
     base, _ = posixpath.splitext(path)
-    return base + ".html"
+    return base.replace(".", "-") + ".html"
 
 
 def clean(u):
@@ -332,7 +334,7 @@ def nav_html(link, current_section):
     items = []
     for key, title, _, _ in SECTIONS:
         on = ' class="on"' if key == current_section else ""
-        items.append(f'<li><a href="{r}{key}/"{on}>{title}</a></li>')
+        items.append(f'<li><a href="{r}{key.replace(".", "-")}/"{on}>{title}</a></li>')
     return "\n".join(items)
 
 
@@ -432,7 +434,7 @@ def build_page(path, page, pages, order):
     crumbs = [f'<a href="{clean(r)}">Accueil</a>']
     is_index = path == section + "/"
     if not is_index and section in SECTION_TITLE:
-        crumbs.append(f'<a href="{r}{section}/">{SECTION_TITLE[section]}</a>')
+        crumbs.append(f'<a href="{r}{section.replace(".", "-")}/">{SECTION_TITLE[section]}</a>')
 
     # page précédente / suivante dans le même dossier
     pager = ""
@@ -468,7 +470,7 @@ def build_home(pages):
     for key, title, desc, g in SECTIONS:
         tag = {"ge": "Goldeneye", "pd": "Perfect Dark", "both": "Goldeneye · Perfect Dark"}[g]
         cls = "card pd" if g == "pd" else "card"
-        cards.append(f'<a class="{cls}" href="{key}/"><span class="tag">{tag}</span><h3>{title}</h3><p>{desc}</p></a>')
+        cards.append(f'<a class="{cls}" href="{key.replace(".", "-")}/"><span class="tag">{tag}</span><h3>{title}</h3><p>{desc}</p></a>')
     n = len(pages)
     inner = f"""<section class="hero"><div class="wrap">
 <p class="kicker">Nintendo 64 · le site de Tim</p>
