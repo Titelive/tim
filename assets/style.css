@@ -253,16 +253,20 @@ ul.links .num{font-family:var(--mono);font-size:12px;color:var(--accent);min-wid
 .count{font-family:var(--font);font-size:12px;font-weight:600;color:var(--muted);background:var(--card);border:1px solid var(--line);border-radius:var(--r-pill);padding:1px 9px}
 
 /* Pages des jeux : cadran de montre (Goldeneye), grille holographique (Perfect Dark) */
-.page-head .deco{position:absolute;z-index:-1;pointer-events:none}
-.dial{right:6%;top:50%;width:220px;height:220px;margin-top:-110px;filter:drop-shadow(0 10px 30px rgba(0,0,0,.45))}
-.dial .hand{transform-origin:100px 100px;animation:tick 60s steps(60) infinite}
-.dial .arc{stroke-dashoffset:80;animation:arc 1.2s var(--ease) .3s forwards}
-@keyframes arc{to{stroke-dashoffset:0}}
-@keyframes tick{to{transform:rotate(360deg)}}
+.page-head .deco{position:absolute;z-index:0;pointer-events:none}
+.page-head > .wrap{position:relative;z-index:1}
+@media (min-width:761px){.page-head:has(.dial) > .wrap{padding-right:290px}}
+@media (max-width:760px){.page-head:has(.dial) h1,.page-head:has(.dial) .crumbs{padding-right:120px}}
+.dial{right:5%;top:50%;width:240px;height:240px;margin-top:-120px;border-radius:50%;filter:drop-shadow(0 14px 34px rgba(0,0,0,.55))}
+.dial .seg{opacity:.18;animation:seg .35s var(--ease) forwards;animation-delay:calc(.4s + var(--i) * 70ms)}
+@keyframes seg{to{opacity:1}}
+.dial .lcd{filter:drop-shadow(0 0 10px rgba(110,255,90,.55));animation:lcd 6s ease-in-out infinite}
+@keyframes lcd{0%,100%{opacity:1}48%{opacity:1}50%{opacity:.86}52%{opacity:1}}
+.dial .clock{letter-spacing:1px}
 .hud{right:0;top:0;bottom:0;width:48%;background:linear-gradient(90deg,var(--bg),transparent 30%),repeating-linear-gradient(0deg,rgba(61,139,255,.24) 0 1px,transparent 1px 28px),repeating-linear-gradient(90deg,rgba(61,139,255,.24) 0 1px,transparent 1px 28px);-webkit-mask:linear-gradient(90deg,transparent,#000 40%);mask:linear-gradient(90deg,transparent,#000 40%)}
 .hud::after{content:"";position:absolute;left:0;right:0;height:2px;top:0;background:linear-gradient(90deg,transparent,var(--neon),transparent);box-shadow:0 0 14px var(--neon);opacity:.7;animation:hudscan 5s ease-in-out infinite}
 @keyframes hudscan{50%{top:calc(100% - 2px)}}
-@media (max-width:760px){.dial{width:140px;height:140px;margin-top:-70px;right:-36px;opacity:.55}.hud{width:70%;opacity:.6}}
+@media (max-width:760px){.dial{width:104px;height:104px;top:12px;margin-top:0;right:12px}.hud{width:70%;opacity:.6}}
 .theme-ge .theme h2,.theme-ge .content h2{background:var(--g-fire);-webkit-background-clip:text;background-clip:text;color:transparent}
 .theme-ge .theme h2 .icon{stroke:var(--fire)}
 .theme-pd .theme h2,.theme-pd .content h2.pd,.theme-pd .content h2{background:var(--g-pd);-webkit-background-clip:text;background-clip:text;color:transparent;font-style:italic;letter-spacing:1px}
