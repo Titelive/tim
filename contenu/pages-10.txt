@@ -378,7 +378,6 @@ Goldeneye Version Beta : Multiplayer
 
 Il y a bien sur les Fameux [All Bonds](ge.beta.all.bonds.htm) en Multiplayer, mais ce n'est pas tout. Il y a des Changements de Niveaux, et la possibilité d'y jouer à 3 ou 4. Concernant les Niveaux, il y avait Statue et Cradle, que l'on peut rejouer avec l'[Action Replay](../action.replay/index.htm), mais bon ça bugue terriblement. A voir pour le voir, en gros.
 
-Le site original montre aussi un Montage des Personnages si le Jeu avait gardé les Anciens Bonds.
 
 === beta/ge.beta.vehicules.htm
 Goldeneye Version Beta : Véhicules

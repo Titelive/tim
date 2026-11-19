@@ -188,25 +188,24 @@ OHMSS - On Her Majesty's Secret Service est un Sigle que l'on retrouve en Battle
 === presentation/videos.htm
 Des Vidéos de PUB, Preview...
 
-Le site original propose ces vidéos en téléchargement :
+Les vidéos marquantes autour des deux jeux :
 
 ## Goldeneye
 
-- **Le Niveau Citadel** : Un Grand Merci à Zoinkity ! [Télécharger](Citadel%20(Zoinkity).wmv)
-- **PUB de 1997** : Pas mal d'Elements Beta et des Voix ! [Télécharger](Goldeneye%20-%20PUB%20(1997).avi)
-- **Shoshinkai 1995** : Quand Goldeneye était un Virtua Cop ! [Télécharger](Goldeneye%20-%20Shoshinkai%20(1995).avi)
-- **Shyne Factory - Bring Me Down** : Un Clip basé sur Goldeneye ! [Télécharger](Shyne%20Factory%20-%20Bring%20Me%20Down%20(2006).qtl)
+- **Le Niveau Citadel** : Un Grand Merci à Zoinkity !
+- **PUB de 1997** : Pas mal d'Elements Beta et des Voix !
+- **Shoshinkai 1995** : Quand Goldeneye était un Virtua Cop !
+- **Shyne Factory - Bring Me Down** : Un Clip basé sur Goldeneye !
 
 ## Perfect Dark
 
-- **Preview du Jeu en 1999** : La Vidéo qui faisait rêver à l'Epoque...! [Télécharger](Perfect%20Dark%20-%20Preview%20(1999).avi)
+- **Preview du Jeu en 1999** : La Vidéo qui faisait rêver à l'Epoque...!
 
 === presentation/promo.htm
 Goldeneye : Images Promotionelles
 
 Une petite galerie d'images promotionnelles officielles de Goldeneye : Bond aux Archives, à la fenêtre, dans le Silo, devant la Statue, dans les flammes et dans le Tank.
 
-{original}
 
 === presentation/decouverte-pd.htm
 Perfect Dark : Découverte et Test

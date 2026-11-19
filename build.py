@@ -18,7 +18,6 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 SRC = ROOT / "contenu"
-ORIGIN = "http://floppycheese.free.fr/nintendo/"
 
 SECTIONS = [
     # (dossier d'origine, titre, description, jeu)
@@ -47,6 +46,7 @@ ASSET_V = hashlib.sha1(b"".join((ROOT / "assets" / f).read_bytes() for f in ("st
 # images du site d'origine (préparées par tools/images.py)
 _IMG = json.loads((SRC / "images.json").read_text(encoding="utf-8")) if (SRC / "images.json").exists() else {"pages": {}, "files": {}}
 IMG_PAGES, IMG_FILES = _IMG["pages"], _IMG["files"]
+IMG_FILES.update(json.loads((ROOT / "contenu" / "fichiers.json").read_text(encoding="utf-8")))
 
 
 # ---------------------------------------------------------------- lecture
@@ -137,8 +137,9 @@ class Linker:
             return clean(rel) + anchor, False
         if target.lower() in IMG_FILES:
             return self.to(IMG_FILES[target.lower()]), False
-        # fichier du site d'origine (mp3, zip, txt…) : lien vers l'original
-        return ORIGIN + target + anchor, True
+        # fichier disparu (vidéo, zip…) : pas de lien
+        print("LIEN MORT", self.current, target, file=__import__("sys").stderr) if os.environ.get("DEBUG") else None
+        return None, False
 
     def to(self, published):
         """Chemin publié (depuis la racine) → lien relatif depuis la page courante."""
@@ -180,6 +181,8 @@ def inline(text, link):
     def img_chip(m):
         href, ext = link.resolve(m.group(1))
         label = m.group(2) or "Image"
+        if href is None:
+            return ""
         return f'<a class="chip" href="{html.escape(href)}" target="_blank" rel="noopener">{label}</a>'
 
     text = re.sub(r"\x01([^\x02]+)\x02([^\x03]*)\x03", img_chip, text)
@@ -189,6 +192,8 @@ def inline(text, link):
         url, ext = link.resolve(html.unescape(href))
         if not label.strip():
             return ""
+        if url is None:
+            return label
         attrs = ' target="_blank" rel="noopener"' if ext else ""
         return f'<a href="{html.escape(url)}"{attrs}>{label}</a>'
 
@@ -261,6 +266,8 @@ def render_cards(lines, link, page_game):
         thumb, label, href, desc = m.groups()
         thumb = link.image(thumb) if thumb else None
         url, ext = link.resolve(href)
+        if url is None:
+            continue
         tag = ""
         mt = re.match(r"^(.*?) ·\s*(.*)$", desc)
         if mt:
@@ -556,7 +563,7 @@ def layout(link, title, inner, section=None, game="", description=""):
 </main>
 <footer>
   <div class="wrap">
-    <p>Contenu écrit par <strong>Tim</strong> pour son site <a href="{ORIGIN}" target="_blank" rel="noopener">floppycheese.free.fr/nintendo</a>, remis en page en 2026. Goldeneye 007 et Perfect Dark sont des jeux Rare / Nintendo ; ce site de fan n'est affilié à aucune de ces sociétés.</p>
+    <p>Contenu écrit par <strong>Tim</strong>, passionné de <strong>Goldeneye 007</strong> et de <strong>Perfect Dark</strong>. Ce sont des jeux Rare / Nintendo ; ce site de fan n'est affilié à aucune de ces sociétés.</p>
   </div>
 </footer>
 <button class="to-top" type="button" aria-label="Retour en haut">{icon("arrow-up")}</button>
@@ -564,12 +571,6 @@ def layout(link, title, inner, section=None, game="", description=""):
 </body>
 </html>
 """
-
-
-def original_box(page):
-    url = ORIGIN + page["orig"].lstrip("./")
-    return (f'<aside class="note"><p>Cette page reprend surtout des images. '
-            f'Pour les voir, ouvrez <a href="{url}" target="_blank" rel="noopener">la page originale</a>.</p></aside>')
 
 
 def toc_list(headings, prefix=None):
@@ -730,7 +731,7 @@ def build_page(path, page, pages, order, idx, where):
     def placeholder(m):
         key = m.group(1)
         if key == "{original}":
-            return "" if galleries else original_box(page)
+            return ""
         if key == "{mail}":
             return f'<p class="mail"><a class="btn" href="mailto:{MAIL}">Écrire à Tim</a></p>'
         if path == "soluce/":
@@ -773,13 +774,11 @@ def build_page(path, page, pages, order, idx, where):
     elif places:
         nav_game = None
 
-    orig_url = ORIGIN + page["orig"].lstrip("./")
     first = galleries[0][0]["src"] if galleries else GAME_ART.get(nav_game or game or "", "")
     head = (f'<div class="page-head has-banner"{banner_style(cur_out, first)}><div class="wrap">'
             f'<div class="crumbs">{SEP.join(crumbs)}</div>'
             f'<h1>{inline(page["title"], link)}</h1></div></div>')
     inner = (head + f'<div class="wrap"><article class="content">{body_html}{pager}'
-             f'<p class="source"><a href="{orig_url}" target="_blank" rel="noopener">Voir la page originale</a></p>'
              f'</article></div>')
     return layout(link, page["title"], inner, nav_game, game or nav_game or "")
 

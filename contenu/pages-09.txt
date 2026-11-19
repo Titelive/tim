@@ -135,7 +135,7 @@ Le moins Fun des Scenarios à n'en point douter. Pas de Chrono, et... c'est fran
 === plans/index.htm
 Perfect Dark : Plans des Niveaux Multiplayer
 
-Les plans des arènes de Perfect Dark sont des images hébergées sur le site original :
+Les plans des arènes de Perfect Dark, niveau par niveau :
 
 - **Egouts** : [Niveau 1](egouts-niveau-1.jpg) - [Niveau 2](egouts-niveau-2.jpg) - [Niveau 3](egouts-niveau-3.jpg)
 - **Ravins** : [Niveau 1](ravin-niveau-1.jpg) - [Niveau 2](ravin-niveau-2.jpg)

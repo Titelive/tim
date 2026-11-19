@@ -220,7 +220,7 @@ Ensuite, comme il est très Soporifique de jouer avec un Clavier à ce genre de 
 
 ## Pourquoi jouer sur un Emulateur ?
 
-Bien que ce soit plus agréable de jouer sur un Canapé, jouer sur Emulateur vous fera découvrir les Jeux comme vous ne les aviez jamais vus. Pourquoi ? Parce qu'avec un Emulateur (si vous avez une Bonne Machine) vous redécouvrirez les Jeux tels que les Programmeurs les ont faits. Vous jouerez au Jeu sans passer par la Case « Clipping, Brume et Ralentissement(s) » que nous fait subir la N64. Bien que ces Jeux soient Vieux, admirez à quel Point la Résolution est Fine ! On peut voir loin ! Et c'est Fluide ! Bon, certaines choses ne sont pas encore émulées (les Emulateurs évoluent au fil du temps) comme le Ciel ou des Détails, mais c'est déjà Sublime... (la page originale montre une série de captures d'écran Project 64.)
+Bien que ce soit plus agréable de jouer sur un Canapé, jouer sur Emulateur vous fera découvrir les Jeux comme vous ne les aviez jamais vus. Pourquoi ? Parce qu'avec un Emulateur (si vous avez une Bonne Machine) vous redécouvrirez les Jeux tels que les Programmeurs les ont faits. Vous jouerez au Jeu sans passer par la Case « Clipping, Brume et Ralentissement(s) » que nous fait subir la N64. Bien que ces Jeux soient Vieux, admirez à quel Point la Résolution est Fine ! On peut voir loin ! Et c'est Fluide ! Bon, certaines choses ne sont pas encore émulées (les Emulateurs évoluent au fil du temps) comme le Ciel ou des Détails, mais c'est déjà Sublime...
 
 Bref, avec un Emulateur, c'est comme si vous jouiez à Goldeneye et Perfect Dark sur une Télé Haute Définition, sans Brume et sans Flou ! Que du Bonheur ! En plus de ça, les Emulateurs ont quelques Petites Fonctions en Plus, vous pourrez tout configurer (Résolution, Vitesse), calibrer votre Manette, et il y a même un Action Replay incorporé dedans, avec en Mémoire des Codes tout prêts pour s'amuser. Touche Finale, il y a même une Fonction pour jouer en Ligne contre d'autres Joueurs du Monde Entier !
 
@@ -232,8 +232,8 @@ C'est la Partie que chaque Site sur l'Emulation se doit de préciser : si vous p
 
 Le Meilleur Emulateur est Project 64. Allez sur le Site Officiel et téléchargez la Dernière Version. Cet Emulateur n'est pas très dur à configurer. La Chose Importante à configurer est ici : allez dans Options, puis Réglages, et décochez la Case « Cacher les Réglages Avancés ». Ainsi, vous pourrez entrer des Codes Action Replay ! Voici la Liste des Emulateurs que je vous conseille.
 
-- **Project 64** : le Meilleur Emulateur pour jouer aux Jeux N64 ! ([Télécharger](Project64%201.6.zip))
-- **Mupen** : le Meilleur Emulateur pour jouer à Goldeneye en Ligne ! ([Télécharger](Mupen64%2B%2B%20Beta%200.1.3.12.zip))
+- **Project 64** : le Meilleur Emulateur pour jouer aux Jeux N64 !
+- **Mupen** : le Meilleur Emulateur pour jouer à Goldeneye en Ligne !
 
 ## Comment jouer en Ligne avec Mupen ?
 
