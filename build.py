@@ -75,6 +75,15 @@ def out_path(path):
     return base + ".html"
 
 
+def clean(u):
+    """Adresse propre : sans « index.html » ni « .html » (le serveur les retrouve)."""
+    if u.endswith("index.html"):
+        u = u[: -len("index.html")]
+    elif u.endswith(".html") and "://" not in u:
+        u = u[: -len(".html")]
+    return u or "./"
+
+
 def section_of(path):
     first = path.split("/", 1)[0]
     return SECTION_ALIAS.get(first, first)
@@ -113,7 +122,7 @@ class Linker:
         key = canon(target)
         if key in self.pages:
             rel = posixpath.relpath(out_path(key), posixpath.dirname(self.cur_out) or ".")
-            return rel + anchor, False
+            return clean(rel) + anchor, False
         # fichier du site d'origine (image, mp3, zip, txt…) : lien vers l'original
         return ORIGIN + target + anchor, True
 
@@ -323,7 +332,7 @@ def nav_html(link, current_section):
     items = []
     for key, title, _, _ in SECTIONS:
         on = ' class="on"' if key == current_section else ""
-        items.append(f'<li><a href="{r}{key}/index.html"{on}>{title}</a></li>')
+        items.append(f'<li><a href="{r}{key}/"{on}>{title}</a></li>')
     return "\n".join(items)
 
 
@@ -348,7 +357,7 @@ def layout(link, title, inner, section=None, game="", description=""):
 <a class="skip" href="#contenu">Aller au contenu</a>
 <header class="top">
   <div class="wrap">
-    <a class="brand" href="{r}index.html"><b>Golden</b>eye <span>&amp;</span> <i>Perfect</i> Dark</a>
+    <a class="brand" href="{clean(r)}"><b>Golden</b>eye <span>&amp;</span> <i>Perfect</i> Dark</a>
     <button class="menu-btn" aria-expanded="false" aria-controls="menu">Menu</button>
   </div>
   <nav class="main" id="menu" aria-label="Sections"><ul>
@@ -420,10 +429,10 @@ def build_page(path, page, pages, order):
 
     # fil d'Ariane
     r = link.root()
-    crumbs = [f'<a href="{r}index.html">Accueil</a>']
+    crumbs = [f'<a href="{clean(r)}">Accueil</a>']
     is_index = path == section + "/"
     if not is_index and section in SECTION_TITLE:
-        crumbs.append(f'<a href="{r}{section}/index.html">{SECTION_TITLE[section]}</a>')
+        crumbs.append(f'<a href="{r}{section}/">{SECTION_TITLE[section]}</a>')
 
     # page précédente / suivante dans le même dossier
     pager = ""
@@ -459,13 +468,13 @@ def build_home(pages):
     for key, title, desc, g in SECTIONS:
         tag = {"ge": "Goldeneye", "pd": "Perfect Dark", "both": "Goldeneye · Perfect Dark"}[g]
         cls = "card pd" if g == "pd" else "card"
-        cards.append(f'<a class="{cls}" href="{key}/index.html"><span class="tag">{tag}</span><h3>{title}</h3><p>{desc}</p></a>')
+        cards.append(f'<a class="{cls}" href="{key}/"><span class="tag">{tag}</span><h3>{title}</h3><p>{desc}</p></a>')
     n = len(pages)
     inner = f"""<section class="hero"><div class="wrap">
 <p class="kicker">Nintendo 64 · le site de Tim</p>
 <h1><span class="ge">Goldeneye</span> &amp; <span class="pd">Perfect Dark</span></h1>
 <p>Soluces complètes, arènes Battle passées au crible, codes durs à débloquer, versions beta, mystères et bidouilles à l'Action Replay. Tout le contenu du site original de Tim, dans une mise en page neuve.</p>
-<div class="hero-links"><a class="btn" href="soluce/index.html">Les soluces</a><a class="btn ghost" href="mysteres/index.html">Les mystères</a></div>
+<div class="hero-links"><a class="btn" href="soluce/">Les soluces</a><a class="btn ghost" href="mysteres/">Les mystères</a></div>
 </div></section>
 <div class="wrap">
 <h2 class="home-h2">Les sections</h2>
