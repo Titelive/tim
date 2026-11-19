@@ -176,6 +176,48 @@ def inline(text, link):
     return text.strip()
 
 
+# ---------------------------------------------------------------- mots en gras
+# Les mots importants (armes, gadgets, personnages, niveaux, difficultés, codes)
+# sont mis en gras à leur première apparition dans chaque paragraphe.
+KEYWORDS = r"""
+PP7|Silver PP7|Gold PP7|DD44 Dostovei|DD44|Klobb|KF7 Soviet|KF7|ZMG 9mm|ZMG|D5K Deutsche|D5K|Phantom|AR33|AR-33|RC-P90|RCP-90|RCP90
+Sniper Rifle|Sniper|Golden Gun|Cougar Magnum|Magnum|Grenade Launcher|Rocket Launcher|Lance-Roquettes|Lance-Roquette|Lance-Grenades
+Remote Mines?|Proximity Mines?|Timed Mines?|Mines? de Proximité|Mines? Télécommandées?|Mine ECM|ECM Mine|Moonraker Laser|Laser
+Throwing Knives|Hunting Knife|Couteaux? de Combat|Couteaux? de Lancer|Tazer|Grenades?
+Falcon 2|Falcon|MagSec 4|MagSec|Mauler|Phoenix|DY357|CMP150|Cyclone|Callisto NTG|Callisto|RC-P120|RCP-120|Laptop Gun|Super-Dragon|Super Dragon|Superdragon|Dragon
+K7 Avenger|AR34|AR-34|Shotgun|Reaper|Slayer|Devastator|Farsight XR-20|FarSight XR-20|Farsight|Crossbow|Tranquilizer|N-Bomb|Psychosis Gun
+Rayons X|X-Ray Scanner|Night Vision|Vision Nocturne|CamSpy|Data Uplink|Horizon Scanner|Door Decoder|Décodeur|Gilets?|Shield|Cloaking|Disguise|Déguisement
+James Bond|Bond|Natalya|Trevelyan|Janus|Xenia|Ourumov|Oroumov|Oumourov|Boris|Valentin|Mishkin|Jaws|Oddjob|Mayday|Baron Samedi|Dr\.? Doak|Doak
+Joanna Dark|Joanna|Jonathan|Elvis|Daniel Carrington|Carrington|Cassandra de Vries|Cassandra|Trent Easton|Trent|Mr\.? Blonde|Dr\.? Caroll|Velvet Dark|Velvet
+Skedars?|Maians?|Simulants?|Roswells?|Hovercopter|Hovercrate|Hoverbike|Drone Guns?|Drone Gun
+Agent|Secret Agent|00 Agent|Agent 00|Special Agent|Agent Special|Perfect Agent|Perfect Dark Mode|Mode Perfect Dark
+Moon-?[Jj]ump|Passe-Muraille|Debug Mode|Line Mode|All Guns|Paintball Mode|DK Mode|Tiny Bond|Invincible|Infinite Ammo|Munitions Infinies
+Action Replay|Game ?[Ss]hark|Project 64|Mupen|Fromages?|Citadel|Casino|Versions? Beta
+Barrage|Facility|Runway|Bunker|Silo|Frigate|Archives|Streets|Depot|Jungle|Caverns|Water Caverns|Cradle|Aztec|Egyptian|Basement|Library|Caves
+Datadyne|dataDyne|Lucerne Tower|Villa Carrington|Chicago|G5 Building|Zone 51|Area 51|Zone 52|Air Force One|Pelagic II|Pelagic 2|Institut Carrington|Felicity|Warehouse|Ravins|Skedar Ruins|Ruines Skedar
+"""
+_KW = sorted({w for line in KEYWORDS.split("\n") for w in line.split("|") if w.strip()}, key=len, reverse=True)
+KW_RE = re.compile(r"(?<![\w\-])(" + "|".join(_KW) + r")(?![\w\-])")
+PROTECT_RE = re.compile(r"(`[^`]+`|\*\*.+?\*\*|\[[^\]]*\]\([^)]*\)|\{img:[^}]*\}|https?://\S+)")
+
+
+def embolden(text, seen):
+    out = []
+    for part in PROTECT_RE.split(text):
+        if not part or PROTECT_RE.fullmatch(part):
+            out.append(part)
+            continue
+
+        def rep(m):
+            key = m.group(1).lower()
+            if key in seen:
+                return m.group(1)
+            seen.add(key)
+            return "**" + m.group(1) + "**"
+        out.append(KW_RE.sub(rep, part))
+    return "".join(out)
+
+
 HEX_LINE = re.compile(r"^\s*(P\d\s*[:\-]?\s*)?[0-9A-F]{3,4}\s?[0-9A-FX?\-]{4,5}\s*[0-9A-FX?]{2,4}\b", re.I)
 
 
@@ -238,7 +280,8 @@ def render_body(body, link, ctx):
             txt = "\n".join(re.sub(r"\*\*", "", l).rstrip() for l in buf)
             html_out.append("<pre>" + html.escape(txt) + "</pre>")
         else:
-            html_out.append("<p>" + "<br>".join(inline(l, link) for l in buf) + "</p>")
+            seen = set()
+            html_out.append("<p>" + "<br>".join(inline(embolden(l, seen), link) for l in buf) + "</p>")
 
     para = []
     while i < len(lines):
@@ -312,7 +355,7 @@ def render_body(body, link, ctx):
                 # une ligne vide entre deux éléments ne coupe pas la liste
                 if i + 1 < len(lines) and not lines[i].strip() and lines[i + 1].strip().startswith("- "):
                     i += 1
-            html_out.append("<ul>" + "".join(f"<li>{inline(t, link)}</li>" for t in items) + "</ul>")
+            html_out.append("<ul>" + "".join(f"<li>{inline(embolden(t, set()), link)}</li>" for t in items) + "</ul>")
             continue
         if s.startswith(">"):
             flush_para(para); para = []
@@ -328,13 +371,116 @@ def render_body(body, link, ctx):
     return "\n".join(html_out), headings
 
 
+# ---------------------------------------------------------------- navigation
+# Le site s'organise autour de deux jeux. Chaque jeu a une page qui liste
+# toutes ses pages, rangées par thème. Le reste est dans « Infos ».
+GAMES = {
+    "ge": ("goldeneye", "Goldeneye"),
+    "pd": ("perfect-dark", "Perfect Dark"),
+    "plus": ("infos", "Infos"),
+}
+GROUPS = [
+    # (dossier d'origine, nom du thème, ancre)
+    ("presentation", "Présentation", "presentation"),
+    ("soluce", "Soluce", "soluce"),
+    ("battle", "Battle", "battle"),
+    ("cheats", "Codes", "codes"),
+    ("challenges", "Challenges", "challenges"),
+    ("beta", "Beta", "beta"),
+    ("mysteres", "Mystères", "mysteres"),
+    ("action.replay", "Action Replay", "action-replay"),
+    ("complex", "The Complex", "the-complex"),
+]
+GROUP_OF = {"cinema": "presentation", "plans": "battle"}
+PLUS = ["emulation/", "action.replay/explication.htm", "autres/", "liens/", "contact/"]
+# anciennes pages de section qui ne servaient qu'à lister des pages : remplacées par les pages des jeux
+LIST_ONLY = {"presentation/", "soluce/", "battle/", "beta/", "mysteres/", "action.replay/"}
+
+
+def classify(path, title):
+    """→ liste de (jeu, dossier du thème) ; vide si la page n'est rangée nulle part."""
+    if path in PLUS:
+        return [("plus", None)]
+    if path in LIST_ONLY:
+        return []
+    seg = path.split("/", 1)[0]
+    group = GROUP_OF.get(seg, seg)
+    if path in ("cheats/", "presentation/videos.htm"):
+        return [("ge", group), ("pd", group)]
+    if seg in ("challenges", "plans"):
+        return [("pd", group)]
+    if seg in ("complex", "cinema") or path == "battle/confidential.htm":
+        return [("ge", group)]
+    g = game_of(path, title)
+    return [(g, group)] if g else []
+
+
+def short_title(title):
+    t = re.sub(r"^(Soluce |Battle |Myst[eè]res de |Mysteres de )?(Goldeneye|Perfect Dark)( Version Beta)?\s*:\s*", "", title)
+    return t or title
+
+
+def build_index(pages, order):
+    """{jeu: {thème: [pages]}} dans l'ordre du site d'origine."""
+    idx = {g: {} for g in GAMES}
+    where = {}
+    for path in order:
+        for g, grp in classify(path, pages[path]["title"]):
+            idx[g].setdefault(grp, []).append(path)
+            where.setdefault(path, []).append((g, grp))
+    sol = idx["pd"].get("soluce", [])
+    if "soluce/pd-18.html" in sol:  # Duel est la dernière mission
+        sol.remove("soluce/pd-18.html"); sol.append("soluce/pd-18.html")
+    return idx, where
+
+
+def href_from(cur_out, target_out):
+    return clean(posixpath.relpath(target_out, posixpath.dirname(cur_out) or "."))
+
+
+# ---------------------------------------------------------------- icônes (traits, style Lucide)
+ICONS = {
+    "eye": '<path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/>',
+    "moon": '<path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/>',
+    "info": '<circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/>',
+    "book": '<path d="M2 4h7a3 3 0 0 1 3 3v13a2 2 0 0 0-2-2H2zM22 4h-7a3 3 0 0 0-3 3v13a2 2 0 0 1 2-2h8z"/>',
+    "map": '<path d="M9 3 3 5v16l6-2 6 2 6-2V3l-6 2-6-2zM9 3v16M15 5v16"/>',
+    "target": '<circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="5"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/>',
+    "key": '<circle cx="7.5" cy="15.5" r="4.5"/><path d="m10.7 12.3 9.8-9.8M17 6l3 3M15 8l2 2"/>',
+    "trophy": '<path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0zM7 6H4a3 3 0 0 0 3 4M17 6h3a3 3 0 0 1-3 4"/>',
+    "flask": '<path d="M9 3h6M10 3v6L4 19a2 2 0 0 0 1.7 3h12.6A2 2 0 0 0 20 19l-6-10V3"/><path d="M7 15h10"/>',
+    "search": '<circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/>',
+    "cpu": '<rect x="6" y="6" width="12" height="12" rx="2"/><path d="M9 2v4M15 2v4M9 18v4M15 18v4M2 9h4M2 15h4M18 9h4M18 15h4"/>',
+    "building": '<rect x="4" y="2" width="16" height="20" rx="2"/><path d="M9 22v-4h6v4M8 6h.01M12 6h.01M16 6h.01M8 10h.01M12 10h.01M16 10h.01M8 14h.01M12 14h.01M16 14h.01"/>',
+    "monitor": '<rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/>',
+    "gamepad": '<path d="M6 12h4M8 10v4M15 13h.01M18 11h.01"/><rect x="2" y="6" width="20" height="12" rx="6"/>',
+    "link": '<path d="M10 13a5 5 0 0 0 7.5.5l3-3a5 5 0 0 0-7-7l-1.7 1.7"/><path d="M14 11a5 5 0 0 0-7.5-.5l-3 3a5 5 0 0 0 7 7l1.7-1.7"/>',
+    "mail": '<rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/>',
+    "arrow-up": '<path d="M12 19V5M5 12l7-7 7 7"/>',
+    "arrow-right": '<path d="M5 12h14M12 5l7 7-7 7"/>',
+    "sun": '<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>',
+}
+GAME_ICON = {"ge": "eye", "pd": "moon", "plus": "info"}
+GROUP_ICON = {"presentation": "book", "soluce": "map", "battle": "target", "cheats": "key", "challenges": "trophy",
+              "beta": "flask", "mysteres": "search", "action.replay": "cpu", "complex": "building"}
+PLUS_ICON = {"emulation/": "monitor", "action.replay/explication.htm": "cpu", "autres/": "gamepad", "liens/": "link", "contact/": "mail"}
+
+
+SEP = '<span class="sep">›</span>'
+
+
+def icon(name, cls="icon"):
+    return f'<svg class="{cls} {name}" viewBox="0 0 24 24" aria-hidden="true">{ICONS[name]}</svg>'
+
+
 # ---------------------------------------------------------------- gabarit
-def nav_html(link, current_section):
+def nav_html(link, current_game):
     r = link.root()
     items = []
-    for key, title, _, _ in SECTIONS:
-        on = ' class="on"' if key == current_section else ""
-        items.append(f'<li><a href="{r}{key.replace(".", "-")}/"{on}>{title}</a></li>')
+    for g, (slug_, name) in GAMES.items():
+        on = (' class="on pd"' if g == "pd" else ' class="on"') if g == current_game else ""
+        cur = ' aria-current="page"' if g == current_game else ""
+        items.append(f'<li><a href="{r}{slug_}/"{on}{cur}>{icon(GAME_ICON[g])}{name}</a></li>')
     return "\n".join(items)
 
 
@@ -350,21 +496,23 @@ def layout(link, title, inner, section=None, game="", description=""):
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{page_title}</title>
 <meta name="description" content="{desc}">
+<script>try{{var t=localStorage.getItem("theme");if(t)document.documentElement.dataset.theme=t;}}catch(e){{}}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{r}assets/style.css">
 </head>
 <body{body_cls}>
+<div class="progress" aria-hidden="true"></div>
 <a class="skip" href="#contenu">Aller au contenu</a>
 <header class="top">
   <div class="wrap">
-    <a class="brand" href="{clean(r)}"><b>Golden</b>eye <span>&amp;</span> <i>Perfect</i> Dark</a>
-    <button class="menu-btn" aria-expanded="false" aria-controls="menu">Menu</button>
-  </div>
-  <nav class="main" id="menu" aria-label="Sections"><ul>
+    <a class="brand" href="{clean(r)}" aria-label="Accueil"><b>Golden</b>eye <span>&amp;</span> <i>Perfect</i> Dark</a>
+    <nav class="main" aria-label="Jeux"><ul>
 {nav_html(link, section)}
-  </ul></nav>
+    </ul></nav>
+    <button class="theme-toggle" type="button" aria-label="Basculer entre le mode clair et le mode sombre">{icon("moon")}{icon("sun")}</button>
+  </div>
 </header>
 <main id="contenu">
 {inner}
@@ -374,10 +522,8 @@ def layout(link, title, inner, section=None, game="", description=""):
     <p>Contenu écrit par <strong>Tim</strong> pour son site <a href="{ORIGIN}" target="_blank" rel="noopener">floppycheese.free.fr/nintendo</a>, remis en page en 2026. Goldeneye 007 et Perfect Dark sont des jeux Rare / Nintendo ; ce site de fan n'est affilié à aucune de ces sociétés.</p>
   </div>
 </footer>
-<script>
-const b=document.querySelector('.menu-btn'),n=document.getElementById('menu');
-b.addEventListener('click',()=>{{const o=n.classList.toggle('open');b.setAttribute('aria-expanded',o)}});
-</script>
+<button class="to-top" type="button" aria-label="Retour en haut">{icon("arrow-up")}</button>
+<script src="{r}assets/site.js" defer></script>
 </body>
 </html>
 """
@@ -408,7 +554,7 @@ def soluce_cards(pages, link, prefix, game):
     return f'<h2 id="{game}"{" class=\"pd\"" if game == "pd" else ""}>{label}</h2>\n' + render_cards(rows, link, game)
 
 
-def build_page(path, page, pages, order):
+def build_page(path, page, pages, order, idx, where):
     link = Linker(pages, path)
     section = section_of(path)
     game = game_of(path, page["title"])
@@ -429,75 +575,129 @@ def build_page(path, page, pages, order):
 
     body_html = re.sub(r"\x04(\{[a-z-]+\})\x04", placeholder, body_html)
 
-    # fil d'Ariane
-    r = link.root()
-    crumbs = [f'<a href="{clean(r)}">Accueil</a>']
-    is_index = path == section + "/"
-    if not is_index and section in SECTION_TITLE:
-        crumbs.append(f'<a href="{r}{section.replace(".", "-")}/">{SECTION_TITLE[section]}</a>')
-
-    # page précédente / suivante dans le même dossier
+    # fil d'Ariane et pages voisines : d'après le jeu et le thème de la page
+    cur_out = out_path(path)
+    places = where.get(path, [])
+    crumbs = [f'<a href="{href_from(cur_out, "index.html")}">Accueil</a>']
     pager = ""
-    if not path.endswith("/"):
-        d = posixpath.dirname(path)
-        sib = [k for k in order if not k.endswith("/") and posixpath.dirname(k) == d]
-        if path in sib and len(sib) > 1:
-            idx = sib.index(path)
-            parts = []
-            if idx > 0:
-                p = sib[idx - 1]
-                parts.append(f'<a class="prev" href="{link.resolve(posixpath.relpath(p, d))[0]}">← {html.escape(pages[p]["title"])}</a>')
-            else:
-                parts.append("<span></span>")
-            if idx < len(sib) - 1:
-                p = sib[idx + 1]
-                parts.append(f'<a class="next" href="{link.resolve(posixpath.relpath(p, d))[0]}">{html.escape(pages[p]["title"])} →</a>')
+    nav_game = None
+    if len(places) == 1:
+        g, grp = places[0]
+        nav_game = g
+        gslug, gname = GAMES[g]
+        hub = gslug + "/index.html"
+        crumbs.append(f'<a href="{href_from(cur_out, hub)}">{gname}</a>')
+        if grp:
+            gname2 = next(n for k, n, a in GROUPS if k == grp)
+            anchor = next(a for k, n, a in GROUPS if k == grp)
+            crumbs.append(f'<a href="{href_from(cur_out, hub)}#{anchor}">{gname2}</a>')
+        sib = idx[g][grp]
+        i = sib.index(path)
+        parts = []
+        if i > 0:
+            p = sib[i - 1]
+            parts.append(f'<a class="prev" href="{href_from(cur_out, out_path(p))}"><small>Précédent</small>{html.escape(short_title(pages[p]["title"]))}</a>')
+        else:
+            parts.append("<span></span>")
+        if i < len(sib) - 1:
+            p = sib[i + 1]
+            parts.append(f'<a class="next" href="{href_from(cur_out, out_path(p))}"><small>Suivant</small>{html.escape(short_title(pages[p]["title"]))}</a>')
+        if len(sib) > 1:
             pager = '<nav class="pager" aria-label="Pages voisines">' + "".join(parts) + "</nav>"
+    elif places:
+        nav_game = None
 
     orig_url = ORIGIN + page["orig"].lstrip("./")
     head = (f'<div class="page-head"><div class="wrap">'
-            f'<div class="crumbs">{" › ".join(crumbs)}</div>'
+            f'<div class="crumbs">{SEP.join(crumbs)}</div>'
             f'<h1>{inline(page["title"], link)}</h1></div></div>')
     inner = (head + f'<div class="wrap"><article class="content">{body_html}{pager}'
              f'<p class="source"><a href="{orig_url}" target="_blank" rel="noopener">Voir la page originale (avec images)</a></p>'
              f'</article></div>')
-    return layout(link, page["title"], inner, section, game)
+    return layout(link, page["title"], inner, nav_game, game)
 
 
-def build_home(pages):
+def group_links(paths, cur_out, pages, numbered=False, icons=False):
+    items = []
+    for n, p in enumerate(paths, 1):
+        t = html.escape(short_title(pages[p]["title"]))
+        num = ""
+        if numbered:
+            num = "★" if p.endswith("007.htm") else f"{n:02d}"
+            num = f'<span class="num">{num}</span>'
+        if icons:
+            num = icon(PLUS_ICON.get(p, "info"))
+        items.append(f'<li><a href="{href_from(cur_out, out_path(p))}" title="{t}">{num}<span class="t">{t}</span></a></li>')
+    return '<ul class="links">' + "".join(items) + "</ul>"
+
+
+GAME_INTRO = {
+    "ge": "Le jeu de Rare sorti en 1997 sur Nintendo 64 : toutes les missions, les arènes Battle, les codes, les secrets.",
+    "pd": "La suite spirituelle de Goldeneye, sortie en 2000 : missions, Battle, 30 challenges, codes et mystères.",
+    "plus": "Jouer sur émulateur, comprendre l'Action Replay, les autres jeux de Tim, les liens et le contact.",
+}
+
+
+def build_hub(g, pages, idx):
+    gslug, gname = GAMES[g]
+    cur_out = gslug + "/index.html"
+    link = Linker(pages, gslug + "/index.htm")
+    blocks = []
+    if g == "plus":
+        blocks.append(group_links(idx["plus"][None], cur_out, pages, icons=True))
+        toc = ""
+    else:
+        present = [(k, n, a) for k, n, a in GROUPS if k in idx[g]]
+        toc = '<nav class="jump" aria-label="Thèmes">' + "".join(f'<a href="#{a}">{icon(GROUP_ICON[k])}{n}</a>' for k, n, a in present) + "</nav>"
+        for k, n, a in present:
+            paths = idx[g][k]
+            cls = ' class="pd"' if g == "pd" else ""
+            blocks.append(f'<section class="theme" id="{a}"><h2{cls}>{icon(GROUP_ICON[k])}{n} <span class="count">{len(paths)}</span></h2>'
+                          + group_links(paths, cur_out, pages, numbered=(k == "soluce")) + "</section>")
+    head = (f'<div class="page-head"><div class="wrap">'
+            f'<div class="crumbs"><a href="../">Accueil</a></div>'
+            f'<h1>{gname}</h1><p class="lead">{GAME_INTRO[g]}</p>{toc}</div></div>')
+    inner = head + '<div class="wrap hub">' + "".join(blocks) + "</div>"
+    return layout(link, gname, inner, g, g if g != "plus" else "")
+
+
+def build_home(pages, idx):
     link = Linker(pages, "index.htm")
     cards = []
-    for key, title, desc, g in SECTIONS:
-        tag = {"ge": "Goldeneye", "pd": "Perfect Dark", "both": "Goldeneye · Perfect Dark"}[g]
-        cls = "card pd" if g == "pd" else "card"
-        cards.append(f'<a class="{cls}" href="{key.replace(".", "-")}/"><span class="tag">{tag}</span><h3>{title}</h3><p>{desc}</p></a>')
-    n = len(pages)
+    for g in ("ge", "pd"):
+        gslug, gname = GAMES[g]
+        themes = " · ".join(n for k, n, a in GROUPS if k in idx[g])
+        count = len({p for v in idx[g].values() for p in v})
+        cards.append(f'<a class="game {g}" href="{gslug}/"><span class="tag">{count} pages</span>'
+                     f'<h2>{icon(GAME_ICON[g])}{gname}</h2><p>{GAME_INTRO[g]}</p><p class="themes">{themes}</p><span class="go">Entrer {icon("arrow-right")}</span></a>')
+    plus = group_links(idx["plus"][None], "index.html", pages, icons=True)
     inner = f"""<section class="hero"><div class="wrap">
 <p class="kicker">Nintendo 64 · le site de Tim</p>
 <h1><span class="ge">Goldeneye</span> &amp; <span class="pd">Perfect Dark</span></h1>
-<p>Soluces complètes, arènes Battle passées au crible, codes durs à débloquer, versions beta, mystères et bidouilles à l'Action Replay. Tout le contenu du site original de Tim, dans une mise en page neuve.</p>
-<div class="hero-links"><a class="btn" href="soluce/">Les soluces</a><a class="btn ghost" href="mysteres/">Les mystères</a></div>
+<p>Soluces, <strong>Battle</strong>, codes, versions <strong>beta</strong> et mystères : <strong>choisis ton jeu</strong>.</p>
+<div class="games">{"".join(cards)}</div>
 </div></section>
-<div class="wrap">
-<h2 class="home-h2">Les sections</h2>
-<div class="grid">
-{chr(10).join(cards)}
-</div>
-<p class="muted">{n} pages de texte. Les images n'ont pas été recopiées : chaque page renvoie vers son original pour les voir.</p>
-</div>"""
+<div class="wrap home-infos"><h2 class="section-title">Infos</h2>{plus}</div>"""
     return layout(link, "", inner, None, "", "")
 
 
 def main():
     pages, order = read_pages()
     written = 0
+    idx, where = build_index(pages, order)
     for path in order:
-        html_text = build_page(path, pages[path], pages, order)
+        html_text = build_page(path, pages[path], pages, order, idx, where)
         dest = ROOT / out_path(path)
         dest.parent.mkdir(parents=True, exist_ok=True)
         dest.write_text(html_text, encoding="utf-8")
         written += 1
-    (ROOT / "index.html").write_text(build_home(pages), encoding="utf-8")
+    for g in GAMES:
+        dest = ROOT / GAMES[g][0] / "index.html"
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        dest.write_text(build_hub(g, pages, idx), encoding="utf-8")
+    (ROOT / "index.html").write_text(build_home(pages, idx), encoding="utf-8")
+    hidden = [p for p in order if p not in where]
+    print("pages non rangées :", hidden)
     print(f"{written} pages + accueil générés.")
 
 
