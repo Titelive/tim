@@ -527,6 +527,36 @@ def nav_html(link, current_game):
     return "\n".join(items)
 
 
+def to_top(game):
+    """Bouton « retour en haut » : viseur (Goldeneye), propulseur hexagonal (Perfect Dark) ou mixte."""
+    if game == "ge":
+        ticks = "".join(f'<line x1="28" y1="7.5" x2="28" y2="{9.5 if i % 3 else 11}" transform="rotate({i * 30} 28 28)"/>' for i in range(12))
+        ring = ('<circle class="track" cx="28" cy="28" r="24"/>'
+                '<circle class="fill" cx="28" cy="28" r="24" pathLength="100" transform="rotate(-90 28 28)"/>'
+                f'<g class="bezel">{ticks}</g>')
+        glyph = ('<g class="glyph sight"><circle cx="28" cy="28" r="9"/>'
+                 '<path d="M28 14v8M28 34v8M14 28h8M34 28h8"/><circle class="dot" cx="28" cy="28" r="1.8"/></g>'
+                 '<circle class="flash" cx="28" cy="28" r="12"/>')
+        label = "Retour en haut : viser le sommet"
+    elif game == "pd":
+        hexa = "M28 3 L49.6 15.5 L49.6 40.5 L28 53 L6.4 40.5 L6.4 15.5 Z"
+        ring = (f'<path class="track" d="{hexa}"/>'
+                f'<path class="fill" d="{hexa}" pathLength="100"/>')
+        glyph = ('<g class="glyph thrust"><path class="c1" d="M20 32l8-8 8 8"/><path class="c2" d="M20 40l8-8 8 8"/></g>'
+                 '<path class="beam" d="M28 22V4"/>')
+        label = "Retour en haut : propulsion"
+    else:
+        ring = ('<defs><linearGradient id="tt-g" x1="0" y1="0" x2="1" y2="1">'
+                '<stop offset="0" stop-color="var(--gold)"/><stop offset="1" stop-color="var(--pd)"/></linearGradient></defs>'
+                '<circle class="track" cx="28" cy="28" r="24"/>'
+                '<circle class="fill" cx="28" cy="28" r="24" pathLength="100" transform="rotate(-90 28 28)"/>')
+        glyph = '<g class="glyph arrow"><path d="M28 38V19M20 26l8-8 8 8"/></g>'
+        label = "Retour en haut"
+    kind = game if game in ("ge", "pd") else "mix"
+    return (f'<button class="to-top tt-{kind}" type="button" aria-label="{label}" title="{label}">'
+            f'<svg viewBox="0 0 56 56" aria-hidden="true">{ring}{glyph}</svg></button>')
+
+
 def layout(link, title, inner, section=None, game="", description=""):
     r = link.root()
     body_cls = f' class="theme-{game}"' if game else ""
@@ -566,7 +596,7 @@ def layout(link, title, inner, section=None, game="", description=""):
     <p>Contenu écrit par <strong>Tim</strong>, passionné de <strong>Goldeneye 007</strong> et de <strong>Perfect Dark</strong>. Ce sont des jeux Rare / Nintendo ; ce site de fan n'est affilié à aucune de ces sociétés.</p>
   </div>
 </footer>
-<button class="to-top" type="button" aria-label="Retour en haut">{icon("arrow-up")}</button>
+{to_top(game)}
 <script src="{r}assets/site.js?v={ASSET_V}" defer></script>
 </body>
 </html>
