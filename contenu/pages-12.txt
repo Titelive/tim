@@ -1,0 +1,333 @@
+
+=== mysteres/pd-lucerne.htm
+Mystères de Perfect Dark : Lucerne Tower
+
+## La Ville de la Cinématique
+
+Avec le Moon-Jump, continuez tout droit à partir de là où vous commencez. Dès que vous tombez du rebord de l'Héliport, volez à travers le Double D de Datadyne (passez au-dessus sinon). Continuez tout droit, vous serez alors bien loin de l'Immeuble, et vous passerez à travers l'Immeuble en face. Normalement, vous ne verrez rien si vous allez tout droit.
+
+Retournez-vous (vous avez une bien belle vue de l'Immeuble Datadyne) pour contempler la Lune, et tout en continuant à voler et à reculer, tout ça va disparaitre, et sur votre gauche, vous verrez des Bâtiments. La Lune sera toujours là. Retournez-vous, tournez le dos à l'Immeuble Datadyne qui a maintenant disparu, et voilà, vous êtes dans la Ville que l'on voit dans la Cinématique ! D'abord des Bâtiments Rudimentaires, un peu Carrés et Ternes. Il y a mieux après.
+
+On continue en volant comme Superman, et on arrive aux endroits intéressants ! La Femme Hologramme avec écrit dessous "Last Battle" en Japonais. Ensuite, juste à coté, la Station de Taxis ! Enfin, si vous allez plus loin, on passe au travers d'un Immense Immeuble comme dans un couloir.
+
+Dans l'Immeuble que l'on traverse, il y a une Grille Rouge. C'est la seule chose solide de cette Partie du Niveau. Vous pouvez vous poser dessus et regarder autour de vous. Je me demande bien pourquoi cet endroit est solide alors qu'on peut passer au travers tout le reste de la Zone !
+
+Pour le Plaisir des Yeux, il y a pleins d'autres images de la Ville de la Cinématique : Lumières, Ecritures et Radars Géants ! Notez l'Horloge [ Anal Land - 11 - 10 - 129 ] ! De bien belles images accessibles avec le Moon-Jump ! Youpi !
+
+## Le Conduit d'Aération + Fromage
+
+Le Conduit à coté de l'Ordinateur où il faut poser la Mine ECM. Si vous le scannez, vous verrez qu'on peut le détruire et tomber dedans. Trouvez quelque chose qui explose, et faites un beau trou, puis descendez à l'échelle !
+
+Vous arrivez dans une Salle avec 3 Fenêtres Grilles. Dans l'une d'elle, il y a le Fromage du Niveau. Si vous scannez le Mur où il n'y a pas de Fenêtre Grille, vous verrez qu'on dirait qu'on peut l'exploser.
+
+On arrive dans le Bureau de Cassandra ! Vous noterez que les Deux Personnages ne bougent pas. Pour qu'ils bougent, il faut ouvrir la Porte (comme dans l'Objectif quoi) pour que se lance le Speech de Cassandra.
+
+## Les Mini-Boites de Munitions
+
+Vous n'avez besoin de rien de particulier pour découvrir ce petit détail rigolo. Lorsque vous ramassez ces Boites Minuscules, elles donnent de la Munition pour votre Falcon.
+
+- La Première Boite est facile. Passez devant la Porte du Bureau de Cassandra de Vries, descendez l'escalier, arrêtez-vous, regardez en dessous, et voilà !
+- Passez la Porte, vous etes dans un Couloir, avec les Deux Ascenseurs sur votre droite. Ouvrez la Première Porte devant vous, et regardez près de l'Ordinateur du Garde. Une Mini-Boite !
+- Dans le Couloir, allez à la Porte tout au fond à gauche. Entrez dans le Bureau, et hop, une Mini-Boite en plus !
+- Enfin, trouvez le Bureau du Garde qui a le Vertige. Observez son Bureau, voilà la Dernière Boite !
+
+## Passer à Travers la Porte Principale
+
+Avec le Code Passe-Muraille, vous pouvez vous promener dans la Rue, tandis que les Gardes ne peuvent pas vous suivre. Rien d'interessant dehors, c'est juste rigolo. Attention, n'allez pas trop loin, sinon vous tombez dans le Vide !!!
+
+## Grille d'Aération
+
+Dans la Salle juste avant l'Isotrope, il y a une Grille super voyante, qu'on ne peut pas ouvrir. Et bien en fait, elle mène à la Salle où le Garde s'entraîne avec le K7 Avenger. Rien de bien spécial.
+
+## Petites Plaques et Ecriture Bizarre
+
+Dirigez-vous vers le fond du Labo, là où il y a les Grilles avec pleins de Tuyaux dessous. Avec le Farsight ou le Sniper, vous devriez voir quelques trucs drôles. Tout d'abord, des sortes de taches bizarres, ou des pièces de Monnaie, je sais pas. On les voit mieux avec le Farsight.
+
+Plus interessant, regardez à l'autre extrémité de cette même Plaque. Vous devriez voir un Truc encore plus bizarre, comme une écriture... Rb ou R6 ? Aucune idée de ce que ça vient faire là.
+
+## Datadyne Extraction - Passe-Muraille
+
+Dès le Début, scannez le Mur sur votre Droite, vous verrez un truc bizarre, des Gens ! Contournez et tuez tous les Gardes, et vous arriverez à une Porte Fermée. On peut l'ouvrir avec la Carte de Bureau de Cassandra de Vries. Dans cette Salle, il y a 2 Gardes du Corps de Cassandra, Mr Blonde, et 2 Boites de Roquettes.
+
+Avec le Code Passe-Muraille, on les voit encore mieux ! Ils sont figés, et ne réagissent pas si vous leur tirez dessus (bien qu'ils bougent quand même et saignent). Ces personnages sont en fait ceux que l'on voit dans la Cinématique de Fin. Comme dans tous les Niveaux, le jeu stocke les Personnages des Cinématiques dans un autre endroit (souvent inaccessible), pour ensuite les utiliser dans les Cinématiques. Rare a planqué les 2 Boites de Roquettes pour plus de difficulté contre l'Hélicoptère.
+
+La Preuve, si vous blessez les Personnages ils seront pleins de sang dans la Cinématique ! On trouve ce genre de phénomène dans d'autres Niveaux, comme la Zone 51 ou le Vaisseau Skedar. Lorsque vous devez tuer les Gardes du Corps de Cassandra, laissez la dernière en vie, montez sur le Toit, et vous verrez Cassandra dans la même position, figée. Tuez le Dernier Garde du Corps, redescendez, et vous trouverez Mr Blonde, les 2 Gardes du Corps... Et Cassandra de Vries ! Notez que l'un des Gardes du Corps a les pieds "dans" la Boite de Roquettes !
+
+## Datadyne Extraction - Ordinateurs Posés au Sol
+
+Dès que vous sortez de l'Ascenseur en haut, allez à droite et regardez avec vos Rayons X ce qui se passe dans la Salle Fermée, juste en face du 2eme Ascenseur. Vous verrez une Chaise, un Ordinateur, mais pas de Bureau ! L'Ordinateur est juste posé à meme le sol.
+
+Allez ensuite un Etage au-dessus puis faites un tour vers le fond du niveau. Regardez derrière le mur et vous verrez 2 autres Ordinateurs posés sur le sol ! On peut les détruire avec le Farsight. Mais on ne peut absolument pas ouvrir les 2 Portes renfermant ces Ordinateurs, MEME avec la Carte de Bureau de Cassandra de Vries.
+
+## La Carte de Bureau de Cassandra de Vries
+
+Si vous etes rapide et arrivez aux étages sans trop de dégâts, il se peut qu'un Garde laisse tomber une Carte. C'est la Fameuse Carte en Question. Avec elle, vous pourrez ouvrir le Bureau de Cassandra de Vries évidemment, mais aussi ouvrir les 2 Portes au Rez-de-Chaussée !! Ce sera toujours le meme Garde qui aura la Carte.
+
+Si vous êtes trop lent, il ne sera pas là. Si vous vous battez contre lui, et que le Compteur arrive à Zéro, il disparait ! Avec cette Carte, vous pouvez faire 3 Trucs rigolos. Le Premier, c'est sortir dans la rue en ouvrant la Porte Principale du Building Datadyne. Ouvrez simplement la Porte, et à vous la liberté. Attention cependant, car si vous restez plus de 3 ou 4 secondes dehors, vous tomberez "à travers" le Sol et mourrez, comme dans Datadyne Defection.
+
+## Bureau de Cassandra de Vries
+
+Allez au Bureau de Cassandra, et vous trouverez une Grenade sur le bureau. Prenez-la et faites la péter contre le mur. Vous accéderez à la Salle Secrète du Fromage et trouverez par terre un Dragon !
+
+Note - Dans Datadyne Defection, il n'y a pas de Dragon.
+
+## Datadyne Defection ou Extraction - Etages Cachés
+
+Avec le Moon-Jump, allez juste avant le Bureau de Cassandra de Vries, et passez à travers la Porte (Code Passe-Muraille) pour vous laisser tomber le long des Etages. Vous pouvez à tout moment décider de vous rattraper !
+
+Il n'y a rien d'interessant. C'est juste du très beau remplissage histoire de donner un aspect fini au Niveau. On trouve quand même un Etage sur 2 des Portes sympathiques ! Vous pouvez aussi vous laisser tomber dans la Cage d'Ascenseur pour aller plus vite, c'est radical !
+
+=== mysteres/pd-villa.html
+Mystères de Perfect Dark : Villa Carrington
+
+Une Petite Astuce bien marrante. Commencez la Mission normalement avec un K7 Avenger. Arrivé à la Villa, pointez le K7 Avenger en direction de l'Eolienne, en Fonction Détection. L'Eolienne sera considérée comme une Sentinelle !!
+
+Sur les Bouteilles à la Cave, il y a marqué "June" (Juin). On peut facilement voir le Fromage avec les Rayons X ! Inutile, mais les Couleurs sont belles, alors...
+
+=== mysteres/pd-chicago.html
+Mystères de Perfect Dark : Chicago / Punk Pond
+
+Ce Mystère est relié aux [Fromages](pd-cheese.html). C'est un Bar à Strip-Tease, comme le prouve la Barre sur la Table et les nombreuses Chaises disposées tout autour. Dedans, on ne trouve que le Fromage et un Falcon 2 Scope. Comment entrer ? Il suffit d'ouvrir la Porte à coté de la Limousine (pas besoin que la Limousine soit là, on peut y aller en n'importe quelle difficulté) et de descendre l'Escalier. En bas, des Gardes vous attendront alors faites Gaffe !
+
+Une fois la Porte Grise ouverte, c'est là que c'est chaud. Parce qu'il y a une autre Porte, mais fermée celle-là. Pour l'ouvrir, il faut juste foutre le Boxon jusqu'a ce que le Garde situé derrière la porte arrive. Vous pouvez aussi jouer en Contre-Opérative, et parfois, celui qui joue les Méchants se trouvera dans le Corps de ce fameux Garde caché.
+
+Une fois dedans, il n'y a rien à faire à part visiter. Voilà ma version des faits, elle n'engage que moi, mais je la trouve tout à fait crédible, tant au niveau de l'Action que de l'Histoire.
+
+Je pense que dans ce Bar il devait y avoir un rendez-vous entre Gens de la Datadyne Corporation (comme le prouve la Limousine garée juste devant) comme Trent ou Mr Blonde, mais pas Cassandra de Vries. Vous deviez frapper un Garde dans les Toilettes, et mettre ses habits pour pouvoir entrer dans le G5 Building. Personnellement, je trouve la façon d'entrer dans le G5 Building plutôt brutale et voyante, pas vous ? Le seul problème est que Joanna portant des habits de Mec, ça fait un peu grillé mais bon... Qui sait ?
+
+=== mysteres/pd-g5.html
+Mystères de Perfect Dark : G5 Building
+
+Allez dans la Salle des Ordinateurs, la plus basse, celle avec l'Eclairage un peu vert. Vous connaissez tous le Conduit d'Egouts où se trouve le Fromage ? En le regardant aux Rayons X, on peut voir qu'il serpente et va beaucoup plus loin qu'on ne le croit. Vers la droite, il s'arrête, c'est là qu'il y a le Fromage. Vers la gauche, il continue.
+
+Le Conduit tourne ensuite pour passer sous la Salle où vous commencez la Mission, puis s'arrête net dans un angle en tournant une dernière fois. Ca correspond à un endroit dans la Salle du début. Maintenant, et si on entrait dans le Conduit ? Merci le Moonjump, le Passe-Muraille, comme d'habitude.
+
+Prêt pour l'Exploration ? Alors c'est dur, il faut commencer à Moon-Jumper à partir de l'Escalier situé un peu avant l'entrée de cette Salle. Rebondissez dans le Vide en faisant très attention à ne pas transpercer le plafond, sinon vous allez passer au travers et vous retrouver dans la Salle juste au-dessus. Avec de l'effort, on y arrive !
+
+Ce Conduit n'est pas fait pour être exploré, il bugue beaucoup, un peu moins que le Silo de Goldeneye, mais pas mal quand même. Les Textures sont les mêmes que dans Chicago. Juste après le Fromage, c'est bouché, donc allons voir vers l'autre coté. Juste après quelques mètres, le Conduit fait une toute petite pente, puis tourne sur la droite.
+
+Il n'y a rien de particulier à explorer dans ce Conduit. C'est la même texture tout du long, et il faut user constamment du Moon-Jump pour ne pas tomber dans le Vide. Vue de l'extérieur, la Fin du Conduit montre beaucoup d'effacements, de tremblote. Mais c'est sympa à explorer !
+
+## Salle de Discussion
+
+On peut se promener tranquillement devant Mr Blonde et Cassandra tant que l'Alarme n'est pas actionnée.
+
+Enfin, pour le plaisir, la Statue Bafta, et un Petit Moon-Jump dans les Rues de Chicago. Le Niveau Chicago n'est pas complet lorsque vous sortez, il n'y a que cette partie-là. Reste un Mystère : où est Trent ?
+
+=== mysteres/pd-zone.htm
+Mystères de Perfect Dark : Zone 51
+
+## Le Deuxième Agent
+
+Il semble que Jonathan ne soit pas le seul Agent Double dans la Zone 51. En effet, avec cette petite Astuce, vous allez lui découvrir un Camarade !! Mettez-vous en Mode Contre-Opérative et laissez Joanna compléter ses Objectifs jusqu'a ce que l'un des 2 Ascenseurs menant aux Hangars soit activé. Le Joueur contrôlant les Ennemis devra aller au Deuxième Hangar et se mettre juste devant la Porte où se termine la Mission, celle ou il y a Jonathan derrière.
+
+Le Joueur contrôlant Joanna fait son petit chemin jusqu'a ce que la Musique s'accélère. Là, le Joueur Ennemi verra la Porte s'ouvrir et des Gardes en sortir rapidement. Le Joueur Ennemi remarquera alors qu'un des Soldats va commencer à abattre méchamment ses Camarades et devinez avec quelle Arme ? Un Magnum Doré !! (Un DY357 pour les Maniaques) Si le Joueur Ennemi entre dans la Pièce avec Jonathan à l'intérieur, il verra ce Soldat rester figé près de Jonathan. Il peut etre descendu. Il faut noter que ce garde n'est pas le même que celui que descend Jonathan après lors de la Cinématique. En gros, Jonathan et Joanna ont un Mystérieux Collaborateur.
+
+## Bouton Bizarre
+
+Juste un Petit Truc comme ça, quand vous arrivez au Bunker, celui où il faut mettre des Explosifs, vous pourrez voir un Gros Bouton Rouge. On ne sait pas du tout à quoi il sert. On dirait un des Boutons comme celui dans le Bateau, qui sert à déclencher l'Alarme.
+
+## Cadavre et Lance-Roquettes
+
+Dans le Niveau "Infiltration" de la Zone 51, essayez de tracer pour arriver le plus vite possible près du Grillage ou il y a un trou. Vous verrez alors un Cadavre près du Lance-Roquettes. En Mode Perfect Dark, si vous mettez l'Energie des Ennemis entre 500 et 1000%, vous le trouverez vivant au même endroit, portant fièrement son Lance-Roquettes. Il semble que son but ne soit que de mourir. Pourquoi ? Peut-être pour vous avertir de l'utilisation du Lance-Roquettes ? Une mise en garde contre les Mines, si jamais c'est çà qui l'a tué ?
+
+## Le Coffre-Fort
+
+Dans la Zone 51 (Sauvetage ou Evasion, au choix) rendez-vous aux Douches avec quelque chose qui permet de voir à travers les Murs (Farsight XR-20, Rayons X, au choix). Une fois dans la place, regardez à travers les murs pour voir ou mène le Conduit d'Aération. A partir du Fromage, il fait un coude, puis un Deuxième pour finalement se terminer devant ce qui ressemble étrangement à un Coffre Fort. On distingue bien la serrure.
+
+Encore un Objectif retiré à la Dernière minute comme la Petite Ile du Barrage dans Goldeneye ? Il semble que oui. Avec le Moon-Jump on peut passer au-dessus des trous, ce qui fait que l'on peut visiter ce Conduit en entier, et aller tout au fond, là où il y a le Coffre-Fort ! Il n'y a rien dedans, c'est devenu un Décor, tout jaune.
+
+## Paroles Cachées de Carrington
+
+Dans la Zone 51, grâce au Gameshark, voilà ce qu'on peut faire... On va dans Infiltration, et en activant le Moonjump, on peut accéder au Toit du Hangar, celui ou on doit mettre des Explosifs. En allant directement dessus, Carrington va dire : [The air intercept radar is controlled from that bunker](PD%20-%20Area%2051%20(Bunker).mp3) (Le Radar est contrôlé depuis ce Bunker). Une fois qu'on a placé les Explosifs, et qu'on remonte sur le Toit, Carrington dit : [The hangar lift is on the other side of that huge door](PD%20-%20Area%2051%20(Hanger).mp3) (L'ascenseur du Hangar est de l'autre coté de cette énorme porte). Voilà ! Des Paroles Cachées en quelque sorte... Rare a enlevé ces Paroles pour éviter de rendre la Mission trop facile (il faut détruire ceci, il faut aller par là etc). Celà dit c'est drôle qu'elles soient encore "écoutables" grace au Gameshark !
+
+## Roswells Cachés
+
+Allez au fond de la Salle que vous venez de découvrir, zoomez au fond avec le Sniper à travers la Porte, et qu'est-ce qu'on voit ? Un autre Elvis inconscient sur le Brancard Volant ! Il y a donc bel et bien Trois Roswells dans la Zone 51 !!! Il est juste là, devant la Porte Fermée !
+
+On peut tirer sur lui, mais il y a la même Barrière Shield que le Vrai Elvis lorsque vous essayez de tirer sur le Brancard. Si on continue à lui tirer dessus, le Brancard finit au fond de la pièce.
+
+Il est possible d'arriver dans la Salle, en fait. Mettez-vous en Cloaking, et amenez des gardes près de la Porte. Ils finiront par l'ouvrir pour vous. Dans la Salle, il y a également une Hovercrate, aucune idée de ce qu'il faut en faire.
+
+La seule solution possible est que ce Maian soit celui de Maian SOS. Il est juste placé là tout comme Mr Blonde et les Deux Gardes du Corps de Cassandra sont en bas de l'Immeuble dans Datadyne Extraction.
+
+## Mon Aventure à Moi - Merci l'Emulateur
+
+Avec l'Emulateur, on peut passer à travers les Murs et certains Objets, c'est pratique ! J'ai donc directement emmené Elvis sur son Brancard dans l'AUTRE Salle d'Autopsie. A ma surprise, le Deuxième Brancard est bien là, mais également un Troisième ! Dingue !
+
+Ce Brancard est vide. La Seule Solution possible et vraie - je pense - est que lorsqu'Elvis se réveille, c'est ce Brancard qui sert de décor. Il est juste stocké dans cette Salle comme les Deux Gardes de Cassandra de Vries et Mr Blonde dans Datadyne - Extraction. Et le Brancard avec le Troisième Maian dedans est tout simplement le Elvis de la Cinématique lorsqu'il se réveille. Tout s'explique.
+
+Il y a bien une Caisse Hovercrate juste derrière la Porte Brune. On ne peut pas passer au travers, comme les Brancards. Je me suis amusé à voir si elle explosait. Si elle explose, c'est celle de la Mission d'avant, non ? Et bien, elle n'a pas explosé (Prêts ? Boum ? Rien !!! Pas de Boum !), donc je ne sais vraiment pas ce qu'est cette Caisse Hovercrate...
+
+J'ai eu une idée toute bête : et si à la place d'Elvis, je ramenais l'autre Maian ? Et bien, ça fait rien non plus, le Brancard ne se fixe même pas comme quand on dépose Elvis. Rien, que dalle. Par contre, un petit détail rigolo, quand on passe à travers une porte, on voit des trucs, comme... la Soucoupe ! Ca c'est juste le Jeu qui bugue un peu...
+
+Ensuite, j'ai quand même ramené le Vrai Elvis là où il fallait, et ça nous donne 2 Maians dans la même pièce. Rien de spécial, sauf que lorsque vous réanimez Elvis, le Deuxième Brancard est dans la Cinématique ! Cool ! Ca donne des jolies images.
+
+Toujours dans l'optique de m'amuser, j'ai carrément décidé d'emporter avec moi le Faux Elvis hors de la Base. Et on le peut ! Quand on grimpe l'escalier en métal, le Brancard se renverse un peu. Pas de souci, le Maian ne tombe pas.
+
+Le Maian est dehors. Elvis est mort, mais j'ai réussi à en sauver un autre ! Je me suis amusé à me promener aux alentours, et comme je m'en doutais, comme l'Extérieur ne sert pas, le Jeu enlève tout ce qui pourrait le ralentir : mobilier, Ordinateurs etc. Tout est très vide (le Sous-Sol, les Salles...), et il ne se passe rien. Normal en fait !
+
+=== mysteres/pd-base.htm
+Mystères de Perfect Dark : Base
+
+Un Agent de la CIA dans la Base ? Avec le Game Shark, en passant à travers les Portes, vous devriez le voir. Entrez dans la Base SANS DEGUISEMENT et vous verrez en Bas de l'un des Escalators un Agent de la CIA, avec son Trenchcoat Beige Foncé. Que fait-il ici ? Quel rapport avec le Scénario ?
+
+## La Plante Cachée dans le Hangar
+
+Vous n'aurez besoin que de votre Horizon Scanner, et de pas mal de patience. Allez derrière l'Avion dans le gros hangar et normalement, si vous essayez d'aller au fond, un mur Invisible vous bloquera. Sortez votre scanner et regardez bien... une Plante !
+
+=== mysteres/pd-avion.html
+Mystères de Perfect Dark : Air Force One
+
+Dans Air Force One, il y a des Endroits avec des Passages Secrets, impossibles à utiliser, à part un si vous utilisez le Code Passe-Muraille. Bizarre, pleins de Conduits, mais pas d'utilisation !
+
+## Explosions Bizarres
+
+Entrez dans le Niveau en Special ou Perfect Agent et dirigez-vous vers l'Escalier menant à la Chambre du Président. Une fois en haut, sortez n'importe quelle Arme explosive et shootez le mur. Bizarrement, une Grosse Explosion va apparaître !
+
+## Ordinateurs Cachés - Explosions dans le Conduit OVNI
+
+Allez devant l'Ombilical. Maintenant, avec le Farsight XR-20 ou le Scanner à Rayons X, regardez devant vous. Qu'est-ce qu'on aperçoit ? Des Ordinateurs !! Pourquoi sont-ils là ?
+
+Et bien lorsque la Mine explose, elle crée UNE explosion. Pour donner l'Illusion que le Conduit pète, les Ordinateurs explosent, mais comme vous ne les voyez pas, vous avez l'impression que c'est le CONDUIT qui explose. Alors qu'en fait ce sont les Ordinateurs. Comptez-les, puis comptez les Explosions : Le Compte est bon.
+
+=== mysteres/pd-bateau.html
+Mystères de Perfect Dark : Pelagic II
+
+On passe directement au Bateau sans passer par le Site du Crash, car il n'y a aucun Mystère dans le Site du Crash, tout simplement ! Juste comme ça, le Bouton Bizarre qui ne sert à rien, tout comme celui dans le Bunker de la [Zone 51](pd-zone.htm) !
+
+## La Porte Cachée
+
+Rendez-vous dans la Partie « Jaune » du Bateau, là ou il y a pleins de Gardes et que ça se tape bien. A un moment, vous passerez devant une Barricade Bleue (comme celles dans Extraction). Si vous regardez aux Rayons X ou au Farsight, vous verrez une Porte. Avec le Passe-Muraille, on peut passer derrière la Barricade. Vous pouvez même ouvrir ou fermer cette Porte Bizarre !
+
+=== mysteres/pd-abysses.htm
+Mystères de Perfect Dark : Abysses
+
+Allez directement vers le Skedar Mort et sortez soit les Rayons X soit le Farsight. C'est bizarre, mais y a une sorte de Plaque en surbrillance non ? Un Passage Secret ? En s'approchant plus près de la Plaque (qui est invisible à la base) vous verrez qu'elle tremble, du moins celle qui est visible, c'est à dire la Première.
+
+Autre chose étrange. Dès que vous etes devant la Porte juste avant le 1er Téléporteur, sortez soit les Rayons X soit le Farsight. Vous devriez remarquer une Plaque Invisible qui n'existe pas physiquement. Comme une Vitre, mais qu'on pourrait traverser. On peut tourner autour, la traverser, c'est vraiment bizarre. Je me demande vraiment ce qui a bien pu se passer.
+
+=== mysteres/pd-institut.html
+Mystères de Perfect Dark : Institut Carrington
+
+## Portes Fermées
+
+Dans le Grand Hall se trouve une Porte Bleu Sombre Impossible à ouvrir, si vous etes en Mode "Institut Carrington". Cependant, vous remarquerez que dans le Niveau Solo qui lui est consacré, cette Porte est ouverte. En la passant, vous arriverez sur un Balcon. Vous verrez alors une Deuxième Porte, fermée cette fois. Qu'y a-t-il derrière ? Et bien... RIEN ! Avec un Game Shark, en utilisant le Fameux Code Passe-Muraille, on atterrit dans une Zone complètement vide, avec juste le Ciel, comme dans Felicity où l'on peut sortir du Conduit d'Aération en guidant son Slayer.
+
+## Gardes Invisibles
+
+Explication ! Dans le Jeu, il existe pleins de Situations ou des Personnages du Jeu sont « Stockés » quelque part dans le Niveau, pour être ensuite utilisés lors des Cinématiques (comme dans Extraction par exemple). Pour les Ennemis, c'est différent, le Jeu les met à l'endroit où ils doivent apparaître, mais sous le sol. Ainsi, lorsque vous faites exploser quelque chose au sol, les Gardes sont « aspirés » vers la surface, et on a l'impression qu'ils apparaissent de nulle part ! Comme vous pouvez vous en douter, un nombre infini de Gardes « sortent » de ces « trous », c'est pour ça qu'on a l'impression qu'ils viennent de nulle part, que des Ennemis arrivent à l'Infini… Et c'est stressant ! En mettant le Co-Operative ou Contre-Operative, vous pouvez meme voir les Gardes réapparaitre juste devant vous !
+
+Là ou est l'Astuce de la Mort, c'est que si dès le Début vous faites exploser les Trous (ou « Points de Naissance ») aucun Garde n'en sortira plus jamais ! C'est bien pratique, et c'est pour ça que c'est utile de connaître ces endroits, ainsi, dans l'Institut, en Perfect Agent, c'est beaucoup plus simple ! Dans le Vaisseau Skedar, ça permet d'empêcher les Skedars de venir en nombre ! Dans le Building Datadyne, il s'agit de tuer le Capitaine dans Blonde's Revenge avant qu'il n'apparaisse ! Dans la Zone 51, c'est dans la Salle qui donne accès à la Salle avec les Containers dans Maian SOS !
+
+=== mysteres/pd-vaisseau.htm
+Mystères de Perfect Dark : Vaisseau Skedar
+
+## Collier de Cassandra
+
+Lorsque Cassandra de Vries se fait assassiner, vous trouverez son Collier. En regardant dans l'Inventaire, vous verrez défiler son Username et son Password. Je ne me rappelle plus trop quand se déroule l'Histoire mais la Date de Naissance de Cassandra de Vries semble crédible. Il y a aussi le Truc de Ozymandias ! Lisez ci-dessous !
+
+- **Cassandra De Vries 780322** = 22 Mars 1978
+- **Ozymandias**, voir ci-dessous !
+
+Ozymandias est un Nom qu'on retrouve dans 2 Trucs : un Poème de Percy Shelley (le mari de Mary Shelley, qui a écrit Frankenstein) et dans la Trilogie des Tripodes, de John Christopher. Dans les Deux Cas, il y a une Allusion au fait que Cassandra de Vries « savait » ce qui allait lui arriver, et c'est pour ça qu'elle se sacrifie pour permettre à Joanna de se sauver, surement pour se racheter. Le Poème a été inspiré par les Pieds d'une Statue Immense qui a été détruite il y a longtemps. Ca se passe en Egypte.
+
+Un homme rencontre dans le Désert un Voyageur qui lui conte une histoire. Cette histoire parle d'une Statue à moitié enfouie, éprouvée par le temps. Pourtant, cette statue montre que le Talent du Sculpteur a survécu à travers cette Statue. Sur le socle de la Statue, on trouve un texte : "Mon nom est Ozymandias, Roi des Rois : contemplez mon oeuvre et perdez espoir !" Le Poème se termine par la description de ce qui reste autour de la Statue : le Désert, autrement dit, rien. L'Ozymandias de la Trilogie des Tripodes est un Type qui rencontre le Héros dès le début du Tome 1, et récite parfois des extraits du fameux Poème. Le personnage est énigmatique, et ne fait qu'une brève apparition, révélant au héros une certaine vérité. Lisez donc le Livre pour en savoir plus, il est bien sympa.
+
+## Autres Interprétations du Nom de Cassandra
+
+Merci à ceux qui m'ont écrit pour ces Informations !
+
+Le Désert et la Statue font penser à la Planète Skedar et à son Chef. Exact. Meme l'idée du Poème sur la Statue enfouie ressort dans la Planète dévastée. Dossier classé non ? Cassandra a à peu près le meme âge que Shelley au moment de sa Mort. Cassandra travaille dans la Tour Lucerne. Or, Lucerne est le nom d'une ville en Suisse, ainsi qu'un Lac. Et Mary Shelley aurait trouvé son idée de Frankenstein alors qu'elle était en vacances en Suisse, au bord d'un lac.
+
+**Merci à Aurélien Leynet de Troyes :** De Vries est aussi le nom d'un personnage de Dune. Il s'agit du mentat Piter De Vries. Un mentat est un humain aux facultés intellectuelles surdéveloppées, qui remplace les ordinateurs. En particulier, il s'agit ici d'un mentat "tordu", qui invente "des pièges dans des pièges dans des pièges". De plus, il se drogue au Mélange. Le Mélange est obtenu de l'Épice de Dune et prolonge la vie, augmente le pouvoir de prophétie et de détection des mensonges, et surtout donne aux yeux une couleur bleue, sans une once de blanc. Tout ceci pour en arriver à ma question : quelle est la couleur de la robe de Cassandra ?
+
+**Merci à Rémi :** Je suis un passionné (que dis-je, un fanatique plutôt) de Goldeneye et de Perfect Dark sur N64 et par conséquent de votre site fichtrement bien fait et très complet. Tout d'abord, à propos de Cassandra De Vries. Vous avez très justement analysé l'origine de son nom. Mais pour son prénom, Cassandra descend de Kassandra qui en grec signifie "la femme qui repousse l'ennemi, celle qui protège" (couplé avec la référence à Ozymandias et à son sacrifice cela prend donc plus de sens). Cassandre dans la mythologie grecque est aussi celle qui avait reçu d'Apollon le don de prévoir l'avenir. Mais elle refusa les avances du dieu qui voulait la séduire et, pour se venger, il décida qu'on ne croirait jamais à ses prophéties.
+
+Je pense pour ma part que très tôt dans le jeu (peut être à partir de la fin de Datadyne Extraction) Cassandra ait prévu de sacrifier sa vie pour sauver celle de Joanna (sachant ce qui lui arriverait). Si l'on extrapole énormément on peut voir Cassandra comme un opposé total de Janus (ou Trevelyan pour les intimes) qui d'ailleurs meurt seul face à Bond comme Cassandra meurt seule auprès de Joanna.
+
+## Le Trou dans le Mur
+
+Voilà un Mystère qui n'en est pas un en fait. C'est juste un oubli de raccord entre 2 Bitmaps. Je m'explique. Descendez dans le Hangar, et restez dans le Couloir menant à l'Ascenseur de la Salle d'Ouverture des Portes. Là, repérez bien la limite entre la Texture Bleue et Brune. Sortez votre AR34 et passez en Mode Zoom. Vous remarquerez qu'on voit entre les 2 Plaques ! Si vous regardez bien, vous verrez la Porte Bleue qui est en fait plus loin. C'est celle qu'Elvis emprunte plus tard quand vous prenez l'autre Ascenseur.
+
+## Le Skedar Enfermé
+
+Salle d'ouverture des Portes du Hangar, Farsight, et voilà ce que l'on voit : un Skedar enfermé ! En fait, il se pourrait qu'il s'agisse du Skedar de la Cinématique, comme le Mr Blonde du Niveau Extraction. Ces Personnages de Cinématiques sont invincibles et ne bougent pas. Ils sont juste utilisés dans les Intros ou Outros des Niveaux. Note - Je suis allé voir ce qu'il y avait derrière la Porte derrière le Skedar... et il n'y a rien à part l'Espace !
+
+## Le Roswell Caché
+
+Cet article vient du Site Detstar et a été écrit par Hutz, les Images proviennent également de Detstar. Etant Bilingue, j'ai pensé que traduire cette page en conservant l'esprit originel (sérieux et appliqué) pouvait être instructif. Je vous souhaite une belle lecture !
+
+Dans le Vaisseau Skedar, il y a un Maian sans armes que l'on peut trouver au 1er Etage, juste après avoir pris l'ascenseur de la Salle ou les Maians affrontent les Skedar à coups de Callisto NTG. On peut trouver ce Mystérieux Maian à la droite de l'entrée dans la Salle qui mène à la Salle des Machines. Normalement, on n'est pas censé le trouver, mais si on est assez rapide, on peut arriver juste à temps pour voir son corps disparaître. Si vous augmentez l'Energie des Ennemis, on peut même le voir debout, vivant. Sur votre Viseur, il est Bleu, mais... Elvis le shoote jusqu'à ce qu'il soit Mort ! L'existence de ce Maian est bizarre, voilà plusieurs Tests effectués pour déterminer sa Nature.
+
+- Si vous allez au Couloir dont je vous ai parlé plus haut en Agent Special ou Perfect, on ne peut normalement pas le voir. Avec des Codes, on peut arriver à temps pour voir son corps disparaître. Il ne fait rien, il est juste là, mort. Qui est-il ? Pourquoi son corps est-il là ? Un détail ? Un oubli ? Ou autre chose ?
+- En Agent, la Porte est fermée, car on ne doit pas remplir l'Objectif de la Salle des Machines. Pourtant, avec le Farsight, on peut voir son corps. Il y a quelque chose derrière lui. On dirait une boite, ou un truc rond. Si on tire dessus, il bouge au loin et devient invisible, même pour le Farsight. C'est donc un Shield. Pourquoi mettre un Shield dans un endroit où l'on ne peut pas le prendre ? Peut-être devait-on l'avoir avant (dans la Version Beta) mais Rare a fermé la Porte et condamné le Shield avec.
+- En Perfect Agent, Energie des Ennemis à 1000%, en arrivant, on le trouve vivant ! Elvis court vers lui et le tue ! Pourquoi ? Le viseur est Bleu, donc c'est un Ami, pourquoi le tuer ?
+- La Salle ou les Maians combattent les Skedars recèle quelques trucs étranges. Pendant que l'Ascenseur monte, gardez un oeil sur les Deux Maians avec le Farsight... ils disparaissent !! Le Mystérieux Maian pourrait alors être un des deux qui réapparaît ?
+- Avec l'AR34, on tire sur les Jambes des Deux Maians pour qu'elles soient bien vertes. On va alors voir le Mystérieux Maian, mais ses jambes sont tout à fait propres ! C'est donc un personnage à part et indépendant.
+- Pourquoi le Maian est-il mort à moins de monter son Energie à 1000% ? On peut penser que le Skedar dans ce passage shoote le Maian lorsqu'ils apparaissent. Le Skedar ne touche qu'un peu le Maian, mais le laisse en vie, pourquoi ? Elvis finit le travail du Skedar ! Même en étant invisible, le Skedar refuse de tirer sur le Maian lorsqu'on arrive dans la Salle. Un petit indice : dans la Mission La Guerre ! on entend une explosion. Il y a encore la fumée si on se dépêche d'aller au Trou que l'on doit faire dans la Mission Skedar Ruins, donc quelque chose provoque une explosion. Dans le Vaisseau, quelque chose doit provoquer un truc qui fait que le Maian meurt. Mais si son corps disparaît, pourquoi peut-on encore le voir vivant en augmentant son Energie ?
+- Autre moyen de garder le Maian en vie : le Code Enemy Shields. En Mode Agent, le Shield n'est pas à coté du Maian, mais si on tire dessus, il tombe de son Corps comme dans d'autres Missions ! Alors le but était de le tuer pour trouver un Shield ? Bizarre !!!
+- En utilisant le Farsight, on trouve un truc : le Skedar qui vous attend en haut de l'Ascenseur n'apparaît pas tant qu'on n'est pas tout en haut de l'Ascenseur ! Le Mystérieux Maian fait exception à cette règle car il est déjà là depuis le tout début de la Mission. Il ne se fait pas blesser par le Skedar, mais d'une autre façon inconnue. De la même façon, Cassandra meurt au début de la Mission sans que rien ne la touche. La question est : pourquoi les Skedars ne tuent-ils pas le Maian, mais Elvis oui ?
+- En Coopérative, on peut enlever le Friendly Fire. Et bien on peut quand même tuer le Mystérieux Maian, ce qui veut dire que le Viseur devrait être Rouge. C'est un peu le même Bug que pour le Duel contre Jonathan.
+- Retour à Cassandra. Avec le Code Enemy Shields, Cassandra arrive à l'endroit où elle devrait mourir, mais rien ne se passe, elle reste plantée là. Quand on monte l'Energie des Ennemis, et qu'on enlève le Code Enemy Shields, elle meurt. Ce qui prouve qu'elle se fait tuer par une Balle Dorée Imaginaire, Virtuelle. Le truc bizarre est que le Mystérieux Maian ne meurt pas d'un seul coup comme Cassandra, lui il lui en faut plus !
+
+Résumons ! C'est surement un coup de la Version Beta. Dans cette Version, il devait y avoir une sorte de Duel entre ce Maian et un Skedar. Le Maian perdait, et il laissait tomber un Shield pour Joanna. Ca a été enlevé, mais le Maian reste. Et voilà ! Ce n'est qu'une théorie, mais je pense que ça se tient. Et vous ?
+
+=== mysteres/pd-ruines.html
+Mystères de Perfect Dark : Ruines Skedar
+
+## La Multi-Plaque
+
+Ceci est TRES bizarre. Je l'ai découvert par Hasard. Il vous faut les Rayons X et peut-etre le Sniper Rifle. Allez vers le fond du Niveau jusqu'au Pilier tout en haut d'un Escalier. En principe, en Agent et Special Agent, y a un Gilet pas loin en haut de l'escalier en face, symétriquement. Sortez vos Rayons X et regardez le Pilier. Il est bien haut en principe. Vers le haut, et si vous zoomez, vous verrez une Multitude de Plaques enchevêtrées, dissimulées à l'intérieur du Pilier ! J'ai lancé une Roquette sur le Pilier, il a explosé, et dedans il y avait plein de Petits Blocs qui n'explosent pas, quoique l'on fasse.
+
+## Ordinateur du Dieu de la Guerre
+
+Avant de pénétrer dans le Sanctuaire Intérieur, vous devez faire une Offrande au Dieu de la Guerre (Agent Special ou Perfect). Si vous regardez l'Autel avec un Farsight XR-20 ou les Rayons X, vous verrez alors un Ordinateur. Lorsque vous faites une Offrande, en fait vous inter-agissez avec cet Ordinateur !
+
+## Pilier Caché
+
+Arrivé juste devant la Porte menant à la Salle de l'Armée Skedar, regardez avec un Farsight XR-20 ou Rayons X sur votre Gauche. On voit un Pilier Bizarre. Avec le Moonjump, on peut aller le voir de plus près !
+
+## Rectangle Bizarre
+
+Dès que vous êtes sur la Passerelle que vous avez activée en poussant le Bloc, sortez votre Farsight XR-20 et zoomez tout en bas un peu devant le Pont. On voit un rectangle bizarre... Je sais bien que çà ne se voit pas trop, mais il y a bel et bien un Gros Rectangle ! Faites le Test vous-memes et vous le verrez beaucoup mieux.
+
+=== mysteres/pd-battle.html
+Mystères de Perfect Dark : Battle
+
+## Autres Niveaux de Goldeneye dans le Jeu
+
+Trois Ans après la sortie de Goldeneye, Rare décida de révéler les fameux Codes "à taper pendant le jeu" (Push-Button Codes) permettant d'avoir les Codes facilement. Il semble que certains Codes de ce type existent aussi dans Perfect Dark, comme l'ont révélé les Membres de Rare présents à l'E3-2000, mais pas uniquement pour avoir des Codes du Style "Farsight XR-20", plutôt pour avoir quelque chose comme "Archives". C'est un des Mystères les plus Intrigants.
+
+## La Porte du Niveau Grid
+
+Comme pour l'[Institut Carrington](pd-institut.html), c'est une Porte menant à Rien. En fait, la Partie du Niveau ou se trouve cette Porte fait plus que penser à Matrix. On retrouve l'Ascenseur, les Piliers, meme la Texture. Il ne manque que le Détecteur de Métal ! Derrière la Porte, il n'y a rien !
+
+## Le Perfect Code
+
+Il faut savoir que dans le Mode Battle, plus l'on joue et plus l'on progresse en terme de Rang. Lorsque vous arrivez premier, on vous donne en plus un Code et un Username. Les voici. On trouve les mots Entropic, Decay, Zero et Tau. Tau est la 19eme lettre de l'Alphabet Grec et pour Entropic (Entropie) je vous laisse chercher dans le Dico. Signification ? Personne ne le sait.
+
+- **USERNAME** : ENTROPICDECAY
+- **PASSWORD** : ZERO-TAU
+
+## Perfect Head
+
+A l'Origine, lors du développement du jeu, on pouvait se photographier avec la Game Boy Camera puis transférer son Visage pour l'appliquer sur son Personnage de Battle. Ce Mode fut enlevé pour laisser (soi-disant) la place aux Modes Co-Operative et Contre-Operative, officiellement pour des raisons de Bugs... Mais la vraie version est que ce Mode fut considéré comme "la Porte ouverte à toutes les Dérives meurtrières" par des Associations Parentales Américaines. Ah ces Américains... Ils laissent les Armes en vente libre mais refusent de voir sortir un Jeu Vidéo où l'on se flinguerait virtuellement avec nos VRAIES Têtes dedans. Délicieux Pays ou le Paradoxe fusionne allègrement avec l'Hypocrisie dans la Joie et les Dollars au Nom d'une Constitution Obsolète tenue en laisse par des Grabataires Gluants.
+
+Ce Mode fut donc enlevé. Dommage, moi qui salivais déjà à l'idée de créer des Personnages tirés d'Aliens, Predator ou Matrix quand ce n'est pas Bad Taste ou Les Monty Pythons... Bref ! De nombreuses Rumeurs courent comme quoi les Programmeurs de chez Rare n'auraient pas TOTALEMENT enlevé ce Mode. Ils l'auraient caché (comme pour le 24e Code de Goldeneye) et on pourrait l'Activer avec un Game Shark. On trouve encore ces menus dans la mémoire du jeu :
+
+- **Load a Saved Head** : Charger une Tête Sauvée !
+- **Make a New Head** : Créer une nouvelle Tête !
+- **Edit a Loaded Head** : Editer une Tête Sauvée !
+- **Edit a Perfect Head** : Editer une Tête, ou une Perfect Tête !
+- **Choose Slot to Edit** : Choisir l'Endroit où Editer !
+
+La Question est donc : ce Mode est-il DEFINITIVEMENT enlevé ? Ou condamné ? On peut etre pessimiste en se rappelant que ce Mode a été enlevé au profit des Modes Co-Operative et Contre-Operative ou etre optimiste en se rappelant que Goldeneye fourmillait d'Options enlevées, et récupérées grace à l'Action Replay. Voir aussi la page [Facemapping](../beta/pd.beta.facemapping.htm) de la section Beta.
+
+## Zones Inaccessibles
+
+Dans le Niveau Warehouse (Entrepôt) pour commencer. Allez à l'Endroit ou il y a les Conduits d'Aération et regardez en haut avec quelque chose qui voit à travers les murs. Il y a une Caisse de Munitions inaccessible. Avec le Game Shark, on peut y accéder mais la Caisse ne peut etre prise. C'est un Décor désormais, comme les Fromages. Figée à jamais pour l'éternité.
+
+Dans les Egouts maintenant. Il y a 2 Caisses dans le meme état. D'abord, dans le Sous-Sol ! On peut passer à travers ces Caisses, ce sont juste un Décor, on ne peut pas les prendre ! Et il n'y a rien au bout du Conduit Noir qui part dans Deux Directions.
+
+Tout en Haut du Niveau, là où il y a l'échelle, encore une Caisse-Décor ! Je vous laisse le soin de chercher ces Caisses, vu qu'il n'y a besoin de rien pour les trouver. Même en configurant le Niveau de sorte qu'il n'y ait AUCUNE Arme, elles seront là, fidèles au poste.

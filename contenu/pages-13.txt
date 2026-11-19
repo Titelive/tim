@@ -1,0 +1,624 @@
+
+=== mysteres/pd-divers.html
+Mystères de Perfect Dark : Divers
+
+## Musiques Cachées
+
+Dans le Jeu sont cachées 4 Musiques Inédites, et elles n'apparaissent à aucun moment du Jeu ! Voici une brève description, et elles sont Téléchargeables ! Un Grand Merci à Willmistretta pour ça ! Je vous passe comment obtenir ces Musiques puisqu'il faut un Gameshark...
+
+- **Death** : une Musique Beta de Joanna quand elle meurt en Mode Solo.
+- **[Funny](PD%20-%20Beta%20(2%20-%20Mario).mp3)** : une Curiosité Absolue ! On dirait un Jingle de Super Mario Bros !
+- **[Deep Sea](PD%20-%20Beta%20(3%20-%20Cetan).mp3)** : vraiment sublime, la Musique commence comme celle de Deep Sea pour ensuite se transformer au bout de 46 Secondes en un Thème Magistral ! Je dirais que c'est une musique de Cinématique puisqu'elle se termine net et précis sans faire de Boucle comme tous les autres Thèmes du Jeu, du moins ceux des Missions.
+
+## La Tête Perdue
+
+Encore et toujours avec le Gameshark, voilà une Tête retrouvée dans la Mémoire interne du Jeu. Si je me souviens bien, c'est la même que celle d'une Tête de Battle, mais en Noir et Blanc. Ce n'est pas vraiment un Mystère... Le Code Gameshark pour la Route !
+
+```
+8007CF92 0001
+8007CF93 00BD
+```
+
+## Jonathan Dark
+
+Allez dans la Mission Duel, et combattez Jonathan. A cause de son Magnum, Jonathan n'arrive jamais à vous toucher ! Incroyable mais vrai ! Même en mettant la Visée à 1000%, il ne se passe rien ! Un autre Truc : lorsque vous visez Jonathan, il apparaît comme Ami (Carré Bleu) ! Un joli Oubli de Programmation...
+
+## La Mémoire du Jeu
+
+En regardant dans la Mémoire du Jeu avec le Game Shark, voici ce que l'on trouve. Etant donné que Perfect Dark utilise le même moteur que Goldeneye, on se disait que l'on retrouverait certains petits trucs. Mais on ne pensait pas autant !! Voici regroupées toutes les Options qui devaient être présentes dans le Jeu, ainsi que certaines Options et Codes présents dans Goldeneye. Pour commencer, des Armes, une Micro Caméra (Camspy ?) et ce qui s'apparente à des mouvements spéciaux comme "Désarmer" dans Perfect Dark.
+
+```
+Gold PP7 / Silver PP7 / golden bullets / GoldenEye key
+piton gun / flare pistol / stick of dynamite / explosive pen
+explosive case / micro camera / bondmove / bondgrab / bondwalk
+bondeyes / seenbond / bond2 / bondsub / bondbike
+```
+
+Un truc intéressant : Perfect Dark utilise le Moteur de Goldeneye. Il semblerait que Rare ait utilisé le "Bondbike" pour en faire le Hover-Bike. Pour continuer, des Codes de Goldeneye.
+
+```
+Invisible / Paintball Mode / Enemy Rockets / 2X Rocket L. / 2X Grenade L.
+2X RC-P90 / 2X Throwing Knife / 2X Hunting Knife / 2X Laser
+Turbo Mode / Fast Animation / Slow Animation / No Radar (Multi)
+```
+
+Des Codes de Goldeneye inutilisés, dont le Fameux 24ème Code "Line Mode" :
+
+```
+Line Mode / Super X2 Health / Super X2 Armor / Super X10 Health
+```
+
+D'autres Codes retirés au Dernier Moment :
+
+```
+Slowest Motion / Very Slow Motion / Slow Motion
+Normal Motion / Fast Motion / Fastest Motion
+```
+
+Les Fameux Trucs sur le Mode "Perfect Head" :
+
+```
+Load a Saved Head / Make a New Head / Edit a Loaded Head
+Edit a Perfect Head / Choose Slot to Edit
+```
+
+Les Options que tout le Monde attendait dans le Battle :
+
+```
+Touch That Box / Show Boxes On Radar / No Doors / Floodlights / Destroyable Walls
+```
+
+Des Armes manquantes pour Perfect Dark :
+
+```
+Dart / Silencer / Maian Grenade / FlashBang / Telescopic Sight
+Homing Rocket / Laser Sight / Magazine Extension / MagSec SMG
+```
+
+Quelques bizarreries…
+
+```
+No briefing for this mission
+It is now safe to shut off your computer
+Another Perfect Crash (tm)
+JonesCorp
+Happy?
+Big King Rocket
+```
+
+On trouve également, entre les Missions War ! (Guerre) et Maian SOS quelque chose nommé "Retaking The Institute" (Récupérer l'Institut). Peut-être une 5ème Mission supplémentaire ? Ci-dessous, des Mots relatifs aux Missions Solo... Il y en a même des inédits qui ont été zappés ! Pour certains, on dirait des phrases enlevées au dernier moment pour indiquer un Objectif réussi !
+
+#### DataDyne Central - Defection
+
+```
+Computer executive erased.
+You've written your last bug, traitor!
+Erase Dr. Carrol conversation...
+0230 Hours 15 AUG 2023
+2023 AD, 2214 Hours Lucerne Tower - dataDyne HQ
+dataDyne Central - Investigation:De Vries' briefcase
+```
+
+#### DataDyne Central - Extraction
+
+```
+LIGHTS OFF
+LIGHTS NOW ON
+Obtain alpha keycard.
+```
+
+#### Carrington Villa - Hostage One
+
+```
+PC Gun
+```
+
+#### Chicago - Stealth
+
+```
+Acquire diversion target.
+Obtain Remote Mine.
+Obtain Tracer Bug.
+dataDyne Central Divisional HQ Chicago Il USA.
+```
+
+#### G5 Building - Reconnaissance
+
+```
+Obtain alpha keycard.
+Level 1 keycard
+Level 2 keycard
+Obtain Door Exploder.
+Door Exploder
+Picked up Door Exploder.
+Picked up Detonator.
+Obtain DAT tape.
+The bomb has been detonated...
+Well, at least I won't know if I'm doing anything wrong.
+```
+
+#### Area 51 - Rescue
+
+```
+Obtain op room keycard.
+Please stop! I'm not supposed to die. She... Arggghhh!
+Of course he's going to hear of it, you moron. I've just got into his top secret base, and now I'm stealing his alien.
+```
+
+#### Air Force One - Antiterrorism
+
+```
+Obtain Crossbow.
+Adrenaline pill
+Picked up an adrenaline pill.
+```
+
+#### Deep Sea - Nullify Threat
+
+```
+Elvis has unlocked the door.
+Antibody masking has been obtained.
+This antibody masking will protect us from the automatic defenses.
+```
+
+#### Carrington Institute - Defense
+
+```
+Obtain sensitive info.
+Sensitive info
+Picked up sensitive info.
+You have been given a Devastator.
+```
+
+#### Attack Ship - Covert Assault
+
+```
+All hangar Skedar have been killed.
+OK, we're in. I'll meet you in the hangar.
+```
+
+#### Skedar Ruins - Battle Shrine
+
+```
+Obtain Night Vision.
+Obtain Scanner.
+```
+
+On trouve aussi parmi les Noms des Niveaux de Battle le mot "Rooftops". Une Arène enlevée ?
+
+=== action.replay/explication.htm
+Action Replay / Gameshark
+
+Un Action Replay ou un Gameshark, ça a la même apparence. C'est une sorte de Cartouche Noire que l'on met entre le Jeu et la Console. Il en existe pour pleins de Consoles. On allume la Console, et là avant de jouer, on peut activer des Codes modifiant le Jeu. On peut aussi chercher ses propres Codes, c'est bien pratique. Si vous jouez sur Emulateur, il y a souvent un Action Replay / Gameshark incorporé à l'intérieur, c'est encore plus simple !
+
+Pour utiliser tous les Codes de ce Site, il vous faudra Goldeneye Version Française et US ainsi qu'un Action Replay ou un N64 Passport Plus. Si vous avez une Console Américaine, c'est encore mieux ! Je n'ai pas Perfect Dark en Français mais en Version US, et je me sers d'un Action Replay Français pour faire tourner des Codes Gameshark dessus sur ma Console Nintendo 64 Américaine. Il y a aussi le Passport Plus, qui est en fait un Action Replay déguisé en Adaptateur pour faire tourner des Jeux Etrangers sur une Console Européenne.
+
+## Utiliser l'Action Replay c'est tricher !
+
+Cela dépend du Joueur. Voilà mon point de vue : Je déplore les Soluces qui sortent 2 Jours après le Jeu, tout comme je déplore le Joueur qui utilise l'AR pour ruiner un Jeu sans vergogne. Voici maintenant mon histoire. J'ai acheté Goldeneye peu après sa sortie. J'y ai joué comme jamais je n'avais joué à un Jeu auparavant, un VRAI Bonheur, quadruplé par une convivialité hors-normes. J'ai passé des jours entiers dessus, passionné drogué ? Jusqu'à ce que je connaisse Goldeneye par cœur.
+
+Puis je découvris sur Internet des tas de Codes Action Replay. Pour quoi faire puisque j'avais retourné le Jeu dans tous les sens me direz-vous ? Ben parce que Goldeneye mérite d'être découvert comme je l'ai fait avec l'AR. Avec, on accède aux entrailles du Jeu, et sa Durée de Vie en est considérablement allongée. Maintenant, les Codes du genre Energie Illimitée ou Tous les Codes débloqués, je m'en tape. Moi ce qui m'intéresse, ce sont les Niveaux Cachés, les Personnages que l'on crée, et toutes les autres bidouilles qui sont sur ce Site !
+
+## Quelle est la différence entre un Action Replay et un Gameshark ?
+
+Les Codes sont différents. Un Code Gameshark ne marchera pas sur un Action Replay, et vice-versa. C'est bizarre... Avant je croyais qu'un Action Replay, c'était un Gameshark Européen. Et puis un jour j'ai enfin eu ma Cartouche Goldeneye US. Pour voir, j'ai branché l'Action Replay entre la Console US et le Jeu US.... et ça a marché. J'ai mis des Codes Gameshark, et ça fonctionne !! Etrange comme histoire non ?
+
+## Utiliser l'Action Replay / Gameshark de l'Emulateur Project 64 !
+
+- Allez dans Options, puis Réglages, et décochez la Case « Cacher les Réglages Avancés ». Ainsi, vous pourrez entrer des Codes Action Replay ! Faites Système, puis Codes Triches !
+- Clic-droit dans le Vide, puis Ajoutez un Nouveau Code !
+- Entrez un Nom, celui que vous voulez. Entrez ensuite les 12 Variables qui constituent chaque Code : d'abord 8, espace, puis 4. Si vous n'entrez pas cet espace, vous ne pourrez rien faire, c'est important !
+- Cliquez sur Mettre à Jour, juste en bas.
+- Vous n'avez plus qu'à cocher votre Code, fermer la Fenêtre des Codes Triches, et voilà ! Vous pouvez modifier votre Code à tout moment : faites clic-droit dessus, puis éditez-le ! Simple, non ?
+
+=== emulation/index.htm
+Emulation
+
+L'Emulation c'est quoi ? Cela peut être des Tas de Choses, mais ici, ce qui nous intéresse, c'est jouer à Goldeneye ou Perfect Dark sur un Emulateur. Ca veut dire jouer au Jeu Console, MAIS sur Ordinateur, comme n'importe quel autre Jeu PC. On a besoin de quoi pour faire ça ? On a un peu besoin de la même chose que quand on joue sur Console : il faut le Jeu, la Console, et une Manette. Sur votre Ordinateur, il vous faudra un Programme (l'Emulateur) ainsi que la ROM du Jeu (le Jeu converti en Fichier d'Ordinateur, comme un MP3 ou une Vidéo par exemple).
+
+Ensuite, comme il est très Soporifique de jouer avec un Clavier à ce genre de Jeu, il vous faudra trouver un moyen de brancher une Manette sur votre Ordinateur. Comme Goldeneye et Perfect Dark se jouent avec un Joystick, il faudra trouver une Manette avec un Joystick dessus. Si vous voulez vraiment vous faire plaisir, vous pouvez dépenser 10 Dollars (9.99 pour être précis) et commander un Adaptateur USB qui vous permettra de brancher directement votre Manette N64 sur votre PC. Et là, c'est vraiment le Rêve.
+
+## Pourquoi jouer sur un Emulateur ?
+
+Bien que ce soit plus agréable de jouer sur un Canapé, jouer sur Emulateur vous fera découvrir les Jeux comme vous ne les aviez jamais vus. Pourquoi ? Parce qu'avec un Emulateur (si vous avez une Bonne Machine) vous redécouvrirez les Jeux tels que les Programmeurs les ont faits. Vous jouerez au Jeu sans passer par la Case « Clipping, Brume et Ralentissement(s) » que nous fait subir la N64. Bien que ces Jeux soient Vieux, admirez à quel Point la Résolution est Fine ! On peut voir loin ! Et c'est Fluide ! Bon, certaines choses ne sont pas encore émulées (les Emulateurs évoluent au fil du temps) comme le Ciel ou des Détails, mais c'est déjà Sublime... (la page originale montre une série de captures d'écran Project 64.)
+
+Bref, avec un Emulateur, c'est comme si vous jouiez à Goldeneye et Perfect Dark sur une Télé Haute Définition, sans Brume et sans Flou ! Que du Bonheur ! En plus de ça, les Emulateurs ont quelques Petites Fonctions en Plus, vous pourrez tout configurer (Résolution, Vitesse), calibrer votre Manette, et il y a même un Action Replay incorporé dedans, avec en Mémoire des Codes tout prêts pour s'amuser. Touche Finale, il y a même une Fonction pour jouer en Ligne contre d'autres Joueurs du Monde Entier !
+
+## Est-ce que c'est Légal ?
+
+C'est la Partie que chaque Site sur l'Emulation se doit de préciser : si vous possédez la Cartouche Originale, vous avez le Droit de posséder la Rom du Jeu sur votre Ordinateur et d'y jouer tranquillement sans être inquiété. Par contre, comme je n'ai aucun moyen de savoir si vous l'avez ou pas, je ne fournirai pas la ROM.
+
+## Quel Emulateur Choisir ?
+
+Le Meilleur Emulateur est Project 64. Allez sur le Site Officiel et téléchargez la Dernière Version. Cet Emulateur n'est pas très dur à configurer. La Chose Importante à configurer est ici : allez dans Options, puis Réglages, et décochez la Case « Cacher les Réglages Avancés ». Ainsi, vous pourrez entrer des Codes Action Replay ! Voici la Liste des Emulateurs que je vous conseille.
+
+- **Project 64** : le Meilleur Emulateur pour jouer aux Jeux N64 ! ([Télécharger](Project64%201.6.zip))
+- **Mupen** : le Meilleur Emulateur pour jouer à Goldeneye en Ligne ! ([Télécharger](Mupen64%2B%2B%20Beta%200.1.3.12.zip))
+
+## Comment jouer en Ligne avec Mupen ?
+
+Pour pouvoir jouer contre quelqu'un, il faut avoir la même ROM que lui. Pour cela, lancez Mupen, cliquez une fois sur la ROM de Goldeneye dans la Liste des ROMs que vous avez, puis allez dans « Utilitaires », puis « Propriétés ROM ». Regardez à la Ligne « Somme de » : il faut absolument qu'il y ait écrit `70C525880240C1E838B8B1BE35666C3B`. Si c'est OK, on passe à la Suite…
+
+Pour jouer en Ligne, c'est assez simple. Coupez tous vos Programmes qui bouffent de la Bande Passante (eMule, Soulseek, Bittorrent etc) et lancez Mupen. Une fois dedans, allez dans Utilitaires, puis KailleraClient (NetPlay).
+
+Vous êtes dans « All Servers ». Le Programme va chercher tout seul tous les Serveurs qui utilisent le Protocole KailleraClient (NetPlay). Triez les Serveurs par Location et cherchez un Serveur proche de chez vous. Pourquoi près de chez vous ? A cause du Ping. Le Ping, c'est le Temps que met une Information à aller de chez vous au Serveur. Plus ce Temps est Court, mieux c'est.
+
+Par exemple, le Serveur « alz.ath.cx » a un Ping de 43ms, ce qui signifie qu'entre le moment où vous appuyez sur votre Bouton et le moment où le Jeu réagira, il y aura 43 Millisecondes de retard. Ce n'est rien du tout. Par contre, un Serveur en Corée du Sud vous donnera un Ping de 360 !!! Il est donc inutile d'aller jouer sur un Serveur Sud-Coréen pour jouer à un Jeu où chaque Milliseconde est importante. Choisissez-vous un Pseudo, mettez-vous en Good (20keyframes/s) et double-cliquez sur le Serveur Français « alz.ath.cx » !
+
+Sur le Serveur, vous avez à Droite la Liste des Gens qui y sont présents, avec leur Ping. Si vous jouez contre quelqu'un qui a un Ping plus grand que vous, vous aurez un Avantage sur lui, et vice-versa. Pour pouvoir jouer contre quelqu'un, il faut également être en « Good (20keyframes/s) ». A Gauche, la Fenêtre de Tchat. C'est ici que vous pouvez discuter…
+
+En Bas, vous verrez la Liste des Jeux. Pour rejoindre une Partie, double-cliquez sur sa Ligne (il faut être arrivé sur ce Serveur avec le même Emulateur que le créateur de la Partie). Pour créer une Partie, cliquez sur « Create New Game » ! Vous pouvez choisir le Nombre de Joueurs Maximum (« Max Users »), ou annuler votre Partie (« Cancel »). Il ne vous reste plus qu'à attendre que quelqu'un vienne rejoindre votre Partie. Vous pouvez un peu discuter avant histoire de voir en quel Mode on va jouer. Si le Joueur vous soûle, vous pouvez le Kicker… Une fois que tout est OK, cliquez sur « Start Game » ! Et voilà ! Rendez-vous sur le Serveur !
+
+=== action.replay/niveaux/ge.nouveaux.niveaux.htm
+Goldeneye : Nouveaux Niveaux en Multiplayer ! (Deux Joueurs Seulement)
+
+On savait déjà qu'avec l'Action Replay on pouvait débloquer pas mal de choses. On pouvait jouer dans les Niveaux Water Caverns en Entier, Facility en Entier, et Archives en Entier. C'était pas mal, mais ça restait du Bricolage. Grâce à l'Action Replay incorporé dans l'Emulateur Project 64, ainsi qu'aux Patches créés par des Joueurs tels que Wreck, Subdrag ou Zoinkity, il devient possible de faire davantage de Choses ! Pour cela, il y a Deux Méthodes : soit vous entrez un Code, soit vous patchez la ROM.
+
+Ainsi, vous pourrez jouer dans d'Autres Niveaux que ceux que l'on connaît déjà, et il y a les Armes, les Boites de Munitions, les Gilets et tout dedans ! Pour les Codes, tout provient de l'Excellent Site [Goldeneye Forever](http://www.goldeneyeforever.com) ! Pour les Patches, tout provient du Merveilleux Site [GoldeneyeVault](http://www.goldeneyevault.com/) !
+
+Débloquer tous les Niveaux Normaux : `80036FB7 0001`
+
+Pour pouvoir jouer par Exemple dans Cradle, Runway ou Aztec, il faut que vous ayez auparavant débloqué le Niveau en Mode Solo. Mais se retaper tout le Jeu, c'est très Lourd. Il est donc Impératif d'entrer le Code ci-dessus et de le Cocher lorsque vous voulez jouer dans des Niveaux autres que le Barrage. Pour savoir comment on entre des Nouveaux Codes dans Project 64, allez voir cette [Page](../explication.htm) !
+
+## Niveaux nécessitant un Code
+
+Tous les Niveaux ci-dessous contiennent tout ce qu'il faut pour jouer (Armes, Munitions, Gilet etc). Tout ce que vous avez à faire c'est ouvrir le Fichier Texte du Niveau, créer un Nouveau Code dans l'Emulateur (appelé « Silo en Multiplayer » par Exemple), et y copier le Code contenu dans le Fichier. N'oubliez pas d'avoir également rentré le Code pour débloquer tous les Niveaux et voilà ! Certains Niveaux se lancent automatiquement quel que soit le Niveau que vous ayez choisi, d'autres apparaissent dans la Liste des Niveaux dans le Jeu et il faut les choisir.
+
+- **Archives Back Zone** ([le code](multiplayer.archives.back.zone.txt)) : toute la Zone qui se trouve derrière les Deux Portes Fermées. Il n'y a pas de Mobilier, c'est un peu Vide, mais c'est déjà sympathique de se promener dans cette Partie du Niveau.
+- **Aztec** ([le code](multiplayer.aztec.txt)) : le Niveau Complet, tout simplement. On cavale un peu pour trouver l'Adversaire, et le manque de Mobilier réduit un peu la Bonne Ambiance du Niveau, mais franchement ça rend déjà pas mal.
+- **Bunker I** ([le code](multiplayer.bunker.1.txt)) : un Petit Niveau bien Vicieux où on tombe toujours sur quelqu'un ! On a tellement l'Habitude du Grand Bunker que là on est un peu Perdu car il faut vite trouver une Arme sinon on se fait vite avoir !
+- **Caverns Front Zone** ([le code](multiplayer.caverns.front.zone.txt)) : toute la Zone qui se trouve derrière la Porte Fermée en Battle. Vous avez donc tout le Début du Niveau, et la Grande Salle en Spirale qui est bien Dangereuse, et en plus il y a des Tonneaux qui explosent !
+- **Cradle** ([le code](multiplayer.cradle.txt)) : Project64 n'émule pas très bien le Ciel de certains Jeux Rareware (pour Perfect Dark c'est pareil), donc il est tout noir, mais on peut tout de même bien s'amuser dans ce Grand Niveau...
+- **Dam / Barrage** ([le code](multiplayer.dam.txt)) : tout le Niveau, Youhou ! Accrochez-vous, il va falloir bien COURIR pour trouver votre Adversaire. Cela dit c'est pas mal quand même si on met des Sniper ou des Roquettes, avec le Code Munitions Infinies !
+- **Facility Back Zone** ([le code](multiplayer.facility.back.zone.txt)) : un des Meilleurs Niveaux ! Toute la Zone qui se trouve derrière la Zone Fermée en Battle. Il y a donc le Quad, le Labo, et la Grande Salle des Conteneurs tout à la Fin, qui est malheureusement vide sans eux.
+- **Quad** ([le code](multiplayer.facility.quad.txt)) : un tout Petit Niveau avec un Max d'Explosions ! Terrible ! Il faut faire vite pour trouver une Arme ou se sauver car l'Endroit est si Petit que ça chauffe très vite ! Pensez à prendre le Gilet si vous êtes désarmé !
+- **Silo** ([le code](multiplayer.silo.txt)) : de Gros Problèmes de Lumière dans ce Niveau, qui fait que c'est très dur d'y jouer. Mieux vaut attendre une Nouvelle Version du Code qui rectifiera ça. En attendant, vous pouvez quand même vous y promener...
+- **Statue** ([le code](multiplayer.statue.txt)) : Niveau bien Grand, Super Dur à mémoriser, et finalement très Chiant à jouer... Mais c'est pas mal si on aime se cacher, vu tout le Décor qu'il y a dans ce Niveau. Les Armes sont heureusement bien voyantes.
+- **Streets** ([le code](multiplayer.streets.txt)) : Niveau Etrange, ni Chaud ni Froid, mais comme il y a un Tank, des Voitures et quelques Eléments de Décor, c'est quand même appréciable d'y jouer, surtout pour se cacher derrière une Voiture...
+- **Train** ([le code](multiplayer.train.txt)) : Niveau de Grosse Confrontation puisque vous avez une Chance sur deux de tomber sur votre Adversaire ! On peut se cacher dans les Toilettes comme dans Facility, et ça, c'est quand même pas mal !
+
+## Niveaux nécessitant un Patch
+
+Ca marche comment un Patch ? Un Patch, c'est un Fichier IPS que l'on « incruste » dans la ROM du Jeu, puis on crée une Nouvelle ROM toute Neuve qui contient le Patch. C'est très simple à faire, et ça marche ! Il vous faut télécharger tout d'abord le [Goldeneye Setup Editor](goldeneyesetupeditorinstaller2.zip). Installez-le, Ouvrez-le (Icône « GoldeneyeSetupEditorV2 »), puis allez dans Tools, puis « Apply IPS Patch ». Là, le Programme va vous demander de choisir la ROM de Goldeneye, puis le Patch que vous voulez lui appliquer, et enfin où enregistrer la ROM Patchée (en fait il crée une ROM toute Neuve). Ouvrez-la avec Project 64, et voilà ! Remarque : je ne sais pas si on peut appliquer plusieurs Patches à une même ROM, je préfère créer une Nouvelle ROM à chaque fois que je Patche Goldeneye. Ainsi, j'ai une Rom qui s'appelle « Goldeneye Multiplayer Citadel », et une autre qui s'appelle « Goldeneye Multiplayer Block Fort » etc !
+
+- **[Block Fort](http://www.goldeneyevault.com/viewfile.php?id=46)** : le Meilleur Niveau du Battle de Mario Kart 64 recréé ici pour Goldeneye ! On ne peut pas tomber des Pontons, donc c'est assez Etrange de déambuler dans ce Niveau... Il y a également une Zone en plus, en Sous-Sol.
+- **[Caves Control](http://www.goldeneyevault.com/viewfile.php?id=11)** : le Niveau Caves, mais avec pas mal de Mobilier qui fait penser qu'on est dans un Centre de Contrôle Souterrain ! Un Niveau Sympa, sans plus, qui a le mérite de redonner un peu de Vie au Niveau Original.
+- **[Cellar](http://www.goldeneyevault.com/viewfile.php?id=73)** : la Cave du Manoir de Banjo Kazooie avec en Plus Trois Gros Oeufs Magiques ! C'est juste un Décor, mais c'est super ! Le Niveau est très Simple, mais c'est amusant de se promener dedans, il ne manque plus que les Fantômes.
+- **[Citadel](http://www.goldeneyevault.com/viewfile.php?id=17)** : le Fameux Niveau Caché enfin disponible en Battle, mais c'est aussi là qu'on voit pourquoi c'était un Niveau de Test : Vide, Basique, vite ennuyeux, c'est sympa de jouer dedans au moins une fois pour voir...
+- **[G5 Building](http://www.goldeneyevault.com/viewfile.php?id=20)** : ils ont collé le Niveau de Perfect Dark dans Goldeneye, ces Fous ! Un Niveau d'Enfer qui promet de Belles Parties. Petite Remarque Pertinente : on PEUT tomber des Pontons, comme dans Perfect Dark !
+- **[Runway](http://www.goldeneyevault.com/viewfile.php?id=74)** : un Niveau assez Sommaire, vite Ennuyeux, et qui est amusant à jouer au moins une fois. La Partie près de Facility est évidemment la Meilleure, car le Décor est sympa. Mais le reste du Niveau, on s'ennuie.
+
+=== action.replay/ge.divers.HTM
+Goldeneye : Codes Divers
+
+```
+Anamorphosis Mode   8001F95B FFFF
+Playstation Mode    8001FBAE FFFF
+Arc-En-Ciel         8001FAE0 FFFF
+```
+
+- `810266E6 0040` : les 64 Personnages directement sans le Code.
+- `800585A6 0002` : en Battle, vous êtes Invisible pendant votre 1ère Vie.
+- `81026A72 XXXX` : remplacez les X par ce que vous voulez et ce sera le Nombre de Joueurs de la Partie !
+- `80357416 FFFF` : Personnages Géants !! Un Code hallucinant, même les Armes sont immenses !
+- `80068A2B 00FF` : le Joueur 1 a 255 Kills en Multiplayer.
+- `81025E4A 0014` : Cuba (essayez juste de faire une Mission en Solo...)
+- `80028388 FFFF` : Ennemis minuscules dans les Airs (sympa, mais chiant pour les avoir).
+- `80031997 00FF` : Explosions Partout (sans le Code Invincible vous êtes cuit).
+- `810266F0 4100` : Bondzilla ! Les Balles peuvent vous toucher, mais pas les explosions.
+- `810266F0 0100` : Bond-Forumi ! Attention aux Roquettes !
+
+## Frappez avec n'importe quelle Arme !
+
+`880XXX6B 0001` : vous devez choisir votre Niveau, et lorsque vous avez l'arme en Main, appuyez sur le Bouton de l'Action Replay. Le mieux est encore d'enclencher le Code All Guns et hop ! Remplacez XXX par ce qui se trouve dans le Tableau ci-dessous !
+
+```
+BAB - Dam
+9DF - Facility
+ACF - Statue
+C0F - Runway, Surface, and Depot
+B47 - Archive, Caverns, Cradle, and Egyptian
+9B7 - Bunker 1, Bunker 2, and Silo
+BE7 - Streets
+AE3 - Frigate
+A7F - Train, Jungle, and Control
+CD7 - Surface 2
+97B - Aztec
+```
+
+## Utiliser les Codes sans les gagner !
+
+Le Code activé sera dans les Cheat Options. Vous devez avoir gagné au moins 1 Cheat !
+
+```
+Invincible           80058592 0001
+All Guns             80058593 0001
+Bond Invisible       8005859A 0001
+Infinite Ammo        8005859B 0001
+DK Mode              8005859C 0001
+Tiny Bond            8005859E 0001
+Paintball Mode       8005859F 0001
+Magnum               800585A1 0001
+Laser                800585A2 0001
+Golden Gun           800585A3 0001
+Silver PP7           800585A4 0001
+Gold PP7             800585A5 0001
+No Radar [Multi]     800585A7 0001
+Turbo Mode           800585A8 0001
+Fast Animation       800585AA 0001
+Slow Animation       800585AB 0001
+Enemy Rockets        800585AC 0001
+2x Rocket L.         800585AD 0001
+2x Grenade L.        800585AE 0001
+2x RC-P90            800585AF 0001
+2x Throwing Knives   800585B0 0001
+2x Hunting Knives    800585B1 0001
+2x Laser             800585B2 0001
+Line Mode            80058597 0001
+```
+
+## Couteaux de Chasse Dorés !
+
+```
+800XXX62 01F9
+800XXX51 01F9
+```
+
+Remplacez XXX selon le Niveau, avec le même Tableau que plus haut (BAB = Dam, 9DF = Facility, etc.).
+
+## Utiliser la Manette N64 comme une Arme !!
+
+`800XXX6C FFFF` (XXX selon le Niveau, même Tableau). Une fois dans le Niveau, faites Pause. Ensuite, faites Droite 2 fois pour aller aux Screen Options. Faites A 2 fois, et ressortez de la Pause. Vous devriez avoir la Manette comme Arme !
+
+## Gun of the Gods
+
+Attention, ce Code est bien sympa. Il met en permanence au bout de votre Arme les Feux qui apparaissent normalement lorsque vous tirez. Avec ces Codes, vous avez toutes les Armes, Munitions à Mort, Rapid Fire (Haut Débit de Feu) et quand on change d'Arme, ça va TRES vite. En plus de cela, le bout de votre Arme brille comme quand vous tirez, mais en permanence. Le Laser a de la gueule !
+
+#### Dam
+
+```
+800BB4E4 0001
+800BAB96 FFFF
+800BAF3E FFFF
+800BAB8B 00FF
+800BAF33 00FF
+800BAB75 DDDD
+800BAF1D DDDD
+```
+
+#### Facility
+
+```
+8009E8E4 0001
+8009DF96 FFFF
+8009E33E FFFF
+8009DF8B 00FF
+8009E333 00FF
+8009DF75 DDDD
+8009E31D DDDD
+```
+
+#### Runway - Surface 1 - Bunker
+
+```
+800C18E4 0001
+800C0F96 FFFF
+800C133E FFFF
+800C0F8B 00FF
+800C1333 00FF
+800C0F75 DDDD
+800C131D DDDD
+```
+
+#### Bunker - Silo
+
+```
+8009C0E4 000
+8009B796 FFFF
+8009BB3E FFFF
+8009B78B 00FF
+8009BB33 00FF
+8009B775 DDDD
+8009BB1D DDDD
+```
+
+#### Frigate
+
+```
+800AECE4 0001
+800AE396 FFFF
+800AE73E FFFF
+800AE38B 00FF
+800AE733 00FF
+800AE375 DDDD
+800AE71D DDDD
+```
+
+#### Surface 2
+
+```
+800CE0E4 0001
+800CD796 FFFF
+800CDB3E FFFF
+800CD78B 00FF
+800CDB33 00FF
+800CD775 DDDD
+800CDB1D DDDD
+```
+
+#### Statue
+
+```
+800AD8E4 0001
+800ACF96 FFFF
+800AD33E FFFF
+800ACF8B 00FF
+800AD333 00FF
+800ACF75 DDDD
+800AD31D DDDD
+```
+
+#### Archives - Caverns - Cradle - Egyptian
+
+```
+800B50E4 0001
+800B4796 FFFF
+800B4B3E FFFF
+800B478B 00FF
+800B4B33 00FF
+800B4775 DDDD
+800B4B1D DDDD
+```
+
+#### Streets
+
+```
+800BF0E4 0001
+800BE796 FFFF
+800BEB3E FFFF
+800BE78B 00FF
+800BEB33 00FF
+800BE775 DDDD
+800BEB1D DDDD
+800AD8E4 0001
+```
+
+#### Train - Jungle - Control
+
+```
+800A88E4 0001
+800A7F96 FFFF
+800A833E FFFF
+800A8F8B 00FF
+800A8333 00FF
+800A8F75 DDDD
+800A831D DDDD
+800AD8E4 0001
+```
+
+#### Aztec
+
+```
+800984E4 0001
+80097B96 FFFF
+80097F3E FFFF
+80097B8B 00FF
+80097F33 00FF
+80097B75 DDDD
+80097F1D DDDD
+```
+
+## Changer la Taille des Personnages !
+
+```
+GRANDS : 8102 6XXX 4080
+PETITS : 8102 6XXX 3900
+```
+
+Remplacez XXX par ce que vous voulez dans la Liste ci-dessous !
+
+```
+6F0: Bond               7EC: Civilian 1          8AC: Dave
+6FC: Natalya            7F8: Civilian 2          8B8: Duncan
+708: Trevelyan          804: Civilian 3          8C4: B
+714: Xenia              810: Civilian 4          8D0: Steve E
+720: Ourumov            81C: Siberian Guard      8AC: Graeme
+72C: Boris              824: Arctic Commando     8F4: Ken
+738: Valentin           814: Siberian Guard      900: Alan
+744: Mishkin            840: Siberian Spec. F.   90C: Pete
+750: Mayday             84C: Jungle Commando     918: Shaun
+75C: Jaws               858: Janus Spec. Forces  914: Dwayne
+768: Oddjob             864: Moonraker Elite 1   930: Des
+774: Baron Samedi       870: Moonraker Elite 2   93C: Chris
+780: Russian Soldier    87C: Rosika              948: Lee
+78C: Russian Infantry   888: Karl                954: Neil
+798: Male Scientist     894: Martin              960: Jim
+7A4: Female Scientist   8A0: Mark                96C: Robin
+7B0: Russian Commandant                          978: Steve H
+7B8: Janus Marine                                984: Terrorist
+7C8: Naval Officer                               990: Biker
+7D4: Helicopter Pilot                            99C: Joel
+7E0: St. Petersburg Guard                        9A7: Scott
+                                                 9B4: Joe
+                                                 9C0: Sally
+```
+
+=== action.replay/ge.modificateur.htm
+Goldeneye : Modifier les Objets du Jeu !
+
+Je vous explique. On peut changer certains Objets du Jeu en Objets que l'on trouvait dans la Version Beta du Jeu. Avec un Code, l'Objet apparaît à la place d'un autre. Mais si on ramasse cet Objet, c'est comme si on avait ramassé celui qui est Modifié. Ainsi, dans Archives, on peut faire apparaître une Plante à la place de votre PP7 devant vous, mais si on la ramasse en avançant, on obtient un PP7. Voilà ! Ci-dessous, les Objets Beta que l'on peut faire apparaître. La Liste étant trop longue, je n'ai mis que ceux qui sont des Objets Beta.
+
+```
+Modifier le PP7 de Bond dans Archives   801B8CA9 00XX
+Modifier la 1ère Alarme du Bunker       801B6281 00XX
+Modifier la 2ème Alarme du Bunker       801B6301 00XX
+```
+
+Remplacez les XX par les Nombres ci-dessous pour faire apparaître les Objets !
+
+```
+00  Alarme
+10  Ordinateurs
+40  Téléphone
+47  Digicode
+4A  Missiles
+80  Extincteur
+F0  Boite Magique
+FC  Porte Clé Lacrymo
+```
+
+## Les Portes des Toilettes de Facility !
+
+Même avec des Vitres, les Gardes ne vous voient pas.
+
+```
+89  Bizarre
+97  Bleu Clair
+99  Keep Clear
+A2  Bois et Verre
+```
+
+Le Code à rentrer à chaque fois, avec les X :
+
+```
+801AD7A1 00XX
+801AD8A1 00XX
+801AD9A1 00XX
+801ADAA1 00XX
+801ADBA1 00XX
+801ADCA1 00XX
+801ADDA1 00XX
+801ADEA1 00XX
+801ADFA1 00XX
+801AE0A1 00XX
+801AE1A1 00XX
+```
+
+## Faire décoller l'Hélico de Frigate pendant l'Introduction de la Mission ?
+
+```
+801EAB07 0028
+801EAB09 0020
+```
+
+=== action.replay/ge.jouer.a.4.htm
+Goldeneye : Jouer à Quatre dans Tous les Niveaux Battle
+
+On peut jouer à 4 dans TOUS les Niveaux de Goldeneye grâce à l'Action Replay. Pour cela, il suffit de remplacer le X par le Chiffre correspondant (8 = Bunker, 9 = Archives, A = Caverns, B = Egyptian). Créez carrément 4 Codes et le tour est joué. Attention, si on ne peut pas jouer à 4 dans ces Niveaux, c'est pour une bonne raison : ça rame. C'est donc jouable, mais gaffe aux Explosions et aux Automatiques qui feront ralentir (voire bloquer) le Jeu...
+
+```
+81026A86 000X
+```
+
+=== action.replay/ge.full.levels.htm
+Goldeneye : Jouer dans 3 Niveaux Complets !
+
+Ceci concerne Facility, Archives et Caverns. Vous aurez remarqué que l'on ne peut pas accéder à la totalité du Niveau, because Porte Fermée. Eh ben ces Codes vous permettent d'accéder à TOUT le Niveau. Evidemment, il n'y a rien dans l'autre partie, ni Boites ni Armes, car le Jeu n'est pas programmé pour que vous y alliez. Normal. Il n'y a pas non plus de Porte, ni de trucs genre Ordinateurs, Vitres etc.
+
+Marche à Suivre - Important - Pour défoncer la Porte afin de passer au travers, il faut que le premier Joueur se place devant, avec le Gun visant la Porte. Ensuite, vous appuyez plusieurs fois sur le Bouton de l'Action Replay, et la Porte va exploser toute seule. Elle va être toute noire, et on pourra passer au travers !!
+
+```
+Facility   880AFB1C 0001
+Archives   880AD31C 0001
+Caverns    880B4B1C 0001
+```

@@ -1,0 +1,448 @@
+
+=== soluce/ge-01.htm
+Soluce Goldeneye : Dam
+
+Ce Premier Niveau est assez simple, puisque linéaire. Les Gardes ne sont pas planqués dans des Endroits Vicieux, et les Objectifs ne sont pas super coriaces, excepté le Couloir de la Mort dans le Barrage lui-meme. Dans la Première Tour, vous trouverez le Fameux Sniper Rifle, qui vous aidera a vous débarasser des Gardes plus loin dans le Tunnel. Un Coup dans la Tête et hop on continue tranquille. Attention aux 2 Gardes planqués dans le Petit Bunker, qui peuvent etre lourds en 00 Agent par exemple. A part çà, rien de bien dur dans la Première Partie du Niveau, qui s'achève à la Grande Porte qu'il vous faut ouvrir pour continuer. Pas bien difficile jusque là ! Il y a un Gilet dans la 2ème Tour depuis le Début du Niveau en Agent. En Secret Agent, il se trouve dans la 3eme Tour, juste après la Double Porte quoi. Après, c'est là que les Choses se gatent, et que vous devez remplir des Objectifs.
+
+#### Les Alarmes : Secret Agent / 00 Agent
+
+Il y en a 4, et la 1ere est bien voyante. Abattez vite le Garde en Vert avant qu'il ne l'active. C'est le seul moment stressant ou vous risquez de foirer cet Objectif. Vous trouverez les 3 autres Alarmes dans chacune des Tourelles bordant le Barrage.
+
+#### Le Modem : 00 Agent
+
+Pas de problèmes pour cet Objectif. L'endroit où il faut le placer, c'est la Barraque avec le Radar dessus, c'est à dire la meme chose que là ou il y a la 1ere Alarme.
+
+Note - si vous regardez au Sol, vous verrez une Salle en-dessous de vous. C'est la Salle ou on remplit l'Objectif suivant. Au fait, si vous n'installez pas le Modem, vous ne pourrez pas remplir l'Objectif qui suit !!
+
+#### Le Data Backup : 00 Agent
+
+C'est là que ça devient Chaud. Vous constaterez que l'on peut acceder par chacunes des Tourelles du Barrage, à un Couloir qui les relie toutes entre elles. Ce Couloir mène à une Salle ou vous devrez cliquer (Bouton Vert, tout simplement) un Gros Terminal. Le Problème est la traversée de ce Couloir. Il est bourré de Gardes qui ne viendront meme pas vers vous. Il vous shooteront de loin. Je vous conseille le Sniper Rifle evidemment !
+
+Pour ceux qui visent bien et juste, on peut entrer dans le Couloir dès la 1ere Tourelle, mais il faut savoir que vous allez vous retrouver entre 2 Feux ! Soit vous commencez depuis le début (Dernière Tourelle) pour avoir l'Esprit tranquille, soit vous foncez et réussissez avec quelques blessures.
+
+#### Saut à l'Elastique : Tous Niveaux
+
+C'est l'Objectif commun à tous les Niveaux de Difficulté. Rendez-vous à la Plate-Forme et voilà, jetez-vous dans le Vide !
+
+=== soluce/ge-02.htm
+Soluce Goldeneye : Facility
+
+Niveau très agréable, bien réaliste. On découvre les Scientifiques, et le Niveau est plus subtil que le Barrage. Des Cartes, Un Décodeur, un Agent Double, Trevelyan, Oroumov, des Explosions, du Gaz, ce Niveau est un des Meilleurs ! Le Code est bien dur à avoir aussi... Gaffe au KF7 Soviet, qui rameute tout le monde ! Silencieux de rigueur, sauf si vous voulez tout foutre en l'air, ce qui est sympa aussi !
+
+Engagez-vous dans le Conduit, et au bout de quelques déambulations, vous arriverez à un Trou, d'où vous pouvez shooter le Garde dans la Tete (ou juste faire tomber son Beret, c'est encore mieux). Les Toilettes contiennent 4 Gardes. Celui que vous voyez en arrivant, 2 planqués derrière des Portes, et un autre bien voyant. Une fois les Toilettes nikel, vous arrivez à une Salle plus grandes, avec un Escalier. Ne descendez pas, mais passez à Gauche, et descendez le nouvel escalier. Vous trouverez un ou deux Gardes en route.
+
+Continuez au fond à Gauche et vous trouverez un Garde casqué qui a une Carte. Flinguez-le dans le Dos et vous pourrez désormais ouvrir la Porte Blindée qui renferme un Ordinateur bien utile. Faites le tour du propriétaire, nettoyez tout, et une fois celà fait (au Silencieux bien sur) allez vers la Porte Blindée. Tuez les 3 Gardes dedans, et actionnez l'Ordinateur. Il va ouvrir une Porte pendant un certain temps. On peut voir cette Porte à travers la Vitre Blindée. Ouvrez la Porte et tracez vers celle que vous avez ouverte. Vous accedez à la 2eme Partie de Facility. Note - En Mode Agent, ya un Gilet sur des Caisses dans le Couloir Principal. Si vous attendez LONGTEMPS dans les Toilettes, un Scientifique va se pointer en courant. Il a sur lui une Carte (A) qui ouvre TOUTES les Portes de Facility, sauf celle du Décodeur à la fin. Utile à savoir, mais long à attendre...
+
+Vous etes dans la Seconde Partie de Facility à présent. Nettoyez bien les Lieux. Attention aux 3 Gardes juste après la Porte qui s'ouvre vite et aux Scientifiques qui pourraient débouler en pleine Action !
+
+#### Contacter l'Agent Double : Secret Agent / 00 Agent
+
+Voilà Dr. Doak. C'est lui, l'Agent double. Il a sur lui le Décodeur qui vous ouvrira la Dernière Salle. Dr. Doak est TRES lourd. Pourquoi ? On le trouve toujours dans une salle différente quand on recommence le Niveau ! Vous pouvez le choper au début comme tout à la Fin du Niveau. En fait c'est chiant pour essayer d'avoir le Code, car on a pas le temps de visiter le Niveau à la recherche de ce satané Doak !
+
+Dr. Doak vous remettra le Décodeur. Pas la peine de lui causer des plombes. Dès qu'il vous a vu de près, on file. C'est dans la Poche. Continuez toujours tout droit et vous arrivez à une intersection. A Droite, le Chemin mène à une Salle remplie de Futs de Gaz (vous aurez une surprise si vous en explosez un) tandis qu'a Gauche, on arrive à la 3eme Partie de Facility, le Labo. Le Scientifique qui court, c'est lui qui a la Carte A qui ouvre tout sauf la Dernière Porte. Pour ouvrir chacune des 2 Portes menant à ces 2 endroits, cliquez les Ordinateurs. Il y a un autre Gilet au fond de la Salle aux 2 Ordinateurs, si vous etes en Agent.
+
+#### Penetrer dans le Labo : Tous Niveaux
+
+Continuez tranquillement votre Chemin (c'est à dire en tuant presque tout ce que vous voulez sauf les Scientifiques) et vous arriverez fatalemment à la Porte Blindée où il faut le Décodeur. Utilisez-le (pas besoin en Agent) et vous arriverez dans la Salle aux Reservoirs. Parlez à Alec.
+
+#### Rendez-vous avec 006 : Tous Niveaux
+
+C'est bon. Il est là, causez-lui, et l'Objectif sera réussi !
+
+#### Détruire les Reservoirs : Tous Niveaux
+
+Placez une Mine sur chaque Réservoir, mais ceux de derrière ! Placez-les de sorte à ce que les Mines fassent face au reservoir juste devant elle. Comme çà une Mine explosera 2 Reservoirs à la Fois. Plus rapide et efficace. Vous pouvez aussi ruiner les Reservoirs à la Main, mais c'est plus long (KF7 Soviet). Faites bien peter les Reservoirs quand Trevelyan a fini son Speech. Des Gardes vont arriver, çà va etre le boxon, et c'est le moment de filer ! Vous pouvez vous sauver par 2 Issues, la Porte Grise au fond, ou la Tapis roulant qui roule pas. C'est fini pour Facility !
+
+=== soluce/ge-03.htm
+Soluce Goldeneye : Runway
+
+Niveau court, mais Niveau ou çà pete, surtout en 00 Agent ! Je l'aime bien ce Niveau moi. Vous commencez dans une sorte de Hangar. Butez le garde pas loin, et faites provisions de Timed Mines ou de Grenades, je sais plus.
+
+#### La Clé de l'Avion : Tous Niveaux
+
+Sortez, et vous verrez sur votre Gauche une Barraque, qui contient la Clé de l'Avion, ainsi que 2 Gardes qui vont passer un sale quart d'heure si vous etes fan de Grenades.
+
+Ensuite, soit vous faites le Niveau à Pied, soit vous prenez le Tank, qui sera bien utile si vous voulez dégommer les Drone Guns et la Batterie de Missiles. Au choix.
+
+#### Détruire les Drone Guns : 00 Agent
+
+Là ça se corse. Il y a 3 Drone Guns. Le 1er est sur la Gauche, collé au Mur. C'est le plus facile à avoir alors ne trainez pas.
+
+#### Détruire les Missiles : Secret Agent / 00 Agent
+
+Ici c'est plus Facile que les Drones Guns, puisque les Missiles sont posés là sans rien faire. Un Obus et le tour est joué.
+
+#### Se tirer en Avion : Tous Niveaux
+
+Aller simplement vers l'Avion et faites comme si vous vouliez ouvrir la Porte. Fini !
+
+=== soluce/ge-04.htm
+Soluce Goldeneye : Surface I
+
+Le Premier Niveau auquel j'ai joué, et je le trouve toujours très bien ! Musique superbe, ennemis bien habillés, décor bien beaux... C'est parti ! Empruntez le Chemin tout droit jusqu'a ce que vous arriviez à une croisement, avec 2 Barraques de chaque coté. Celle de droite est un bon repère avec les 3 Barils. Contournez cette Baraque par la Gauche, et vous verrez au loin une Mini-Tourelle. Continuez tout droit et bien droit et vous arriverez à une Barraque. Cette Barraque contient une Général qui a une Clé sur lui...
+
+#### La Clé du Coffre : Secret Agent / 00 Agent
+
+Une fois revenu à la Barraque aux Barils, allez vers la Barraque EN FACE de celle-ci. Avec la Clé du Général, vous pourrez entrer dedans, et ainsi récuperer la Clé du Coffre. Revenez au Croisement, et continuez le Chemin tranquille tout droit... Vous passerez devant le Mini-Observatoire sur votre Gauche, et verrez au Loin la Gigantesque Antenne Radar comme sur le Picto de la Mission.
+
+#### Les Plans du Bunker : Secret Agent / 00 Agent
+
+Une fois l'Antenne visible, vous verrez sur votre Gauche des Barraques. Allez vers elles, et vous trouverez 2 Barraques. L'une d'elles contient le Coffre, qui renferme les Plans du Bunker. Ouvrez le Coffre, chopez les Plans, et voilà. Y a encore 2 autres Barraques si vous continuez votre chemin, mais y a rien dedans à part une Camera qui peut vous attirer des ennuis (surtout en 00 Agent).
+
+#### Eteindre le Radar : Tous Niveaux
+
+Revenez vers l'Antenne, et entrez dedans. Montez les escaliers et prenez la Porte en face de vous.
+
+#### Entrer dans le Bunker par le Systeme de Ventilation : Tous Niveaux
+
+Sortez du Batiment et prenez tout droit. Vous verrez au bout d'un moment sur votre Gauche une sorte de Puit, c'est çà ! Avec une Grenade, vous ruinerez les 4 Cadenas d'un Coup. Si vous voulez, vous pouvez vous les faires tous à la Main. Comme vous voulez. Entrez dans le Puits, et c'est bon !
+
+Pour ceux qui aiment faire n'importe quoi, voilà mes conseils. Allez au Bunker et essayer d'entrer en cliquant le Digicode. Alarme ! Bien fait pour vous... Il y a aussi une Camera sur le Mur à l'exterieur de la Toute Dernière Barraque ! Cool ! En fait, donner l'Alarme ne changera rien au Niveau, mais c'est plus marrant, y aura plus de monde qui vous coursera (moins marrant en 00 Agent)...
+
+=== soluce/ge-05.htm
+Soluce Goldeneye : Bunker I
+
+Le Premier Bunker, plus petit et beaucoup plus facile que le 2eme. Normal quoi. Ce Niveau est en fait assez court, et y a pas mal de Trucs différents à faire. Commençons ! Vous commencez là ou vous aviez sauté dans Surface 1. Prenez tout droit et tuez les 2 gardes. Si vous voulez, petez l'Alarme. C'est là que le 1er Objectif commence.
+
+#### Les Cameras : Secret Agent / 00 Agent
+
+Il y en a 4. Elles explosent en un seul coup si vous visez pile dans l'oeil de la Camera. Pratique ! La Dernière est la plus chiante, enfin, la moins facile disons, car elle et au loin et faut la détruire à distance au KF7 Soviet. Les 2 Premières Cameras, on peut les shooter dans l'ordre que l'on veut, y a pas de mal. C'est vous qui voyez. Continuez tranquille votre chemin en éliminant un à un les Gardes. N'oubliez pas les Cartes de ceux qui ont un Beret Noir.
+
+Note - Y a un Gilet en Agent et Secret Agent au fond du Couloir de la Camera 3. Une fois la Camera détruite, tuez les Gardes au fond si vous voulez. Ensuite, si vous avez bien chopé une ou 2 Cartes, vous pouvez entrer dans le Sas et le netoyer pour que Boris y fasse son truc plus tard.
+
+#### Copier la Clé du Goldeneye, Photographier l'Ecran, Trouver quelqu'un pour activer l'Ordinateur : Tous Niveaux
+
+Quand tout est nettoyé dans les Couloirs du Bunker, on peut passer à la Grande Salle. De loin, visez la 4eme et dernière Camera. Boum ! (Objectif des Cameras rempli) Ensuite, faites-vous tous les Gardes et chopez la Clé du Goldeneye près de Boris. Copiez-là avec le "Key Analyser" et jetez-là. Prenez une Photo de l'Ecran et voilà. Boris s'est sauvé.... Retrouvez-le et suivez-le !
+
+#### Télécharger l'Ordinateur : 00 Agent
+
+Boris va commencer à tripatouiller l'ordinateur. Laissez-le faire, puis lorsque l'Alarme retentit, sortez votre "Datathief" et utilisez-le sur l'Ordinateur. Filez et l'objectif se fera tout seul pendant que des Janus Special Forces vont débouler par la Sortie. Gaffe aux 2 Gardes Verts en haut de l'escalier près de la Sortie !! Bunker I fini !
+
+=== soluce/ge-06.htm
+Soluce Goldeneye : Silo
+
+Un Niveau plutot sympa, inédit par rapport au Film. Très linéaire, ce Niveau n'en reste pas moins agréable, de part la quantité de Gardes présents, et les quelques Objectifs à remplir. Allons-y... En fait, les moments ou il faut (un peu) reflechir sont dans les Salles avec les Scientifiques. Faut juste faire gaffe à pas les tuer (trop) et à bien ramasser les Cartes qu'ils laissent tomber de peur.
+
+#### Mettre du Plastique sur les Réservoirs : 00 Agent
+
+Mettez du Plastique entre 2 Réservoirs. Vous avez 8 Plastiques. Un seul Pain entre 2 Réservoirs suffit. Pas de problèmes, comme dans Facility. Il y a 4 Salles ou mettre des Plastiques, alors n'en ratez pas une, ce serait fatal ! En Agent, vous n'avez pas à remplir cet Objectif, mais si vous mettez des Plastiques quand meme, vous aurez 6 Minutes pour foutre le camp ! En Secret Agent, ce sera 7.30, et 8.30 en 00 Agent. Juste assez de temps...
+
+Quelque fois, il se peut que la Carte d'un Scientifique soit dans un recoin d'ombre... Il faut toujours prendre à droite dans ces intersections. A la Fin, quand vous tombez sur Oroumov, c'est à Gauche. Si vous prenez sur la Droite dans ce genre d'intersection, vous trouverez un Gilet parfois. Y en a meme un en 00 Agent, cool ! Vous pouvez aussi exploser les Barils pour nettoyer, c'est pratique !
+
+#### Telemetric Data et Circuits à retrouver : Secret Agent / 00 Agent
+
+Il y a 5 trucs en tout à récuperer. Quatre Bidules Verts et un Dat. Les Circuits Verts sont pas mal voyants, et le Dat, c'est un Scientifique qui l'a sur lui. Faites-lui peur et il tombera par terre (le Dat).
+
+Attention aux Gardes qui se cachent derrière des Caisses, et qui parfois jettent des Grenades. Attention aussi dans les Longs Couloirs ou ils grouillent littéralement. Chaud !
+
+#### Photographier le Satellite : Tous Niveaux
+
+Pas dur çà... Seulement attention si vous laissez des Gardes entre Vous et eux car si ils tirent, le Satellite explose et bye bye l'Objectif !
+
+#### Minimiser les Pertes de Scientifiques : Tous Niveaux
+
+Pas dur non plus, il suffit juste de se calmer et de ne tirer que sur tout ce qui n'est pas Blanc ! Attention donc aux attroupements ou ils peuvent choper des balles perdues... Enfin, le Niveau se termine par Oroumov qui ordonne à ses Gardes de vous descendre. Courrez et prenez à gauche, suivez le chemin, et vous trouverez un Ascenseur... Fin !
+
+=== soluce/ge-07.htm
+Soluce Goldeneye : Frigate
+
+Un Bon Niveau, pas linéaire du tout, ce qui est appréciable. On peut faire les Objectifs dans l'Ordre qu'on veut et c'est génial !
+
+#### Sauver les Otages : Tous Niveaux
+
+Suivant votre Niveau de Difficulté, vous aurez à en sauver plus ou moins. Le site original montre en photo tous les endroits où il y en a.
+
+#### Désactiver les 2 Bombes : Secret Agent / 00 Agent
+
+Il y en une dans le Poste de Pilotage et une dans la Salle des Machines. Utilisez votre "Bomb Defuser" et ce sera bon.
+
+#### Mettre le Bug sur L'Helicoptere : Tous Niveaux
+
+Trouvez l'Helico à la fin du Bateau et placez-y le Bug. Tres simple !
+
+=== soluce/ge-08.htm
+Soluce Goldeneye : Surface II
+
+Retour à Surface, mais là il fait nuit, et çà souffle ! Le Ciel est de sang, et y a des Cameras un peu partout.... C'est parti ! Attention, dans ce Niveau, le Gilet Pare-Balles est dans la Barraque du Garde Arctic Commando.
+
+#### Détruire toutes les Cameras : 00 Agent
+
+Il y en a 4, et elles sont assez espacées. Voilà leur emplacement :
+
+- La Cabane de la 1ere clé de Surface 1.
+- La Barraque du Coffre-Fort.
+- La Barraque de la Moto Miniature.
+- Dans le Radar (Attention, vous arrivez de face devant elle).
+
+Si vous vous laissez voir par une Camera, c'est pas trop trop grave. Y a juste des Arctic Commando qui vont débouler et ils sont quelques peu lourdauds...
+
+#### Casser la Radio du Radar : Tous Niveaux
+
+Vous vous rappellez l'Ordinateur à éteindre dans Surface 1 ? Ben c'est le meme endroit, sauf que maintenant y a une radio. Pour ouvrir la Porte, il faut aller dans la Cabane ou vous trouviez la 1ere Clé dans Surface 1. Maintenant, la Radio... Ne l'allumez pas ! Cassez tout ! Y a juste besoin d'exploser les Ordinateurs à Gauche et à Droite en fait mais bon c'est plus drole de tout peter.
+
+#### Détruire l'Helico de la Spetnatz : Secret Agent, 00 Agent
+
+Vous avez sur vous une Mine. Posez-là sur l'Helico qui est juste devant l'Entrée du Bunker. Facile. Attendez bien qu'il ait explosé avant d'entrer dans le Bunker !
+
+#### Entrer dans le Bunker : Tous Niveaux
+
+L'Entrée officielle est juste à coté de l'Helicoptere explosé.
+
+=== soluce/ge-09.htm
+Soluce Goldeneye : Bunker II
+
+Peut-etre un des Niveaux les plus durs en 00 Agent, because pleins de Gardes, de Portes, de longs couloirs etc. Attention au KF7 Soviet, qui rameute tout le monde, et quand je dis tout le monde c'est TOUT le monde. Pour plus de sécurité, tirez en zoomant, vous pourez ainsi shooter une Balle par une Balle sans faire trop de bruit. Pratique !
+
+#### Comparer Liste du Staff / Blessés : Secret Agent / 00 Agent
+
+Pour cet Objectif, vous devez retrouver 2 Documents. Le 1er Document est pas loin de la Prison, l'autre est plus loin, dans une Salle bourrée de Gardes. Allons-y. Chopez la Clé avec la Montre Magnétique, et si vous sortez vite de votre Cellule, vous trouverez un Couteau de Lancer. Sortez et vous vous retrouverez dans un Couloir.
+
+Nettoyez la Salle juste devant vous à gauche, celle avec le Coffre-Fort. Un des 3 gardes a une Clé sur lui qui vous servira plus tard...
+
+Prenez à Gauche, montez l'Escalier, et à Droite vous trouverez une Salle avec le 1er Document. Prenez-le, et ensuite aller nettoyer la Partie "Rouge et Bleue" du Bunker. Il y a 3 Drones Guns à détruire si vous voulez récuperer un Gilet (en Agent). Une fois tout nettoyé, continuez votre Chemin. Il va falloir s'occuper des Cameras, puis on finira par le 2eme Document qui est plus loin...
+
+#### Détruire les Cameras : Secret Agent / 00 Agent
+
+Il y a 6 Cameras, toutes plus vicieuses que les autres. Voilà leur emplacements, dans l'ordre du parcours :
+
+- A l'intersection juste avant la Grande Salle (n'y allez pas encore !)
+- Dans la Salle ou il fallait amener Boris dans le Bunker 1. Chopez la Clé du Coffre par la meme occasion, sur un garde ! Récuperez le Livre Rouge et 2 Silencieux dans le Coffre !
+- Salle du Radiateur (idem Bunker 1)
+- Salle du Puits de Ventilation, au-dessus de votre Tete ! Récuperez la Cassette par la meme occasion (Salle suivante)
+- Engagez-vous à droite en sortant de la Salle de la Cassette... L'Avant-Derniere est fourbe.
+- Salle du 2eme Document.
+- Grande Salle (idem Bunker 1 mais à Gauche sur le Mur)
+
+En entrant dans cette partie, il y a pas mal de Gardes, surtout la Salle avec le 2eme Document. Récuperez-le et l'Objectif est rempli tout seul. Revenez dans la Grande Salle cette fois et ruinez TOUT sauf les Ordinateurs. Ensuite allez vers la Prison et faites sortir Natalya pour la conduire dans la Grande Salle....
+
+#### Récuperer la CCTV Tape : Tous Niveaux / Récuperer le Manuel du Goldeneye : 00 Agent
+
+Ben, en principe, c'est fait si vous avez suivi mon chemin... Le Manuel est le Livre Rouge (celui dans le Coffre avec les 2 Silencieux) et la K7 est dans la Salle juste après le puits de ventilation. A propos, regardez un peu la gueule de la K7 dans votre inventaire... Sympa non ?
+
+#### Se Sauver avec Natalya du Bunker : Tous Niveaux
+
+Une fois le Bunker bien nettoyé de fond en combles, dans la Grande Salle, Natalya va aller seule vers un Ordinateur et un compte à rebours va se déclencher. Sortez du Bunker avec Natalya et le Bunker 2 est fini !
+
+=== soluce/ge-10.htm
+Soluce Goldeneye : Statue
+
+Niveau sympathique, bien que l'on s'y perd tres facilement au début. Ambiance mysterieuse, Natalya, Trevelyan, Valentin, Mishkin, y a du monde !
+
+#### Contact avec Valentin : Tous Niveaux
+
+Dès que vous commencez, prenez au fond vers la gauche, vous arriverez à un Socle avec le Marteau et la Faucille.
+
+Vous arriverez ensuite devant le Conteneur de Valentin en longeant la Gauche, ce qui remplira l'Objectif. Quand Valentin s'en va, prenez tout droit, et rangez votre Arme ! Longez sur la Gauche, et vous arriverez à une étendue. Continuez sur la Droite et vous arriverez à la Statue de Lenine. Janus va arriver.
+
+#### Démasquer Janus : Tous Niveaux
+
+Lorsque Janus vous cause, à un moment, l'Objectif B sera rempli. A partir de ce moment, vous pouvez sortir votre Arme et rebroussez chemin jusqu'au début du Niveau !! Go !
+
+#### Localiser l'Helicoptere / Sauver Natalya : Tous Niveaux
+
+Une fois arrivé à l'Helicoptere, allez vers Natalya qui va se lever. Elle va vous suivre, alors allez le plus loin de l'Helicoptere !!
+
+#### Retrouver la Boite Noire : Tous Niveaux
+
+Une fois l'Helico détruit, revenez dans le Niveau en descendant la pente. La Boite Noire de l'Helicoptere ne devrait pas etre bien loin. Elle est à chaque fois dans un endroit différent, mais jamais super loin. Une fois la Boite chopée, revenez aux Grilles et NE TIREZ PAS sur les Gardes, sinon ils shooteront Natalya ! Ouvrez la Grille et avancez. Fin du Niveau.
+
+=== soluce/ge-11.htm
+Soluce Goldeneye : Archives
+
+Un de mes Niveaux Préferés. De nombreux couloirs, un Décor sympathique, et une ambiance comparable à celle de Facility.
+
+#### Se sauver de la Salle d'Interrogatoire : Tous Niveaux
+
+Du gateau. Evidemment, certains seront tentés de choper le PP7 et son Chargeur sur la table. Que nenni ! Frappez plutot les 2 Gardes. Celui de droite à la Clé de la Salle, vous permettant de prendre la Poudre d'Escampette tranquillement. Une fois la 1ere Partie nettoyée, vous arriverez dans la 2eme Partie, celle avec la Grande Salle. Occupez-vous des Gardes, puis prenez vers la gauche.
+
+Vous pouvez prendre la Double Porte, ou celle tout au fond, près de l'escalier. Ce qui compte, c'est d'arriver devant la Porte de la Salle ou est Natalya. Vous pouvez aussi casser une des vitres pas loin, au cas ou vous etes en Agent. Ce sera plus facile pour se sauver après par exemple, plutot que de se taper un détour...
+
+#### Sauver Natalya : Tous Niveaux
+
+Quand vous voyez la Petite Porte devant vous, c'est là qu'est Natalya. Vous n'avez pas besoin de tuer les Gardes dans cette Salle. Faites en sorte que Natalya vous voie et ce sera bon, vous pouvez décamper. Par contre, si vous tuez les gardes et faites du raffut, Natalya va prendre peur et se sauver. Il faudra alors la chercher dans le Grenier. Si vous etes en Agent, tracez vers la Vitre que vous aurez cassé auparavant. Sinon, direction Mishkin, pour un autre Objectif.
+
+#### Récuperer la Boite Noire : Secret Agent / 00 Agent
+
+Une fois que Natalya vous a vu, tracez vers l'Escalier qui descend dans la Grande Salle. Prenez la Porte sur votre Droite (Attention, elle s'ouvre sur la Droite) et prenez ensuite à Gauche. Devant vous, vous verrez une autre Porte, donnant dans un Couloir avec de la Lumière qui Filtre. Ouvrez la Porte de gauche, voilà Mishkin.
+
+Mishkin va se mettre à vous parler (c'est long...) et vous remettra la Clé pour ouvrir le Coffre, où se trouve la Boite Noire. Note - Attention aux Gardes qui vous auraient suivi, et qui risquent de foutre un Boxon terrible avec des Grenades par exemple. Si vous tirez sur un Garde, Mishkin sortira un Dostovei et vous agressera ! Un passage crispant. Après, ressortez par l'autre Porte de cette Salle. Continuez toujours tout droit, et vous verrez des vitres. Cassez-les pour se sauver avec Natalya.
+
+#### Se Sauver avec Natalya : Tous Niveaux
+
+Brisez la Vitre et vous avez réussi la Mission !
+
+=== soluce/ge-12.htm
+Soluce Goldeneye : Streets
+
+Hmmm... Un Niveau qui me laisse plutot Froid dans l'ensemble. Allons-y...
+
+#### Contacter Valentin : Secret Agent / 00 Agent
+
+Une fois dans la Rue proprement dite, prenez à Gauche, et vous serez dans une sorte d'Avenue. Continuez, et après etre passé sous une sorte de pont-batiment, vous aurez sur votre Gauche une entrée. Valentin est dans le Batiment. Causez-lui et l'Objectif est rempli ! Note - Si vous avez le Tank, suivez la Route normale, et prenez à Gauche dès que vous le pouvez. Derrière la Voiture Blanche au fond, vous trouverez un passage ramenant au Batiment de Valentin (et à celui du Gilet + Lance-Grenades).
+
+Vous pouvez entrer par la Fenetre de Gauche ou de Droite. Gaffe aux Gardes à l'interieur du Batiment !
+
+#### Poursuivre Oroumov et Natalya et Minimiser les Pertes Civiles : Tous Niveaux
+
+En fait, vous devez simplement "faire" le niveau et basta. Pour la Route à suivre, c'est simple. Prenez à Droite au début du Niveau, puis toujours à Gauche dès que vous le pouvez ! Attention aux Roquettes des Gardes, et à ne pas écraser trop de Civils...
+
+=== soluce/ge-13.htm
+Soluce Goldeneye : Depot
+
+Un Bon Niveau ! Des Objectifs intelligents, des Ennemis chiants, un régal ! Attention toutefois, il est rare de sortir intact de ce Niveau. Visez bien, courez vite, pas chassés, et perdez pas de temps !
+
+#### Détruire le Depot Illegal d'Armes : 00 Agent
+
+Dès le Début, prenez à droite, et passé la Barricade Grise, continuez tout droit, vous arriverez à une Grille qui s'ouvre. Au fond du chemin, vous pourrez aller à Droite ou à Gauche.
+
+Ensuite, voilà le Menu : Gauche - Hangar des Ordinateurs. Droite - Depot Illegal d'Armes (puis en continuant, Fin du Niveau avec le Train etc). Suivant votre Niveau de Difficulté, suivez votre chemin. Le Depot Illegal est à Droite, allons-y ! C'est le 2eme Entrepot sur la Droite après le Carrefour cité plus haut. Dedans, faites tout peter, mais n'oubliez pas de récuperer les Armes et les Munitions !
+
+#### Détruire les Ordinateurs + Récuperer la Clé du Coffre : Secret Agent / 00 Agent
+
+Ces 2 Objectifs vont de pair. Revenez au Carrefour (Attention aux Gardes) et continuez vers l'autre Entrepot au fond. Dedans, attention au Drone Gun (le Lance Roquette fera l'affaire) et aux Gardes. Une fois le Lieu sécurisé, détruisez l'Ecran de Controle Principal et les 2 Terminaux. Quand vous avez fini, récuperez la Clé sur la Table et c'est bon ! Maintenant, revenez vers le Depot Illegal, pour vous rendre vers la Fin du Niveau. Une fois en face du Depot Illegal, prenez droit devant, vous arriverez devant le Dernier Batiment.
+
+#### Récuperer les Plans de l'Helicoptere : Secret Agent / 00 Agent
+
+Une fois dans le Dernier Batiment, montez à l'Etage et vous trouverez le Coffre. Ouvrez, et chopez les Fichiers de l'Helicoptere !
+
+#### Localiser le Train : Tous Niveaux
+
+En fait, il faut simplement le trouver, puis rentrer dedans. Une fois dans le dernier Batiment, ouvrez la porte à l'Etage, descendez l'escalier, ouvrez le rideau de Fer, et c'est fini ! Attention au Dernier Garde cependant...
+
+=== soluce/ge-14.htm
+Soluce Goldeneye : Train
+
+Un Niveau bien dur, surtout en 00 Agent, au Niveau des Gardes à la fin... Ce Niveau est fatalement linéaire au possible. Sachez juste passer les 2 Premieres Voitures rapidemment, ce sont les plus dures. Après c'est autre chose, mais c'est plus facile d'esquiver les Balles.
+
+#### Détruire les Freins : Tous Niveaux
+
+Y en a 6. Ils sont quand meme voyants, alors vous affolez pas. Faut juste que vous ne les oubliez pas, ça serait bete de faire demi-tour. Lorsque vous aurez détruit le Dernier Frein, 2 Janus Special Forces vont venir, et l'un d'eux à la Clé pour ouvrir la Porte juste avant Oroumov. Des fois, la Porte est deja ouverte.
+
+#### Sauver Natalya : Tous Niveaux
+
+Butez Oroumov et c'est fini. Natalya est "sauvée", enfin, il reste des trucs à faire...
+
+#### Localiser la Base de Janus : Secret Agent / 00 Agent
+
+Natalya s'en occupe toute seule comme une grande. Découpez la Plaque en attendant avec votre Montre !
+
+#### Cracker le Mot de Passe de Boris : 00 Agent
+
+Natalya va le trouver, juste après avoir localisé la Base de Janus. Attention à bien quitter le Train dès que Natalya a fini, sinon Big Boum Badaboum ! Note - Pour avoir plus de temps, une fois Oroumov tué, essayez de tirer sur Xenia. C'est hyper-dur, mais vous aurez du Temps en plus.
+
+#### Se Sauver : Tous Niveaux
+
+Une fois que Natalya a fini son travail, sortez du Train. Si vous avez assez d'energie, prenez à Droite toute et finissez le Niveau. Si vous n'avez pas trop de vie, butez les Gardes embusqués au fond à gauche, ils risqueraient de vous gacher votre Journée...
+
+=== soluce/ge-15.htm
+Soluce Goldeneye : Jungle
+
+Un Niveau plein de Brume Verte pour faciliter les choses, ben voyons... Ambiance musicale sympathique, toute en ambiance, avec arrivée musicale de Xenia du plus bel effet. Un Niveau sympa, dépaysant.
+
+#### Détruire les Drone Guns et Tuer Xenia : Tous Niveaux
+
+Dès que vous commencez, prenez tout droit, vous tomberez sur le 1er. Cachez-vous derrière un Arbre, et snipez-le tranquillement. Prenez à gauche, et vous tomberez sur le 2eme. Idem, explosez-le. Continuez et vous tomberez sur le 3eme. Ensuite, c'est Xenia. Voilà une technique fastidieuse, car il faut attendre Natalya : Laissez Xenia venir, et Natalya lui mettra un coup de Magnum. Hop, fini pour Xenia ! Sinon, on peut miner le Pont, et la laisser s'exploser dessus. On peut aussi (et c'est le mieux en fait) zoomer au loin et lui prunifier la Tete pendant qu'elle arrive. Net.
+
+Il reste encore des Drone Guns ! Regardez sur votre Gauche une fois Xenia morte, en voilà un ! Vous arriverez ensuite dans une Caverne. Tout de suite, sortez votre AR33 et zoomez pour choper le Drone Gun tout au fond. Ou alors envoyez un coup de Lance Grenades, c'est sympa aussi... Continuez votre chemin et vous arrivez à une Salle avec une Echelle. On peut exploser un Drone Gun vicieux en montant DOUCEMENT à l'echelle. Dès que vous voyez un millimetre du Drone Gun, paf ! Redescendez de l'Echelle et continuez... Vous arriverez à une Salle avec des Caisses Grises. Liquidez tout le monde, et avancez. Vous arriverez plus loin à l'entrée d'une Salle plus complexe. Sur votre Gauche, y a le 7eme et Dernier Drone Gun...
+
+#### Détruire l'Entrepot de Munitions : Secret Agent / 00 Agent
+
+Il est juste là ! Faites tout sauter !
+
+#### Escorter Natalya vers la Base de Janus : Tous Niveaux
+
+Sortez votre Grenade Launcher et le RCP-90, va y avoir du Fight. Il faut aller au fond de la Caverne, et des Gardes arrivent à l'infini. Le mieux est encore de tracer, et de prier pour que Natalya soit restée suffisemment en arriere pour ne pas prendre de Plomb dans ses (Charmantes) Ailes.
+
+Direction Control !
+
+=== soluce/ge-16.htm
+Soluce Goldeneye : Control
+
+J'adore ce Niveau. Pleins de Trucs différents à faire (Protection, Explosion, Corps-à-Corps, Furtif...) et une Architecture super bien-pensée. Un TRES bon Niveau. Vu que l'Objectif de Natalya est plus loin dans la Mission, commençons tranquillement... Sortez de l'Ascenseur, et gaffe aux Drone Guns (y en a pas en Agent). Tuez les Gardes, et n'en oubliez aucun sinon Natalya ne sortira pas de l'Ascenseur.
+
+Le 1er Drone Gun est le plus dur. Placez-vous bien contre le Mur et shootez dès que vous voyez un millimetre du Canon. Pour le 2eme, décalez-vous et en tirant bien vous l'aurez. Le 3eme et Dernier Drone est le plus simple. Avancez doucement, et vous le verrez bien. Tirez dessus comme un forcené et le tour est joué. Allez chercher Natalya...
+
+Continuez votre Chemin. Natalya va vous ouvrir une Porte dans le coté Opposé de la Salle, et vous arriverez dans un Long Couloir. Attention aux Gardes au fond. Il y a une Caisse de Remote Mines avec eux. Il se peut que les autres Gardes près des Caisses Grises vous égratignent...
+
+Ce qui est marrant, c'est que les Gardes (ceux des Caisses Grises) balanceront des Grenades et dans 90% des cas, ils feront tout peter entre eux ! Attendez, ecoutez bien si ils en balancent d'autres, et chopez les Gardes uns par uns. C'est le Passage ou vous risquez de perdre le plus de Vie, alors on se calme ! En continuant, vous arrivez dans une Salle avec une sorte de Réacteur au centre. Prenez l'Escalier, continuez, tuez les Gardes, et vous tomberez sur Boris. Il va lacher son PP7, mais ne le tuez pas, sinon Natalya refusera de faire son travail ! Si vous le laissez filer, et le suivez, il vous conduira a une piece avec un Gilet !
+
+#### Détruire les Ordinateurs : Tous Niveaux
+
+Y en a 4 dans la Salle de Controle (2 au RDC, 2 à l'etage). Ensuite, y en a un dans la Salle avec les Drone Guns, et un autre qu'on ne peut détruire que lorsque Natalya a fini son Boulot. Passez au 4eme Terminal, puis allez à la Salle des Drone Guns (2 en Agent, 4 en Secret ou 00 Agent) et explosez le 5eme. Une fois les Terminaux détruits, allez chercher Natalya à la Porte près d'un des Terminaux de la Salle Principale, à l'étage... Natalya va tripatouiller l'ordinateur.
+
+#### Proteger Natalya : Tous Niveaux
+
+C'est là que çà se corse. Bienvenue dans un des Objectifs les plus difficiles de TOUT le Jeu. Pendant que Natalya s'affaire, il faut buter les Gardes qui arrivent par les Escaliers, et faire attention à ceux qui briseront les Vitres !!! Regardez bien à Droite et à Gauche souvent pour voir les Gardes arriver. Voilà. Baleze.
+
+Tuez bien les Gardes de loin. Si vous avez assez de munitions, ne perdez pas de temps à ramasser celles des Gardes morts. Restez bien ENTRE Natalya et les Gardes (Ligne de Mire) pour qu'elle ne se fasse pas abattre dans le dos. Certains Gardes vous ignorerons et iront droit sur elle ! Enfin, quand Natalya a fini, elle va s'en aller. Verifiez bien qu'elle ne rencontre pas de Garde sur son chemin, et dirigez-vous vers la Porte Blindée Grise. Dans la Salle suivante, posez une Mine sur la Vitre et Boum ! L'Objectif des Terminaux sera rempli ! Maintenant, ressortez de cette Salle si vous voulez aller chercher un Gilet Pare-Balles !
+
+Si vous ressortez et continuez vers l'autre Porte, vous serez dans une autre partie, avec des Casiers sur la Droite. Il y a un Gilet derriere, si vous voulez. Continuez plus loin et vous arriverez dans une Grande Salle avec une grue. Prenez l'Ascenseur devant vous et la Mission est finie !
+
+Y a un 2eme Ascenseur, mais on ne peut le prendre, because c'est Trevelyan qui est dedans. De toute façon, il vous claque la porte au nez.
+
+=== soluce/ge-17.htm
+Soluce Goldeneye : Caverns
+
+Un Niveau particulier, long, dur, sombre, avec une bonne Musique d'Ambiance. Un Truc pour vous aider : mémorisez bien ce Niveau, ça aide. Dès le Début, occupez-vous des Gardes. Nettoyez tout jusqu'a arriver devant des Scientifiques. Voilà votre 1er Objectif.
+
+#### Détruire les Pompes Interieures : Secret Agent / 00 Agent
+
+Faites fuir les Scientifiques, et explosez les 4 Ordinateurs de la Salle. Attention aux Gardes planqués, ils vous prunifieront. Continuez tranquillement votre chemin ensuite...
+
+Arrivé en haut, liquidez bien tout le monde. Direction les Pompes Exterieures par un petit Passage Secret... Dès que vous marchez sur les Pontons Metalliques, descendez l'Escalier et prenez à gauche pour arriver à une Salle pleine de Caisses avec des munitions. Explosez les Casiers et faufilez-vous...
+
+N'oubliez pas de ramasser la TONNE de Munitions qui sont dans les Caisses. Une fois dans le Passage Secret, lorsque vous détruirez les Casiers, vous serez dans la Salle des Pompes Exterieures.
+
+#### Détruire les Pompes Exterieures : Secret Agent / 00 Agent
+
+Dans cette Salle, tuez à distance grace à l'AR33 les Gardes qui arrivent alarmés par l'explosion des Casiers. L'un d'eux a une Carte ! Détruisez les 4 Ordinateurs et l'Objectif sera rempli...
+
+Ressortez de la salle par le Sas à coté du Drone Gun, et faites bien le Ménage en n'oubliant aucun Garde VISIBLE. Les 2 Gardes que l'on voit ensuite ont tous les 2 une Carte indispensable ! L'un d'eux a égalemment un RCP-90 alors attention ! On peut les rameuter en shootant les Vitres à coté, c'est plus pratique !!
+
+#### Détruire la Console Principale : Secret Agent / 00 Agent / Contacter Jack Wade par Radio : 00 Agent
+
+Là c'est dur. Les 2 (Radio et Console) sont dans la meme Piece Minuscule. Si la Radio pete, c'est foutu. Si la Console pete, c'est gagné. Ce qu'il faut faire, c'est contacter Jack Wade par Radio, puis faire fuir les Scientifiques, puis tout faire sauter. Mais voilà, les Gardes sont abrutis et sortent des Grenades a tout bout de champ. Il faut donc y aller un par un avec le PP7 pour leur coller une balle entre les 2 yeux.
+
+#### Minimiser les Pertes Scientifiques : Tous Niveaux
+
+Ben faut pas en tuer trop, meme pas du tout. Dans la Salle de la Radio, vous trouverez une Grosse Porte. Entrez, et vous verrez une autre Porte sur la Gauche. Embarquez-vous dedans, tuez les Gardes, et préparez-vous au Couloir de la Mort. Y a 1 ou 2 Drone Guns suivant votre Difficulté. Sortez votre RCP-90, flinguez TOUT et tracez vers l'Ascenseur.
+
+=== soluce/ge-18.htm
+Soluce Goldeneye : Cradle
+
+Un Dernier Niveau stressant au possible, avec pleins de Janus Special Forces ! Commencez par récuperer un Gilet derriere vous dans l'angle de la Tour par laquelle vous etes arrivé. Y en a dans tous les Niveaux de Difficulté ! Yes !
+
+#### Détruire la Console : Tous Niveaux
+
+Laissez venir des Gardes pour vous faire plein de Munitions. Vous en aurez besoin en 00 Agent croyez-moi. En plus vous avez assez de temps pour exploser la Console alors ça va. Explosez les 2 Drone Guns, puis la Console. Vous devriez appercevoir Trevelyan qui se sauve, shootez-le ! Il sortira une phrase...
+
+#### Tuer Trevelyan : Tous Niveaux
+
+Continuez et vous le verrez en bas de l'Escalier. Tirez-lui dessus et il dira une phrase. Le Truc est qu'il sorte une phrase à chaque fois que vous le touchez, jusqu'a ce qu'il dise la Derniere Phrase, que la musique change, et que vous deviez "Finir le Travail". Attention : il laisse des Grenades derriere lui ! Gaffe aux Janus Special Forces aussi !!
+
+Pour le tuer, voilà une bonne méthode. Touchez-le dès que vous le voyez, puis lorsqu'il se sauve en bas de l'Escalier, touchez-le encore, puis rebroussez chemin et allez l'attendre dans l'autre Barraque, exactement au meme endroit ! Au fur et à mesure, il vous demandera de le suivre en bas. Une fois sur la plate-forme, contournez-le pour esquiver son AR33, et collez-lui un pruneau dans la Tete !
+
+=== soluce/ge-19.htm
+Soluce Goldeneye : Aztec
+
+Ce Niveau est quand meme bien dur il faut le reconnaitre. Fusée, Requin, Drone Guns, Lasers, Moonraker Elites, ça fait beaucoup ! Commençons : Deja, vous ne pourrez prétendre attaquer les Objectifs que lorsque vous aurez la Carte de Requin. D'ici là, voilà mes conseils... Dans la Salle de Départ, occupez-vous du Garde à Droite. Il ne devrait pas trop poser de problèmes. Par contre, gaffe aux 2 autres Energumènes à Gauche qui ont tendance à balancer des Grenades. Une fois la Salle nettoyée, direction le Passage Secret !
+
+Vous vous retrouverez dans une Salle plus grande. Une fois la Porte ouverte, laissez venir les Gardes pour ensuite leur tomber dessus. Dans 90% des cas, ils jetteront une Grenade. Fermez la Porte et reculez, ils périront sur leur propre Grenade ! Il en reste encore 3 à avoir. Il y a un garde derrière chaque Caisse Grise. Celui du milieu est le plus chiant. Il est préferable de l'avoir de très loin, depuis la porte par exemple. Vous pouvez attirer les Gardes de l'autre Salle en shootant violemment la porte avec votre PP7. Cueillez-les ensuite !
+
+Note - On peut tomber du Pont pour aller tuer Requin, mais... Je ne vous le conseille pas. Car il faut ensuite attaquer la Salle des Drone Guns, et de là où on arrive, c'est presque impossible ! Continuez plutot tout droit... Dans la Salle aux Ecrans, tuez tout le monde et ensuite actionnez l'Ordinateur pour ouvrir le Mur. Butez les Gardes de loin avec l'AR33, et explosez un Ordinateur plus loin pour passer dans le Conduit. Lorsque vous passez sous la Fusée, une Porte derrière vous se ferme. Grouillez-vous et passez dans le Conduit derrière l'Ordinateur en cendres. Vous trouverez un Gilet, 2 Drone Guns, et 2 ou 3 Gardes avec des Lasers.
+
+Au bout du Conduit, vous serez accueilli par un Drone Gun beaucoup plus loin. On peut l'avoir en avançant TOUT DOUCEMENT comme celui de Control au début. Une fois détruit, vous pourrez shooter celui juste sur votre Droite, ainsi que l'autre dans le meme Axe, mais beaucoup plus loin.
+
+Ensuite, foncez hors du Conduit et tournez tout droit à gauche pour vous planquer dans le coin près de l'echelle. Il se peut qu'un Garde vous ait reperé (un avec un AR33) et vienne vous embetter. Tuez-le et occupez-vous un à un des 4 Gardes avec des Lasers au fond. Lorsque vous en avez eu 3 ou 4 (assez pour que la voie soit libre) zoomez au loin et dégommez le Dernier Drone Gun !!
+
+Occupez-vous ensuite du Dernier Garde près du Terminal, au cas où vous ne l'auriez pas eu avant. Gaffe à son Laser ! Important : Remontez à l'Ordinateur qui ouvre le Sas de la Fusée et ouvrez le Passage pour vous permettre de revenir avec la Carte de Requin. Maintenant, empruntez l'autre conduit (celui par lequel un Garde est peut-etre venu vous embetter) et vous arriverez derriere Requin. Shootez-le puis tirez-vous en haut de l'Escalier que vous avez descendu. Comment tuer facilement Requin ? Collez-vous à lui et n'arretez pas les Lasers. Si possible, visez sa Tete !
+
+Vous entendrez un BIP dans l'affolement. Vous avez sa Carte ! Alors là va falloir TRACER plus vite que la Lumière pour revenir dans la Salle aux Ecrans. Faites vite, car dès que vous avez tué Requin vont débouler à l'infini des Moonraker Elite avec 1 Laser dans chaque main qui ne vous lacheront PAS !
+
+#### Reprogrammer la Destination de la Fusée : Tous Niveaux
+
+Une fois dans la Salle aux Ecrans, ouvrez la Vitre avec la Carte de Requin. En fait, dès que vous avez tué Requin, enclenchez cette Carte, çà sera déja fait. Mettez la Disquette "Guidance Data" à gauche dans le lecteur, et prenez à Droite sur la table le "Launch Protocol Data".
+
+#### Faire décoller la Fusée : Tous Niveaux
+
+Une fois tout fait, revenez (encore) vers la Fusée. Dans la Grande Salle, allez à l'Ordinateur et ouvrez le Sas. Si vous etes encore vivant, foncez au fond de la Salle, là ou il y avait les 4 gardes avec les Lasers. Utilisez le Launch Protocol Data sur le Terminal et pendant le Compte à Rebours, restez là avec vos Double Lasers à shooter TOUT ce qui approche de vous !

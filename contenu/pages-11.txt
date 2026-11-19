@@ -1,0 +1,503 @@
+
+=== beta/pd.beta.06.htm
+Perfect Dark Version Beta : G5 Building
+
+Pas beaucoup d'images pour ce Niveau, mais les voici quand meme. Une Photo montre clairement un Garde portant un Bonnet. Comme pour les Civils de Goldeneye, Rare a du au début utiliser des Personnages temporaires pour ensuite les relooker. Il y avait des Vitres dans la Pièce de Départ.
+
+La Porte dans le fond d'une Image est différente. Enfin, une dernière image nous montre un curieux texte "Picked up something" (Vous avez ramassé quelque chose). Ca ne peut pas etre un Magnum, vu que Joanna en a deja un.
+
+=== beta/pd.beta.07.htm
+Perfect Dark Version Beta : Zone 51 Infiltration
+
+Il y avait à l'origine des Roswells dans cette Mission. Certains étaient de votre coté, d'autres non. De plus, il semble que les Missions Infiltration et Sauvetage étaient reliées dans un seul et meme Niveau. Vous deviez sortir de la Zone avec Elvis avec une Armée de Roswells aux fesses ! On reconnait aisément Elvis sur une des Photos... Notez également les Barres de Munitions bizarres (voir Section [Munitions](pd.beta.munitions.htm)).
+
+On voit aussi le Garde permettant d'avoir les Doubles Magsec 4, que l'on trouve beaucoup plus loin dans la Mission, sortant d'une Salle en Contrebas. Il y a 2 Hoverbikes ! De plus, ils sont à l'exterieur. Certainement un rapport avec le Mode Coopératif ? Sur une autre Photo, il manque la Grosse Porte sur la Droite.
+
+Il manque la Sentinelle. C'est une des Sentinelles les plus lourdes du jeu, et Rare a du la rajouter pour rendre le Niveau plus dur ! Pas d'Intercepteurs dans les Boxes. Meme détruits on les voit normalement. Notez le ZMG 9mm au Sol (Section [Armes](pd.beta.armes.htm)).
+
+Il manque une Porte, du moins on le dirait. Une autre Porte est carrément ouverte ! Normalement on ne peut PAS ouvrir cette porte. C'est celle qui sert à Joanna à la Fin de la Mission Evasion quand elle prend le Hoverbike. Notez les Gardes dans la Salle... Bizarre ! Le Texte de Jonathan apparait plus tard. Normalement, on l'entend dans l'Ascenseur juste avant.
+
+Encore un Truc n'apparaissant pas dans le Jeu. Je suppose qu'il apparaissait dans cette Mission, vu le Coloris et la Texture. Entrez le Code `811EED4C 0136` et `811EEDF4 0136` !
+
+=== beta/pd.beta.08.htm
+Perfect Dark Version Beta : Zone 51 Sauvetage
+
+Rien à se mettre sous la Dent pour ce Niveau, si ce n'est 2 Photos, qui parlent d'elles-memes. La Première montre un Cyclone. La Deuxième montre le Slayer (Guidage Radio) en Deuxième Fonction. Cette Arme ne se trouve pas dans le Code "All Guns" et on peut en déduire qu'elle se trouvait quelque part au début du Niveau.
+
+Cette Mission n'existait apparemment pas au Début. Elle était combinée avec Infiltration (voir [Infiltration](pd.beta.07.htm)).
+
+=== beta/pd.beta.09.htm
+Perfect Dark Version Beta : Zone 51 Evasion
+
+Pas grand-chose non plus pour cette Mission. Sur une Photo, pas de Gaz Vert, c'est tout ! Sur une autre, Elvis est plus Petit que dans la Version Finale. Et il a une Arme ! Enfin, sur la Dernière Photo, Elvis et Joanna sont dans les Douches !
+
+=== beta/pd.beta.10.htm
+Perfect Dark Version Beta : Air Base
+
+Rien de Génial, juste une Caisse Métallique !
+
+=== beta/pd.beta.11.htm
+Perfect Dark Version Beta : Air Force One
+
+Le Mr. Blonde ne se trouve pas à cet endroit normalement. Et Joanna a un Dragon dans la Mission.
+
+=== beta/pd.beta.14.htm
+Perfect Dark Version Beta : Vaisseau Cetan
+
+Sur les 4 Photos montrant l'entrée du Niveau, on voit bien que les Graphistes ont bossé ! Elvis n'est pas avec Joanna sur la Cinématique. Enfin, une Photo nous montre le Niveau avec un Eclairage Rouge, et des Lumières différentes.
+
+=== beta/pd.beta.15.htm
+Perfect Dark Version Beta : Institut Carrington
+
+Pour commencer, une des toutes Premières Photos de Développement du Jeu, avec une superbe Joanna. Notez la Porte Ouverte dans le Fond avec rien derrière. Les Vitres en haut ont également changé.
+
+Il manque la Porte menant au Stand de Tir, et les Armes de Goldeneye sous verre. Notez aussi que Joanna a des Doubles Falcon 2. Des Escaliers remplacent les Ascenseurs. Enfin, le Coffre-Fort est différent.
+
+=== beta/pd.beta.16.htm
+Perfect Dark Version Beta : Vaisseau Skedar
+
+La Porte est différente dans la Version Finale. Des Textures et des Eclairages quelque peu différents...
+
+=== beta/pd.beta.17.htm
+Perfect Dark Version Beta : Ruines Skedar
+
+Joanna avec un Mauler : Rare l'a probablement remplacé par un Reaper, que l'on trouve un peu avant. La Salle du Chef Skedar n'a pas trop changé je crois.
+
+Dans la Salle juste avant, un Garde Mort sur le Sol (Je me demande bien ce qu'il fout là !) Vous avez remarqué ? Il porte un des Casques disponibles en Battle ! Celui que l'on voit au Début du Retour du Jedi (le Chasseur de Primes qui amène Chewbacca). Notez aussi l'Absence de Capsules d'ou sortent les Skedar !
+
+Il y a 2 Superbes Images de Soldats Roswells, et 4 Photos du Ciel montrant les différentes teintes qu'il avait. Personnellement, j'adore celle avec le Ciel Brun ! Une Photo montre Joanna debout. Après avoir tué le Chef Skedar sans doute ?
+
+Enfin, 3 Images viennent du Battle. On reconnait clairement l'Arène Skedar. Mais que font là les Roswells ? Un Challenge ?
+
+=== beta/pd.beta.coop.htm
+Perfect Dark Version Beta : Coopératif
+
+Joanna était le Simulant par défaut, avant que n'arrive Velvet certainement. On reconnait facilement notre chère Joanna sur les 3 Photos.
+
+=== beta/pd.beta.gadgets.htm
+Perfect Dark Version Beta : Gadgets
+
+#### Tester - Datathief - Bug
+
+Le Bug est la Mine ECM, et le Datathief, le Récepteur (ou Data Uplink en VO). Le Testeur est surement le Scanner (voir plus bas). Notez que l'on trouve dans Goldeneye un Datathief (Bunker 2). Code de Wreck7 : remplace certaines Armes du Temple en Testeur !
+
+```
+801DC62C 0033
+801DC7E4 0033
+801DC99C 0033
+801DCB54 0033
+```
+
+La "Night Vision" se nommait "Night Sight".
+
+#### Scanner Infra-Rouges
+
+Pas de "Jumelles" par dessus l'écran, mais une vue à la Rayons-X ou Farsight XR-20.
+
+#### Data Thief
+
+C'est tout simplement l'Ancien Nom du Data Uplink (Récepteur en VF).
+
+#### Cam Spy
+
+Le Nom est différent : Eyespy !
+
+#### Combat Boost
+
+Le Nom est "Speed Pill" (Pilule de Vitesse) et la 1ère Fonction est "Boost".
+
+#### Chrono
+
+Il n'était pas tout à fait au meme endroit sur l'Ecran.
+
+#### Scanner
+
+Le N64 Magazine nous dit que c'est un Objet capable de révéler l'utilité d'une Chose. Ici, à propos d'Elvis, le Scanner nous dit "Objet inanimé - Attention - Peut Exploser si on tire dessus". Rien de bien génial, et donc l'objet fut viré. Dans la 1ère Mission à la limite, l'Objet nous aurait dit ou exploser le Tuyau pour trouver le Fromage (voir [Les Fromages](../mysteres/pd-cheese.html)).
+
+## Objets et Décors inutilisés dans le Jeu
+
+Quand vous entrez ces Codes allez dans Felicity juste à coté des Toilettes en haut et vous trouverez ces Trucs marrants...
+
+- Un Ordinateur de Goldeneye !! `811EED4C 0018` et `811EEDF4 0018`
+- Un Coffre à la Zelda... (même code que ci-dessus sur le site original)
+- Des Boucliers Beta ! L'un gicle du Garde (comme dans le Vrai Jeu), l'autre ressemble à ceux de Goldeneye. En plus au niveau Scénario c'est crédible, les Shields que l'on connait n'étant qu'en construction dans la Mission suivante ! `811EED4C 0182` et `811EEDF4 0182`
+- Une Chaise, probablement de chez Datadyne ! `811EED4C 0172` et `811EEDF4 0172`
+
+=== beta/pd.beta.simulants.htm
+Perfect Dark Version Beta : Simulants
+
+Certains Noms de Simulants ont été changés par la suite. Evidemment, celà concerne la Version US, et devrait en interesser peu d'entre vous...
+
+Il y avait à l'origine 12 Simulants portant ces noms en Avril (Source EGM) : NormalSim, PacifistSim, RevengeSim, VendettaSim, CowardSim, PredatorSim, KamikazeSim, ShieldSim, FistSim, TurtleSim, RocketSim, CheetaSim.
+
+En Mai, la Liste change quelque peu (Source Nintendo Power) : PeaceSim, ShieldSim, RocketSim, KaziSim, FistSim, PredatorSim, CowardSim, JusticeSim, VendettaSim, CheetahSim, TurtleSim, RevengeSim.
+
+Et voici comment les Noms ont changé :
+
+- PacifistSim devient PeaceSim
+- KamikazeSim devient KazeSim
+- PredatorSim devient PreySim
+- VendettaSim devient FeudSim
+- CheetaSim devient SpeedSim
+- RevengeSim devient VengeSim
+- JusticeSim devient JudgeSim
+
+=== beta/pd.beta.entrainement.htm
+Perfect Dark Version Beta : Entraînement
+
+Cette toute petite Page montre 3 Photos sans grande importance, mais les voici pour le plaisir. On voit le Petit Carré Rouge, signe que l'on pouvait agresser ses Collègues de l'Institut...
+
+Une Image montre une Cible Beta. Bien qu'elles aient été changées, vous pouvez toujours en voir une dans le Niveau Datadyne 2 - Investigation. C'est la Cible sur laquelle s'entraîne un Garde avec le K7 Avenger. Oubli ou Volontaire ? Je penche pour volontaire, pour se démarquer des Cibles de l'Institut Carrington, et marquer une Différence.
+
+=== beta/pd.beta.armes.htm
+Perfect Dark Version Beta : Armes
+
+#### DY357-LX
+
+Au début, Trent Easton (qui se trouvait dans le Niveau Datadyne 1 - Defection en tant que Garde) portait un Cougar Magnum et non un DY357-LX comme plus tard. La Photo est un peu floue je vous l'accorde, mais on lit bien "Picked up a Cougar Magnum".
+
+#### K7 Avenger
+
+Avant qu'il ne change de nom, le K7 Avenger s'appelait simplement "Avenger". On le voit écrit au dessus de la Mention "Threat Detector" !
+
+#### ZMG 9mm
+
+Une Arme de Goldeneye, dont le Nom fut changé (ZZT pour etre exact). On lit "Picked up a ZMG 9mm", et un ZMG est sur le sol devant Joanna. La forme est reconnaissable, comme un T.
+
+#### Tranquilliseur
+
+Là je fais confiance à Subdrag ! Il y a sur une photo 11 noms d'armes. La 10ème est censée se prénommer "Drug Gun", qui deviendra plus tard le fameux - et jouissif - Tranquilliseur ! En 8ème position, on voit aussi les Couteaux de Lancer (Throwing Knives) qui deviendront les Couteaux de Combat (Combat Knives). Peut-etre qu'il y avait 2 sortes de Couteaux, et que le Système de Double Fonction les a réunis.
+
+#### Arbalète
+
+Ici, la 1ère Fonction est DRUG, et non SEDATE (Version US evidemment).
+
+#### Dragon
+
+Avant, on commençait le Niveau avec un Dragon au lieu du Falcon 2. Le Dragon avait une Fonction "Lock-On" comme le CMP 150 (voir le Carré Rouge, surement l'Hélico - qu'est-ce qu'il fout là dans le premier Niveau ?!?), et aussi une Visée à la Farsight XR-20 ! Trop puissant ? Un peu trop, oui !
+
+#### AR34
+
+Deux AR34 !! En plus la photo est de TRES Bonne qualité. Je pense que Rare a enlevé cette Possibilité tout simplement parce qu'un AR34, çà se porte à 2 Mains !! Un peu comme les RCP-90 et AR33 de Goldeneye.
+
+#### Slayer
+
+Le Joueur en bas à Gauche porte le Slayer au dessus de son Epaule. Rare a du modifier cette idée car la majorité des Joueurs sont Droitiers, comme Joanna dans la plupart des Photos ou elle apparait.
+
+#### Remote Mine
+
+Avant les Mines avaient la meme allure que celles de Goldeneye.
+
+#### Farsight
+
+Le Farsight a souvent changé. Au Début, le viseur était normal (Croix Verte). Après, lorsque l'on avait une cible, un Carré Rouge (à la Cmp150) entourait le malheureux, et enfin, on pouvait "Locker" sa cible en appuyant sur C-Droite pendant qu'on visait !!
+
+#### Ancien Lance-Roquettes
+
+Il faut un Action Replay ou un Gameshark, et rentrer ces Codes trouvés par Wreck dans le Temple. Certaines des armes deviennent l'ancien Lance-Roquettes. L'aspect n'est sensiblement pas le meme. Voici le Texte original de ces Codes : "Les Roquettes se déplacent sans exploser et finissent par tomber au sol. On peut meme les ramasser et les re-tirer."
+
+```
+801DC62C 0034
+801DC7E4 0034
+801DC99C 0034
+801DCB54 0034
+```
+
+#### Armes de Goldeneye
+
+Les anciennes Armes de Goldeneye sont toujours présentes, mais on ne peut pas avoir 2 RCP-90. Un Joueur tient un ANCIEN Cougar Magnum, meme si c'est difficile à voir. Il y a aussi l'ancien Sniper, beaucoup plus sobre. Les Noms des Armes de Goldeneye ont été changés car Rare n'a plus le Copyright. Ainsi, Facility = Felicity, Klobb = Klo1313 (13 = B !).
+
+=== beta/pd.beta.facemapping.htm
+Perfect Dark Version Beta : Facemapping
+
+Merci aux Magazines suivants pour les Photos : Nintendojo, Nintendo Power, PDCentral, N64 Magazine. Toutes les Images sont des vraies trouvées avec le Gameshark. En fait, ces Codes ne font qu'afficher les Messages qui auraient du apparaître dans ce Fameux Menu qui devait permettre aux Joueurs de prendre une Photo de leur Tête avec la Game Boy Camera, puis de la placer sur un Personnage Multiplayer du Jeu !
+
+Un Ecran publié par IGN montre le Menu Beta de Perfect Dark. Sur la Gauche se trouve le Menu Perfect Head, et sur la Droite le Menu Inventory. Remarquez également que les Menus Face-Mapping et Coopérative / Contre-Opérative sont là en meme temps. Ceci prouve qu'on pouvait avoir les 2, et que Rare mentait en prétendant qu'on ne pouvait avoir qu'un seul des Deux. Pour savoir pourquoi Rare a RÉELLEMENT retiré le Face-Mapping, rendez-vous aux [Mystères](../mysteres/pd-battle.html). L'Ecran des Options fut rebaptisé plus tard Inventory. Notez également le "Save Game" en bas.
+
+Le Joueur devait scanner son Visage avec la Game Boy Camera...
+
+Voici maintenant le Code pour afficher ces Messages avec le Gameshark ! Les Trucs s'affichent à l'Ecran comme par Magie !! Code `8009EDF8 00XX` (XX = entre 01 et 10, pour les Différents Messages) en Basse Résolution. Ca prouve que tout n'a pas disparu de la Cartouche... Ca laisse rêveur...
+
+=== beta/pd.beta.battle.htm
+Perfect Dark Version Beta : Battle
+
+Il y avait 5 Emplacements au lieu de 6. Il manque la Partie "Handicaps", et une Photo montre le Mode "Touch That Box".
+
+D'autres Photos montrent que l'on pouvait jouer avec les Armes de Goldeneye.
+
+La Zone 51 !! Rien que çà ! Ca aurait été une super Arène non ? Je pense toutefois qu'on pourra un jour la débloquer avec un Code Action Replay...
+
+Il existe aussi 2 Photos du Grid avant Relookage. Il y avait des Tableaux aux Murs dans Felicity ! Le Radar a quelque peu changé, et les Ordinateurs (Mode PC Hacker) ont bien changé, ainsi qu'un Drapeau !
+
+=== beta/pd.beta.munitions.htm
+Perfect Dark Version Beta : Munitions
+
+L'affichage des munitions a beaucoup évolué pendant le développement :
+
+- Pas de Barres, juste le Nombre de Munitions. Les Barres étaient peut-etre en option ?
+- Les Barres à Droite, et les Nombres à Gauche !
+- Les Barres presque au Milieu, et les Nombres tout à Droite.
+- Les Barres arrondies au Sommet, avec une Troisième Barre, probablement l'Energie.
+- Les Nombres enfin sous les Barres.
+- Finalement, les Barres se chevauchent, et le Carré de Fonction fait son apparition.
+
+=== beta/pd.beta.divers.htm
+Perfect Dark Version Beta : Images Diverses
+
+Ces Images n'ont rien de particulier, mais on les met quand meme car ce sont des images de Développement ! Les 3 Dernières sont superbes.
+
+=== mysteres/ge-barrage.htm
+Mystères de Goldeneye : Dam
+
+Vous trouverez dans cette Partie presque tous les Mystères qui entourent le Barrage ! Pour plus de renseignements sur le Barrage, il y a la [Section Beta](../beta/index.htm) où on en apprend plus sur les Objectifs supprimés, les Objets disparus etc. Y a aussi pleins de Codes [Action Replay / Gameshark](../action.replay/index.htm).
+
+## L'Ile Perdue
+
+De tous les Niveaux de Goldeneye, le Barrage est certainement le plus vaste, juste après Surface peut-etre. C'est aussi le Niveau ou on trouve un GRAND Lac, avec au fond une Petite Ile qui ne sert plus à grand-chose. Le site original montre en images ce que beaucoup ne peuvent pas voir, faute d'Action Replay. Vous trouverez en Bas des Codes au cas ou vous voudriez aller voir par vous-meme.
+
+On peut aussi grimper dans la Tour pour admirer le Paysage, même si y a pas grand chose à voir. Les images avec Bond ont été faites avec le Debug Mode, qui permet de se déplacer HORS du Corps de Bond. Ahurissant, et celà sert dans pas mal de Niveaux vous verrez ! Note - En fait, on ne peut pas monter dans la Tour. On peut passer au travers de TOUT ce qu'il y a sur l'Ile. Et avec un coup de Moonjump, on a de belles vues.
+
+Le Drone Gun de l'Ile ne fonctionne plus, comme on s'y attendait. Ca aurait été une Pure Fourberie de la part de Rare de virer l'Ile du Jeu en laissant branché le Drone Gun, non ? Quoiqu'il en soit, on peut penser que Bond aurait du le détruire par exemple, comme dans Runway ! On peut aussi zoomer sur l'Ile depuis le Barrage, si le Temps n'est pas trop brumeux.
+
+Deux Photos concernent les Objectifs retirés. Le Premier était de faire comme dans le Film, c'est à dire plonger du Barrage, puis sortir le Piton-Gun pour s'accrocher au Ciment tout en bas. Dans la Version Finale, il suffit de sauter et c'est fini. La Deuxième Photo nous montre le Flare-Pistol, qui sert à tirer des fusées éclairantes, ainsi que le Bungee, qui est en fait l'Elastique. Avec un Gameshark, on peut en fait changer les Noms des Armes et accéder aux Objets retirés de la Version Finale (juste leur Nom dans l'Inventaire) pour déduire ce qui se passait dans la Version Beta.
+
+## Choses Diverses
+
+#### Le Garde Aveugle
+
+Si vous tracez dès le Début vers la Fin du Tunnel, vous tomberez sur un Garde avançant tranquillement sans vous voir ! Evidemment, si vous commencez à lui tirer dessus, il va vous remarquer et agira comme n'importe quel Ennemi !
+
+#### Le Garde Désarmé
+
+La même chose, mais en allant plus loin vers la 1ere Alarme, vous verrez un Garde désarmé ! Il ne fera rien du tout si vous essayez de lui tirer dessus, contrairement aux Gardes de Perfect Dark qui peuvent agir à mains nues...
+
+#### Le Camion Rouge
+
+Avec le Gameshark, on peut faire apparaitre un autre Camion. Il est Rouge, et roulera comme le Vert jusqu'a son point d'arrêt juste après le Sas.
+
+#### Le Camion Vert
+
+Beaucoup de rumeurs sur ce Camion, que l'on devait faire sauter afin de récuperer le Fameux Elastique pour la Fin du Niveau.
+
+#### Le Bateau
+
+Avec l'Action Replay / Gameshark, on peut faire apparaitre plein de Trucs à la place du Camion Vert au Début. Ici, c'est un Bateau Vert avec une Etoile Rouge. A mon humble avis, on devait l'utiliser pour rejoindre l'Ile au Fond du Lac et compléter un Objectif.
+
+#### L'Entrée de Facility
+
+A la fin du Niveau, vous sautez dans le Vide. Maintenant, avec le Code qui supprime les Cinématiques de Fin, on atterrit tout en bas, et qu'est-ce qu'on voit ? L'Entrée de Facility ! Comme dans le Film ! A l'Origine, on devait sauter et utiliser le Pistolet Piton (Piton Gun) afin de s'accrocher...
+
+#### La Tour N°1
+
+Si vous notez bien les Numéros des Tourelles du Barrage, vous trouverez la Tour 2, 3 et 4. Mais où est la 1 ? Peut-etre celle au Fond du Lac...
+
+## Conclusion
+
+Pour un Premier Niveau, tous ces Objectifs, ça faisait un peu trop. En plus des Objectifs Normaux, on devait récuperer l'Elastique dans le Camion du Début, aller sur l'Ile pour choper le Piton Gun, détruire le Drone Gun de l'Ile pour que l'Avion ne se fasse pas exploser 2 Niveaux plus tard, puis sauter et réussir le Coup du Piton Gun à la Fin. Pas trop essoufflé ça va ? L'Ile reste donc plantée là, le Drone Gun ne marche plus, et on peut récuperer les Noms des 3 Objets virés de ce Niveau.
+
+Avec d'autres Codes, on peut aussi faire apparaitre le Bateau servant à aller sur l'Ile. Je pense qu'il n'y a plus trop rien à dire sur cette Histoire. Personnellement, j'aurais bien aimé récuperer tous ces Objectifs dans le Mode 007, c'est à dire le Niveau de Difficulté au-dessus de 00, bien dur et bien costaud, avec des Objectifs tout partout !
+
+## Codes
+
+- Enlever les Cinématiques de Fin (Cartouche) : `8002BED0 FFFF`
+- Enlever les Cinématiques de Fin (Emulateur) : `80030980 FFFF`
+- Sauvegarde avec Bond sur l'Ile (Project 64) : [Télécharger](../sauvegardes/goldeneye.ile.barrage.zip)
+
+Pour utiliser la Sauvegarde, lancez le Jeu Goldeneye avec l'Emulateur, puis faites Système > Charger > Choisissez la Sauvegarde, et voilà ! Pensez à vous créer un Dossier Sauvegardes...
+
+=== mysteres/ge-silo.htm
+Mystères de Goldeneye : Silo
+
+Le Silo de Goldeneye est particulier, puisqu'il possède tout pleins de Zones d'Ombres. Cette Page répondra peut-etre à certaines questions que vous vous posez... Vous trouverez ici tous les Mystères entourant ce Niveau Sympa, Classique, Linéaire, mais bourré de trucs plus ou moins bizarres, comme vous allez le découvrir.
+
+## La Valise et la Clé d'Oroumov
+
+Oroumov possède une Clé et une Valise dans ce Niveau. Normalement, on ne peut pas les récuperer, puisque ce Fourbe se sauve dès que vous l'approchez à la fin du Niveau. Mais si vous etes Invisible, il ne bougera pas. Par contre, si vous voulez la Clé et la Valise, va falloir une Arme dorée (Golden Gun ou Gold PP7) et à vous les 2 Objets Mystérieux ! Ces 2 Trucs sont des Objets de la Version Beta qui ne servent plus à rien (hormis la Clé qui ouvre un Toit du Silo). On peut voir la Valise dans l'Inventaire, mais la Clé apparait comme un Tiret.
+
+## Le Toit du Silo qui s'ouvre !
+
+Le Toit d'un des Silos à Missiles peut etre ouvert mystérieusement ! Mais celà ne changera rien à la Mission, ne vous attendez pas à voir décoller la Fusée ! Dans la Version Beta, après la Deuxième Salle de Fuel, on pouvait ouvrir le Toit du Silo (et éventuellement faire décoller un Missile).
+
+Pour ouvrir le Toit, il faut la Clé d'Oroumov. Mettez-vous invisible et flinguez-le avec le PP7 Doré. Il ne bougera pas lorsque vous arriverez si vous etes Invisible. Une fois Mort, vous aurez une Clé, qui dans l'inventaire s'appelle " _ ". Choisissez la Clé comme Arme, et revenez 2 Salles de Fuel plus loin. Une fois la Deuxième Salle passée, continuez tout Droit dans le Couloir jusqu'à un Silo à Missile. Regardez en l'Air, et en appuyant sur B, le toit devrait s'ouvrir. Marrant, celà dit je n'ai jamais réussi à le faire... Detstar, lui, y est arrivé (images sur le site original).
+
+## Un Conduit, un Ascenseur et des Portes !
+
+Cette partie est un peu spéciale. C'est la Traduction d'une page disponible sur le Site de Detstar. Je l'ai appelée le Voyage de Detstar car c'était assez marrant de le voir déambuler dans le Silo à la Recherche de ce foutu Ascenseur qu'on voit dans une Ancienne PUB de Goldeneye ([Télécharger la pub](Goldeneye%20-%20Silo.mpeg)). Pour ceux qui voudraient essayer ces Codes, je rappelle que pour transformer un Action Replay en Gameshark, il suffit de posséder une N64 US, un Jeu Goldeneye US, et un Action Replay Européen. C'est celui que j'ai et ça marche.
+
+#### Le Voyage de Detstar
+
+Voici le Fameux conduit d'Aération que l'on peut voir au tout début du Niveau, juste après là où il manque la Rambarde. Avec un Sniper Rifle, on voit bien que le passage continue plus au fond, et que ce n'est pas une simple Grille. Ce Conduit servait dans la Version Beta, et a été enlevé. Il y a un autre Endroit sans rambarde : Dans la Salle de Droite juste quand vous arrivez à Oroumov.
+
+Avec un Code Gameshark, on peut commencer le Niveau EN-DESSOUS de là ou on commence normalement. Et là qu'est-ce qu'on voit ? Une Echelle, qui devait surement etre collée là où il n'y a pas de rambarde. L'Echelle est là, mais on ne peut pas y grimper. Elle a juste été déplacée pour qu'on ne la voit pas (juste en dessous de vous !).
+
+Avec ce Code, on peut bien évidemment circuler autour du Missile et approcher du Fameux Conduit ! Malheureusement on ne peut pas y entrer. On peut tout juste voir au fond... Un cul-de-sac. A quoi pouvait servir ce Conduit ? Je pense que c'était le Point de Départ Original du Niveau. Et Bond devait grimper à l'Echelle pour ensuite prendre à droite etc.
+
+Je ne sais pas si çà a à voir avec le Conduit, mais il y a un Plancher Circulaire juste au-dessus auquel on ne peut PAS accéder. Et y a une Porte !!! J'ai marqué la Porte de Peinture, puis j'ai exploré le Silo. Et en fait, l'endroit ou je l'ai retrouvée est la Salle à Droite d'Oroumov.
+
+Ensuite, avec le Gameshark, on peut commencer le Niveau DIRECTEMENT sur le plancher circulaire en question. La Porte est fermée, et tout ce qu'il y a à faire, c'est de quitter le Jeu.
+
+Il y a un autre Plancher Circulaire inaccessible dans le Silo ! Juste après la 2eme Salle de Fuel, tournez à Gauche. Ce qui est chelou, c'est qu'il y a un Garde sur ce Plancher !!! J'ai marqué la Porte et le Garde de peinture, comme çà si je croisais l'un ou l'autre, je le saurais. Mais je n'ai rien trouvé... A moins que...
+
+Gameshark !! On peut commencer directement sur le Plancher ! Attention, le Garde réagit cette fois et vous tire dessus, donc etre Invincible n'est pas un Luxe. Comme pour l'autre Plancher, la Porte est Fermée, et meme le Code Action Replay pour passer au travers ne fonctionne pas. Galère...
+
+J'ai essayé le Code pour TOUT détruire dans le Niveau (il y en a aussi pour les autres Missions) mais derrière la Porte se cachait une AUTRE Porte, et cette fois-ci bien fermée !!! Le Problème, c'est que l'autre Porte fait drôlement penser à une entrée d'Ascenseur, avec les Bandes Jaunes et Noires. Que faire ?!
+
+Commencer au fond du Conduit directement ! Avec un autre Code, on peut apparaitre ici, mais on peut juste se promener et pas sortir vers là où on commence le Niveau normalement. Dans le Fameux Conduit, on trouve également un tout petit Passage qui tourne vers la Droite. Bizarre, on dirait une sortie non ? J'ai tenté de traverser les Murs avec le Code mais les Graphismes disparaissent au fur et à mesure que l'on avance.
+
+Enfin, si on regarde tout en haut du Conduit, on voit un long Conduit, comme celui de Facility, mais avec l'Apparence de celui d'Archives (Salle où est Natalya).
+
+## Codes et Sauvegardes
+
+- Sauvegarde sous l'Endroit où on commence : [Voir Image](silo.endroit.1.jpg)
+- Sauvegarde Première Passerelle Inaccessible : [Voir Image](silo.endroit.2.jpg)
+- Sauvegarde Deuxième Passerelle Inaccessible : [Voir Image](silo.endroit.3.jpg)
+- Sauvegarde dans le Conduit du Début (Attention ça Bugue) : [Voir Image](silo.endroit.4.jpg)
+
+Les sauvegardes sont téléchargeables sur le site original. Pour utiliser une Sauvegarde, lancez le Jeu Goldeneye avec l'Emulateur, puis faites Système > Charger > Choisissez la Sauvegarde, et voilà ! Pensez à vous créer un Dossier Sauvegardes...
+
+=== mysteres/ge-citadel.htm
+Mystères de Goldeneye : Citadel
+
+Citadel était un Niveau de Test, qui fut retiré du Jeu quand Goldeneye sortit en 1997. On ne sait comment les Rumeurs sont arrivées, mais des Joueurs ont commencé à parler de ce Niveau, dont le Nom était dans la Mémoire de la Cartouche. Rareware répondit que c'était un Niveau de Test, et qu'il n'était plus du tout dans le Jeu, ce qui ne découragea pas les plus Acharnés à le trouver via l'Action Replay / Gameshark. Beaucoup d'Images truquées circulèrent, et finalement, en Juin 2005, un Joueur du Nom de Zoinkity sortit un Patch qui permit de retrouver ce Niveau, et même de jouer dedans en Battle !
+
+Pour savoir comment ça marche, contactez-moi ! En attendant, le site original montre pleins d'Images du Niveau !!! De mon coté, je n'arrive pas à faire apparaitre le Ciel... Les images proviennent du Merveilleux Site [GoldeneyeForever](http://www.goldeneyeforever.com) ! Il existe aussi une [vidéo du niveau Citadel](../presentation/videos.htm).
+
+=== mysteres/ge-casino.htm
+Mystères de Goldeneye : Casino
+
+Il y avait à l'origine bel et bien un Niveau dans le Casino du Film. Il fut remplacé par le Silo, car le Casino s'avérait facile et ennuyeux. Le Niveau arrivait juste avant Frigate, comme dans le Film. On rencontrait également Xenia, ce qui donnait plus de sens à ce qu'elle dit dans la Jungle : "CETTE FOIS, tout le Plaisir sera pour moi".
+
+Dans le Jeu, ce devait être le Premier Endroit où on la rencontre. Il parait qu'on trouvait dans le Casino les Civils N° 5, 6 et 7. Il n'y a que les 4 Premiers dans le Battle. Pour les retrouver, voir la [Section Action Replay](../action.replay/index.htm).
+
+Il y a d'autres Rumeurs de Gardes du Casino qui sont dans votre Camp, et une Bombe à désactiver. Enfin, on doit photographier Xenia (en Costume de Soirée ?) pour l'identifier. Tout un Niveau perdu !! Mais bon, tout ça c'est juste des Rumeurs, si ça se trouve tout a été inventé par des Fans.
+
+Il reste 3 Objets en fait, que l'on peut retrouver comme pour le Piton Gun du Barrage. Comme d'habitude, c'est du pur Gameshark / Action Replay. Mettez un des Codes ci-dessous, tuez le Premier Garde du Barrage, ramassez son Arme, et elle sera en fait l'Objet dont vous aurez rentré le Code ! Amusez-vous bien !
+
+- **Lingot d'Or** : `801D9258 004F`
+- **Argent** : `801D9258 004E`
+- **Micro-Camera** : `811FA522 0030`
+
+=== mysteres/ge-allbonds.htm
+Mystères de Goldeneye : All Bonds
+
+Dans la Version Beta, on pouvait jouer avec les autres Acteurs incarnant Bond ! Malheureusement, pour des Raisons de Droits, ils ont disparu du Jeu. On peut toutefois retrouver leurs Photos, leur Tête et leur Costume dans le Jeu avec l'Action Replay ! Rendez-vous à la Section [Action Replay](../action.replay/index.htm) et à la page [All Bonds](../beta/ge.beta.all.bonds.htm) de la section Beta !
+
+Le site original propose aussi une [vidéo de Sean Connery en Battle](Goldeneye%20-%20Sean%20Connery.mov) !
+
+=== mysteres/ge-variete.htm
+Mystères de Goldeneye : Variétés
+
+#### Le SEUL Garde avec un PP7 !
+
+C'est bizarre, mais le seul Garde avec un PP7 est dans le Bunker 1. Pourquoi a-t-il un PP7 alors que c'est une Arme typiquement Anglaise, et réservée à Bond ? Mystère...
+
+#### Xenia et Helicopter Pilot dans Frigate
+
+Dans le Briefing du Niveau Frigate, il est suggéré que Xenia soit sur le Bateau. Quant à Helicopter Pilot, il aurait été logique de le trouver dans ce Niveau non ? Et bien non, ni l'un ni l'autre ne sont dans le Niveau. Rare commente en disant effectivement que c'est "suggéré"...
+
+#### Zones inaccessibles
+
+Dans Goldeneye, il y a pas mal d'Endroits où on ne peut pas aller (Portes Fermées etc). Voici une Collection d'Endroits Inaccessibles, ou Mystérieux, comme l'Observatoire de Surface :
+
+- Une Porte dans Archives qui ne sert à rien.
+- Deux Portes sur le Pont de Frigate : elles mènent juste à un Balcon Fermé. Il faut le Code pour passer à travers les Portes pour accéder à ces Balcons.
+- La Porte au Début de Dam, et le Rideau de Fer au Sol sous le Radar.
+- Les Tourelles dans la Jungle.
+- Les Portes de Runway. A priori, elles ne mènent pas au Barrage, vu qu'on est carrément pas au meme Niveau. Celle de Gauche pourrait donner sur une Salle de Facility. Celle du Milieu, on sait pas trop. Celle de Droite pourrait mener à une Salle où un Garde contrôle le Drone Gun.
+- La Dernière Porte du Train.
+- Et enfin, l'Observatoire de Surface ! Pourquoi y a-t-il des Barils explosifs dedans ?
+
+#### Crash Bandicoot dans Aztec
+
+Le plus Drôle des Mystères ! Il semblerait (et c'est meme certain) que Rare ait mis une image de Crash Bandicoot dans le Jeu sur une Table de Torture. Vrai ou Faux ? En regardant bien, on voit Crash debout. Son visage est tourné vers la Droite, et ses bras sont écartés, tenus par des chaînes. Ses pieds sont aussi enchaînés aux 2 Branches de la Table. On voit bien les 2 Pieds de la Table de Torture, ainsi qu'une sorte de Roue en dessous. Ca ne m'étonnerait pas que Rare ait mis Crash dans le Jeu histoire de défendre leur Bébé à eux, à savoir Banjo-Kazooie, qui est un peu similaire dans la forme... On trouve ce Pilier dans la toute 1ere Salle du Niveau Aztec !
+
+#### Véhicules
+
+A l'origine, dans Runway, on devait utiliser une Moto pour courser l'Avion et faire comme dans le Film : rattraper l'Avion et grimper à Bord. Mais comme çà posait un problème de Jouabilité, Rare a enlevé cette Option... En tout cas, il vous reste le Personnage Biker en Battle qui confirme ce Mystère... Sinon, vous pouvez retrouver une Miniature de la Moto dans un des 2 Niveaux de Surface. Cherchez bien... Enfin, il y a pas mal de [Véhicules](../beta/ge.beta.vehicules.htm) qui n'ont pas servi dans le Jeu, mais qu'on peut faire apparaitre à la Place du Camion Vert du Barrage.
+
+#### Les Codes NO NAME
+
+A l'Origine, lors de la Version Beta, Rare avait mis plus de Codes dans le Jeu. On peut faire réapparaitre ces Codes, mais ils ont tous le meme nom "NO NAME" alors qu'ils ont des effets différents. On peut les faire revenir avec l'Action Replay (voir la page [Cheats Beta](../beta/ge.beta.cheats.htm)) :
+
+- **Extra Characters** : Les 64 Personnages sans avoir a faire le Code !
+- **Maximum Ammo** : Munitions au Maximum, pas Infinies !
+- **Line Mode** : Mode Fil-de-Fer !
+- **Super 2X Health** : Double Energie !
+- **Super 2X Armor** : Double Gilet !
+- **Extra Weapons** : Armes Supplémentaires ?
+- **Super 10X Health** : Dix fois plus d'Energie !
+- **Invisible (Multi)** : Invisible en Battle !
+- **Debug Mode** : Pour tout bidouiller dans le Jeu !
+
+=== mysteres/pd-cheese.html
+Mystères de Perfect Dark : Les Fromages
+
+Dans Perfect Dark, si vous cherchez bien à certains Endroits, vous trouverez des tout petits bouts de Fromages. Que font-ils là ? Réponse : Lorsque Rare développait le Jeu, les Programmeurs ont pensé à remplacer le Système d'obtention des Codes. Dans Goldeneye, il fallait réussir une Mission sous un certain Temps. Cette fois-ci pourquoi ne pas trouver des Fromages Cachés, comme les Skulltulas dans Zelda 64 ? L'Idée était originale et renouvelait la Chose, mais les Programmeurs ont finalement enlevé cette Idée, se rabattant sur le Système Goldeneye. La Question est : Pourquoi ont-ils enlevé ce Système ? Réponse ci-dessous.
+
+Le Système de Codes de Goldeneye était révolutionnaire dans le Sens ou il fallait vraiment mettre ses Tripes dans le Jeu pour avoir certains codes (quitte à péter les plombs pour certains). Depuis, Rare a donné une liste de Manipulations à faire pour avoir ces Codes en Trichant, mais à l'Epoque (1997 - 1998) rares étaient ceux qui pouvaient se vanter d'avoir des Codes tels que Invincible, Invisible, ou Silver PP7. Ces Codes avaient acquis une Dimension Mythique.
+
+Maintenant imaginez-vous en train de jouer à Perfect Dark. Vous avez le Jeu depuis une semaine. Vous trouvez le Fromage adéquat et HOP ! Vous avez le Code pour être Invincible. Trop facile non ? Et voilà : Rare a préféré remettre l'Ancien Système. Et les Pauvres Fromages restent là à traîner un peu partout dans le Jeu !! Ce Système ne plait pas à tous car certains joueurs n'aiment pas recommencer 957 fois une Mission pour avoir un Code, et c'est tout à fait compréhensible.
+
+Cependant, Rare a acquis avec le Temps une Réputation Inégalée chez les joueurs de Nintendo, et ils ont (avaient) l'Habitude de faire des jeux qui durent, quitte à froisser certains joueurs qui ne peuvent en profiter à fond, comme Goldeneye avec son fameux Code Invincible. Par exemple, avez-vous trouvé tous les Ballons dans Diddy Kong Racing ? Presque tous les Jeux de Rare sont des Merveilles de Durée de Vie pour qui aime ruiner un jeu à 100% et les Programmeurs ne veulent certainement pas se placer dans l'optique d'un Turok ou il suffit de rentrer des Passwords et vas-y que je te finis le Jeu en 10 minutes avec toutes les Armes et en étant Invincible… Bref, c'est parti pour les Emplacements des Fromages ! Petite Note : Il existe des Missions se déroulant dans un même Niveau (Zone 51, Immeuble Datadyne). Pour ces Missions, le Fromage sera au même Endroit, quelque soit la Mission.
+
+#### Datadyne Defection
+
+Pour trouver le Petit Fromage, il faut quelque chose qui explose, une Grenade ou un Lance-Roquettes, n'importe quoi. Descendez du Toit, entrez dans la 1ère Salle, celle où il faut poser la Mine ECM. Explosez le Gros Tuyau juste à droite. Il y aura un Passage qui vous conduira à une petite Salle ou vous trouverez un Petit Fromage, posé dans une niche entre Deux Grilles de Ventilation.
+
+Dans la Mission Extraction, vous trouverez un Dragon dans cette même Salle. Si vous avez ce Dragon, tuer les Gardes du Corps de Cassandra sera bien pratique, mais pour avoir ce Dragon, il vous faut la Carte de Bureau de Cassandra de Vries ! Depuis cette Salle Secrète, vous pouvez même voir l'Hélicoptère qui fait sa Ronde. Le Tube dans lequel vous descendez correspond en fait à une Gaine de Ventilation que l'on peut voir depuis l'Héliport, avec les Grosses Hélices.
+
+#### Datadyne Investigation
+
+Quand vous etes dans le Grand Couloir d'où on peut accéder aux Salles d'Expériences, allez tout au fond à Gauche. Une fois dans la Salle, entrez dans la Salle secrète derrière puis au Sol vous devriez voir un Plancher en Verre. Le Petit Fromage se trouve en dessous, bien au chaud.
+
+#### Carrington Villa
+
+Une fois dans la Cave, arrêtez-vous au Deuxième Etalage et regardez ce qui traîne dessus… Un Petit Fromage ! Remarquez qu'ici au moins il est à sa place dans une Cave bien humide.
+
+#### Chicago - Streets
+
+Pour plus de Facilité, prenez le Mode « Contre-Opérative ». Celui qui contrôle Joanna devra tuer un par un les Gardes (et l'autre Joueur se laisse faire) jusqu'à ce que celui qui contrôle les Gardes réapparaisse tout à coup dans… Une Boite de Strip-Tease !
+
+C'est le « Punk Pond » (ou Pond Punk, c'est selon), et il est complètement vide à l'exception des Toilettes et d'un Falcon 2 posé sur un Comptoir. Allez donc regarder dans une des Pissotières et vous verrez un bout de Fromage. Le Joueur contrôlant les Gardes pourra facilement ouvrir si Joanna veut entrer, car la Porte d'Entrée est fermée de l'Intérieur.
+
+#### Chicago - G5 Building
+
+Allez dans la Salle où il y a l'Ordinateur, celle avec le Plafond penché. Nettoyez la Salle puis trouvez le conduit d'Aération. Regardez en biais vers le fond à droite du conduit et vous le verrez. Il ne manque que les Rats.
+
+#### Zone 51
+
+Le Fromage est dans la Partie intérieure, bien plus loin, dans les Douches. Marchez sur la Poutrelle Métallique, continuez, zoomez au loin, et voilà !
+
+#### Air Base
+
+Allez tout au bout du Début du Niveau. Mettez-vous au bord du vide, puis regardez tout en bas à Gauche dans la Rivière en Zoomant avec votre Scanner ou Sniper.
+
+#### Air Force One
+
+Dans la même Pièce que celle renfermant la Capsule Présidentielle, il y a des Tuyaux et des Bonbonnes. Regardez donc parmi tout ce Bazar et vous trouverez le Fromage le plus facile à trouver de tout le Jeu !
+
+#### Crash Site
+
+Dès le Début du Niveau continuez tout droit puis à droite pour arriver à l'Avion. Puis, à Droite de l'Avion, regardez dans la Crevasse entre la Montagne et le Monticule de Neige collé à l'Avion.
+
+#### Pelagic II
+
+Passez la première Porte puis continuez dans le Hall et nettoyez-le. Ensuite, regardez à travers la Grille au Sol près de la Porte menant au Générateur. Vous verrez mieux le Fromage si vous shootez la Lumière.
+
+#### Deep Sea - Cetan Ship
+
+Au Début, regardez par la Vitre sur la Gauche et vous l'apercevrez au Loin gisant sur le Sable. On le verra beaucoup mieux avec un Sniper Rifle.
+
+#### Institut Carrington
+
+Au Début, vous remarquerez que la Porte Sombre est ouverte. Passez-la et regardez au-dessus de l'encablure de la porte, sur le Toit. On le voit mal, mais il y a un moyen de mieux le voir. Revenez en Mode Institut Carrington et allez dans le Hangar. Prenez la Caisse Volante et emmenez-la au Stand de Tir. Attention il va falloir faire vite !
+
+Ouvrez les Portes en Bois DE L'INTERIEUR puis courez au Stand de Tir en plaçant la Caisse de sorte qu'elle bloque la Porte Vitrée. Prenez le Slayer, en Bronze pour avoir plus de Temps, puis tirez au dehors. Guidez votre Missile à droite en sortant du Stand de Tir puis suivez votre chemin jusqu'à l'Extérieur. Une fois dehors, dirigez votre Missile vers l'endroit en question et vous le verrez beaucoup mieux. Evidemment, en passant à travers les Murs et avec le Moon-Jump, c'est beaucoup plus simple !
+
+#### Skedar Assault Ship
+
+Quand vous arrivez dans la Salle avec les Soldats Maians, allez dans la Salle située à droite quand vous faites face à l'Ascenseur. Regardez à travers la Vitre Givrée au Sol et vous devriez le voir, bien au Frais.
+
+#### Skedar Ruins - Battle Shrine
+
+Quand vous avez détruit les 3 Piliers, prenez votre chemin en grimpant à l'échelle dans le Canyon. Continuez et vous arriverez à l'endroit où il faut détruire le mur avec le Devastator. Au lieu de le détruire, trouvez la Salle qui se trouve à droite quand vous arrivez. Explorez un peu et vous trouverez un Petit Tunnel avec au Fond une Fissure. En regardant bien vous verrez le Fromage. Comme quoi les Skedar en mangent aussi.

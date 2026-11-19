@@ -1,0 +1,485 @@
+
+=== battle/pd/pd.skedar.html
+Battle Perfect Dark : Skedar
+
+C'est un peu le Nouveau Temple de Perfect Dark. Trois grands espaces reliés par des Couloirs assez sombres. La Grande Salle avec les 4 piliers (et l'Arme au milieu) est bien Sympa, puisque tout le monde se jette sur l'Arme, qui est - en général - la Meilleure du niveau. Les 2 Grandes Salles remplies de neige sont assez vicieuses pour viser, du fait des pentes...
+
+La Salle avec les 2 Balcons est un Modèle de fourberie (qui me rappelle le Complex), surtout avec des Grenades ou des Roquettes. Le long Souterrain qui court sous le Niveau est bien pensé, contrastant avec les grands espaces juste au dessus, permettant de se cacher un moment de l'Action. On se repère bien, du fait de la diversité des Zones (grandes, petites, couloirs) et des Eléments du Décor (Obélisques, Neige, Obscurité, Balcons).
+
+Un très bon Niveau en somme, qui convient à tous les scénarios, aux Snipers comme aux Bouchers. Le Niveau Standard, placé comme il se doit, en première position dans le choix des Arènes.
+
+#### Les Simulants
+
+Dans les Niveaux à grands espaces, les Perfect ou les Dark Sims ne ratent presque pas leur cible, puisqu'ils visent en permanence votre position sur le Radar. Attention donc à ne pas trop traîner dans la Grande Salle aux 4 Piliers, le nez en l'air, sous peine de Balles dans le Dos.
+
+#### Les Armes
+
+Toutes les Armes conviennent. Le Niveau est assez grand pour le Farsight, assez aéré pour les Roquettes ou Grenades, contient de bons endroits d'où l'on peut Sniper en Mode "Pan t'es Mort !". Les Armes Automatiques de Grande Tuerie (AR34, K7, Cyclone…) sont à la Fête, avec de longs couloirs pour vider son Chargeur en toute quiétude. Au Niveau du Laptop, les Salles sont assez grandes pour y installer une Sentinelle dans un coin (ou tout simplement au milieu !)…
+
+#### Le Camping
+
+Le campeur aime bien un des 2 recoins situés de part et d'autre de la Salle avec le Grand Obélisque. Il y a un petit recoin d'ou l'on peut voir venir l'ennemi d'assez loin (mais attention a l'escalier sur la gauche !) et un autre ou l'on peut se cacher derrière le petit Obélisque. La Grande Salle enneigée avec un Trou à sens unique où l'on atterrit dans le souterrain est pas mal aussi, puisque toute personne entrant sera vue de loin. Le Campeur claustrophile aura eu la bonne idée de parsemer l'encablure de l'entrée de la Salle avec des Mines, ou un Laptop, Dragon…
+
+Le Balcon qui n'a qu'un seul escalier est sympa, et présente le même potentiel de Camping que celui du Complex, sauf qu'ici l'Escalier est plus large. Des Grenades tirées directement en bas de l'escalier feront l'affaire, ou des Mines, selon la Fourberie du Campeur. Le Campeur Technique se baissera derrière le Muret du Balcon et sortira son Farsight. La suite vous la connaissez.
+
+=== battle/pd/pd.ravins.htm
+Battle Perfect Dark : Ravins
+
+Un Niveau ou on trotte pas mal, et où les Points de repères sont quasiment inexistants. Le Plan est pourtant simple, mais ce Niveau se révèle finalement assez dur. Il se compose de Grandes Allées plus ou moins fines, et de diverses Salles assez larges pour la plupart. Pas mal d'escaliers, un Tuyau (comme dans le Niveau du même nom) et un Gros Rocher Volant faisant office d'Ascenseur. Quelques Caisses traînent par-ci par-là, histoire de remplir le Décor...
+
+Le Décor est pas mal, ni beau ni franchement laid. En fait ce qui me chiffonne, c'est ce Coté Carré. Je m'explique. Prenons le Niveau Caves de Goldeneye. On est censé etre dans une grotte, et le Niveau s'en ressent : Cavités, Tunnels, tout semble taillé dans la Roche et on se prend vraiment à déambuler dans une Grotte ! Alors que là çà ressemble à tout sauf à un Ravin ! Meme si ce n'est qu'un Nom !
+
+En fait j'ai l'impression que nos petits Gars de chez Rare ont fait un Niveau, et qu'au moment de mettre une Texture ils ont mis cette Fausse Roche histoire de varier les Plaisirs. Mais ça fait faux ! C'est trop finement taillé ! Regardez-moi donc ce plan taillé au peigne fin !
+
+Mis à part ce Coup de Gueule, quelques Eléments rehaussent le Niveau comme ces Sols en Treillis Métalliques, ce Tuyau, quelques éclairages... Rien à dire sur les Simulants. Toutes les Armes se valent, mis à part peut-etre les Roquettes qui sont un peu trop lentes pour des Endroits aussi vastes. Le Slayer peut etre agréable pour aller chercher un Ennemi situé trop loin. Le Farsight XR-20 est l'Arme Absolue pour ce Niveau car c'est celle qui va le plus loin !
+
+Le Campeur a un Vide. Les Salles sont bien trop grandes, les Couloirs également, et il n'y a finalement aucun endroit ou on peut etre tranquille !!
+
+=== battle/pd/pd.warehouse.htm
+Battle Perfect Dark : Entrepôt Warehouse
+
+Ce Niveau est bien interessant. Déja graphiquement, il est sympathique car assez fouillé (néons, ambiances colorées, architecture) et le Plan est bien pensé. Comme pour le Complex ou Tuyaux, on trouve des éléments variés, ce qui augmente la Jouabilité : pontons, escaliers, conduits d'aérations, hangar exterieur, salle centrale (classique) et bien sur, les fameuses échelles qui en énervent plus d'un.
+
+A noter un truc complètement facultatif mais que j'adore : quand on est dans la partie à l'exterieur, sur le petit toit, on peut observer le toit de la Salle Centrale. C'est un des rares moments ou on peut voir l'apparence "exterieure" d'un niveau, que ce soit en mode Solo ou Battle !
+
+#### Les Simulants
+
+Rien de bien particulier, si ce n'est que dans les couloirs vous ne pouvez pas les manquer. Attention aux espaces à plusieurs niveaux comme la Salle Centrale, ou ils auront l'avantage si vous etes plus haut ou plus bas qu'eux, comme d'habitude.
+
+#### Les Armes
+
+Toutes les Armes se valent dans ce niveau. Ceux qui utilisent des explosifs peuvent en profiter pour miner les couloirs étroits, mais attention aux grands espaces (hangar, entrepots) qui profiteront aux Armes Traditionnelles.
+
+#### Le Camping
+
+Le Campeur averti ira se placer dans la Partie Conduits d'Aérations où il pourra sagement attendre les Pigeons. Attention cependant car cette partie possède 3 Entrées, ce qui rend vos chances de Camping plus que vulnérables, surtout si les adversaires connaissent bien le niveau. Gaffe aux Simulants dans ce cas-là !
+
+Une autre alternative est de se placer dans la Salle juste en-dessous des Conduits d'Aération, qui ne possède que 2 Entrées plutot minces (et donc pratiques si vous avez une petite envie de Mines...) Attention car un Joueur Fourbe peut débouler directement d'en haut pour vous gratter le crâne, et si vous etes en train de rêvasser devant une des 2 entrées, çà ira très mal !
+
+Enfin, la Salle aux Pontons est bien pour le Camping, mais c'est du Camping plutot agité et là on casse un peu la Tradition du Campeur immobile. Il s'agit de se placer dans n'importe quel coin, et de distribuer du Plomb à tout hasard. Vous pouvez alors vous diriger vers un autre coin si vous en avez envie, l'effet sera le même. Tranquille.
+
+=== soluce/index.htm
+Soluces Mode Solo
+
+Les soluces complètes des missions solo de Goldeneye et de Perfect Dark, objectif par objectif, dans tous les niveaux de difficulté.
+
+{toc-ge}
+
+{toc-pd}
+
+=== beta/ge.beta.01.HTM
+Goldeneye Version Beta : Dam / Barrage
+
+Le Barrage reste le Niveau qui a subi pas mal de changements. Au Départ, il devait etre trop compliqué pour un Premier Niveau. D'abord, le Camion Vert : au Départ, on devait l'exploser, c'était un Objectif. Dedans se trouvait l'Elastique vous servant à sauter. Le Camion reste là, et sert maintenant de "Guide" pour vous amener dans la Suite du Niveau, aux Portes Coulissantes. Une image de la Montre de Bond montre que le Dernier Objectif (sauter) est completé. Mais comment peut-on réussir cet objectif et continuer à jouer dans le Barrage ?! Ca n'a pas de sens !! Et bien en fait, on devait sauter, puis entrer dans le Conduit menant à Facility !
+
+Sur l'image du Dossier, on voit les Objectifs en Secret Agent. On notera qu'on n'a pas à faire le Data Backup ni le Modem dans le Jeu Final. Peut-etre que les Objectifs concernant l'Ile étaient-ils en Agent 00 ? Il y a aussi le Mysterieux Rideau de Fer censé abriter les Mines servant à faire sauter le Camion. On suppose que le Commandant Russe avait sur lui la Clé de Contact pour le Bateau. Pour faire apparaitre le Bateau à la Place du Camion Vert, c'est par [ici](ge.beta.vehicules.htm) !
+
+Une Rare Photo montre l'Agent Double vous donnant la Clé : le Commandant Russe !!
+
+Des Photos de Plaques d'Egouts laissent penser que les Gardes devaient les emprunter comme vous, mais qu'il y avait quelques Bugs, comme lorsque les Gardes descendent des Tours du Barrage et qu'ils se tapent un Saut de 3 Metres tranquillement.
+
+Avec le [Debug Mode](../action.replay/ge.debug.htm), on peut voir l'Entrée Cachée de Facility que l'on ne peut plus voir dans la Version Finale, et à quoi elle ressemble vue de dessous. On peut aussi couper les [Cinématiques](../action.replay/ge.cinematiques.htm) pour voir la suite, et même faire [apparaitre](../action.replay/ge.modificateur.htm) des Alarmes Beta !
+
+=== beta/ge.beta.02.HTM
+Goldeneye Version Beta : Facility
+
+Les Objectifs de Facility n'ont pas changé apparemment, mais au Niveau des Armes, y a eu des petites modifications. La Salle qui a le plus changé visuellement, c'est la Salle des Reservoirs que l'on fait sauter à la Fin. Il y avait 2 Niveaux de Reservoirs, donc 2 fois plus de trucs à faire exploser. Y avait des Scientifiques dans cette Salle, et Bond avait un D5K Deutsche ! De plus, les Mines sont des Timed Mines, comme dans le Film !! Réaliste au possible !!
+
+Il y avait des Portes Beta, qui font plus ressembler Facility à une Base Militaire qu'à un Laboratoire. On peut faire [apparaitre](../action.replay/ge.modificateur.htm) ces Portes. Le Plafond a aussi changé, et est devenu plus Gris. Notez la présence du Laser...
+
+Il y a aussi un truc à savoir : on voit souvent sur les Photos Beta des Soldats avec le Visage de celui qui a une Cicatrice sur la Figure. C'est parce que Rare utilisait le meme Modele pour TOUS les Soldats pendant les Tests du Jeu. Dans la Version Finale, le Jeu comptabilise TOUS vos couteaux à droite et non "1 en main, 5 en Réserve" comme sur les Photos Beta. On y voit aussi le Lance-Roquette Beta !
+
+=== beta/ge.beta.03.HTM
+Goldeneye Version Beta : Runway
+
+Pour commencer, la Moto. Bond devait la conduire et poursuivre l'Avion comme dans le Film, mais Rare l'a enlevée. En principe, si on raisonne comme dans le Film, un Garde devait sortir en Moto des Grandes Portes Coulissantes. Au lieu de ça, lorsque Rare testait le Tank dans Streets, ils ont voulu le mettre dans un autre Niveau. Runway fut alors choisi, puisque la Moto avait été virée. De plus, le Tank est beaucoup mieux avec ses Obus pour exploser les Mitrailleuses non ? Il semble évident que le Personnage de Battle "Biker" devait être un des Gardes conduisant la Moto... Pour faire apparaitre la Moto, c'est par [ici](ge.beta.vehicules.htm) !
+
+=== beta/ge.beta.04.HTM
+Goldeneye Version Beta : Surface
+
+Il semblerait qu'il n'y ait pas eu de Grands Changements dans Surface si ce n'est quelques Teintes, et la Couleur de la Brume. Au Niveau des Objectifs, ça reste la meme chose apparemment. Les comparaisons entre images Beta et Version Finale montrent un PP7 NON-Silencieux, une autre couleur du Ciel, le Beta-Tazer, l'absence d'échelle et de Grillage, une Neige un tout chti peu plus claire dans la Version Finale, et une Antenne Radar qui semble avoir changé de place.
+
+Une Photo montre beaucoup de Gardes avec des Sniper Rifles, ce qui est rare (ils ont plutôt des Klobbs dans la version finale). La teinte des Portes du Bunker a changé, passant d'un gris pâle à un subtil bleu-gris. Il existe enfin une Photo Beta du Niveau vu de Haut !
+
+=== beta/ge.beta.05.HTM
+Goldeneye Version Beta : Bunker
+
+Pas grand-chose à se mettre sous la dent, si ce n'est quelques Images... L'une montre le Bunker, et Bond a un Laser ! Ceci confirme la Théorie comme quoi cette Arme était assez présente dans le Jeu au Début. Une autre montre l'ancien KF7 Soviet (voir [Armes Beta](ge.beta.armes.htm)) avec la Cible, mais PAS de Zoom !! La Crampe que ç'aurait été sans Zoom !! Une troisième montre la Cinématique de Début, sauf que Bond a son Costume, pas la Combinaison Noire de la Version Finale.
+
+Dans le Bunker 1, on a des Russian Soldiers, et dans le Second des Arctic Commandos. C'est simple à retenir pour voir dans quel Bunker a été prise la Photo. Avec le [Debug Mode](../action.replay/ge.debug.htm), on peut visiter le Fameux [Bunker Vide](../action.replay/ge.empty-bunker.htm). En fait, il semblerait que le Costume de Bond de ces photos ait été un des Premiers à avoir été créé, et il apparait donc sur beaucoup de Photos Beta. On peut aussi faire [apparaitre](../action.replay/ge.modificateur.htm) des Alarmes Beta !
+
+=== beta/ge.beta.06.HTM
+Goldeneye Version Beta : Silo
+
+Le Silo est particulier. Une Image montre Bond utilisant le Laser. Apparemment le Laser était TRES utilisé dans la Version Beta. Un Comparatif Avant / Après montre que les Ailes du Satellite ont changé. Le KF7 a changé de Look : on voit pas mal d'Images Beta avec l'Ancienne Allure de cette Arme, qui a du etre changée vers la Fin. Notez que les Gardes portent des KF7 de la Version Finale.
+
+Des Images montrent qu'il existait un Mini-Monte-Charge (ou Ascenseur, appelez-le comme vous le voulez) que l'on devait emprunter. On voit une structure Métallique (l'Ascenseur) courant sur la Gauche. Aucun doute !
+
+Il y a Quatre Silos dans ce Niveau. L'Ascenseur se trouvait dans le Silo où l'on commençait. Il y a 2 Silos comportant des Missiles. Le Premier Silo (4-H4) est celui avec le Conduit de Ventilation Caché. Le Deuxième Silo, celui où on est censé pouvoir ouvrir le Toit (je n'ai jamais réussi à le faire), est le 4-C3. Pour l'ouvrir, il suffirait d'etre désarmé, ou d'utiliser la Clé d'Oroumov et d'appuyer sur B. La [Pub](../mysteres/Goldeneye%20-%20Silo.mpeg) montre l'Ascenseur en Marche !
+
+=== beta/ge.beta.07.HTM
+Goldeneye Version Beta : Frigate
+
+Pas grand-chose de bien croustillant sur le Bateau. Il s'appelait avant "Destroyer" et non Frigate comme maintenant. Les Portes ont changé d'allure ; on peut faire apparaître ces Portes Beta.
+
+Il semblerait que Xenia et le Helicopter Pilot étaient de la partie durant cette Mission, comme le laisse entendre Moneypenny.
+
+Enfin, et pas des moindres, on peut faire décoller l'Helico durant l'Image d'Introduction ! Il faut un Code, et lorsque vous arriverez devant l'Heliport, l'Helico n'est plus là. Par contre, bien qu'Absent, vous ne pourrez pas marcher là où il est censé être... Pour le Code, allez voir en Bas de la Page [Modificateur](../action.replay/ge.modificateur.htm) !
+
+=== beta/ge.beta.10.HTM
+Goldeneye Version Beta : Statue
+
+Pas grand-chose non plus pour ce Niveau. Au début, la Brume était plus présente, et beaucoup plus claire. Notez le KF7 Beta.
+
+La Statue de Lénine a changé de place, rendant le Lieu de Rendez-vous plus simple et plus dégagé. Une Statue de Lénine modifiée existe aussi dans la Version Finale. La meme ?
+
+Une image plus connue montre Bond avec un AR33. Comme le Laser, il semble que cette Arme était bien plus présente avant. Notez le Changement de Teinte du Bloc CCCP-17.
+
+Un Truc Bizarre : le St Petersburg Guard... N'existe pas dans le Mode Solo ! C'est bizarre mais c'est comme ça. Il semble qu'on le rencontrait dans ce Niveau ! La Statue de Marteau et Faucille n'est plus non plus à la meme place.
+
+=== beta/ge.beta.11.HTM
+Goldeneye Version Beta : Archives
+
+On commence par 2 Photos montrant l'Ancien KF7. Vous pouvez retrouver une de ces Images sur la Boite de Goldeneye, comme quoi le KF7 fut une des Dernières choses a etre changée. Il y a aussi du SANG présent. Il y a également Deux Sortes de Gardes !
+
+Une Vue extérieure du Niveau (assez bordélique je vous l'accorde) montre l'absence du Passage Secret ou il y a un Gilet dans le Battle. En zoomant on voit des trucs enlevés, comme des Sous-Mains !
+
+Le Code Action Replay du [Modificateur](../action.replay/ge.modificateur.htm) change l'apparence du PP7 devant vous en Sous-Main retrouvé. Si vous vous approchez trop, vous le ramasserez et aurez votre PP7 d'origine alors gaffe aux Gardes ! On voit aussi une Lampe au plafond que l'on retrouve dans le Depot. C'est une Lampe Bitmap, c'est à dire un Sprite, et non un Objet 3D. La Vitre sur la Gauche a changé un peu.
+
+Il existe aussi 2 Photos de la Version Virtua Cop de Goldeneye (lire l'Excellent [Making-Of](../presentation/makingof.htm)). Beta ou non, il semble qu'il y ait des Russian Infantry, et la Rampe d'Escalier semble un peu plus Bleue. Les Caisses en Carton ont une teinte un peu changée également.
+
+=== beta/ge.beta.12.HTM
+Goldeneye Version Beta : Streets
+
+La Seule chose vraiment interessante dans ce Niveau est la Voiture d'Oroumov et la Jeep. On devait courser Oroumov avec la Jeep aux Fesses. Because N64, tout ça enlevé, et il reste juste des Codes pour faire [apparaitre](ge.beta.vehicules.htm) la Voiture. Notez la plaque d'Immatriculation qui est la même que dans le Film ! Il y a aussi la [Jeep](ge.beta.vehicules.htm) qui avance...
+
+=== beta/ge.beta.14.HTM
+Goldeneye Version Beta : Train
+
+Sur les Photos Beta, on voit que Rare a retiré une sorte de Vitre que l'on retrouve dans les Sous-Marins pour noter leurs déplacements.
+
+Lorsque l'on se sauve du Train, on passe devant là ou l'Helico s'est envolé (le Petit Helico du Film). Avec le [Moonjump](../action.replay/ge.moonjump.htm), on voit de haut l'interieur de ce wagon, et tout ce que l'on voit c'est les Rails et rien de plus. Juste histoire de compléter. Notez que l'on ENTEND l'helico décoller dans le Train, à la fin, mais je ne pense pas qu'il y ait eu d'Helico. De toute façon, on n'aurait pas eu le temps de le voir se sauver.
+
+=== beta/ge.beta.15.HTM
+Goldeneye Version Beta : Jungle
+
+En comparant avec le Picto du Niveau, on voit que le Pont a changé d'Aspect.
+
+Avec un Code, on peut faire [apparaitre](ge.beta.vehicules.htm) un Helicoptere Militaire, surement celui de Xenia qui devait être utilisé dans ce Niveau ? Il semble que oui, ça parait évident.
+
+Il y a aussi les Tours inutilisées, ou l'on devait peut-etre Sniper les Jungle Commandos...
+
+=== beta/ge.beta.16.HTM
+Goldeneye Version Beta : Control
+
+Pour commencer, une Image au Dos de la Boite de Goldeneye. Analyse rapide ! Un Janus Special Force, du Sang, la Machine qui change de Teinte et de Texture, et la Porte tout au fond qui a changé d'allure !
+
+Sur le Picto de la Mission, les Vitres manquent. La ressemblance avec le Film est agréable !
+
+Enfin, il y a un Petit Mystère concernant le Puits d'Aération où on trouve un Gilet dans la Salle Principale : C'est l'Endroit par lequel James et Natalya arrivent dans le Film ! Seulement, si on commençait la Mission ici, le Niveau aurait été trop court… Donc Rare a créé une autre Entrée.
+
+=== beta/ge.beta.17.HTM
+Goldeneye Version Beta : Caverns
+
+Le Passage énervant du Niveau : rien n'a changé, si ce n'est le Visage des Ennemis, qui ont tous la Face de Cicatrice, donc photo Beta.
+
+Plusieurs choses encore. Déjà, la Porte était différente, et je la préfère dans la Version Beta, meme si la Façon de s'ouvrir est mieux dans la Version Finale. Ensuite, la Rampe d'Escalier est Solide, et non transparente. On remarque des petits changements de textures pour la Roche, et les Barres Bleues sur le Mur ont changé. Il existe aussi une autre Porte Beta, qu'on ne peut pas retrouver meme avec le Gameshark.
+
+=== beta/ge.beta.18.HTM
+Goldeneye Version Beta : Cradle
+
+Dans la Version Finale, Bond s'accroche à l'Hélico, et ça se finit. Mais on n'a pas le Temps de voir que c'est Natalya qui est aux Commandes ! Avec un Code, on peut faire [apparaître](ge.beta.vehicules.htm) cet Hélicoptère, et là on se demande si Bond ne devait pas carrément sauter pour s'accrocher à la Barre pour finir le Niveau, au lieu de simplement tuer Trevelyan et attendre. Notez que dans le Jeu, l'Helicoptère est Noir alors que quand on le fait apparaitre, il est Vert !
+
+=== beta/ge.beta.19.HTM
+Goldeneye Version Beta : Aztec
+
+Il n'existe qu'une SEULE et UNIQUE image Beta d'Aztec. On y voit Bond avec un Silencieux, et son Costume Violet. Apparemment, les autres Costumes furent créés après.
+
+Est-ce qu'il y avait des Gardes Femmes dans la Version Beta du Jeu ?
+
+=== beta/ge.beta.20.HTM
+Goldeneye Version Beta : Egyptian
+
+Il existe 2 Photos Beta ou rien n'a changé, mais bon ce sont des Photos Beta alors...
+
+Et un Truc qui a échappé à Rare ! Ils ont changé le Nom du Niveau, qui s'appelait avant "Crypt", en Egyptian. Mais si vous faites Pause, le Nom Crypt est resté ! Voyez par vous-meme !!!
+
+=== beta/ge.beta.all.bonds.htm
+Goldeneye Version Beta : All Bonds
+
+Voilà une bonne chose que l'on sait depuis longtemps : On ne peut PLUS jouer en Battle avec les autres James Bond. Tout a commencé par un Poisson d'Avril d'un Magazine. Mais il ne faut pas oublier que à un moment, lors du développement de Goldeneye, on pouvait bel et bien jouer avec eux en Battle !
+
+Tout ce qui reste, ce sont 3 Photos que l'on peut ré-activer. Les Noms de Famille sont également dans la Cartouche (Connery, Dalton et Moore). George Lazenby n'y figure pas, n'étant certainement pas le plus connu. On pense qu'il a été enlevé car il ne fallait que 4 Bonds, pour un Battle Spécial Bonds.
+
+Depuis, des Joueurs ont trouvé le moyen de faire réapparaître les Anciens Costumes, notamment le Costard Blanc de Sean Connery (bien qu'il soit Noir sur sa Photo) ! Mais les Têtes sont parties...
+
+## Sean Connery
+
+Sean Connery est connu pour le Costume Blanc de Goldfinger, qui n'apparait pourtant que dans une courte Scène, avec la Rose. Toutes les Images Beta de Goldeneye attestent que Connery était bel et bien le Personnage au Costume Blanc. On en trouve d'autres glanées à droite à gauche (même dans le Livret d'Instructions !).
+
+## Timothy Dalton
+
+Jusqu'ici, Connery était le seul vraiment visible des Bonds Disparus. Mais dans le Livret d'Instructions, ce que l'on croit être le Costume de Brosnan est en fait celui de Dalton ! Quand Brosnan est vu de cette façon, on voit le Machin Blanc, alors que là, non. Dans le Costume de Perfect Dark, il est également clairement visible.
+
+## Le Pourquoi de la Disparition des autres Bond
+
+Beaucoup de choses furent virées du Jeu, mais celle-ci ne relève pas de problèmes de Mémoire de la Cartouche. Quatre Personnages en plus n'auraient pas gêné Rare. La Théorie la plus évidente est celle du Copyright. Apparemment, Timothy Dalton a eu des problèmes avec la MGM, ne voulant plus jamais être avec eux dans aucun Film. Ceci explique le fossé entre License To Kill et Goldeneye (1989 - 1995). Après que le Film Goldeneye soit sorti, Rare s'est mis au travail, et a voulu mettre les Anciens Bonds. Mais Dalton ne fut pas d'accord, ne voulant plus jamais etre associé à James Bond. Déjà un de moins. Il fut retiré, mais certaines photos le montrent encore. Rare n'a pas remplacé Dalton par Lazenby, car il n'était pas assez populaire, et effaça Dalton de la Cartouche purement et simplement.
+
+> Rare parle : Oui, c'était un truc que l'on voulait absolument mettre dans le Jeu, mais qui fut retiré pour des raisons différentes. Vous serez surement interessés par le fait que ces 4 Bonds devaient s'affronter dans un Battle où le premier à 100 Points était Vainqueur.
+
+Notez que Rare admet que les autres Bonds furent dans le Jeu, ce qu'ils ne font pas d'habitude si facilement. On pense que les autres Bonds étaient débloqués par un Cheat comme quand on finit Cradle et que l'on a plus de Personnages en Battle. Le fait que Rare ait quand même laissé traîner pleins d'images de Connery est sûrement un Mystère qu'ils voulaient que l'on découvre, avec spéculations etc.
+
+=== beta/ge.beta.armes.htm
+Goldeneye Version Beta : Armes et Objets
+
+Tous les Noms d'Armes qui ont changé l'ont été car Rare n'a surement pas eu l'autorisation de les utiliser. Voilà pourquoi on trouve ces noms : AK47, M16 A2, PPK, etc (Merci à Bruno Cacheux).
+
+- **AR33** : il s'appelait M16-A/2 Commando Rifle, et on le retrouvait dans pas mal de Niveaux (Statue, Silo).
+- **Tazer** : il était BIEN différent de celui que l'on connait maintenant. On dirait plus une Arme de Perfect Dark tellement elle est Bizarre ! Il n'y a pas d'autres images le montrant.
+- **Lance-Roquettes** : pas mal différent lui aussi.
+- **KF7** : il s'appelait avant AK47 et il est visible sur pas mal de Photos, notamment dans Archives. L'Arme était carrément plus carrée que celle de la Version Finale. La Meilleure Photo du KF7 Beta figure derrière la Boite de Goldeneye, avec des Russian Infantry, des Vitres différentes de la version Finale et du Sang !
+- **Cougar Magnum** : il s'appelait Blackhawk Magnum.
+- **Couteaux** : ils s'appelaient simplement Knife et pas Throwing Knife ou Hunting Knife.
+- **Laser** : il s'appelait Military Laser. Il apparaissait dans beaucoup plus de Niveaux (meme le Barrage !) et a été uniquement laissé dans Aztec. Un Internaute averti (Verdeloos) m'informe qu'en Mode Solo, le Laser s'appelle Moonraker Laser alors qu'en Multiplayer il se nomme simplement Military Laser.
+- **Mine** : avec entre Parenthèses Timed.
+
+## Objets Beta
+
+En entrant ces Codes, lorsque vous ramasserez l'Arme du Premier Garde que vous tuerez, elle se changera en l'objet voulu. Entrez le Code `811FA522 00XX` et changez le XX par un des Chiffres ci-dessous ! On peut aussi faire ça dans Runway, avec le Premier Garde derrière vous, mais le Code est cette fois-ci `801D9258 00XX` !
+
+- **21 - BOMB CASE** : On peut poser cette Valise comme une Mine. Rien de bien extraordinaire mais bon ! Attention, elle explose comme une Timed Mine !
+- **2C - WEAPON CASE** : A quoi pouvait bien servir cette Valise ? A porter ses Armes ? Ou fallait-il la récuperer dans un Objectif ?
+- **30 - MICRO CAMERA** : Voilà un Objet interessant, prévu à l'origine semble-t-il pour le [Casino](../mysteres/ge-casino.htm). On peut en poser tant que l'on veut si vous avez des Munitions Infinies !
+- **33 - POLARIZED GLASSES** : Alors là je sais pas, à moins que ce soient des Rayons-X comme pour Perfect Dark ?
+- **36 - GAS KEYRING** : Il parait que cet objet était utilisé dans un Film des James Bond : The Living Daylights.
+- **39 - WATCH COMMUNICATOR** : Il parait que c'était pour contacter Trevelyan dans Facility.
+- **3A - WATCH GEIGER COUNTER** : Cet Objet était utilisé dans Thunderball. Comment il l'était dans Goldeneye, on en sait rien !
+- **3B - WATCH MAGNET REPEL** : L'Opposé de la Montre Magnétique. Mais pour quelle utilisation ?! On n'en sait rien non plus.
+- **43 - PLANS** : Des Plans ? Mais de quoi ? Du Silo ? Rare n'a jamais dit que Oroumov les avait... Mystère.
+- **46 - MAP** : Ce sont les Plans du Bunker, mais sous un autre nom.
+- **47 - AUDIO TAPE** : Un Objet à récuperer ? Pourquoi pas !
+- **52 - YALE KEY** : Cette Clé existe aussi dans le Jeu, mais sous un autre Nom.
+- **53 - BOLT KEY** : Un Nom provisoire sans aucun doute.
+
+## Toutes les valeurs possibles
+
+Et maintenant, juste pour le Fun, tous les Trucs en quoi changer l'Arme que vous ramassez !
+
+```
+00 - . (Juste un tiret, comme la Clé du Silo)
+01 - Unarmed
+02 - Hunting Knife
+03 - Throwing Knife
+04 - PP7
+05 - PP7 (Silenced)
+06 - DD44
+07 - Klobb
+08 - KF7 Soviet
+09 - ZMG (9MM)
+0A - D5K Deutsche
+0B - D5K (Silenced)
+0C - Phantom
+0D - AR33 Assault Rifle
+0E - RC-P90
+0F - Shotgun
+10 - Automatic Shotgun
+11 - Sniper Rifle
+12 - Cougar Magnum
+13 - Golden Gun
+14 - Silver PP7
+15 - Gold PP7
+16 - Laser
+17 - Watch Laser
+18 - Grenade Launcher
+19 - Rocket Launcher
+1A - Grenade
+1B - Timed Mine
+1C - Proximity Mine
+1D - Remote Mine
+1E - Detonator
+1F - Taser
+20 - Tank
+21 - Bomb Case
+22 - Plastique
+23 - Flare Pistol
+24 - Piton Gun
+25 - Bungee
+26 - Door Decoder
+27 - Bomb Diffuser
+28 - Camera
+29 - Lock Exploder
+2A - Door Exploder
+2B - Briefcase
+2C - Weapon Case
+2D - Safe Cracker
+2E - Key Analyzer
+2F - Convert Modem
+30 - Micro Camera
+31 - Bug Detector
+32 - Guidance Data
+33 - Polarized Glasses
+34 - Dark Glasses
+35 - Credit Card
+36 - Gas Key Ring
+37 - Datathief
+38 - Watch Identifier
+39 - Watch Communicator
+3A - Watch Geiger Counter
+3B - Watch Magnet Repel
+3C - Watch Magnet Attract
+3D - Goldeneye Key
+3E - Black Box (Statue, Archives)
+3F - Circuit Board
+40 - Clipboard
+41 - Staff List
+42 - Red Dossier
+43 - Plans
+44 - Spy File
+45 - Blueprints (Plans de l'Helicopter)
+46 - Map
+47 - Audio Tape
+48 - Video Tape (Cassette Vidéo du Film Goldeneye)
+49 - DAT
+4A - Spool Tape
+4B - Microfilm
+4C - Microcode
+4D - Lectre
+4E - Money
+4F - Gold Bar
+50 - Heroine
+51 - Keycard
+52 - Yale Key
+53 - Bolt Key
+55 - Controller
+56 - Explosive Gun
+57 - Explosive Gun
+58 - Token
+```
+
+=== beta/ge.beta.cheats.htm
+Goldeneye Version Beta : Cheats
+
+On ne sait pas grand chose des Cheat Options Beta. Voilà toutefois quelques trucs bien sympas, comme le Fameux Line Mode ! Pour commencer, les Codes "NO NAME" qui sont accessibles avec l'[Action Replay](../action.replay/index.htm). Les Codes NO NAME activent des trucs différents, mais portent tous le même nom. Voici les Codes et ce qu'ils activent !
+
+Le Code de Base est `800696XX 0001` : remplacez les XX par...
+
+- **51** - Extra Characters
+- **54** - Maximum Ammo (Munitions au Maximum mais PAS Infinies)
+- **57** - Line Mode (Mode Fil de Fer)
+- **58** - Super 2X Health
+- **59** - Super 2X Armor
+- **5D** - Extra Weapons
+- **60** - Super 10X Health
+- **66** - Invisible (Multi)
+- **69** - Debug Mode
+
+=== beta/ge.beta.battle.htm
+Goldeneye Version Beta : Multiplayer
+
+Il y a bien sur les Fameux [All Bonds](ge.beta.all.bonds.htm) en Multiplayer, mais ce n'est pas tout. Il y a des Changements de Niveaux, et la possibilité d'y jouer à 3 ou 4. Concernant les Niveaux, il y avait Statue et Cradle, que l'on peut rejouer avec l'[Action Replay](../action.replay/index.htm), mais bon ça bugue terriblement. A voir pour le voir, en gros.
+
+Le site original montre aussi un Montage des Personnages si le Jeu avait gardé les Anciens Bonds.
+
+=== beta/ge.beta.vehicules.htm
+Goldeneye Version Beta : Véhicules
+
+Grace à l'Action Replay, on peut faire apparaitre divers Véhicules qui ne figurent pas dans la Version Finale. Et y en a un bon Paquet !! Il vous suffit de rentrer un Code, et le Véhicule apparaitra à la Place du Camion Vert du Barrage ! Voilà le Code de Base : `801E8D37 00YY` et `801E8D39 00XX`. Il vous suffit de remplacer les XX et les YY par les Chiffres que je donne !
+
+#### Hélicoptère de Natalya (YY = 28 / XX = 1A)
+
+Il n'est pas Noir comme à la Fin de Cradle, mais Vert, et on peut voir Natalya dedans !
+
+#### Camion Rouge (YY = 28 / XX = 19)
+
+#### Semi-Remorque Noire (YY = 2F / XX = 1E)
+
+Le moins interessant des Véhicules, juste une Semi-Remorque. Elle est TOUTE Noire, et quand on met le Code "[Pas d'Ombres](../action.replay/ge.ombres.htm)" on voit que c'est en fait celle que l'on retrouve dans le Dépot !
+
+#### Hélicoptère de Jungle (YY = 28 / XX = 1D)
+
+Un bon, très bon truc cet Hélicoptère. Déjà, il a de la Gueule non ? Peut-etre qu'on le voyait dans la Jungle, avec Xenia qui en descendait ?
+
+#### Véhicule Blindé (YY = 07 / XX = 21)
+
+Pas d'Indices pour ce Truc !
+
+#### Bateau Vert (YY = 2F / XX = 22)
+
+Pour ça, allez voir la Section [Ile du Barrage](../mysteres/ge-barrage.htm). Ce Bateau devait FORCEMENT servir à y aller.
+
+#### Moto (YY = 07 / XX = 1F)
+
+Cette Moto devait etre dans Runway, comme dans le Film, pour attraper l'Avion. Mais conduire cette Moto en meme temps que jouer aurait peut-etre été trop dur alors elle fut virée.
+
+#### Voiture d'Oroumov (YY = 28 / XX = 31)
+
+Il est plus qu'évident que l'on devait trouver cette Voiture dans Streets, comme dans le Film. On peut faire apparaitre la Voiture, mais aussi la faire avancer ! Voilà le Code ! Si vous voulez que la Voiture avance, enlevez la Première Ligne ! La Voiture suivra le même Chemin que le Camion.
+
+```
+801E8D37 0028
+801E8D39 0031
+801E8D34 0003
+```
+
+#### Jeep (YY = 27 / XX = 18)
+
+Ceci n'est PAS un Véhicule Beta, mais lorsque l'on met le Code, la Jeep bouge. On pense qu'elle était dans Streets, en train de courser Bond dans son Tank. C'est marrant, mais le Niveau Streets avait l'air plus excitant dans la Version Beta !
+
+=== beta/new/ge.beta.new.HTM
+Goldeneye Version Beta : Nouvelles Images !
+
+De nouvelles images provenant de [MundoRare](http://www.mundorare.com/games/goldeneye-007/screenshots-beta), et envoyées par Rareware eux-mêmes !
+
+=== beta/pd.beta.01.htm
+Perfect Dark Version Beta : Datadyne Defection
+
+Sur les images Beta, l'aspect est différent, et Joanna a un Dragon / Farsight (voir [Armes](pd.beta.armes.htm)). La Caméra tournait différemment, et Joanna commence avec un Falcon 2 non-Silencieux. Trois Photos issues d'un Film de Développement prouvent que le Dragon avec lequel commence Joanna avait une Fonction Farsight !
+
+Un Garde supplémentaire arrive en bas de l'Escalier. Sur une Photo apparait clairement Trent, alors qu'il était programmé comme simple Garde. Une autre montre encore un Trent, armé de son Cougar Magnum (le Futur DY357-LX, voir la Section [Armes](pd.beta.armes.htm)).
+
+Certaines images répondent à des questions. La Mine Télécommandée (Remote Mine) servait à l'origine à faire péter le Tuyau, et ainsi choper le Fromage. Remarquez également les noms qui changent (voir [Gadgets](pd.beta.gadgets.htm)). L'aspect de l'Ordinateur a changé, et son emplacement quelque peu aussi. Sur une autre, Joanna a shooté le Personnage chargé de vous "aider" à reprogrammer Dr. Caroll : on voit le Texte "Computer Executive Erased" qui signifie en gros que vous ne pouvez plus remplir l'Objectif.
+
+Une Photo montre un Bouclier Beta (Beta Shield) que l'on voit aussi dans la Section [Gadgets](pd.beta.gadgets.htm), ainsi que le Trou créé pour aller choper le Fromage.
+
+Pas de Vitre-Rambarde, et la Porte semble un peu différente. Les Pistolets sont tenus d'une façon différente, et l'Ascenseur n'est pas exactement au meme endroit. On pouvait meme tomber par le trou pour accéder à l'Etage inférieur (le Film d'où est extraite l'image le prouve).
+
+Il y a même un Mr. Blonde ! Au départ, ce Niveau contenait presque tous les Personnages du jeu en meme temps ! Trent, Blonde, et meme des Roswells ! Si si ! Trois Photos montrent des Roswells vous accompagnant dans le Niveau. Je pense qu'ils furent retirés pour 2 raisons. La Première est Scénaristique, pour ne pas dévoiler les Personnages trop tôt. La Deuxième est qu'ils auraient été d'une trop grande aide ! Remarquez que ce ne sont pas les Simulants en Coopérative, car ils ont des Cmp150.
+
+=== beta/pd.beta.02.htm
+Perfect Dark Version Beta : Datadyne Investigation
+
+L'Objet Expérimental N°1 ressemble à un ZMG 9mm lorsqu'il est posé sur la Table. Sur d'autres Photos, tirées du meme Film, il n'y a pas de Scientifique avec le Garde, contrairement à la Version Finale.
+
+On y voit aussi le Fameux Cube Métallique de Goldeneye. C'est un Objet Banal servant juste a vérifier l'emplacement correct des Objets dans le Jeu. Par la Suite, Rare remplace l'image par le Bouclier Normal, et ainsi de suite pour tous les autres objets du meme Style.
+
+Il y a un Civil (et Mort en plus) et les Ordinateurs ressemblent à ceux du Battle en Mode Hacker / PC. Les Civils furent plus tard remplacés par des Scientifiques. Les Câbles ne sont pas exactement aux memes endroits. On voit aussi les fameux Doubles AR34 (voir la Section [Armes](pd.beta.armes.htm)), et Joanna équipée d'un Cyclone !
+
+=== beta/pd.beta.03.htm
+Perfect Dark Version Beta : Datadyne Extraction
+
+On dirait qu'il manque des Barricades au fond, protégeant les 2 Gardes comme dans la Version Finale. Un Type est différent. Joanna semble avoir une vue Infra-Rouge et non de Nuit.
+
+L'Interrupteur de la Salle sous l'Héliport est un Ordinateur alors que dans la Version Finale c'est juste un Switch. Les Visages des Gardes du Corps de Cassandra de Vries sont différents.
+
+=== beta/pd.beta.04.htm
+Perfect Dark Version Beta : Carrington Villa
+
+On voit clairement que les Gardes (pas les Snipers Violets) avaient des Sniper Rifles. C'était justifié, comme ça en Perfect Agent, Joanna le chopait sur un des Deux Gardes du Début. Pourtant, ils ont viré les Sniper Rifles, et on trouve désormais l'Arme près du Garde Mort dans la Chambre.
+
+On voit aussi des Trous dans la Vitre, ce qui est impossible désormais : on voit juste des Taches Blanches dans la Version Finale. Enfin, avec le Gameshark, on fait apparaitre dans Felicity deux Meubles certainement destinés à la Villa. Il est dommage de ne pas les avoir utilisés, ils sont plutot bien réussis !
+
+- Pour le Canapé : `811EED4C 0164` et `811EEDF4 0164`
+- Pour l'autre Canapé : `811EED4C 0165` et `811EEDF4 0165`
+
+=== beta/pd.beta.05.htm
+Perfect Dark Version Beta : Chicago
+
+Dans les Magazines, il était question d'un Niveau se situant au Japon, puis ce fut en fait Chinatown, et enfin Chicago. Evidemment, ces infos étaient des suppositions en regardant uniquement les photos.
+
+Une Photo montre Joanna commençant avec un Shotgun (Fusil à Pompe) tandis qu'une autre montre la Cinématique d'Introduction, avec un Falcon 2 dans les Mains, qui n'est plus là dans la Version Finale.
+
+Une Photo est interessante. On voit clairement un Datadyne Shocktrooper foncer sur Joanna, et celle-ci a un Magsec 4. En fait, dans le Scénario Beta, Joanna devait entrer dans le Building G5, mais avec en plus les Forces Datadyne aux Fesses !
+
+Il manque la Benne ou se trouve le Bombspy ainsi que les 3 Tonneaux empilés. Les Civils avaient l'apparence de ceux de Goldeneye. Je pense que Rare les a rhabillés comme les Agents du FBI pour rendre la situation plus dure. Un autre Civil ressemble au Type du Niveau Extraction.
+
+On voit aussi une Caisse comme celle de la Zone 51 (Caisse Volante), et des Doubles Falcon 2 Scope. Enfin, une bien belle image nous montre un autre Garde Datadyne. Apparemment, il n'y a pas eu de diversion. Comme si on devait se faufiler vers l'Entrée comme un Furet...

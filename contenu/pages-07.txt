@@ -1,0 +1,374 @@
+
+=== soluce/ge-20.htm
+Soluce Goldeneye : Egyptian
+
+Qui l'eût cru ? La Derniere Mission du Jeu (pas de Goldeneye comprenons-nous) est archi-simple ! Une Grosse Déception cet Egyptian... Lorsque vous commencez, allez tout droit, et chopez quelques Gardes. Dans la Salle juste après, allez à droite et montez à l'Escalier.
+
+#### Prendre le Golden Gun : Tous Niveaux
+
+Une fois dans la Salle du Golden Gun, il faut marcher sur les bonnes cases, sinon les Drone Guns vous shooteront tranquillement, et en plus la Porte se ferme derriere vous ! Le site original montre en photo les directions à prendre à partir de la 1ere Case, celle que l'on voit à la fin du Mini-Couloir quand vous arrivez.
+
+Ressortez par le Passage Secret. Au fait, dès que vous avez le Golden Gun, ne vous souciez plus des Drone Guns, ils sont désactivés, et vous pourrez même vous planquer dans cette Salle pour tuer les Gardes qui vous auraient suivi.
+
+#### Tuer le Baron Samedi : Tous Niveaux
+
+Sortez par le Passage Secret (Gilet !) et allez tout droit. Le Baron Samedi va rire dès que vous vous approchez de lui. Shootez-le avec une Balle en Or et c'est bon. Maintenant retournez au Début du Niveau et le Baron va apparaitre dans une explosion. Un Pruneau Doré et en avant pour le Final. Revenez dans la Grande Salle ou il était au début... Elle est toute sombre... Vous verrez 2 Portes sombres sur le Mur. L'une d'elle est en hauteur, l'autre un peu sur votre gauche. Prenez celle-là. Continuez votre chemin et attention aux Drone Guns. Une fois au bout du Couloir, prenez à Gauche et vous tomberez sur le Baron, cette fois avec des Lasers. Chopez le Gilet si vous etes Cardiaque, et butez-le. Et voilà ! Vous avez terminé Goldeneye !
+
+=== soluce/ge-007.HTM
+Soluce Goldeneye : Mode 007
+
+Lorsque vous avez fini tout le Jeu en Agent, Secret Agent et 00 Agent, vous accedez au Niveau de Difficulté 007. Vous ne pouvez PAS finir les Missions en 007, et y aura jamais de Petite Encoche Rouge à coté de 007. C'est juste pour s'amuser à parametrer le Jeu.
+
+- **Enemy Health** : L'Energie des Ennemis !
+- **Enemy Damage** : Les Dommages qu'il vous infligent !
+- **Enemy Accuracy** : Leur Précision lorsqu'ils tirent !
+- **Enemy Reaction Speed** : Leur Temps de Réaction !
+
+#### Mode License To Kill en Solo !
+
+Je l'appelle comme ça, car ça lui va bien. C'est un Parametre qui fait que lorsque vous jouez en 007, TOUS les Ennemis meurent en UNE Balle, meme dans le Pied. En revanche, pour vous c'est le meme traitement ! Il suffit de tout mettre à fond sauf l'energie des ennemis (Enemy Health) et voilà. Evidemment, n'essayez meme pas des Missions genre Surface ou Streets, car les Gardes vous tuent à 50 Bornes !!
+
+Les seuls Niveaux FINISSABLES en 007 sont Facility, Archives, Frigate, Caverns et Bunker 2. Mais y a un BUG qui fait que l'on ne peut pas finir ces Niveaux entieremment. Vous avez deja du le remarquer, mais les Balles ennemies traversent les plafonds. Par exemple, dans Silo, juste avant un Escalier, si vous etes loin, vous ne voyez que les jambes du Garde. Et ben lui, si il tire, ses Balles traversent le plafond pour vous toucher. Et ce, sans qu'il se baisse ! Ses Balles passent au travers ! Voilà pourquoi la Fin du Bunker 1 est infaisable. Le Mode 007 est superbe, rien que pour cette Astuce. Je vous promet bien des frissons dans les Missions...
+
+=== soluce/pd-01.html
+Soluce Perfect Dark : Datadyne Building - Défection
+
+#### OBJECTIF 1 - La Sécurité Interne
+
+Le Niveau commence par la Descente de Joanna sur le Toit du Building. Commencez par atteindre les 2 Portes en Grillage pour entrer dans le Local de Ventilation, juste sous le Toit. Nettoyez la Salle puis poser votre Mine ECM sur l'Ordinateur sur le mur à coté du Tuyau. Objectif 1 réussi. Trouvez l'Escalier et accédez à l'Etage de Cassandra, plus bas.
+
+#### OBJECTIF 2 - Le Collier de Cassandra De Vries
+
+Une fois à l'Étage, ouvrez la Porte du Bureau de Cassandra sur la Gauche puis ASSOMEZ-LA mais NE LA TUEZ PAS !! Il faut juste être en Mode Poing ou Désarmer et le Collier vous sautera à la figure. Objectif 2 réussi, maintenant prenez l'autre escalier pour descendre 2 étages plus bas.
+
+#### OBJECTIF 3 - Les Fichiers à Télécharger
+
+Nettoyez comme de coutume les lieux pour trouver un couloir ou il y a 2 bureaux. Dans le premier se trouve un Garde Masqué. Butez-le puis attendez derrière l'AUTRE porte. Vous devriez entendre une conversation concernant le REMODELAGE de Personnalité du Dr. Caroll. Attendez que le type sorte pour le forcer à vous guider aux Ordinateurs à l'étage du Dessus.
+
+Astuce - Si vous le laissez filer, il ira ouvrir une toute Petite Salle ou se situe un Laptop Gun avec des munitions. C'est TRES important en mode Perfect Agent si vous ne voulez pas prendre de risques trop grands avec vos Cmp 150 ou votre Falcon 2. Pour le laisser filer, suivez-le mais pas de trop près, de sorte qu'il ne se rende que lorsque la Salle est ouverte et qu'il dise qu'il se rend.
+
+Ensuite prenez l'Ascenseur pour grimper d'un étage. Le Type va aller tout seul comme un grand vers les Ordinateurs. Laissez-le faire mais dès qu'il dit « Allright, I'm… I'm in » (Çà y est, je… je suis rentré) frappez-le, butez-le mais surtout faites en sorte qu'il ne vous embête plus. Sortez votre Récepteur et téléchargez les Informations. Et Hop ! Objectif réussi !
+
+#### OBJECTIF 4 - La Sécurité Exterieure
+
+Prenez l'Autre Ascenseur (pas celui que vous avez pris avec le Type de l'Objectif 3) pour atteindre le Rez-de-Chaussée. Prenez votre temps pour liquider tous les Gardes de haut. Vous aurez l'Avantage, mais faites attention aux gardes qui pourraient arriver de derrière.
+
+Une fois sur que rien ne subsiste des Gardes, descendez l'Escalier Principal puis vous verrez 2 Portes en Bois Décorées. Celle de gauche mène à l'Ascenseur pour allez au Labo. Celle de Droite mène à la Salle qui vous intéresse. Rentrez dedans en faisant gaffe à NE PAS TOUT RUINER !! Une fois le Boulot terminé, faites comme pour l'Objectif 1 sur le Petit Ordinateur au Sol. Voilà !
+
+#### OBJECTIF 5 - L'Ascenseur
+
+Ressortez de la Salle puis allez à Droite. Butez tout le monde puis trouvez la Porte de l'Ascenseur...
+
+=== soluce/pd-02.html
+Soluce Perfect Dark : Datadyne Building - Investigation
+
+#### OBJECTIF 1 - L'Isotrope Radioactif
+
+En fait vous ferez cet Objectif APRES le 2ème. Lorsque vous arrivez dans une Grande Salle peu après celle avec le Mur en Verre, prenez à Gauche pour entrer dans une Salle ou luit une Petite Lumière Verte. Sortez votre Camspy pour aller prendre en Photo le Bâtonnet Verdâtre (C'est çà l'Isotrope) puis une fois affichée la réussite de l'Objectif, ressortez pour continuer la Mission.
+
+#### OBJECTIF 2 - Mettre en marche le Cycle de Sécurité
+
+Au début du Niveau, nettoyez tout mais arrêtez-vous devant la Porte menant a la Salle avec le Mur en Verre. Attendez un peu et vous verrez arriver un Droide de Nettoyage (Jaune). Il va ouvrir un Passage Secret qui vous permettra d'arriver dans la Section de Sécurité. Continuez votre chemin et pour aller plus vite, brisez la rambarde vitrée et laissez-vous tomber. Nettoyez tout ce qui bouge puis repérez les Ordinateurs. Il y en a 1 qui MET EN MARCHE le Droide et un autre qui le REPROGRAMME. Reprogrammez-le puis mettez-le en marche. Le Droide va s'activer et vous sera utile plus tard.
+
+#### OBJECTIF 3 - Saboter les Expériences
+
+Lorsque vous arriverez dans un Long Couloir avec des Piliers penchés, vous serez dans la Section Scientifique. Visitez TOUTES les Salles et forcez les Scientifiques a Arrêter leurs Expériences. Profitez-en pour récupérer les Artefacts Expérimentaux, qui sont listés dans l'Objectif 4. Quand vous arriverez à la Dernière Salle au fond à Gauche du Grand Couloir, trouvez le Passage Secret menant à une 2ème Salle, ou un autre Scientifique arrêtera son Expérience. Une fois qu'il aura tout fait, essayez de bidouiller les Ordinateurs dans cette Salle et le tour sera joué.
+
+#### OBJECTIF 4 - Trouver les Artefacts Expérimentaux
+
+- **1er Artefact** - Le K7 Avenger, qui est en possession d'un Garde Masqué qui s'entraîne au Tir avec un Scientifique dans une Salle Scientifique avec un Monte Charge Géant Jaune sur verrins.
+- **2ème Artefact** - Les Lunettes de Vision Nocturne. Elles sont dans une Colonne de Verre dans une Salle Scientifique. Brisez la Vitre et récupérez les dites-Lunettes.
+- **3ème Artefact** - Le Shield. Il se trouve TOUT AU FOND d'un petit couloir que l'on accède par La Grande Salle juste avant les Sentinelles.
+
+#### OBJECTIF 5 - Trouver Dr. Caroll
+
+Continuez votre Chemin et Dr. Caroll sera libéré.
+
+=== soluce/pd-03.html
+Soluce Perfect Dark : Datadyne Building - Extraction
+
+#### OBJECTIF 1 - Accéder à l'Ascenseur
+
+Dès le Début mettez en marche votre vision Nocturne pour y voir (presque) clair. Débarrassez-vous des Gardes comme d'habitude puis trouvez l'Ascenseur par ou vous etes arrivé. Le Chemin pour y accéder fait un Détour dans le Hall. Note - Vous avez Dr. Caroll avec vous, qui vous suit. Pour ne pas le laisser se faire avoir trop facilement, faites au plus vite pour prendre l'Ascenseur sans lui. Il va le prendre tout seul et vous rejoindra plus tard. C'est comme pour Natalya dans la Jungle de Goldeneye. Même si elle est à 3 Bornes, du moment qu'elle est vivante, tout fonctionnera.
+
+#### OBJECTIF 2 - Mettre en Marche le Deuxième Ascenseur
+
+Je vous conseille de faire cet Objectif APRES avoir ratatiné l'Hovercopter. Voici comment mettre en marche l'Ascenseur. Accédez à l'Étage ou vous tomberez sur des Gardes Femmes avec des Fusils à Pompe. Liquidez-les puis en continuant votre chemin vous arriverez à une Salle avec un Ordinateur. Il suffit de le bidouiller et l'Ascenseur fonctionnera.
+
+#### OBJECTIF 3 - L'Hovercopter Datadyne
+
+Pour cet Objectif il n'existe pas à proprement parler de Technique. Il suffit d'attendre que l'Hovercopter pointe son museau pour le plomber. Pour se cacher on peut utiliser cette méthode : ouvrez une porte et refermez-là de sorte à ce que vous la bloquiez par votre présence. Tirez sur l'Hovercopter puis dès que vous sentez qu'il va shooter, reculez pour que la porte fasse Bouclier. Pour savoir où il se déplace, vous pouvez aussi utiliser la Deuxième Fonction du Cmp 150 qui vous montrera par un Gros Rectangle Rouge ou se trouve l'Hovercopter. Pour cela Ciblez-le (sans vous faire plomber !) puis ciblez-le à travers les Parois (Murs, Portes). Il y aussi une Méthode assez Radicale mais Périlleuse. Il faut activer l'Ascenseur puis aller au Dernier Etage pour trouver le Lance-Roquettes. Une fois entre vos mains, libre à vous d'exploser l'Hovercopter d'ou bon vous semble. Mais attention à bien viser car c'est Précieux une Roquette.
+
+#### OBJECTIF 4 - Les Gardes du Corps de Cassandra De Vries
+
+Une fois le Dernier Etage accédé, prenez l'Escalier pour arriver au Local de Ventilation. Joanna va ouvrir toute seule la Porte et Cassandra vous parlera. Dès que vous le pouvez, cachez-vous à Gauche en vous baissant AU MAXIMUM. Vous pourrez ainsi vous occuper tranquillement des Gardes uns par uns avec en plus l'Avantage d'être planqué.
+
+Si vous avez le Lance-Roquettes, tirez là où est Cassandra De Vries pour toucher le Garde en Haut, qui est bien fourbe car c'est celui qui vous voit le mieux. Avec un peu de chance vous toucherez aussi 1 ou 2 Gardes du même coup. Pour cet Objectif rien ne sert de presser. Les Gardes sont nombreux, bien placés stratégiquement et ont des Fusils à Pompes (ça fait mal, ça). Alors du Calme et allez-y en douceur, si l'on peut dire.
+
+#### OBJECTIF 5 - L'Héliport
+
+Une fois les Gardes liquidés, grimpez à l'Héliport et l'Objectif sera terminé.
+
+=== soluce/pd-04.html
+Soluce Perfect Dark : Villa Carrington
+
+Note - En Agent et en Spécial, vous devrez « Sauver » la Négociatrice en Shootant de l'Observatoire les 2 Gardes sur le Ponton. En Perfect, vous ETES la Négociatrice et n'aurez donc pas cet Objectif à Remplir. Par contre vous devez faire vite si vous voulez surprendre les Gardes et voler leurs Armes. Attention également au Sniper juste à coté sur le Toit. Si vous le shootez bien, il devrait glisser et vous récupèrerez son Sniper Rifle, qui vous sera INDISPENSABLE.
+
+#### OBJECTIF 1 - Les Snipers
+
+C'est un Objectif long à faire et que vous remplirez pas à pas en progressant dans le Niveau. Si vous etes en Agent ou en Spécial, vous commencerez en haut près de l'Observatoire. D'ici vous pourrez en avoir facilement quelques uns tranquillement. Quand vous aurez traversé le Passage dans la Caverne, vous ressortirez à l'Air Libre et pourrez commencer votre boulot. Attention aux Gardes qui pourraient surgir d'un peu partout si vous etes trop à découvert. Il faudra etre très vigilant car ils sont rapides.
+
+Lors de votre mission, essayez le plus Possible de les Shooter de Dos, ou en les surprenant. Pour cela, ouvrez une Porte et regardez ou se trouve le Sniper juste avant qu'il ne vous canarde. Attendez 2 secondes puis ouvrez à nouveau. Faites çà autant de fois que vous le voulez de sorte que vous ayez juste à ouvrir et tirer. Si vous perdez du temps à bien caler le Viseur, le Sniper ne vous ratera pas, lui. Profitez bien des coins et du fait que vous pouvez tuer un Sniper rien qu'en lui shootant les Orteils ! Pas besoin de les voir totalement, sauf si vous préférez les avoir en pleine tête, ce qui est tout à fait compréhensible.
+
+#### OBJECTIF 2 - Activer Le Génerateur
+
+Quand vous aurez BIEN nettoyé la Villa, trouvez au Niveau le plus Bas la Porte donnant Accès à la Partie « Cave » du Niveau. Avancez tout droit pour vous trouver dans une Salle (qui rappelle le Niveau « Water Caverns » de Goldeneye avec l'Eau et le Sol en Treillis Métallique) ou il y aura des Gardes, bien évidemment, mais aussi 2 Ordinateurs. Activez les 2 Ordinateurs vite-fait bien-fait !! Une fois le Génerateur activé, suivez la Conduite Electrique au Sol pour trouver le Moteur de l'Eolienne, qu'il faudra mettre en marche. Objectif atteint. Comme de coutume, faites bien attention à d'abord nettoyer la Salle pour tranquillement faire votre Objectif. C'est toujours désagréable de se faire avoir par un Garde que l'on aurait oublié trop vite…
+
+#### OBJECTIF 3 - Les Hackers
+
+A un moment dans la Mission, la Musique changera et vous devrez trouver les Hackers qui essaient de pénétrer l'Institut Carrington. Il y en a dans la Grande Salle près de la Cour Extérieure tout en haut de la Villa. Il y en a également dans une Petite Salle Carrée pas loin de la Chambre à Coucher. Essayez de ne pas détruire les Ordinateurs çà serait bête. Quand la Musique changera à nouveau pour redevenir le Thème d'Ordinaire, l'Objectif réussi s'affichera de lui-même.
+
+#### OBJECTIF 4 - Le Garde à Capturer
+
+Facile. Dès le début, frappez un Garde et çà sera fait.
+
+#### OBJECTIF 5 - Carrington
+
+Une fois dans la Cave, suivez votre chemin en y allant doucement pour bien fourber les Gardes Masqués et sauver Carrington. Pas de conseils particuliers sinon qu'il faut faire attention aux étalages de Vins qui camouflent un peu les Gardes.
+
+=== soluce/pd-05.html
+Soluce Perfect Dark : Chicago
+
+#### OBJECTIF 1 - Récuperer l'Equipement
+
+Dès le Début, butez le Garde puis dépêchez-vous de liquider également l'Agent de la CIA sinon il préviendra ses Petits Camarades. Vous entendrez une voix dans un Mégaphone « Attention to all… » Si vous préférez y aller à la Léon, butez-le. Si vous préférez les laisser tous venir et en finir une bonne fois pour toutes, laissez-le appeler ses potes. Les 2 Méthodes se valent puisque dans un cas comme dans l'autre le Résultat est le même. Et ce dans n'importe quel niveau de difficulté. C'est selon votre humeur. Faites votre choix.
+
+Bon alors l'Equipement se trouve assez loin et il faut patiemment tuer tous les Gardes sur votre Chemin. Sortez dans la Rue, et longez le Mur près duquel est le Taxi pour arriver à une Palissade. Il y a un petit passage qui vous permet d'arriver dans un Collecteur d'Egouts. Butez les Gardes uns par uns en les laissant venir près de la Palissade. Attention parfois il se peut qu'il y en ait qui arrivent depuis la Rue directement. Une fois le Coin tranquille, prenez le chemin du petit Collecteur (qui passe sous un Mur) pour vous trouver sous une Grille Rouge, ou vous trouverez votre Equipement. On peut aussi y aller en traçant depuis le Passage de la Palissade pour choper l'Equipement puis laisser venir les Gardes mais c'est plus risqué.
+
+#### OBJECTIF 2 - Poser un Bug Sur La Limousine
+
+Il faut remplir cet Objectif LE PLUS VITE POSSIBLE avant que la Limousine ne s'envole (tiens marrant çà une Limousine qui vole…) sinon recommencez. En fait, quand vous etes en route vers votre Equipement et que vous arrivez près de la Palissade, profitez-en pour jeter de loin votre Bug. Simple. Note - Il sera dur d'arriver intact près de la Limousine si vous laissez l'Agent de la CIA prévenir ses copains alors faites vite si vous tenez à la Vie.
+
+#### OBJECTIF 3 - Préparer votre Fuite
+
+N'oubliez pas que pour réussir cette mission il ne faut pas mettre le Feu un peu partout sinon les Gardes fermeront la Porte du Building du G5. Dès le début du niveau, quand vous etes sorti de votre petit couloir avec le Taxi juste en face, prenez à Droite pour trouver un AUTRE passage. Faites attention aux Civils et nettoyez en douceur la Zone jusqu'à un AUTRE passage.
+
+De loin, liquidez les Gardes en prenant toujours garde aux Civils. Avancez ensuite prudemment pour shooter les 2 ou 3 Gardes planqués dans l'Escalier sur votre Gauche. Tirez sur les Lampes pour mieux les voir. Une fois ceci réglé, montez à l'Escalier jusqu'au sommet et placez votre MINE (qui etait dans l'Equipement récupéré) sur la Porte Murée.
+
+#### OBJECTIF 4 - Big Badaboum ! Diversion !!
+
+Le But de cet Objectif est de faire chuter le Taxi sur la Limousine de sorte a créer une Diversion. Cette diversion attirera les Gardes près de la Porte du Building G5 et vous pourrez entrer en douce. Pour faire chuter le Taxi, il faut le Reprogrammer avec le « Reprogrammeur » (logique) qui était dans l'Equipement récupéré. Vous pouvez le reprogrammer quand vous voulez mais il faut savoir qu'à partir du moment ou le Taxi chutera, vous ne pourrez plus rien faire d'autre que rentrer dans le Building du G5. Alors prenez votre temps pour finir tous les Objectifs, puis reprogrammez le Taxi. Attendez ensuite en bas de l'Escalier ou vous avez placé votre Mine de sorte à voir ce qui se passe dans la Rue, et dès que les Gardes rappliquent pour voir l'Epave du Taxi, FONCEZ !!!
+
+Il y a une autre solution qui consiste a trouver le Bombspy. Il est caché dans une Poubelle près de 3 Tonneaux. En poussant la Poubelle près des Tonneaux, et en faisant peter le tout, vous le trouverez. Une fois le Bombspy en main, dirigez-le vers l'entrée du G5, et faites peter. La Diversion sera faite !
+
+#### OBJECTIF 5 - Entrer dans le Building du G5
+
+Dès que l'Objectif « Diversion » est réussi, courrez vers l'Entrée du Building G5, qui est au fond à Droite quand vous attendiez à coté de l'Escalier dans l'Objectif 4. Rentrez dans l'Ascenseur et c'est bon !
+
+=== soluce/pd-06.html
+Soluce Perfect Dark : G5 Building
+
+#### OBJECTIF 1 - Éteindre le Générateur
+
+Dès le début, faites votre chemin tranquillement en faisant attention aux Gardes qui s'« occultent » et poursuivez votre chemin jusqu'à arriver à la Salle Principale, celle ou il y a les Lasers. Dégommez les Gardes en évitant qu'ils ne donnent l'Alarme, sans çà c'est cuit. Trouvez la Porte qui mène à un Escalier avec un Éclairage Vert Émeraude. Descendez et nettoyez la Salle, puis éteignez le Gros Ordinateur.
+
+#### OBJECTIF 2 - Désactiver les Lasers
+
+Chaque Barrière de Lasers est reliée à un Ordinateur. Mettez tous les Ordinateurs en Vert et grimpez sur les Circuits Électriques pour passer au-dessus de la Porte qui est fermée.
+
+#### OBJECTIF 3 - Prendre en Photo les Membres de la Conspiration
+
+Quand vous etes au-dessus de cette Porte, prenez votre Camspy et dirigez-vous à Gauche. Une Cinématique va se mettre en route et vous aurez réussi cet Objectif.
+
+#### OBJECTIF 4 - Récupérer le Fichier de Dr. Caroll
+
+Une fois les Membres Photographiés, descendez de votre perchoir et butez tous les Gardes en faisant toujours gaffe à l'Alarme. Prenez le Chemin à Droite et en évitant les Balles des Gardes, vous trouverez la Salle du Coffre-Fort.
+
+Placez votre Décodeur sur l'Ordinateur qui est dans la Pièce et un chrono se mettra en marche. La Porte du Coffre ne s'ouvrira qu'à la Fin de ce Chrono. Pendant ce temps, les Gardes du G5 vont se ramener en Masse et vous devrez jongler avec vos Armes pour ne pas tomber à court de Munitions. Fermez autant que vous le pourrez la Porte d'Entrée si vous voulez recharger mais SURTOUT ne les laissez pas entrer, sinon c'est la Fête. Une fois la Porte Ouverte, prenez le Fichier et…
+
+#### OBJECTIF 5 - Sauvez-vous !!
+
+Dès que vous avez le Fichier, allez-y tranquillement. La Musique va s'accélérer mais ce n'est pas une raison pour faire les choses à la va-vite. Shootez tranquillement les Gardes puis prenez à Droite. Poursuivez votre chemin et vous devriez reconnaître l'Endroit ou vous avez placé la Mine dans la Mission Précédente. Faites-la sauter et prenez la Poudre d'Escampette.
+
+=== soluce/pd-07.html
+Soluce Perfect Dark : Zone 51 - Infiltration
+
+#### OBJECTIF 1 - Détruire le Système de Détection
+
+Lorsque vous arrivez au Mirador, juste après avoir détruit les 2 Sentinelles, vous devrez entrer dans l'Enceinte soit en Actionnant le Bouton dans le Mirador, soit en passant par derrière. Je vous conseille de passer par derrière, c'est BEAUCOUP plus efficace.
+
+Entrez par le Trou dans le Grillage, puis longez le PLUS PRES POSSIBLE la Roche par la Droite jusqu'au Conduit (ou il y a un Shield en Agent). Ensuite éliminez les 2 Gardes qui traînent dans le Coin, puis shootez les 3 Sentinelles par derrière. Une fois ce travail terminé, vous pourrez vous occuper du Garde Marron près de L'Intercepteur, et récupérer sa Carte. Si vous ne le tuez pas ainsi que l'Intercepteur, il vous attaquera par la Suite lorsque vous poserez le Bug sur le Radar, et vous shootera dès que vous serez dans le Tunnel.
+
+Ceci fait, descendez dans le Sous-Sol du Bâtiment à l'Extérieur, en prenant soin de détruire les petits Carrés Gris. Placez vos explosifs sur l'Ordinateur le plus près de la Sortie, puis sauvez-vous. Si vous n'avez pas détruit les Carrés Gris, vous aurez une Jolie Surprise…
+
+#### OBJECTIF 2 - Placer le Bug sur le Radar
+
+Quand vous avez placé les Explosifs et que l'Alarme retentit, faites attention aux 2 Gardes Bleus avec des Dragons. Une fois tués, ressortez par derrière, en longeant bien la Roche, puis prenez à Gauche. Descendez le Tunnel puis nettoyez bien la Zone en prenant garde aux 2 Sentinelles. La Première est assez dure mais en Zoomant avec le Magsec 4, pas de problème majeur. Pour la deuxième, courez vite vers elle en longeant le Mur pour vous placer juste à coté. Elle ne vous verra pas et vous pourrez tirer tranquille dans son museau. Ceci fait, faites descendre le Radar avec l'Interrupteur, puis placez votre Bug. Dès qu'il sera posé, faites attention aux Gardes qui vont sortir de l'interieur, dont un Bleu avec un Dragon.
+
+#### OBJECTIF 3 - Détruire Les Intercepteurs
+
+Il y en a 3. Le Premier est celui dans l'Enceinte avec le Garde Marron. C'est celui qu'il faut détruire en Premier sinon il s'activera lorsque vous reviendrez de la Zone « Radar ». Les 2 autres sont a coté du Hover-Bike se trouvant près du Radar. Ne les détruisez pas de trop près, sinon Big Badaboum.
+
+#### OBJECTIF 4 - Entrer dans le Hangar
+
+Facile. Le Garde Marron près de L'intercepteur avait une Carte sur lui qui vous permettra d'actionner au Choix un des Ascenseurs (y a des Ordinateurs de chaque coté des Rideaux de Fer). Une fois l'Ascenseur arrivé en bas, pénétrez dans le Hangar et l'Objectif sera réalisé.
+
+#### OBJECTIF 5 - Contact avec l'Agent de L'institut Carrington
+
+Une fois dans le Hangar, nettoyez-y toute la Racaille environnante, puis trouvez l'Ascenseur pour descendre d'un étage, et accéder à un Autre Hangar. Une fois ce nouveau Hangar bien propre, ouvrez la Porte Argentée et c'est tout bon.
+
+=== soluce/pd-08.html
+Soluce Perfect Dark : Zone 51 - Sauvetage
+
+#### OBJECTIF 1 - Detruire les Archives
+
+Il y a plusieurs Petites Salles similaires dans la Section Scientifique. Celle contenant les Archives se trouve au sommet des 2 Pentes, dans la Salle située derrière la Porte que vous aurez juste en face de vous si vous arrivez de la Partie Labos. Vous n'aurez qu'a détruire l'Ordinateur.
+
+#### OBJECTIF 2 - Les Preuves de la Conspiration
+
+Quand vous aurez détruit le Mur avec la Caisse Volante, prenez à gauche et tout au Fond, vous aurez des cotés 2 Salles Circulaires. C'est ici qu'est stocké un Roswell. Il est la Preuve de la Conspiration et doit être Scanné avec vos Lunettes à Rayons-X. Pour cela, faites remonter les Caissons Frigorifiques (y a des gros Boutons Verts bien voyants) et regardez-les avec vos Lunettes. Dès que vous avez repéré le Roswell, fixez-le et normalement l'Objectif sera réalisé.
+
+#### OBJECTIF 3 - Le Costume de Scientifique
+
+En Agent, vous le trouverez sur le Sol juste après avoir fait un Gros Trou dans le Mur. Après, en Agent Spécial ou Perfect Agent, il faudra trouver les Douches, ou se trouve le Scientifique. Les 2 Portes donnant accès aux Douches sont fermées de l'Intérieur. Il faut donc d'abord nettoyer la Grande Salle juste après l'Entrée des Douches, puis passez par le Conduit d'Aération (au passage, faites donc un petit Zoom au fond quand vous etes dans le Conduit, et vous verrez un Fromage !) pour atterrir dans les Douches. Là, trouvez le Scientifique, faites-en ce que vous voulez, puis trouvez son Uniforme dans un des Placards environnants. Une fois que vous l'avez, mettez-le tout de suite, car vous avez 2 Minutes pour atteindre le Laboratoire d'Autopsie !
+
+#### OBJECTIF 4 - Atteindre le Laboratoire d'Autopsie
+
+Sortez des Douches puis remontez la Pente, descendez la Deuxième, jusqu'à la Première Porte « Penchée » sur votre Gauche. Entrez dans la Salle SANS ETRE AGRESSIF AVEC QUI QUE CE SOIT !! Passez la Deuxième Porte et là un Garde vous ouvrira, croyant que vous etes le « vrai » Scientifique. Dirigez-vous vers le Scientifique sur la Droite et débarrassez vous-en pour prendre sa Carte d'Accès au Deuxième Laboratoire. Attention ! Vous pouvez sortir votre Dragon car là ils vont pas etre contents du tout ! Brisez la Vitre, tuez le Deuxième Scientifique et abritez-vous derrière l'Ordinateur transparent. D'ici vous pourrez nettoyer tranquillement la Salle, et finir proprement l'Objectif.
+
+#### OBJECTIF 5 - Sauver Elvis
+
+Une fois la Salle bien propre, passez le Sas et nettoyez la Suivante. Attention aux Séparateurs Bruns, détruisez-les pour voir ou sont vos ennemis. Si les Gardes vous posent des problèmes, vous pouvez rebrousser chemin pour les attendre tranquillement derrière la Porte. Une fois que tout çà est fait, et bien fait, allez à Droite en sortant et entrez dans le Deuxième Labo. Procédez comme au Premier en prenant garde à votre énergie, puis entrez dans la Salle d'Autopsie. L'Objectif est Rempli.
+
+=== soluce/pd-09.html
+Soluce Perfect Dark : Zone 51 - Évasion
+
+#### OBJECTIF 1 - La Trousse à Pharmacie Roswell
+
+Une fois sorti du Labo enfumé de Gaz Vert, prenez à droite en faisant attention aux Tranquiliseurs des Scientifiques Masqués. Ouvrez le passage secret (Porte à Texture Rocheuse) puis déposez Elvis tout en bas dans la Petite Salle. Il s'immobilisera tout seul. Remontez puis prenez à droite pour trouver le Conduit qui était fermé auparavant. Faites le Chemin tranquillement, passez sur le Pont à l'Extérieur puis entrez par la Porte Argentée.
+
+Là vous aurez sur votre Droite un Pupitre qui actionne la Porte se trouvant plus loin. Avec le Super-Dragon (ou une Mine à Télécommande si vous la trouvez…) faites sauter la Vitre. Pour ne pas exploser en même temps le Pupitre, visez un peu à coté de la Vitre. Actionnez le Pupitre, ouvrez la Porte, prenez la Trousse à Pharmacie Roswell.
+
+#### OBJECTIF 2 - Trouver Jonathan
+
+Une fois La Trousse en votre possession, continuez votre Chemin en ouvrant les Multiples Portes puis prenez à Gauche dès que vous pourrez. Vous trouverez Jonathan plus loin près des Casiers Métalliques. A noter qu'en Mode Agent, il sera à l'emplacement de la Trousse à Pharmacie (donc moins de Chemin à faire…)
+
+#### OBJECTIF 3 - Le Hangar Secret
+
+Une fois Jonathan trouvé, faites marche arrière en prenant le temps de bien tout nettoyer. Un truc : lorsque vous trouvez Jonathan, tuez les Gardes puis rebroussez chemin. Sur votre Droite la Porte va s'ouvrir et un Paquet de Gardes seront là. Mettez donc un Petit coup de Super-Dragon (En mode Grenade Launcher) pour rapidement brûloter tous ces rigolos en un clin d'œil. Continuez donc votre chemin (et faites gaffe à ce que Jonathan ne meure pas) jusqu'à la Salle après le Pont en Extérieur. Là Jonathan va installer une Bombe. Il va falloir le Protéger en gardant un œil sur la Porte menant au Pont. C'est par là qu'ils viennent. Une fois le Mur détruit, entrez dans le Hangar et l'Objectif est fait.
+
+#### OBJECTIF 4 - Lève-toi et marche
+
+Utilisez le Medi-Pack sur Elvis puis tuez les Gardes qui arrivent pendant qu'il agit. Elvis va se réveiller et se présenter. Objectif rempli.
+
+#### OBJECTIF 5 - L'Evasion
+
+En protégeant Jonathan et Elvis, dirigez-vous vers la Soucoupe Volante au Fond du Hangar. Là, Elvis vous expliquera la Situation. Suivant le Mode (Agent / Spécial ou Perfect Agent) vous devrez ouvrir les Portes du Hangar avec les Ordinateurs situés en Hauteur (1 a coté de la Soucoupe, 1 à la place de l'Ascenseur dans la Mission précédente) puis fuir en grimpant sur le Hover-Bike que vous avez aperçu juste à coté de l'Escalier métallique.
+
+Montez dessus, allez là ou était le Lit Volant d'Elvis puis tracez (gaffe à l'énergie) tout du long jusqu'à la Grande Salle par ou vous etes entré dans les Douches. Prenez à gauche au fond puis suivez votre chemin. Arrivé à une Salle avec 4 piliers « penchés », dirigez-vous à gauche puis ouvrez la Porte Argentée. Continuez jusqu'à sortir à l'extérieur. Mission Accomplie.
+
+=== soluce/pd-10.html
+Soluce Perfect Dark : Alaska - Base
+
+#### OBJECTIF 1 - Entrer dans la Base
+
+Dès le début, restez là ou vous etes et utilisez votre Drug Spy. Endormez un à un les gardes en vous aventurant dans la Caverne située sur votre Gauche (attention vous n'avez que 11 Cartouches avec le Drug Spy, donc visez bien !) Continuez votre chemin en piquant les Gardes et surtout la Femme en Bleu. Une fois le boulot fait, allez à pied dans la Caverne pour récupérer, puis mettre l'Uniforme que la Femme utilisait. Comme çà tout le monde vous prendra pour elle. Rangez votre Arbalète et dirigez-vous vers l'Entrée de la Base. Si vous etes en Spécial ou Perfect Agent, prenez à Gauche directement sans prêter attention aux 2 Gardes et à la Femme à l'Accueil.
+
+Prenez l'Ascenseur et une fois arrivé dans une Salle avec 2 Types, frappez-les, endormez-les mais surtout ne les tuez pas avec une Arme à Feu. Récupérez la Mallette au fond de la Salle, puis revenez dans le Hall pour finalement entrer dans la Base et accomplir l'Objectif.
+
+#### OBJECTIF 2 - La Valise RTL
+
+Une fois passé le Hall, vous devez placer votre Mallette sur le Petit Tapis Roulant AVANT de passer dans le Mince Couloir avec pleins de Lumières Bleutées. Pour trouver ce petit Tapis Roulant, prenez l'Escalator se trouvant en face de vous quand vous avez passé la Porte du Hall. Ensuite il se trouve juste sur votre Droite, juste à Gauche du Couloir Bleuté. C'est un détecteur de Métal apparemment, et si vous passez avec votre Valise, çà va être la Fête.
+
+#### OBJECTIF 3 - Clikoter l'Ordinateur
+
+En déposant la Valise, vous passez tranquillement le Détecteur. Cependant, votre Valise va etre quand même détectée et vous avez un certain temps (40s en Spécial, 30 en Perfect) pour trouver un Ordinateur et l'empêcher de déclencher l'Alarme. Il faut savoir que quoi que vous fassiez, çà va être un Massacre alors inutile de jouer les James Bond. Passez le Détecteur (Couloir Bleu) puis dirigez-vous tout droit jusqu'à une Salle Symétrique avec des Piliers. Continuez en longeant au Maximum sur la Droite et vous trouverez un Escalier. Grimpez et vous serez dans une Salle avec le fameux Ordinateur, un Homme en Noir et un en Blanc.
+
+Dépêchez-vous de clikoter l'Ordinateur puis passez DERRIERE l'Homme en Noir pour le Buter. En étant rapide, ce dernier va tuer l'Homme en Blanc et vous aurez le temps de finir tranquille celui en Noir. Et c'est la que la Fête commence. La Musique va s'accélérer et pleins de types bien-pensants vont rappliquer. Le mieux à faire est encore de les attendre en haut de l'Escalier et de les avoir uns par uns. Si vous voulez vous pouvez aussi y aller à la Barbare, çà paye aussi. Vous avez alors suivant votre Niveau de Difficulté 2 Solutions : soit trouver Air Force One directement, soit récupérer d'abord les Plans de Vol puis embarquer à bord du Coucou.
+
+#### OBJECTIF 4 - Les Plans de Vol
+
+Revenez vers le Couloir Bleu mais prenez plutôt à Droite par la Porte juste à coté. Suivez votre chemin en éliminant les gêneurs pour finalement arriver à un couloir avec au Fond un Ascenseur. Les Plans sont dans une Salle juste à Gauche, dans un Coffre-Fort.
+
+Butez les Gardes pour arriver dans une Salle avec une Porte fermée. Sur cette Porte vit une Mine, mais pas de Proximité ne vous inquiétez pas. Utilisez la Deuxième Fonction du K7 Avenger si vous voulez être précis. Shootez la Mine. L'explosion va détruire la Vitre et vous permettre d'accéder (par la Vitre, du moins le Trou ou il y avait une Vitre) à la Salle du Coffre-Fort. Pour l'ouvrir, trouvez l'Interrupteur. Il est dans la même Salle et relativement facile à trouver.
+
+#### OBJECTIF 5 - Grimper dans Air Force One
+
+Il y a 2 endroits par ou entrer. Soit par la Soute (Echelle dans la Salle des Lasers) soit par la Navette un peu plus haut. Dans la Salle des Piliers il y a un Couloir menant à un Ascenseur à la Akira. Il vous mènera à la Salle des Lasers. Vous trouverez dans le couloir après l'Ascenseur un Ordinateur. Si vous le ruinez, les Lasers vont fonctionner par intermittence, et vous pourrez accéder à l'Echelle, ce qui fait que vous commencerez la Mission suivante dans la Soute.
+
+La Navette. Il faut arriver dans la Salle des Piliers puis continuer vers l'Ascenseur au fond. Passez-le et prenez à Gauche pour grimper une Série d'Escaliers. En continuant tout droit vous trouverez la Navette. Je vous recommande de prendre l'Echelle, car dans la Mission suivante vous aurez moins de chemin à faire. Et si on veut avoir le Code du Niveau Air Force One, c'est mieux !!
+
+=== soluce/pd-11.htm
+Soluce Perfect Dark : Alaska - Air Force One
+
+#### OBJECTIF 1 - Récupérer l'Equipement
+
+En gros vous devez récupérer la Valise laissée dans la Base. Pour cela, il faut aller tout au fond de l'Avion puis passer par la Trappe au Sol. Descendez l'Echelle et revenez vers l'avant de l'Avion. Vous tomberez à un moment sur le Steward et la Stewardess. Frappez-les et continuez pour arriver dans la Soute. Gaffe au type avec son Cyclone ! Désarmez-le et avec sa Carte, actionnez le Bouton Vert pour faire remonter votre Valise. Et voilà ! Une Petite Astuce : avec votre Carte, faites descendre le Hover-Bike. Ainsi il vous attendra a coté de vous dans la Prochaine Mission. Et dans la Mission suivante y a de la trotte alors… C'est mieux !
+
+#### OBJECTIF 2 - Mister President
+
+Il faut pour cela retourner à l'avant de l'Avion et trouver l'Escalier faisant un Angle Droit. Il vous mènera à l'Etage. Une fois en haut, prenez à Gauche et foncez à l'arrière. Ouvrez la Porte et vous tomberez sur le Président. Rien de bien méchant en somme.
+
+#### OBJECTIF 3 - Mettre le Président dans la Capsule
+
+Une fois le Texte du Président achevé, une Cinématique vous montrera un Vaisseau Skedar accostant l'Avion. Et là çà va barder ! Si vous etes en Perfect Agent, faites d'abord l'Objectif 4 (ci-dessous) sinon dirigez-vous vers l'Escalier. D'en haut vous devriez voir les Hommes en Noir avec leurs K7 Avenger débarquer. Dégommez-les de loin et en y allant doucement pour que le Président ne prenne pas du plomb.
+
+Il faut retourner à la Trappe qui vous a permis d'accéder au Sous-sol. Attention dans la Salle juste après celle avec l'Ombilical, il y a 2 Gardes à buter. La prochaine grande Salle contient 2 Hommes en Blanc (des Mr. Blonde) qui sont assez chiants. Mettez-vous bien à l'abri et jouez avec les pas chassés pour les gratouiller en pleine Tête. Vous verrez également dans cette Salle Trent Easton qui s'enfuira. N'essayez pas de le tuer. Occupez-vous plutôt des autres Hommes en Noir qui vont rappliquer par la Salle contenant la Trappe au Sous-sol ; il y a aussi 2 ou 3 Gardes restant, mais plus simples à avoir. Une fois dans la Salle de la Capsule (celle ou il y a un Petit Fromage !) ouvrez la Porte à ce feignant de Président et c'est tout bon.
+
+#### OBJECTIF 4 - Le Plan de Vol
+
+Cet Objectif n'en est pas vraiment un dans le Sens ou il n'y pas d'Acte Particulier à faire. Lorsque vous sortez de la Chambre du Président, prenez tout droit jusqu'au Cockpit. Dans la Salle des Cartes il y a un Garde, simple a avoir. Cependant, dans le Cockpit c'est plus compliqué. Il y a 2 Pilotes et 2 Gardes prêts à les plomber si vous arrivez en force. Ce que je fais c'est que entre la Salle des Cartes et le Cockpit j'enclenche un Boost de Combat puis rentre dans le Cockpit en butant les 2 Gardes. En mode Boost vous avez l'avantage car les Gardes réfléchissent au Ralenti, mais pas vous !! Shootez donc les Gardes, assurez-vous que les 2 Pilotes sont vivants et l'Objectif est rempli. Il ne s'affichera pas mais à la Fin du Niveau tout sera OK.
+
+#### OBJECTIF 5 - Détruire l'Ombilical
+
+Une fois vos Objectifs précédents réussis, revenez vers l'Ombilical et déposez la Mine dedans. Il va y avoir un Grand BOUM et puis plus rien.
+
+=== soluce/pd-12.htm
+Soluce Perfect Dark : Alaska - Crash
+
+#### OBJECTIF 1 - Récupérer Le Scanner Présidentiel
+
+Dès le début grimpez sur le Hover-Bike çà ira plus vite. Sinon continuez à pieds. Prenez tout droit dès que vous commencez. Dès que vous le pouvez, allez à Droite, vous verrez au loin 2 Gardes relativement simples à avoir de loin avec le Falcon 2 Scope. Vous verrez aussi sur votre Gauche la Capsule Présidentielle, que vous Clikoterez en passant. Continuez tout droit jusqu'à l'Avion écrasé. Passez par le chemin de Gauche à partir de la Capsule pour ensuite prendre tout droit jusqu'à un Petit Monticule avec 2 Gardes traînant autour. Le Scanner est juste dans ce coin, sur la Neige « Grise ».
+
+#### OBJECTIF 2 - Activer la Balise
+
+Si vous ne l'avez pas fait avant de récupérer le Scanner, trouvez la Capsule en rebroussant chemin !!
+
+#### OBJECTIF 3 - Désactiver le Brouillage
+
+En fait c'est un Vaisseau Skedar traînant dans le Coin qui brouille les Communications. Et avant de le désactiver, faut le trouver ! A partir de la Balise, partez à l'opposé de l'Avion. Si vous regardez au loin avec le Scanner Horizon, vous verrez arriver en marchant 2 Gardes Noirs et un Mr Blonde. De loin, plombez-les et n'oubliez pas de choper le Sniper Rifle du Mr Blonde. Si vous voulez d'autres munitions pour le Sniper Rifle, il y également 2 Gardes Noirs et un Mr Blonde arrivant par là ou vous commenciez le niveau. Gaffe au Mr Blonde qui a tendance à se baisser pour vous shooter.
+
+Continuez donc vers la Tranchée d'ou venaient les 3 Premiers Gardes et vous allez arriver dans un grand espace avec 2 Gardes circulant. Snipouillez-les puis prenez le 2ème Passage sur la Gauche. Vous tomberez dans une Zone un peu déserte. Prenez le Chemin avec des Cailloux et vous allez arriver dans une Salle Circulaire remplie d'Hommes Noirs. Snipez-les et faites attention aux autres qui pourraient arriver derrière vous. Dans cette Salle vous verrez un Gros Trou avec dedans le Clone du Président. Butez-le.
+
+#### OBJECTIF 4 - Le Clone du Président
+
+En principe ce sera déjà fait si vous avez procédé comme je l'ai indiqué.
+
+#### OBJECTIF 5 - Sauver le Président
+
+Retournez à l'endroit d'ou partent plusieurs chemins, celui ou vous etes arrivés juste après la Tranchée ou circulaient un Mr Blonde et 2 Gardes Noirs. Vous verrez une Entrée avec au fond de la Texture Rocheuse. Allez-y puis prenez sur votre Droite pour arriver à une sorte de balcon d'ou vous verrez le Président avec Trent Easton. Tirez sur Easton pour le faire fuir. Ensuite occupez-vous des 2 Robots. Attention à ne pas faire exploser le Président avec.
+
+Remontez vers l'entrée puis cette fois-ci prenez à Gauche, pour arriver dans la Salle Centrale ou était Trent tout à l'heure. Butez les 2 derniers Robots au fond, puis le Président vous suivra. Remontez et prenez la Première à Droite. Vous arriverez dans une énorme plaine ou vous trouverez Elvis en proie à quelques Gardes. Nettoyez la zone autour de la Soucoupe d'Elvis, puis le Président arrivera et la Mission sera terminée.
+
+=== soluce/pd-13.html
+Soluce Perfect Dark : Océan - Pelagic II
+
+#### OBJECTIF 1 - Désactiver la Source Primaire d'Energie
+
+Dès le début, butez tous les Gardes. Si ils mettent en route l'Alarme, pas grave, vous en finirez plus rapidement. Dès que vous le pouvez, prenez à Gauche pour arriver dans la Salle du Générateur. Explosez les 2 Cameras (une derrière le Mur en face de l'Entrée, une sous l'Escalier Métallique) puis mettez les Rayons X. Cliquez les Carrés Verts, puis descendez vers le Gros Tube, que vous cliquerez également. Et voilà.
+
+#### OBJECTIF 2 - Les Scientifiques
+
+En Perfect uniquement, vous trouverez juste avant la Salle du GPS 2 Salles avec du Matériel de Recherche. Frappez les 3 Scientifiques et récupérez leurs Cartes. Faites attention à ce qu'ils ne se sauvent pas et atterrissent dans une Zone avec des Gardes, sans quoi ils vont subir un Feu Croisé qui va les achever.
+
+#### OBJECTIF 3 - Désactiver le GPS
+
+Dès que vous avez monté d'un Etage, trouvez un Escalier Vert qui vous menera à la Salle des Commandes. Faites attention aux 2 Gardes en haut de cet Escalier. Une fois dans la Salle, parlez simplement aux Marins qui vont s'exécuter. L'un d'eux va se rebeller et vous devrez le Buter. Les Marins accompliront ensuite l'Objectif en leur re-parlant.
+
+#### OBJECTIF 4 - Activer le SAS
+
+En continuant dans votre besogne, vous trouverez une Salle Carrée pleine de Types qui vont s'affoler. Attendez-les au coin de la Porte et finissez-les tranquillement. Une fois la Salle nettoyée, il y a sur votre Droite un Ordinateur qui n'attend que d'être cliqué.
+
+#### OBJECTIF 5 - Trouver Elvis et se sauver
+
+En Agent, il suffira de trouver la Salle Centrale avec la Grue. Elvis vous y attendra. En Mode Spécial et Perfect, il faut retourner tout au début, dans la Salle du Générateur. Restez au Niveau le plus bas et empruntez le Couloir Bleu Sombre. Comme d'habitude, attention aux Gardes Fourbes, et à une Camera vicieuse. En arrivant au bout de ce très long passage, vous trouverez un Escalier menant à une Salle assez bizarre, et Elvis dedans. Il faut ensuite se retaper tout le Chemin en sens inverse et arriver à la Salle Centrale avec la Grue. Et puis c'est tout pour ce niveau !

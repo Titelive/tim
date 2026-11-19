@@ -1,0 +1,418 @@
+
+=== battle/confidential.htm
+Battle Goldeneye : Confidentiel
+
+## Jouer avec 64 Personnages
+
+Il faut effectuer cette Manipulation quand on choisit les Personnages en Battle. Vous aurez pleins de Nouveaux Personnages (mais ils sont tous pareils sauf Terrorist et Biker). Il faut garder appuyé L ou R (suivant ce qui est indiqué) puis appuyer une fois sur une touche comme c'est écrit. Pour tout ce qui est Gauche ou Droite, on parle de la Croix Directionnelle !
+
+- L+R puis C-Gauche
+- L puis C-Haut
+- L+R puis Gauche (Croix directionnelle)
+- L puis Droite
+- R puis Bas
+- L+R puis C-Gauche
+- L puis C-Haut
+- L+R puis Droite
+- L+R puis C-Bas
+- L puis Bas
+
+## Quels sont les Personnages les Mieux Camouflés ?
+
+- **Temple** : Ourumov, Russian Infantry, Russian Commandant
+- **Complex** : Siberian Special Forces
+- **Caves** : Trevelyan, Oddjob, tout ce qui est Noir en fait !
+- **Stack** : Russian Soldier, Scientist, Siberian Special Forces
+- **Basement** : Trevelyan, Siberian Special Forces
+- **Facility** : Scientist, Helicopter Pilot
+- **Bunker** : Janus Marine, Siberian Special Forces, Scientist
+- **Archives** : Russian Soldier, Jungle Commando, Naval Officer
+- **Caverns** : Trevelyan, Oddjob, tout ce qui est Noir encore !
+- **Egyptian** : Ourumov, Russian Commandant, Russian Infantry
+
+## Qu'y a-t-il comme Armes en Battle ?
+
+Suivant les Armes que vous choisissez, le Battle prend une autre Tournure. Voilà les Armes que vous aurez en choisissant les Armes du Multiplayer. Avec chaque commentaire, je vous mets les noms de Niveaux ou ces Modes sont intéressants. Evidemment, c'est parfois très sadique !
+
+#### Rockets
+
+**Rocket Launcher, KF7 Soviet, Klobb, Dostovei.** Ici, les Roquettes sont sympas. Mais comme on a peu de munitions, faut faire Gaffe au KF7, pis le Dostovei peut devenir une Arme redoutable si on s'en sert bien !!! Niveaux Rigolos : Archives - Facility - Complex - Library - Egyptian.
+
+#### Lasers
+
+**Dostovei, Klobb, KF7 Soviet, Laser.** Un Mode un peu chiant, car c'est presque la meme chose que le Golden Gun. Pas très rigolo donc. Et puis, un Klobb contre un Laser, laissez-moi rire... Niveaux Rigolos : Facility - Caverns - Egyptian.
+
+#### Golden Gun
+
+**PP7 Silencieux, KF7 Soviet, Klobb, Golden Gun.** Pas super non plus comme Armes. A la limite, le KF7 peut esperer avoir celui qui a le Golden Gun, mais bon. Niveaux Rigolos : Facility - Archives - Complex.
+
+#### Slappers Only
+
+**Rien !** Marrant en License to Kill en fait ! Assez délirant, des bastons de baffes peuvent provoquer des crises de fous rire tordantes. Niveaux Rigolos : Facility - Archives (Niveaux Petits en fait).
+
+#### Pistols
+
+**Dostovei, PP7 Silencieux, Cougar Magnum.** Tres sympa en License to Kill, car tout le monde est sur le meme pied d'égalité (pourvu qu'il ait une Arme). Ces Armes conviennent à tous les Niveaux, because équitable ! Niveaux Rigolos : Tous les Niveaux !!
+
+#### Throwing Knives
+
+**Throwing Knives.** Sympa en License to Kill ou Normal, les Couteaux conviennent aux Petits Niveaux, tout comme les Pistols. Niveaux Rigolos : Facility - Archives - Basement - Bunker à la limite.
+
+#### Automatics
+
+**DK Deutsch, Dostovei, Klobb, PP7 Silencieux.** Coup de Gueule ! Qu'est-ce que foutent le Dostovei et le PP7 ici ? J'aurais préferé un Phantom ou un AR33 ! Niveaux Rigolos : Complex - Caves - Caverns - Temple.
+
+#### Power Weapons
+
+**Dostovei, RCP-90, Shotgun, Cougar Magnum.** Meme coup de Gueule ! Que FOUT là le Dostovei !?! Le Shotgun, si il est bien manié, peut etre aussi redoutable que le RCP-90. Le Cougar est sympa, mais faut savoir BIEN viser et au bon moment. Niveaux Rigolos : Facility - Archives - Library.
+
+#### Sniper Rifle
+
+**Cougar Magnum, Klobb, Sniper Rifle, Dostovei.** Bon choix, car on a presque que des Armes pas automatiques. Le Klobb est chiant because il ruine l'aspect furtif et coups par coups du Sniper ou du Dostovei. Niveaux Rigolos : Temple - Egyptian - Bunker - Caverns.
+
+#### Grenades
+
+**KF7 Soviet, Dostovei, Grenade, Klobb.** Pas mal, pas mal, mais on a souvent tendance à préferer des Armes plus directes, genre KF7 ou Klobb meme, car lors d'une course-poursuite, les Grenades ne tiennent pas la distance. Niveaux Rigolos : Basement - Facility - Caves.
+
+#### Remote Mines
+
+**AR33 Assault Rifle, ZMG 9mm, PP7, Remote Mines.** Tres sympa, ça passe partout. Le PP7 se sent un peu seul quand même non ? L'AR33 convient parfaitement au déminage, et le ZMG est génial. Niveaux Rigolos : Complex - Facility - Temple - Stack.
+
+#### Grenade Launchers
+
+**Klobb, Dostovei, KF7 Soviet, Grenade Launcher.** Top ! Le Dostovei et le KF7 ont leur chance, si on est un tant soit peu courageux (et l'autre en face à court de Grenades). Le Klobb est, comme toujours, pitoyable. Niveaux Rigolos : Stack - Complex - Egyptian - Caves - Temple.
+
+#### Timed Mines
+
+**PP7, AR33 Assault Rifle, ZMG 9mm, Timed Mines.** Idem mais les Timed Mines sont un peu des Grenades sauf que l'on peut les coller. L'AR33 et le ZMG sont donc plus utilisés, et plus attirants aussi ! Niveaux Rigolos : Facility - Basement - Library.
+
+#### Proximity Mines
+
+**PP7, AR33 Assault Rifle, ZMG 9mm, Proximity Mines.** Génial. Des bonnes Armes (à part le PP7, encore une fois) et des parties proches de la crise cardiaque ! Niveaux Rigolos : Facility - Complex - Temple (beaucoup de niveaux en fait).
+
+## Traduction des Commentaires en Fin de Partie
+
+- **MOST DEADLY - Le Plus Mortel** : Presque toujours Vainqueur, celui qui bute le plus de Joueurs. En un Mot, c'est le Meilleur Prix que l'on peut recevoir !
+- **MOST PROFESSIONAL - Le Plus Pro** : Comme son nom l'indique, c'est un bon commentaire. Pas de Munitions gachées dans le Vide, bonne visée, longue Durée de Vie.
+- **MARKSMANSHIP - Prix d'Habileté** : Celui qui vise le mieux !
+- **LONGEST INNINGS - Longue Durée de Vie** : Quand on reste longtemps en vie... Il arrive qu'on obtienne Longest Innings et Shortest Innings en meme temps ! Marrant.
+- **MOST HONORABLE - Le Plus Loyal** : Quand on ne tire pas dans le Dos, ou sur des Joueurs sans armes.
+- **AC -10 AWARD - Squatteur de Gilet** : Ben c'est un joueur qui reste près du Gilet. Un Campeur !
+- **DOUBLE KILL - Double Meurtre** : Quand on tue 2 Joueurs tres vite, ou en meme temps (Roquettes).
+- **TRIPLE KILL - Léon** : Idem, mais à 3. J'apelle ça se prendre pour Léon.
+- **QUAD KILL (D'OH !) - Big Bang** : TRES rare a obtenir, ou alors faut s'accorder à 4...
+- **MOST FRANTIC - Le Plus Excité** : Celui qui court partout et dans tous les sens. Peut fréquemment aller de pair avec Most Deadly par exemple en License to Kill !
+- **MOST DISHONORABLE - Le Plus Fourbe** : Le Fourbe par excellence, qui shoote dans le Dos, attaque ceux qui sont désarmés, tout un programme ! Kill ! Kill ! Kill ! Kill !
+- **MOST COWARDLY - Le Plus Lache** : Celui qui se sauve dès que ça chauffe.
+- **LEMMING AWARD - Lemming !** : Un Joueur qui avance dans les Flammes tranquillement.
+- **SHORTEST INNINGS - Durée de Vie Courte** : Souvent tué, et Durée de Vie Courte.
+- **WHERE'S THE ARMOR? - Pas de Gilet** : N'utilise pas de Gilet. Bon à obtenir en fait, comme commentaire !!
+- **WHERE'S THE AMMO? - Pas de munitions** : Ne trouve pas les munitions, ou en gache pas. Soit l'un soit l'autre.
+- **MOSTLY HARMLESS - Innocent** : Le pire de tous les commentaires. Le Lapin.
+
+## Explication des Scenarios
+
+#### Normal
+
+C'est le Scenario de Base, et peut-etre le Meilleur ex-aequo avec License To Kill, car presque tout le Monde a ses chances. Au Niveau du Gilet Pare-Balles, c'est vrai qu'il y a squattage, mais bon faut jouer pour s'amuser ou pour gagner pas vrai ? Toutes les Arenes conviennent pour ce Scenario, quoique Egyptian est trop grand, et en plus on ne peut y jouer qu'à deux... **Meilleures Armes** : Toutes. **Meilleures Arenes** : Toutes.
+
+#### License to Kill
+
+Le Meilleur Scenario ? Possible... Y a ceux qui pratiquent le Comptage, et ceux qui essaient juste de faire un Max de Points en se promenant. Le Gilet Pare-Balles ne sert à rien et c'est tant mieux ! Dans ce Scenario se revelent les Joueurs Techniques, qui privilégient la Visée au Bourrinage. Ceux qui mettent des explosifs vont passer un Sale Quart d'Heure... Touchez les Armes à travers les Portes ! Shootez les orteils !! **Meilleures Armes** : Pistols. **Meilleures Arenes** : Complex, Facility, Archives et Bunker.
+
+#### The Man with the Golden Gun
+
+Un Bon Scenario, quoiqu'un peu lassant à la longue... Sans plus. **Avec le Golden Gun** : la Meilleure Technique est de jouer au Furet et de bondir à l'improviste n'importe où, en sachant bien viser. Egalement, prendre les joueurs uns par uns, çà aide. Essayez d'etre dans des Zones où la fuite est possible par la meme occasion. **Sans le Golden Gun** : Pas chassés, pas chassés, et encore des pas chassés. On peut voler les Munitions Dorées là où elles sont. Visez directement la Tete en levant un peu votre Arme, c'est pas mal. **Meilleures Armes** : Golden Gun. **Meilleures Arenes** : Variable...
+
+#### Equipes
+
+Une Equipe soudée, chacun protegeant l'autre, c'est aussi ça le Battle ! Je ne peux que vous conseiller la fabrication artisanale d'un [Diviseur](../presentation/diviseur.htm) pour séparer l'Ecran en 2 et ainsi avoir des frissons !! **2 vs 2** : Un Bon choix, surtout en choisissant 2 Personnages de la meme couleur pour chaque équipe. Encore mieux avec un Diviseur !!! **2 vs 1 / 3 vs 1** : Pas mal aussi, meme remarque. **Meilleures Armes** : Toutes ! **Meilleures Arenes** : Toutes !
+
+#### The Living Daylights
+
+Le moins Fun des Scenarios à n'en point douter. Pas de Chrono, et... c'est franchement miteux. A éviter si on veut se faire des amis ! **Avec le Drapeau** : Fermez les Portes derriere vous ! Courez sans cesse !!! **Sans le Drapeau** : Bourrinage sur celui qui a le Drapeau ! **Meilleures Armes** : Power Weapons. **Meilleures Arenes** : Facility et Archives.
+
+=== plans/index.htm
+Perfect Dark : Plans des Niveaux Multiplayer
+
+Les plans des arènes de Perfect Dark sont des images hébergées sur le site original :
+
+- **Egouts** : [Niveau 1](egouts-niveau-1.jpg) - [Niveau 2](egouts-niveau-2.jpg) - [Niveau 3](egouts-niveau-3.jpg)
+- **Ravins** : [Niveau 1](ravin-niveau-1.jpg) - [Niveau 2](ravin-niveau-2.jpg)
+- **G5 Building** : [Niveau 1](G5-niveau-1.jpg) - [Niveau 2](G5-niveau-2.jpg) - [Niveau 3](G5-niveau-3.jpg)
+- **Ruines** : [Niveau 1](ruines-partie-1.jpg) - [Niveau 2](ruines-partie-2.jpg)
+- **Forteresse** : [Niveau 1](forteresse-partie-A.jpg) - [Niveau 2](forteresse-partie-B.jpg)
+- **Skedar** : [Niveau 1](skedar-niveau-1.jpg) - [Niveau 2](skedar-niveau-2.jpg)
+- **Complex** : [Niveau 1](complexe-niveau-1.jpg) - [Niveau 2](complexe-niveau-2.jpg)
+- **Felicity** : [Niveau Complet](felicity.jpg)
+- **Temple** : [Niveau 1](temple-niveau-1.jpg) - [Niveau 2](temple-niveau-2.jpg)
+- **Villa** : [Niveau Complet](villa.jpg)
+- **Tuyaux** : [Niveau 1](tuyaux-niveau-1.jpg) - [Niveau 2](tuyaux-niveau-2.jpg)
+- **Warehouse** : [Niveau Complet](warehouse.jpg)
+- **Grid** : [Niveau 1](grid-niveau-1.jpg) - [Niveau 2](grid-niveau-2.jpg)
+- **Zone 52** : [Niveau Complet](zone52.jpg)
+- **Base** : [Niveau 1](base-level-1.jpg) - [Niveau 2](base-level-2.jpg)
+- **Zone 51** : [Niveau Complet](zone.51.gif)
+
+=== battle/pd/pd.ruines.htm
+Battle Perfect Dark : Ruines
+
+Ce Niveau, comme Skedar, s'inspire aussi de l'Architecture du Sanctuaire Skedar, mais explore son coté Sombre, Mystérieux. Skedar était une mise en jambes, maintenant vous etes dans le vrai Skedar. Portes rouillées qui s'ouvrent parfois après 4 fois (pratique quand on a 8 Darksims aux fesses…), Eclairages Bleutés, recoins et couloirs Obscurs, Roches sinueuses, sans parler du plan lui-même, qui est une Merveille de fourberie où l'on se perd facilement.
+
+Les Espaces sont variés avec quelques répétitions pour accentuer le coté "Je connais cette Salle j'y suis déjà venu. Ah… euh c'est pas cette Salle-là en fait…" Les 2 Salles se ressemblant beaucoup sont la Salle aux 2 Piliers Bleus et celle avec les 3 Petits Obélisques. Et bien sur ce Fameux double couloir avec les trous-fenetres dans la cloison. Au Début je me faisais avoir à chaque fois. Il y a aussi le Coin Rocheux. Quand vous etes à l'Intersection des 4 Chemins, c'est difficile de se rappeler d'où on vient (et où on veut aller !!).
+
+La Grande Salle est… Bizarre. Je me demande ce qu'elle fait ici car les 2 passages y menant ne sont pas super importants, et la Salle en elle-meme ne propose pas de stratégie bien marrante. Ca rappelle celle du Temple, en moins fourbe. Peut-être un Héliport pour Vaisseau Skedar allez savoir. En gros ce Niveau est une Perle de Technicité car quand on connaît bien le niveau, les courses poursuites deviennent Démoniaques. Ce Niveau peut aussi rappeler des mauvais souvenirs, souvenez-vous quand vous avez essayé pour la Première fois le Challenge 26…
+
+#### Les Simulants
+
+Facile, sauf dans la Grande Salle. Dans les Couloirs vous les aurez simplement en leur fonçant dessus. Vous pouvez également les esquiver avec les recoins et/ou les attendre au détour d'un Escalier. Rappelez-vous que JAMAIS un Simulant ne fera marche arrière pour vous contourner. Ils sont vicieux mais pas à ce point-là.
+
+#### Les Armes
+
+Dans ce niveau, les Armes Automatiques sont TRES à l'aise en cas de confrontation dans les couloirs. Les Explosifs aussi me direz-vous, mais c'est plus risqué. Tout ce qui est MINE est efficace, car il y a pas mal de recoins fourbes du Style Encablures de portes, plafonds bas, coin Rocheux… un peu comme Facility ou Complex. Les Armes de Corps à Corps sont aussi sympa vu l'étroitesse de certains couloirs. Le Farsight est pas mal mais supporte assez mal les différences de Niveaux, comme dans les Egouts par exemple.
+
+#### Le Camping
+
+Le Campeur est fou de joie sur ce Niveau : Le Niveau est complexe ? Raison de plus pour attendre les Pigeons dans son Coin !!! Surtout que les Occasions ne manquent pas ! Les Coins sont suffisamment variés pour que le Campeur les essaye uns par uns puis choisisse celui qu'il préfère. Aujourd'hui le Campeur propose :
+
+- La Salle avec le Coin Jaune. Elle est géniale car on peut placer des Mines, une Sentinelle, un Dragon ou que-sais-je encore dans le couloir (et loin en plus !) en regardant tranquillement de loin. Il y a un seul problème : le Trou au Plafond… Pour y remédier, je vous conseille les Mines, si vous en avez, ou installer votre Coin de Camping tout au fond près du trou dans le Mur, pour voir venir la Racaille de loin.
+- Au Niveau 2, vous pouvez vous monter votre Tente juste au dessus d'un Trou sauf celui qui mène au conduit Jaune. Ainsi, si quelqu'un se pointe, vous pourrez le plomber tranquillement. Vous êtes un Mur de Feu et l'Adversaire viendra se jeter dedans !!
+
+=== battle/pd/pd.g5building.htm
+Battle Perfect Dark : G5 Building
+
+Attention, Niveau Fourbe !!! C'est un dédale de petits couloirs vicieux et autant de Petites Salles parsemées de Piliers. Au centre du niveau, 4 ponts étroits (et sans Barrières) organisent la Circulation entre les différents étages.
+
+Ces Ponts surplombent un énorme trou rectangulaire dont on ne voit même pas le fond. Attention donc en courant n'importe où, n'importe comment. Un autre Trou, plus petit lui, se trouve juste à coté, traversé par un Escalier. Ce niveau est certainement le plus petit en terme de surface. On peut être juste à coté de quelqu'un sans le voir, à cause des parois fines. Il n'y a pas beaucoup de piliers, mais attention aux accidents de grenades rebondissant dessus par erreur (et revenant vers vous !) ou aux zigzags lors de poursuites effrénées. Vous pourriez être ralentis considérablement (comme la salle aux piliers dans le Complex).
+
+Ce niveau est excellent pour qui aime débusquer le rat de son trou. C'est un niveau pour Joueurs rapides, qui aiment surprendre au coin d'un angle, d'un petit Coup de Silencieux…
+
+#### Les Simulants
+
+Les Simulants ne se prennent pas trop la tête dans ce Niveau. Ils courent un peu partout, poursuivant le même objectif que vous. Dans la salle du Grand Trou, si un simulant vous croise, il restera à vous tirer dessus sans bouger. Profitez-en pour vous planquer et le pousser dans les Ténèbres. A noter qu'en mode King Of The Hill, vous aurez à défendre la Salle Du Grand Trou toute entière, quelque soit le Pont où vous vous trouvez : Assez Dur !!!
+
+#### Les Armes
+
+Ce Niveau est particulièrement dangereux en ce qui concerne tous les explosifs, vu l'Etroitesse des couloirs, des issues de secours, et vu aussi que les flammes traversent les murs… Le X-Ray Scan est bien vicieux, comme pour tous les petits niveaux, ainsi que le Farsight XR-20. Les armes Automatiques de Grande Boucherie sont efficaces, sauf si vous tombez sur quelqu'un connaissant le niveau mieux que vous. En effet il est très facile de passer d'un niveau à un autre et faire gaspiller ses munitions à l'Adversaire, en le perdant ou en le semant.
+
+#### Le Camping
+
+Il y a dans ce niveau THE endroit du Campeur. Je suis sur que vous avez tous remarqué ce mince cul-de-sac assez ombragé. Il est imparable si vous avez de bonnes armes bien remplies. Attention toutefois au trou au Plafond d'ou peut surgir (et sans prévenir) un Adversaire. Si le coup est bien calculé vous n'aurez le temps de rien voir que déjà votre tête sera truffée de plomb. Mais si vous êtes rapide, qui sait… Le Campeur aime bien en général le petit balcon baigné de lumière bleue. Grace a lui on peut sympathiquement (et à l'abri) gratter les dos des malheureux Passants sur un des 4 Ponts !
+
+Il y a aussi un tout Petit Creux dans le sol. Je ne vous le recommande pas trop, car trop exposé à 2 voies de circulation importantes. De plus si quelqu'un vous tire dessus, c'est automatiquement le Crâne qui prendra tout.
+
+=== battle/pd/pd.complexe.htm
+Battle Perfect Dark : Complex
+
+Le Grand Retour du Niveau le plus dur de Goldeneye. Le Complex est un des plus Grands Niveaux, très Technique, et propice à toutes les Stratégies. Mon préferé ! C'est certainement le Meilleur Niveau de Battle de Perfect Dark. Voyons ce qui a changé depuis Goldeneye.
+
+Sur le Plan, un Ponton a été rajouté, éliminant le Cul-de-Sac ou on se cachait pour Sniper tranquillement les autres. Dans la Grande partie à ciel ouvert, un Etage supérieur a été créé, rendant la pièce encore plus Technique. Les Grilles cachant les Planques ont disparu (fini les Cachettes Invisibles) et l'Eau a remplacé le sombre Vide qui remplissait les 2 trous. Des Rambardes ont été ajoutées également.
+
+Graphiquement, le Niveau est rouillé, comme pour signifier l'Epreuve du temps. Trois ans çà vous use un Niveau. Bonne idée de Rare ! Un changement Majeur est le fait que l'on peut désormais tomber des Etages. Ce Détail remet en Question quelques Trucs, comme le fait de Sniper d'en bas en restant à l'abri, ou le fait de pouvoir s'échapper par un minuscule Passage. En résumé, le Complex a bien vieilli, et reste un des Niveaux les plus agréables à jouer. Il reste encore dur, même si on le connaît par cœur depuis belle Lurette.
+
+#### Les Simulants
+
+Attention dans les Pentes car ils visent terriblement bien.
+
+#### Les Armes
+
+Toutes les Armes se valent. Idéal car on peut créer le Battle que l'on veut sans perdre en Jouabilité !
+
+#### Le Camping
+
+Le Complex est un des Niveaux ou le Campeur est le plus heureux. Pleins de recoins, de planques imparables, de couloirs, que du bon !
+
+- **Le Petit Pigeonnier.** C'est le Coin situé en haut de l'Escalier après les 2 Pontons en V. Pratique pour repérer d'éventuels Agresseurs, il l'est encore plus pour shooter ceux qui voudraient grimper à l'escalier. Vous pouvez être encore plus fourbe en vous baissant. Attention car si vous voyez les arrivants de Haut, les Simulants ne vous ratent pas si ils sont en haute difficulté. Le Petit Pigeonnier reste une planque terrible depuis l'invention du Laptop Gun. Placez-le en Sentinelle en bas à l'entrée du pigeonnier et vous serez tranquille !
+- **Le Gros Pigeonnier.** C'est le Bastion situé en face. Idéal car donnant sur 2 Points de vue, il l'est encore plus en cas d'invasion intempestive : sauvez-vous par le Trou ! Si l'Escalier est bien sécurisé (Mine ou Sentinelle) vous pouvez réellement mettre la zone dans la grande Salle aux 2 Escaliers à rambardes ou blinder les 2 Pontons d'a coté de Mines ou de Dragons. Une Planque à ne pas oublier.
+- **Le Recoin Sombre.** Dans le Temps, il menait à un Cul-de-Sac. Il suffit de se placer dans le Coin et vous pourrez attraper les Personnes venant soit d'en Face soit à Droite de la Grande Salle. Attention cependant car cette planque n'offre pas d'alternative en cas de Foule. Prévoyez beaucoup de Munitions et campez bien gentiment (Laptop, Mines, Dragon etc).
+- **Les Recoins qui étaient grillagés dans le Temps.** Même si vous n'êtes plus à couvert, ils n'en restent pas moins avantageux. Bien installé, il suffit d'attendre des Clients, d'autant plus qu'ils sont relativement TRES bien placés. En effet, ils sont à des Carrefours de Grande Circulation, et juste assez étroits pour être discrets.
+- **La Cave.** Dans le Temps elle était une très Bonne Planque, bien que trop rarement visitée. Aujourd'hui, elle reste un bon coin, mais souffre du fait que l'on puisse tomber des 2 Ponts juste au-dessus. Il faut jouer serré pour cueillir les Adversaires venant d'en haut tout en gardant un œil sur l'Escalier, qui sert désormais plus à monter qu'à descendre. Une Bonne Planque, sans plus.
+
+Le Complex est également dans Banjo-Tooie ! Voir la page [Complex de Goldeneye](../ge/ge.complex.htm).
+
+=== battle/pd/pd.forteresse.htm
+Battle Perfect Dark : Forteresse
+
+Pour ceux qui connaissent Mario Kart 64, çà me rappelle bien le Block-Fort. Le Principe est simple : 4 Camps Symetriques. Point. Pour les Scenarios du Type Valise (Une pour chaque Equipe), c'est surement un des Meilleurs Niveaux. En plus le Niveau est juste compliqué comme il faut : ni trop dur, ni trop simple. Le Pied !
+
+A part les Ascenseurs pas trop génants finalement, le Niveau est très Jouable. On se déplace dans le Niveau avec facilité, tranquillement. Le Trou dans le Vide n'est pas trop génant, et on peut très bien l'esquiver. Le Meilleur Niveau pour les Valises.
+
+#### Les Simulants
+
+Rien de particulier si ce n'est qu'ils ont méchamment tendance à tomber dans le Vide lorsqu'ils s'affolent (comme dans le G5 Building). En Mode Valise, ils ont tendance à camper, mais rien à signaler à part ça. Plombez-les comme de coutume ! Profitez bien des Portes. Attendez derrière puis balancez un Coup de Devastator !!! A Noter que dans le Challenge correspondant, ils sont bien remontés...
+
+#### Le Camping
+
+Amis Campeurs, va falloir bosser pour ce coup-là. A part les Recoins ou les Caisses Métalliques, rien à l'horizon. Au Boulot !
+
+=== battle/pd/pd.felicity.htm
+Battle Perfect Dark : Felicity
+
+Le Retour de Facility sous un autre Nom. Certainement le Niveau le plus connu de Goldeneye, c'est aussi un des Meilleurs de Perfect Dark. Il s'agit de 2 Sections d'un Laboratoire. La 1ere Partie est la Partie Technique (comme le montrent les Textures) alors que l'autre partie est plus anecdotique, avec les Fameuses Toilettes.
+
+Graphiquement, le Niveau est plus étoffé. Mais ce qui change le plus, c'est la Richesse de la Partie Toilettes. Le Carrelage de ces dernieres est désormais d'un Noir Classieux, et ailleurs le Sol est Bleu Brillant avec de nombreuses Menuiseries. Pas de doute, y a plus de thunes.
+
+Le Plan est compliqué lorsqu'on aborde le Niveau pour la 1ere fois. Recoins, Portes, Couloirs, tout est contre vous. A noter que la Porte menant à la fin du Niveau (dans Goldeneye) a été murée, certifiant que le Niveau est bien fermé. Notez également qu'un Trou a été rajouté dans le Circuit d'Aération, permettant de se sauver en cas d'invasion. C'est un des plus Petits Niveaux du Jeu, et un des plus Fourbes.
+
+#### Les Simulants
+
+Attention aux Simulants car là vous les rencontrerez plus souvent. Une Baffe et Hop, une Arme qui gicle ! Dans les Petits couloirs, vous aurez l'Avantage si vous savez d'ou vient l'Ennemi (Radar) et en utilisant les Portes à bon escient, pas de problème.
+
+#### Les Armes
+
+Les Armes Traditionnelles sont à la Fete, avec tous ces Petits Couloirs. Les Explosifs sont moins marrants car on a tendance à mourir trop vite. Le Farsight XR-20 n'est pas non plus génial, compte-tenu de la Taille du Niveau. Felicity, c'est du Corps à Corps !
+
+#### Le Camping
+
+Pour Camper, Il y a le Cul-de-Sac de la Section Labo. En gardant la Porte ouverte, vous Shooterez facilement n'importe qui venant de gauche, droite, ou devant. Attention à ne pas s'enfermer car en cas d'Armes explosives, bye bye. Les Toilettes sont une fois de plus le lieu de tous les rendez-vous. Raison de plus pour attendre qu'un type passe et le plomber tranquillement. Attention car cette fois-ci il n'y a plus de portes ! Fini de se cacher comme un Fourbe dans une des 8 Toilettes !
+
+Les Circuits d'Aération sont sympas, mais trop petits pour permettre de VRAIMENT se tailler au cas ou des envahisseurs débarqueraient. Il y a bien une (Nouvelle) Issue, mais c'est trop risqué. A vous de voir. Les 2 Salles fermées sont également de bons endroits, mais ne possèdent aucune issue. Tendu ! Les 2 Autres Grandes Salles de la Partie Labo sont moins risquées, car plus grandes et donc plus propices à la Planque derrière des Cuves ou un Pilier en cas d'intrusion.
+
+=== battle/pd/pd.egouts.htm
+Battle Perfect Dark : Egouts
+
+Un Niveau Superbe visuellement. C'est sûrement le Niveau possédant le plus de variations de Textures. On trouve exactement ce qu'on veut !! Tuyaux, Murs Crades, Conduites, Echelles, Sol Poisseux, Eclairages Glauques...
+
+Tout est prévu pour une bonne mise en jambes dans ce niveau bien difficile à maîtriser. Les Eclairages sont bien réussis et contribuent bien à l'ambiance du Niveau (dans certains Niveaux les éclairages auraient pu être moins tape-à-l'œil comme dans Forteresse ou Parking) qui se veut étrange et oppressante.
+
+Le Plan est labyrinthique à souhait. Il y a une Grande Salle au Sous-sol autour de laquelle circule un long Couloir desservant les Accès aux autres Niveaux. Les Niveaux Supérieurs sont eux un mélange de Couloirs et d'Escaliers rendant la visée assez spéciale lors de poursuites acharnées. On y trouve des ascenseurs et des trous menant au Sous-Sol, qui compliquent l'affaire encore un peu plus. Ces couloirs se ressemblent un peu tous avec des utilisations similaires des circulations et des Trous-Fenetres dans les Murs. En Résumé, un très bon Niveau très technique que beaucoup de joueurs trouvent Lourd car il est un peu bordélique, ce qui n'est pas faux… Mais c'est justement ça qui me plait.
+
+#### Les Simulants
+
+Les Simulants ADORENT le coin avec l'Echelle et son Trou de Plaque d'Egout. Ils l'emprunteront souvent alors retenez-bien sa Position. Comme d'habitude, vu l'étroitesse des Couloirs et leur rapidité à Paniquer, faites attention aux Simulants Pyromanes… Que dire de plus sinon qu'ils sont bien à l'Aise dans ce niveau, vu que les voies de Circulation sont bien tracées et qu'il n'y a pas a proprement parler de Salle à choix multiple mis a part la Grande Salle du Bas.
+
+#### Les Armes
+
+Attention aux apprentis Lanceurs de Roquettes et autres explosifs !!! Il va falloir jouer serré si vous ne voulez pas crever avec votre propre Arme ! Les Armes dites Techniques comme le Farsight XR-20 ou le Slayer peuvent être efficaces si on sait bien les manier. Mais vu la configuration du Niveau vous risquez de souvent tomber sur des joueurs alors attention au Camping !
+
+#### Le Camping
+
+Beurk… Camper dans un Egout quelle idée… Enfin bon AU BOULOT !! Il y a un super Endroit qui se situe au fond du Corridor Rouge. Ce Couloir est génial en lui-même point de vue Camping, mais il possède en plus un tout chti recoin d'ou on peut attendre sans (presque) se faire voir du tout.
+
+=== battle/pd/pd.base.htm
+Battle Perfect Dark : Base
+
+C'est un Niveau assez beau je trouve, dans l'ensemble. Les Textures sont variées, les Eclairages bien réussis ; en fait il y a un seul truc qui me chiffonne. C'est le Plan du niveau. Il est on ne peut plus linéaire, avec peu d'Endroits Variés (Couloir, Grande Salle, Couloir) et de Variations d'Architecture. Il y a quelques bonnes trouvailles bien fourbes comme le Plancher Transparent ou les Caisses pour se cacher mais c'est trop peu je pense. Le Niveau est presque symétrique et on penserait (Doux Cauchemar…) parfois être dans un Niveau de Battle de Turok 2 avec ses gros Pâtés de Cubes !
+
+Heureusement, pas de Trous ni trop d'Ascenseurs pour une plus grande Jouabilité. Au Niveau des Ambiances, on croirait un Mix de la Zone 51 (Intérieur) et du Building Datadyne, avec à un endroit des Inscriptions Etranges du plus bel effet sous un Eclairage Pastel assez reposant.
+
+#### Les Simulants
+
+Si les Simulants sont forts (Perfect ou Dark) attention aux Grandes Salles et SURTOUT aux Escaliers, où ils font un Malheur. En grimpant, en descendant, dans les Airs… Rien ne les arrête ! Et ils vous viseront toujours la Tête !
+
+#### Les Armes
+
+Niveau Standard Linéaire = Armes Standard prêtes pour la Guerre. En effet toutes les Armes se valent dans ce Niveau somme toute très basique (Base, Basique) et qui manque un peu de Punch. Les Roquettes et autres explosifs sont heureux, avec un Equilibre de Couloirs et de Grandes Salles, tout comme le Farsight XR-20, qui est à l'aise, vu la Taille du Niveau.
+
+#### Le Camping
+
+Le Campeur vous propose le Fond du Couloir en bas de la Série d'Escaliers à paliers. C'est pratiquement le seul Endroit ou vous serez sur qu'il n'y a personne pour vous fourber. C'est également l'endroit idéal pour ruiner le Challenge correspondant, gage de Qualité. A part ce coin, vous avez d'autres endroits assez planqués mais pas complètement à l'Abri car il y a toujours un endroit où on peut vous déranger.
+
+=== battle/pd/pd.villa.htm
+Battle Perfect Dark : Villa
+
+Ce niveau s'inspire de la (très Grande) Résidence Privée de Daniel Carrington. On relève quelques détails et bas-reliefs rappelant l'ambiance du niveau Aztec de Goldeneye.
+
+On trouve de tout ! Des toits de tuiles ou en bois, des sols carrelés de briques rouges, dorées ou nacrées. Une Cave bien glauque avec ses teintes turquoises et un puits de lumière à un endroit. Des parcelles de gazon, un ponton en bois doré, de la roche...
+
+Oui vous l'aurez compris, même si la Villa n'est pas le niveau le plus représentatif du jeu, il possède de nombreuses qualités : richesse du décor, de l'architecture et du plan. Au niveau du plan de jeu, c'est un équilibre réussi de couloirs, d'escaliers, de grandes surfaces et de coins ou se planquer. Au sens propre comme au sens figuré, c'est un Grand Niveau, à classer parmi les meilleurs.
+
+#### Les Simulants
+
+Dans les petits couloirs, vous aurez l'avantage sur des Simulants bien entraînés, mais dans les grands espaces c'est une autre histoire. Servez-vous bien des petits murets pour s'accroupir, ou des murs pour se planquer à moitié, comme d'habitude.
+
+#### Les Armes
+
+Toutes les armes se valent dans ce niveau, ce qui est rare. Le Farsight est ici très content, comme les armes plus conventionnelles. En fait il n'y a que les Armes dites "subtiles" comme les Mines qui ne sont pas excellentes, car vite repérées, même sans un K7 Avenger. On ne peut pas placer des mines dans des endroits vraiment fourbes comme des encablures de portes, des minces piliers, ou des éléments de décors subtils...
+
+#### Le Camping
+
+Il n'y a pas vraiment d'endroits ou se planquer, vu la grandeur du niveau et la largeur des allées. Il y a bien un endroit ou se planquer, en fait 2 petits coins juste à coté des 2 allées de gazon mais ils sont vraiment trop petits. Bien sur, la Cave peut être une bonne planque… Mais trop large au goût du Campeur. Cette fois-ci, le Campeur devra marcher avec ses pieds et débusquer la vermine tout seul comme un grand.
+
+=== battle/pd/pd.grid.htm
+Battle Perfect Dark : Grid
+
+Un tout petit Niveau pour un Max de plaisir !! Bien pensé, symetrique mais pas trop, le Grid est un des Meilleurs Niveaux de Perfect Dark ! Il est relativement simple à mémoriser. Deux grandes Salles reliées par 4 Voies (2 au Sol, 2 à l'Etage) et un Ascenseur. L'équilibre entre gros et petit est évident : Piliers et Grande Salle, Couloirs et Ascenseur. C'est une sorte de mélange entre Felicity et Temple, et ça marche très bien !
+
+A la diversité du Plan répondent de très bons graphismes tout en sobriété. Dalles en Verre, Carrelage, Plafond de Néons, nuances de bleus... Un Niveau qui n'agresse pas les yeux. Au niveau du Son, c'est sympa aussi car on a droit a des vitres brisées et une Sonnerie d'Ascenseur. Réaliste, en gros.
+
+Au niveau Jouabilité, c'est parfait ! Juste 2 Escaliers très simples à apprivoiser, et un Ascenseur pour corser le tout sans tomber dans le Syndrome "Echelle"... En résumé, un Très bon niveau, au meme Niveau que le Complex.
+
+#### Les Simulants
+
+Allez savoir pourquoi, mais les Simulants ADORENT l'Ascenseur. Ils s'en servent presque toujours pour passer d'une Salle à l'Autre, et le gardent dangereusement bien. C'est une très bonne nouvelle car on peut très facilement les avoir sur ce coup-là. Déposez-y un Dragon et ils viendront se jeter dedans à toute vitesse. A part çà faites attention aux 2 Grands Espaces. Pour le reste, pas de probleme : tout est là pour vous aider : Portes Coulissantes, Points de Vues imparables (Labo, Escalier) et le Tour est joué.
+
+#### Les Armes
+
+Comme pour l'Entrepot Warehouse, attention aux Explosifs. Rien de plus, d'autant que là les couloirs sont un tout petit peu plus tordus.
+
+#### Le Camping
+
+Des Endroits pour Camper ? Il y en a... mais ce n'est pas de tout repos. Le Premier est situé dans le recoin juste sous l'Escalier, à coté d'une Porte Coulissante. Bien tapi dans une obscurité bleue, vous serez invisible pour qui passe rapidement devant vous. Et là à vous de sortir de votre tanière pour croquer. Le Deuxième Endroit est épuisant. C'est le Labo. En effet, il y a 2 voies d'accès. Cependant, en faisant couramment des allers-retours, vous pouvez vous constituer un nid douillet en truffant les 2 chemins de Mines ou de Dragons. En équipe, cet endroit est quasiment inaccessible si chacun garde un coin. Le Troisième Endroit pourrait être l'Ascenseur. En jouant bien, on peut se laisser enfermer dedans et tomber sur d'éventuels utilisateurs.
+
+Le Grid se retrouve aussi dans Conker's Bad Fur Day !
+
+=== battle/pd/pd.temple.htm
+Battle Perfect Dark : Temple
+
+Revoilà donc le désormais Célèbre Temple de Goldeneye 007 ! Certainement un des meilleurs Niveaux de ce jeu, et un pas mal pour Perfect Dark, sans aucun doute. Le Temple a subi un petit lifting qui le rend maintenant plus réaliste, plus sombre (Dark…) et un peu plus vivant qu'avant. Les Sources de Lumière ont été améliorées, et les Zones d'Ombres renforcées, ce qui donne des contrastes assez violents par moments, mais finalement plus intéressants que ce beige fade qui ornait chaque recoin de l'Ancien Temple. Du Sable orne la désormais Salle aux 12 Piliers et on peut apercevoir un sympathique ciel Bleu Azur par endroits.
+
+Pas de doute, cette fois-ci on a droit à un VRAI Vieux Temple (rappelez-vous comme le précédent etait propre) bien poussiéreux. Au Niveau du Plan lui-même, la Salle aux 12 Piliers rend l'action plus ardue. Avant, il y avait juste un énorme bloc à contourner, maintenant c'est une Forêt de colonnes ! On peut (et ceci pour chaque Niveau du Jeu) maintenant tomber dans le Trou de La Grande Salle et venir jouer les Bouchers. Avant c'était juste du tir aux Pigeon(s).
+
+Les Portes sont toujours là, avec ici un son génial à la Indiana Jones, bien caverneux. Un Truc agréable encore : quand on tire dans La Grande Salle, celle-ci s'éclaire du fait des coups de feux tirés. Cool. Un petit regret (pour ma part) concerne les 2 endroits éclairés d'on ne sait ou par une forte lumière jaune. Bon d'accord il y a la même chose dans le Complex et dans d'autres niveaux, mais dans le cas du Temple, je trouve le contraste trop violent, et pas en Harmonie avec l'ambiance du Niveau.
+
+#### Les Simulants
+
+Rien à dire sur les Simulants. A mon avis vous connaissez mieux le niveau qu'eux.
+
+#### Les Armes
+
+Le Temple étant du même tonneau que Skedar ou Zone 52, toutes les Armes se valent, avec un petit plus pour les explosifs, qui se plaisent fort bien dans toutes ces grandes salles. Vu la Taille des Salles, les poursuites en mode License To Kill ("Pan t'es Mort !") sont assez stressantes avec des Pistolets ou des Armes à faible débit. Le Farsight XR-20 se plait bien dans le Temple, surtout dans les Mains d'un Campeur, comme d'habitude.
+
+#### Le Camping
+
+Dans la Salle aux 12 Piliers, se cacher avec un Farsight XR-20 est une bonne Affaire, ainsi qu'avec un Slayer, ou quelques Mines déposées affectueusement plus loin. Il y a aussi bien sur la bonne Vieille Planque du Gilet (qui n'y est plus d'ailleurs) qui est a mon avis l'exemple TYPE de Camping. Donc en gros, le Campeur se trouvera bien au chaud, tel le Sable brûlant baigné par le Ciel Bleu de ce Niveau.
+
+=== battle/pd/pd.tuyaux.htm
+Battle Perfect Dark : Tuyaux
+
+Un Niveau assez Classique… En apparence ! Comme vous l'aurez tous remarqué, il y a une très Large Fosse au sous-sol !! En fait ce Niveau propose surtout un large éventail de situations. Commençons par le sous-sol. Vous pouvez vous promener et aller chercher une Arme au moyen de Gros Tuyaux jaunes circulant un peu partout. Attention au Vide cependant car c'est la Mort assurée, et ça compte comme un Suicide (très lourd en groupe)...
+
+#### Les Simulants
+
+Beaucoup d'endroits où en croiser, car ils sont particulièrement mobiles dans ce niveau. Je sais pas pour vous, mais chez moi ils adorent se réunir près de l'Ascenseur, ce qui en fait un Point facile à Miner ou à surveiller bien planqué. On peut aussi aisément les faire tomber dans le vide, ou les suivre sans qu'ils ne vous voient (Simulants Faibles) vu l'étroitesse de certains couloirs. Une autre solution consiste à surveiller les 2 Echelles (Jaune et Turquoise) et attendre que le Simulant-Pigeon veuille remonter. Evidemment ils vont apparaître ailleurs par la suite mais c'est un bon endroit.
+
+#### Les Armes
+
+Si vous savez bien manier les explosifs vous ferez un carton, sinon attention car ce niveau est truffé de coins et d'accroches. Vu les nombreux moyens de circulation (tuyaux, passerelles, carrelage, ascenseur) on dirait que ce niveau a été conçu pour les poursuites. Toutes les Armes se valent, sauf peut-être le Farsight XR-20, car il n'y a pas à proprement parler d'endroit où se planquer tranquillement. Les Armes de Grande Tuerie sont très à l'aise, vu les Grands couloirs du Sous-Sol.
+
+#### Le Camping
+
+Il y a 3 Endroits Majeurs. Tout d'abord au Sous-Sol, là ou courent tous les tuyaux, il y a un tout petit Carré de Béton qui vous permettra de toucher chaque joueur tombant du plafond ou arrivant par la Droite par le couloir Jaune.
+
+Il y a ensuite le recoin avec une Caisse Métallique. En vous cachant vous pourrez facilement gratter quelques Epaules passant par là. Et enfin il y a le Couloir Turquoise. Si vous vous débrouillez bien, vous pourrez contrôler les 2 Accès et bloquerez un endroit de Circulation Stratégique, surtout que ce couloir contient une Zone.
+
+#### Le truc qui tue
+
+En se laissant tomber d'un rebord, on peut se tenir debout sur les Murs en Pente ! On peut se déplacer dessus le long des murs en pente ! Je vous laisse fourber vos Adversaires en Beauté...
+
+=== battle/pd/pd.zone52.htm
+Battle Perfect Dark : Zone 52
+
+Un Niveau alternant grands espaces, couloirs et salles spécifiques, un peu comme Skedar mais sur un seul niveau, ce qui rend l'orientation bien plus facile. De très bons endroits occupent ce niveau. Tout d'abord la Grande Salle avec les Tourelles, rappelant celle de Skedar (décidément) avec l'arme au milieu, les 4 échappatoires possibles, la possibilité de Sniper du haut des tourelles, avec ici en plus un piège vicieux : la petite douve circulant autour de l'Obélisque. On ne peut en sortir que par 2 petites échelles, ce qui complique pas mal les choses, et on ne peut partir de cet "îlot" que par un mince pont. Du bon travail, surtout que la meilleure arme est souvent sur l'îlot.
+
+Deux grandes salles viennent en plus : celle en pente, avec ces pointes crochues, et l'autre plus classique, avec les portes coulissantes sur ses flancs. Ces petites salles sont sympathiques, surtout celle en pente, qui ravira le Campeur… Il y a des couloirs, comme dans tous les Niveaux, reliant diverses parties de l'Arène, avec en prime des petits conduits (dont un où se situe une arme ou un bouclier) et des portes coulissantes vicieuses, qui se ferment juste quand on tire une roquette !
+
+Enfin, la très bonne trouvaille de la Zone 52 est certainement ses 2 Petites Maisons bien utiles pour se retrouver ou se planquer comme un Rat. Il y a la Maison Bleue, assez dure à garder dans la mesure ou l'on peut briser ses vitres et tuer l'occupant directement à l'intérieur. Et puis il y a La Petite Maison Dans La Prairie avec ses 4 Poutres d'Acier la rendant vite identifiable. Cette maison est plus simple à garder, puisque les vitres sont ici des herses métalliques, et qu'il faut d'abord les ouvrir pour tirer.
+
+#### Les Simulants
+
+Comme d'habitude, faites gaffe aux grands espaces ; et dans les longs couloirs méfiez-vous des Simulants en Roquettes, car ils n'auront aucun remords à se suicider, histoire de tuer quelqu'un. Les tourelles sont pratiques, puisque les Simulants n'y vont quasiment jamais (sauf en Cas de Valise) et permettent de bonnes rasades de Plomb. La Petite Maison (…Dans La Prairie) est bien puisque les Simulants n'ouvriront jamais les fenetres et viendront tranquillement se faire tuer à l'entrée. En revanche, la Maison Bleue est une zone à risques ! Les Simulants cassent les vitres comme pas permis !
+
+#### Les Armes
+
+Comme pour Skedar, toutes les Armes se valent, le niveau étant bien équilibré Grands Espaces / Petits Couloirs…
+
+#### Le Camping
+
+Le Campeur restera dans La Petite Maison avec Charles Ingalls puisqu'il fait froid aux alentours (et qu'il n'y a plus de bois à couper)… Des Mines ou une Arme braquée sur la Porte feront très bien l'affaire. Une fois de plus, le Farsight est de rigueur. Une tourelle avec une pleine provision de Grenades ou Roquettes convient également très bien au Campeur. Les petits recoins situés dans les couloirs Jaunes juste entre La Prairie et La Grande Salle sont aussi un excellent butoir pour simulants ou joueurs. Et le Campeur pris de panique pourra toujours se réfugier chez Charles Ingalls.

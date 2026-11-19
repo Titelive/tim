@@ -1,0 +1,375 @@
+
+=== soluce/pd-14.html
+Soluce Perfect Dark : Océan - Épave Cetan
+
+#### OBJECTIF 1 - Les Téléporteurs
+
+Commencez le Niveau normalement, c'est à dire en butant joyeusement (et avec le sourire) tous les braves types que vous rencontrerez. Pas Elvis par contre. Ca serait bête. Dès que vous avez passé le Cadavre du Skedar, trouvez et empruntez le Passage Sombre sur votre Gauche. Ce passage mène à l'Ordinateur contrôlant les Téléporteurs. Si une Porte ne s'ouvre pas, c'est que vous avez oublié de shooter une Petite Lanterne Verte. Une fois toutes les Lanternes allumées, vous arriverez à une Grande Salle avec 3 Gardes dedans, dont un Mr Blonde. Nettoyez comme de coutume, puis laissez Elvis bidouiller le Pupitre.
+
+#### OBJECTIF 2 - Neutraliser l'Arme Cetan
+
+Ressortez du Passage aux Lanternes, et faites attention aux 2 Gardes Occultés. Ils vous attendent de pied ferme, alors grattez-leur les Orteils. Prenez à Gauche et vous arriverez à un Carrefour. A Gauche au fond il y a un Bouclier (Agent et Spécial seulement) tandis qu'a Droite vous attend un Téléporteur qui va vous envoyer ailleurs avec des Jolis effets de lumière.
+
+Selon le Mode de Difficulté, les Choses vont être différentes. En Agent, vous n'aurez pas trop de chemin a parcourir. Elvis vous filera son Farsight XR-20 et le Chemin sera Linéaire, donc pas trop compliqué. Vous arriverez dans la Salle Centrale du Vaisseau et devrez protéger Elvis des Bébés Skedar arrivant un peu partout.
+
+En Mode Spécial, c'est différent, plus long mais linéaire. En Mode Perfect, vous serez dans une Zone traversant plusieurs Salles contenant des sortes de Tubes Fluorescents. Vous devez tous les exploser. Utilisez bien votre Farsight XR-20 pour repérer notamment 2 Sentinelles Fourbes. Pour la Dernière Salle, celle qui est rectangulaire, regardez avec votre Farsight XR-20 au Fond des 2 Trucs Métalliques de chaque coté de la Salle pour exploser les 2 derniers Tubes Verts Fluos. Une fois le Travail accompli, et ce dans n'importe quel Mode de Difficulté, vous arriverez finalement dans la Salle du Dr Caroll.
+
+#### OBJECTIF 3 - Nettoyer la Salle du Dr Caroll
+
+Il suffit de crever les Mr Blondes qui traînent dans cette Salle.
+
+#### OBJECTIF 4 - Restaurer la Personnalité du Dr Caroll
+
+Dès que la Salle est nettoyée, sortez votre Disquette et utilisez-la sur Dr Caroll.
+
+#### OBJECTIF 5 - Se Sauver !
+
+Dès que le Décompte commence, sortez par l'autre Porte. Vous vous trouverez dans le Passage ou vous avez emprunté le Premier Téléporteur. Tracez comme un bon Forrest jusqu'au Premier Conduit Metallique. Dès que vous aurez ouvert la Deuxième Porte, ce sera fini.
+
+=== soluce/pd-15.html
+Soluce Perfect Dark : Institut Carrington
+
+#### OBJECTIF 1 - Réactiver Les Sentinelles
+
+Attention ! Le Chemin que je vous propose n'est certes pas le plus rapide, mais c'est celui qui permet d'éviter un MAX de Gardes. Il faut savoir que dans ce Niveau les Gardes de chez Datadyne ont des saloperies de Boucliers Ultra-résistants et croyez-moi, lorsque vous serez en Mode Perfect Agent, vous n'aurez pas envie de vous amuser à vous les faire uns par uns, et ce pour plusieurs raisons :
+
+- Ils ont des K7 Avenger
+- Ils ont des Boucliers du Feu de Dieu
+- Ils arrivent à l'Infini (voir les Mystères)
+- Ils visent bien les Fourbes !!
+
+Ah ! Une Grosse Bête ! Butez donc pour commencer le Skedar juste sur votre Gauche. Attention, il a un Mauler (le Conseil du Jour). Ensuite descendez et prenez à Gauche pour accéder au Hangar. Restez sur le Passage surélevé et entrez par le Passage de Gauche. Vous arrivez dans une Salle avec 2 Gardes de L'Institut et un Ordinateur (le Premier) juste a coté. Si vous etes bien rapide vous arriverez à l'activer juste à temps pour que le Garde Datadyne arrivant derrière la Porte se fasse trucider par la Sentinelle. Récupérez son K7 Avenger à l'Occasion.
+
+Une fois la Première Sentinelle activée, retournez sur vos pas et prenez en bas à Gauche, pour entrer dans un Deuxième couloir Rocheux. Activez rapidement l'Ordinateur juste après la Sentinelle puis rebroussez chemin dans le Hangar pour remonter d'un Niveau. Là, ne remontez pas au Rez-de-Chaussée mais continuez tout droit pour aboutir dehors. Continuez en prenant toujours sur la Droite. Vous arriverez à la Troisième Sentinelle, dont l'Ordinateur est tout proche (à Droite derrière l'Angle quand on se met à la Place de la Sentinelle). Une fois ceci terminé, remontez au Rez-de-Chaussée pour libérer les Otages…
+
+#### OBJECTIF 2 - Les Otages
+
+Une fois remonté au Rez-de-Chaussée, vous remarquerez la Statue de l'Institut démolie. Entrez dans la Salle d'Entraînement Holographique (Carrelage Noir) pour y buter 3 Gardes. Pour les avoir facilement, mettez-vous de sorte à ce qu'ils soient tous les 3 dans un alignement. Comme un sandwich quoi.
+
+Si jamais ils ont le temps de tuer des Otages, c'est pas grave. Ce ne sont pas les plus importants à sauver, et puis, si vous regardez bien, vous découvrirez que 2 des 3 Otages sont des Hologrammes… Donc pas de panique. Par contre au 1er Etage c'est plus chaud. Prenez l'ascenseur que vous voulez puis dirigez-vous vers les Bureaux. Ceux de vos collègues bien sur. Il n'y a pas de technique particulière si ce n'est qu'il faut être rapide et efficace. Note : Si vous sauvez la Femme Blonde dans le Bureau de Gauche, elle vous donnera un Devastator. Sympa ! Redescendez cette fois-ci vers le Stand de Tir. Là il faut être rapide et bien viser pour tuer les 2 Gardes. Si Foster est encore en Vie, il vous remettra sa Carte. Utilisez-là sur l'Ordinateur à coté du RCP-120 en vitrine. La vitre pète et à vous la Belle Vie !! Voilà une Arme bien virile !!
+
+#### OBJECTIF 3 - Récupérer l'Arme Expérimentale
+
+Ben çà y est c'est fait en principe.
+
+#### OBJECTIF 4 - Détruire l'Information Sensible de Carrington
+
+Ressortez du Stand de Tir (Gaffe aux Gardes et aux Mr Blondes !!!) pour regrimper au 1er Etage. Allez dans le Bureau de Daniel Carrington et utilisez votre Laser en 2ème Fonction pour découper son Coffre Fort. Détruisez comme vous voulez le Bidule (on va appeler çà comme ça) sauf avec le Devastator sinon bobo. Voilà.
+
+#### OBJECTIF 5 - La Bombe
+
+Voilà un Objectif fourbe. Ressortez du Bureau pour ensuite vous diriger vers le Hangar Extérieur. Vous devriez trouver un Vaisseau Skedar. Et ben… C'est LUI la Bombe. Il suffit de le Télécharger avec le Récepteur, puis de retourner au Vaisseau à l'Intérieur. Le Problème évidemment, ce sont les Gardes qui pullulent comme de la Vermine et vous tirent dessus comme c'est pas permis. Voilà comment je procède.
+
+Dès que vous sortez du Bureau de Carrington, enclenchez la 2ème Fonction du RCP-120 afin de jouer l'Homme Invisible. Faites gaffe à ce qu'aucun Garde ne vous voit AVANT de vous rendre invisible sinon il vous « verra » quand même. C'est bizarre mais c'est comme çà. Et en plus il vous tire dessus même si vous etes invisible. Va savoir… Dirigez-vous donc vers le Vaisseau Skedar et procédez normalement. Si des Gardes vous tirent dessus, continuez à Télécharger en tournant autour du Vaisseau, pour esquiver les Balles. Dès que le Vaisseau s'envole, courez rejoindre le Vaisseau à l'Intérieur. A y est !!
+
+=== soluce/pd-16.html
+Soluce Perfect Dark : Espace - Vaisseau Skedar
+
+#### OBJECTIF 1 - Les Systèmes de Bouclier
+
+Il s'agit de détruire les 3 Pupitres se trouvant dans la Salle juste devant vous. Pour commencer, attendez que Cassandra de Vries se fasse découper par le 1er Skedar qui court quand vous entrez dans la Salle. Normalement, le 2ème Skedar un peu plus loin va se déplacer puis vous tourner le dos. Avancez doucement avec votre Couteau (en 1ère Fonction) pour lui trancher la Nuque. Çà le tuera sur le coup. Allez-y doucement avec des pas chassés !!
+
+Une fois ce Skedar tué, prenez son Mauler et mettez-le en 2ème Fonction. Ca tue un Skedar en un seul coup, si il est bien mis dans la Tête ! Allez vers l'Ascenseur pour que le 1er Skedar vous voie, puis reculez vers là ou etait le 2ème Skedar. Dès que le Skedar pointe son museau pointu, mettez-lui un bon coup de Mauler. Vous n'avez plus qu'a détruire les 3 Pupitres puis prendre l'Ascenseur pour la suite des évenements… Note : Ceci est ma Méthode pour le Mode Perfect Agent, ou les Munitions sont plutôt limitées dans cette Première Phase du Vaisseau. C'est donc pourquoi j'y vais à la James Bond. En Mode Agent ou Spécial, c'est beaucoup plus tranquille bien sur.
+
+#### OBJECTIF 2 - Les Portes de Hangar
+
+Prenez l'Ascenseur pour arriver dans le Hangar. Attention aux 2 Skedars traînant dans le coin. En Perfect, mieux vaut les attendre de loin au coin du couloir par lequel vous arrivez. Dirigez-vous en face, pour atteindre un autre Ascenseur vous menant à une Salle Symétrique à celle d'ou vous veniez. Vous y trouverez un Skedar facile à tuer en l'attendant dans un coin, et un Machin à bidouiller pour ouvrir les Portes du Hangar. Redescendez. Vous trouverez Elvis, qui vous filera un AR34. Et c'est là que cette Mission devient intéressante.
+
+#### OBJECTIF 3 - Le Système de Navigation
+
+Déjà, un Son bizarre va se faire entendre. Vous verrez dans le Hangar 2 Soldats Roswells avec des Callisto NTG. Laissez-les buter les Skedar arrivant par les 4 Salles Bizarres (avec au Sol les Plaques Gelées) pour etre tranquille, et ensuite ramasser un Max de Munitions pour le Mauler. C'est important car le Mauler est presque - sinon plus - efficace que le AR34 pour buter les Skedar. Si vous voulez, vous pouvez tuer les 2 Soldats Roswells, mais ce n'est pas très utile car leurs Callisto NTG n'ont vraiment pas assez de Munitions.
+
+Prenez l'Ascenseur comme Elvis vous le dira et accédez à l'Etage Supérieur. Là, je vous laisse vous débrouiller car c'est de la Pure Boucherie en règle. Evitez bien les Tirs des Skedar en profitant bien des éléments du décor. Vous devriez trouver facilement la Salle des Cartes, et lorsque vous aurez buté les 2 Skedar à l'Intérieur, Elvis traficotera la Machine et voilà. A cet Etage, vous trouverez la Salle des Propulsion, et une autre Salle contenant un Slayer. La Salle du Slayer est assez risquée (surtout en Perfect) mais le Slayer peut s'avérer utile pour l'Objectif suivant, si vous avez à le faire. A vous de choisir.
+
+#### OBJECTIF 4 - Le Système de Propulsion
+
+En continuant dans le Vaisseau Skedar, vous arriverez à une Section plus Bleutée que d'habitude, avec une Porte bien en Evidence. Entrez et faites bien attention à bien nettoyer cette Salle des 2 Skedars s'y trouvant. Vous verrez 2 Portes menant à 2 Couloirs (logique) menant eux-mêmes à la Salle de Propulsion. Il y a pas mal de Skedars dedans donc faites gaffe à votre Energie. Une fois la Salle nettoyée, dégommez les 2 Machins Marrons soutenant la Colonne Bleu-Claire. BOUM !! Sortez vite de toute la Section si vous ne voulez pas finir grillé !! Un Petit Truc : si vous tracez bien depuis l'Objectif de la Salle des Cartes, Elvis n'aura pas le temps de vous rattraper, et donc de se faire cramer les orteils.
+
+#### OBJECTIF 5 - Contrôler le Pont
+
+Une fois vos Objectifs précédents finis, prenez les Escaliers Sombres pour arriver vers une Autre Porte bien en évidence. Comme d'habitude, attention aux Sales Bêtes environnantes… Vous entrerez dans une Salle avec 2 Bannières accrochées. Il y a 2 Skedars dans cette Salle. Tuez-les puis prenez (encore) l'Ascenseur. Vous arriverez finalement dans la Salle de Contrôle (le Pont) ou rodent 3 Skedars armés de Mauler. Une fois éliminés, restez sur vos gardes !! C'est là que çà va se corser !!!
+
+Elvis va vous rejoindre, puis des Skedars vont surgir des 2 Portes pour vous éventrer. Vous avez un Avantage : ils ne sont PAS armés !! Et oui ! En gros, si vous devez recharger ou vous déplacer pour mieux viser, profitez à fond des pontons pour les semer, un peu comme dans Pacman, pour ceux qui s'en souviennent.
+
+=== soluce/pd-17.html
+Soluce Perfect Dark : Espace - Sanctuaire
+
+#### OBJECTIF 1 - Les 3 Piliers
+
+Dès le début, foncez vers le mur qui vous fait face et reculez vivement. Un Skedar arrivera, n'attendant que de se faire plomber tranquillement. Ensuite vous serez dans une Salle avec un Pilier. Un Skedar « invisible » viendra vers vous. Butez-le puis mettez-vous derrière le Pilier, pour que le 3ème au fond ne vous mette pas de coups de Mauler.
+
+Si le Pilier est le 1er des 3, Joanna parlera, et vous devrez placer un Bitoniot dessus. Sinon, butez le Skedar armé et continuez votre chemin. Vous serez dans une courbe, avec un Skedar au fond, et un Autre qui apparaîtra derrière vous. Tuez-les ; le 3ème sera au choix soit dans l'Allée suivante, soit juste à coté de vous. Activez votre Traqueur, et trouvez les 2 Piliers restants. Cà ne devrait pas etre trop dur. Attention aux 3 Skedars armés de Reapers ! Prenez-les à la Goldeneye (pas chassés) et gaffe à votre Energie. Une fois les 3 Piliers Explosés, dirigez-vous vers l'Allée menant à un Canyon, ou traînent 2 Skedars armés de Maulers…
+
+#### OBJECTIF 2 - Activer le Pont
+
+Au bord du Canyon, vous verrez une autre Allée continuant plus loin. C'est par là qu'il faut aller. En Spécial et Perfect, un Rocher vous empêchera de monter à l'Echelle. Envoyez une Grenade « Collante » juste à coté, puis tuez les 2 Skedars avant de monter. Vous atterirez dans un Espace avec un Skedar invisible. Tuez-le puis cherchez la Partie Friable du Mur avec le Scanner à Infrarouges. Mettez-y une Grenade (Collante ou Normale, au choix) puis engagez-vous dans le Couloir révélé. Attention aux Bébés Skedars sévissant dans le coin. Vous verrez sur votre Droite une Porte Rouilleuse avec dedans un Bébé Skedar à flinguer. Une fois la Salle Propre, poussez la Pierre Triangulaire sur la Parcelle lui correspondant pour faire apparaître le Pont vous permettant d'entrer dans la 2ème Partie du Niveau.
+
+#### OBJECTIF 3 - Accéder au Sanctuaire Intérieur
+
+Activez vos Rayons Infrarouges pour mieux voir arriver les Bébés Skedar. Vous arriverez bientôt à une Porte menant à une Grande Salle, et une pente menant à un Etage superieur. Restez au niveau ou vous etes, et nettoyez la Salle suivante. Elle contient 2 Skedars armés de Slayer. Pour les avoir facilement, restez en face d'eux de sorte qu'ils tirent, puis décalez-vous en avançant de sorte à les prendre de vitesse.
+
+Dans cette Salle, vous trouverez une Statue Skedar vous demandant de faire une Offrande au Dieu de la Guerre. Equipez-vous de votre Arme la moins chargée (de préférence votre Falcon 2) puis déposez-là. La Porte juste au-dessus de vous est maintenant ouverte. Lorsque vous la passerez, l'Objectif sera rempli.
+
+#### OBJECTIF 4 - L'Armée Secrète
+
+En continuant, vous arriverez dans une Salle avec pleins de Conteneurs Verts. Dès que la Musique s'accélère, reculez pour vous mettre dans la Salle d'avant. Ce sera beaucoup plus facile pour buter uns par uns les Skedars arrivant. Une fois l'Armée Morte, entrez dans la Dernière Salle, contenant le Chef Skedar.
+
+#### OBJECTIF 5 - Assassiner le Chef Skedar
+
+Il suffit de tirer sur lui jusqu'à ce que son Bouclier soit VERT. Là il va se mettre sous la Grande Statue et vous devrez détruire uns par uns les « Epines » de cette Statue. La Dernière Epine, la Plus Grande, le Tuera toute seule et vous aurez gagné. Attention à ses 2 Tirs de Slayer, ainsi qu'aux Bébés Skedars et aux Skedars Adultes qu'il fera apparaître. A part çà utilisez bien votre Callisto NTG, et vive les pas chassés.
+
+=== soluce/pd-18.html
+Soluce Perfect Dark : Duel
+
+#### OBJECTIF 1 - Le Premier Garde
+
+Il est vraiment simple à avoir. Déplacez-vous bien vite avec pleins de pas chassés dans tous les sens pour finalement lui coller un Pruneau.
+
+#### OBJECTIF 2 - Jonathan
+
+Il est un peu plus fourbe que le Premier, alors si vous stressez, allez faire un tour derrière le Mur et jouez les Fourbes pour le contourner. N'oubliez pas de choper son Gun une fois Mort.
+
+#### OBJECTIF 3 - Trent Easton
+
+Lui il a un Magnum Doré. Ca rigole plus. Même technique que pour Jonathan.
+
+=== soluce/pd-19.html
+Soluce Perfect Dark : Blonde is Back
+
+#### OBJECTIF 1 - La Bombe dans l'Ascenseur
+
+Dès le Début, mettez-vous Invisible et allez vers l'Ascenseur qui vous a servi à finir la toute 1ère Mission. Placez-y la Bombe et direction les Ascenseurs Supérieurs, toujours en étant invisible.
+
+#### OBJECTIF 2 - Le Chef Datadyne
+
+Prenez l'Ascenseur et normalement, il va ralentir et vous devrez combattre le Chef Datadyne, embarqué dans l'autre. Vu la Taille de l'Ascenseur, faites vite car l'esquive est limitée. Une Astuce consiste à placer devant l'Ascenseur du Chef, au Rez-de-Chaussée, votre Bombspy. Lors de votre montée, utilisez votre Bombspy et vous devriez voir le Chef apparaître. Faites péter. C'est prêt.
+
+#### OBJECTIF 3 - Escorter Cassandra de Vries à l'Héliport
+
+Une fois à l'Etage, butez comme de coutume les Gardes pour arriver dans le Bureau de Cassandra. Désarmez-la SANS LA TUER puis elle vous suivra jusqu'à l'Héliport. Pas de conseils particuliers. Soyez rapides et efficaces, c'est tout.
+
+=== soluce/pd-20.html
+Soluce Perfect Dark : SOS Maian
+
+#### OBJECTIF 1 - Saboter l'Expérience
+
+Dès le Début, faites vous voir de sorte à ce que le Scientifique sorte un Falcon 2. Frappez-le et récupérez son Arme. Faites pareil pour le 2ème et mettez le Lit devant la Vitre. Tirez dessus 5 fois et à vous la Liberté. Butez les Gardes et chopez leurs Dragons. Gardez bien en réserve votre Psychosis Gun.
+
+Allez dans la Section des Conteneurs Frigorifiques à Droite et nettoyez la Zone de Droite. Ensuite, allez dans l'autre Salle circulaire en Face et là, tirez sur le Capitaine Santiago avec votre Psychosis Gun. Avec ses 2 Magnums Dorés il fera des ravages, et en plus il est moustachu. Retournez sur vos pas pour accéder au 2ème Labo, contenant un Roswell qu'il vous faudra détruire. Zoomez de loin (dans le Sas par exemple) et tirez sur le Lit. Il explosera et vous récupérerez les Munitions des 2 Scientifiques présents sur les lieux. Voilà.
+
+#### OBJECTIF 2 - Exploser la Soucoupe
+
+Continuez votre chemin (un TRES long chemin) vers les Douches. Faites bien attention à choper les Gardes de loin et à tuer le Scientifique dans la Salle contenant une Sentinelle. Ce Scientifique a des Munitions pour le Psychosis Gun, au cas ou Santiago serait claqué. Bien utile, donc. A propos, pensez à choper les 2 Magnums au passage, mais ne les utilisez surtout pas !!! Vous verrez pourquoi plus tard…
+
+En continuant bien loin dans la Zone 51, vous arriverez au long Couloir avec 3 ou 4 Portes successives. Sur votre Droite vous remarquerez qu'un Passage est ouvert. L'Alarme va retentir et vous devrez jouer les Bouchers pour nettoyer tranquillement l'Entrepôt (là ou commençait la 2ème Mission de la Zone 51) pour finalement prendre l'Ascenseur et revenir vers le Hangar de la 1ère Mission de la Zone 51.
+
+Vous trouverez dans ce Hangar pas mal de Gardes en Bleus, qu'il faudra éliminer. Une fois le boulot fait, dirigez-vous vers l'Ascenseur sur votre Gauche. De là, vous pourrez apercevoir la Soucoupe et l'Exploser de loin grâce à vos Fameux Magnums Dorés. Et oui, la Soucoupe est trop longue à exploser alors autant utiliser les Magnums Dorés : ils tuent tout en UN SEUL COUP, y compris la Soucoupe. Remarque : Pourquoi faut-il buter la Soucoupe de Loin ? Explosez-là donc et vous constaterez l'étendue de la déflagration, qui dure même bien longtemps !
+
+#### OBJECTIF 3 - SOS
+
+Une fois dans l'Ascenseur, montez vers une Section contenant quelques Gardes. Vous serez ensuite dans une Salle séparée en 2 par des paravents. Butez les Scientifiques puis shootez un paravent pour passer de l'autre coté. Tuez les 2 Scientifiques puis faites « Téléphone Maison » sur l'Ordinateur. Et voilà !!
+
+=== soluce/pd-21.html
+Soluce Perfect Dark : La Guerre !
+
+Avant de commencer, cette Mission est une PURE Boucherie. Les Armes les Plus efficaces sont le Phoenix (2ème Fonction, 2 coups pour tuer un Skedar) et le Mauler, lui aussi en 2ème Fonction cela va de soi… Le Callisto NTG est pas mal, mais je préfere les 2 d'avant, plus rapides. Si les Roswells vous suivant venaient à mourir, sachez qu'il en reviendra, mais uns par uns. Ne vous mettez pas trop à découvert et sachez vous retirer pour attirer les Skedars dans un coin ou vous aurez l'Avantage (long couloir, angles). Les Rois Skedars supportent très mal le Mauler en 2ème Fonction.
+
+#### OBJECTIF 1 - Le Roi Skedar 1
+
+Il se trouve devant le Petit Autel à la Gloire du Dieu de la Guerre. Si vous avez les Roswells avec vous, laissez-les le tuer. C'est le plus lourd à avoir à cause de tous les Skedars présents dans cette Salle. Attention a son Reaper, qui fait TRES mal.
+
+#### OBJECTIF 2 - Le Roi Skedar 2
+
+Il est dans la Salle de l'Armée Secrète. Il a un Slayer et est facile à avoir car on peut l'avoir en restant dans le Sas. Gaffe aux Skedars arrivant par les cotés cependant.
+
+#### OBJECTIF 3 - Le Roi Skedar 3
+
+Il est dans la Dernière Salle. Pas de conseils particuliers. Procédez comme un Boucher : Faites-en des Fines Tranches.
+
+=== battle/ge/ge.facility.htm
+Battle Goldeneye : Facility
+
+- **Taille** - Entre Standard et Petit, mais au Poil !
+- **Décor** - Superbe. On s'y croirait (dans le Film) et les Lieux sont vraiment bien pensés. C'est varié (les Fameuses Toilettes, le Labo, les Conteneurs, les Couloirs...) et Facility est surement le plus beau Niveau en Battle. Indéniable.
+- **Armes** - Tout se vaut, sauf un Bémol pour les Explosifs.
+- **Camping** - Les Toilettes ! Les Toilettes ! Les Toilettes ! Y a aussi d'autres endroits : les 2 Salles en bas (celle toute Bleue, et celle avec la Porte Blindée) ; un Coin moins connu au fond de la Salle Bleue sans Porte, celle qui donne sur le Couloir ; là où il y a le Gilet dans la Section Labo ; le Conduit d'Aération, quoique y a personne dedans...
+
+## Les coins à connaître
+
+- Si quelqu'un traine dans le Conduit...
+- Un Grand Classique : les Toilettes !
+- D'en haut, on peut mettre un de ces foutoirs pas croyables avec juste une seule Roquette !
+- Le coin avec le Gilet est un des plus empruntés ! A bon entendeur... Brûlez le Gilet !
+- On peut se planquer dans le coin gauche du Passage.
+- Il y a 2 endroits d'où on peut tuer quelqu'un de TRES loin.
+- Vous aurez surement remarqué que la Porte de la salle qui mène vers le Couloir gris s'ouvre plus vite que les autres.... A savoir !
+- La Salle du Labo est un Vrai Casse-Tête pour essayer de tuer quelqu'un.
+
+=== battle/ge/ge.basement.htm
+Battle Goldeneye : Basement
+
+- **Taille** - Grand, mais en fait Petit, car tout est étiré. De longs Couloirs, 2 Salles à Colonnes plus ou moins Grandes. C'est un Niveau Standard. Pour plus d'infos, voir Stack et Library !
+- **Décor** - Très sombre par endroits, plutot clair dans la Partie Kaki du Niveau. Un peu de Gris par-ci par-là. Vous l'aurez compris, ce Niveau est SOBRE. Et un peu déprimant, mais bon après tout c'est une Cave hein ?
+- **Armes** - Idéal pour toutes les Armes. Génial pour les Couteaux de Lancer, because longs couloirs. C'est la Fête aux Roquettes de meme. Les Pistols sont sympas aussi, vu les Longs Couloirs.
+- **Camping** - Y a un mince passage TOUT noir très agréable pour rester à l'Abri et prunifier un peu tout le Monde qui passe. Il y a les 2 sorties bloquées qui font d'excellents nids ! Y a aussi les sortes d'Alcoves Kaki qui sont un bon endroit. Ceux qui passent vite ne vous verront pas et hop, un chargeur dans le dos ni vu ni connu !
+
+## Les coins à connaître
+
+- Le Couloir Noir. Certains joueurs ne savent meme pas qu'il existe, alors profitez-en !
+- La Salle aux Alcoves. Très agréable pour se cacher en attendant une Proie...
+- Le long couloir, idéal pour les Roquettes, et à coté la Petite Salle aux Piliers, bien vicieuse si on sait bien s'y cacher...
+- Les Salles aux Colonnes sont d'excellents lieux pour les courses poursuites en Power Weapons.
+- Le Couloir du Gilet, lieu de toutes les convoitises !! Ruez-vous dessus !!!
+- Les Passages reliant les 2 Salles de Colonnes. Pas trop fréquentés...
+
+=== battle/ge/ge.temple.htm
+Battle Goldeneye : Temple
+
+- **Taille** - Grand, assez grand. Parfait. LE Niveau Standard.
+- **Décor** - Assez Pauvre. Autant le Niveau est parfait, autant Graphiquement il reste en dessous de Complex ou Facility...
+- **Armes** - Tout se vaut, et dans tous les sens.
+- **Camping** - Y a le bien-nommé Couloir du Gilet et je crois que c'est à peu près le seul Endroit où on puisse dignement vous traiter de Campeur.
+
+## Les coins à connaître
+
+- Un bon Endroit de Sniper. Attention, çà marche dans les 2 sens ! Le Sniper peut devenir le Snipé !
+- L'escalier descendant vers la Salle Centrale du Bas se fait par un Endroit assez Sombre : C'est ici qu'il faut se planquer !
+- Le Couloir menant au Gilet est un haut lieu de Confrontation ! Si un Campeur sort de son Trou, c'est là qu'il faut le cueillir ! On peut aussi attendre qu'il sorte et l'Exploser de haut...
+- Le Passage autour du Pilier Carré Géant est un Vrai Manège...
+
+=== battle/ge/ge.complex.htm
+Battle Goldeneye : Complex
+
+- **Taille** - Le plus Grand des Niveaux. Et le Meilleur aussi je crois bien... Plein de couloirs, d'endroits aérés, d'Escaliers. Rien à dire, ce Niveau c'est une promenade !
+- **Décor** - Bons, avec des Eclairages Jaunes, Bleus et Rouges. Le Ciel Rouge ajoute beaucoup à l'Ambiance, tout comme les Grillages, et les Trous Noirs...
+- **Armes** - Tout se vaut, à part peut-etre les Explosifs. Les Pistols sont à l'honneur, avec toutes les poursuites que l'on peut faire. Les Power Weapons sont aussi très bien !
+- **Camping** - Y a plusieurs endroits : le Petit Pigeonnier (en Haut de l'Escalier, juste après le Ponton en V), le Gros Pigeonnier (juste en face !), les Fausses Grilles (y en a 3, a vous de les découvrir), la Cave et le Coin Rouge du Gilet.
+
+## Les coins à connaître
+
+- Le Trou dans le Gros Pigeonnier est magique. Glissez ce que vous voulez dedans et laissez mijoter (Roquettes, Grenades, Mines).
+- L'Entrée du Petit Pigeonnier est un vrai Traquenard.
+- Pour peu que l'on ait des Roquettes ou Grenades, les 2 Pigeonniers fonctionnent dans les 2 sens. Boum ! Baston entre les Balcons !
+- La Salle aux 2 Ponts est mortelle. La Sortie de la Cave est dangereuse.
+- Baston dans la Salle aux 2 Escaliers via le Balcon du Gros Pigeonnier.
+- L'entrée vers le Gilet (Jaune) ou le Gros Pigeonnier (Bleu) est un Endroit ou ça chauffe régulièrement.
+
+## Complex dans Perfect Dark et Banjo-Tooie
+
+Le Complexe est également présent dans Perfect Dark et dans Banjo-Tooie ! C'est le Niveau Clinker's Cavern. Bon, pour Perfect Dark, c'était évident, mais pour Banjo-Tooie c'est une Belle Surprise ! Le Niveau est un Poil différent, mais c'est un Clone très réussi tout de même ! Le site original propose un comparatif en photos Goldeneye / Banjo-Tooie.
+
+=== battle/ge/ge.stack.htm
+Battle Goldeneye : Stack
+
+- **Taille** - Assez grand, comparable à Complex. Plus de Grands Espaces par contre.
+- **Décor** - C'est du Archives en hyper-épuré, et Basique. C'est marrant, mais ce Niveau est graphiquement assez pauvre, pourtant il est vraiment très jouable et c'est un des meilleurs. C'est comme le Complex.
+- **Armes** - Tout se vaut, sauf peut-etre les Armes genre Pistols...
+- **Camping** - Y a la Salle d'où on ne peut sortir que par 2 Passages Secrets ou les Escaliers. Y a aussi le Balcon qui est pas mal, quoique souvent visité. On peut aussi rester dans les Couloirs, ce qui marche pas mal !
+
+## Les coins à connaître
+
+- Retenez bien le Mur avec la Trace Blanche, il mène à la Salle pour accéder aux Pontons.
+- Le Fameux Balcon, pour sniper dans ce que j'appelle la Salle Vitrée.
+- Le Gilet est stratégiquement situé, car les Joueurs viennent souvent s'y approvisionner. Un Coin où ça pète souvent à coups de Roquettes...
+- Les Pontons sont généralement l'Endroit où les meilleurs Joueurs s'affrontent, car c'est là qu'il y a les Meilleures Armes... et le Gilet !
+- Il y a pas mal de Passages Secrets comme dans Archives. Pensez bien à refermer après votre Passage...
+- Les Escaliers sont Fermés, et c'est un bon Endroit pour Camper. Celà dit attention à ce qu'un Joueur ne vienne pas vous déloger à coups de Roquettes...
+
+## Stack dans Banjo-Tooie !
+
+Et oui, comme Complex, Stack est présent, du moins un Petit Peu, dans Banjo-Tooie ! Pour y jouer, choisissez en Multiplayer le Niveau Ordnance Storage Room !
+
+=== battle/ge/ge.bunker.htm
+Battle Goldeneye : Bunker
+
+- **Taille** - Bien bien Grand, avec beaucoup de Longs Couloirs, le Bunker est un des plus Grands Niveaux du Jeu. Faut pas oublier la Partie à l'exterieur, bien que l'on n'y aille pas trop souvent. Un Excellent Niveau pour la marche à pied.
+- **Décor** - Froid et Fonctionnel, le Bunker n'est pas très joyeux. Heureusement, il est varié. Prison, Salle à Piliers, Salle de Controle, Exterieur, Radiateur, Conduit de Ventilation, c'est quand meme pas mal ! Les Portes avec des Fenetres sont GENIALES avec le [Diviseur](../../presentation/diviseur.htm) !!!
+- **Armes** - Les Sniper sont à l'honneur, surtout avec le Diviseur qui fait un malheur. Tout ce qui est Mine est sympa, vu la Taille du Niveau. Les Pistols sont un peu légers pour les Grandes Salles, mais ça peut aller.
+- **Camping** - Y a bien évidemment la Prison, et d'autres Salles fermées. On peut aussi camper dans un Coin des 2 Mini-Salles de la Salle de Controle. Se planquer derriere le Radiateur est Radicalement efficace, surtout si vous laissez les Portes Ouvertes. Personne ne vous voit !
+
+## Les coins à connaître
+
+- La Prison est un bon endroit pour coincer des Joueurs perdus qui y resteraient. Les Explosifs sont très dangereux ici.
+- La Salle aux Colonnes est un bon endroit, du fait du Gilet qui y repose dans un Coin. Un bon endroit pour le camping.
+- La Salle du Conduit de Ventilation est pas mal. En plus ce Pont au-dessus de l'eau, le Ciel au-dessus, mignon.
+- Planqué contre le Radiateur, on est Invisible !! Idem en Mode Solo.
+- Le Couloir Rouge et Bleu cache un Gilet. C'est un endroit assez sombre, donc propice aux embuscades...
+- La Porte Coulissante a un Défaut : son bruit unique ! Meme avec un Diviseur, dès que vous entendez ce bruit, foncez dénicher l'ennemi !
+- Les Mini-Salles de la Salle de Controle, avec le recoin. Il y a souvent dans le coin une très bonne Arme ! Chopez-là !
+- A travers la Vitre, on voit bien des choses... Très utile avec le Diviseur !
+- Les 3 Salles normales du Bunker sont de bons endroits pour attendre des Joueurs perdus !!
+
+=== battle/ge/ge.egyptian.htm
+Battle Goldeneye : Egyptian
+
+- **Taille** - TROP grand. Surtout pour 2 Joueurs !!! Coup-de-gueule ! C'est vraiment trop injuste, surtout que à 4 avec l'Action Replay, c'est du délire !!
+- **Décor** - Ca va... Plutot pas mal. Ca ressemble au Temple en plus joli.
+- **Armes** - Sniper Rifle, vu la Taille du machin... Roquettes, Mines...
+- **Camping** - Pas vraiment d'endroits, plutot des Salles, vu que ce Niveau est carrément disproportionné.
+
+## Les coins à connaître
+
+- Les portes Secrètes, juste à coté de la Grosse Colonne tout au fond. A savoir...
+- On peut monter dans les Conduits où il y avait les Drone Guns en Solo.
+- La Salle de l'Obélisque, sympa sans plus, trop banale. On dirait du Turok en moins beau...
+- La Big Big salle pleine d'eau au Sous-sol. Ne me demandez pas à quoi elle sert, je ne le sais pas moi-meme.
+- Un passage pas secret, mais chaud à voir : juste avant l'Escalier vers la Salle du Golden Gun, y a un Passage à Droite !
+- La Salle du Golden Gun, et le Passage Secret d'où on en descend. On a une Bonne Vue d'ici !
+
+=== battle/ge/ge.caverns.htm
+Battle Goldeneye : Caverns
+
+- **Taille** - Trop Grand, c'est son Défaut. Trop de lignes droites, de passages vides, sans que l'on rencontre quelqu'un. Comme quoi... Autant le Niveau est parfait en Solo, autant il perd beaucoup en puissance en Battle. Et en plus en Battle il est plus petit !
+- **Décor** - Sombre, trop d'ailleurs, et assez Glauque. De jolis détails, mais sans le mobilier, le Niveau perd beaucoup.
+- **Armes** - Je sais pas trop, j'ai jamais trop joué dans ce Niveau...
+- **Camping** - Y doit y en avoir des tas, mais franchement le Niveau est trop grand pour voir passer quelqu'un. Le Campeur abandonne ce Niveau pour préferer Archives, Basement ou Complex. A vous de voir !
+
+## Les coins à connaître
+
+- Le Passage Secret du Mode Solo sert pas mal comme raccourci. En plus il est bien sombre, et difficile à voir ! Un Baril trône plus loin dans la même direction...
+- Les Fameuses lignes droites qui gachent tout puisqu'on passe les trois quarts de son Temps a cavaler sans rien trouver.
+- La Salle de la Radio est la seule salle interessante à cause des Caisses Grises pour se cacher. De plus, cette Salle a 2 Sorties bien distinctes.
+- Le Couloir de la fin du Niveau en Solo. Bof... Autant en Mode Solo il laisse un souvenir imperissable, autant là non...
+- Le Couloir de la Mort reste un bon endroit pour les fourberies. Le Campeur aime bien s'enfermer dans l'Ascenseur !
+
+=== battle/ge/ge.archives.htm
+Battle Goldeneye : Archives
+
+- **Taille** - Un Niveau Vicieux et Traitre. La Salle aux Colonnes est bien fourbe, surtout avec les rebonds des Grenades par exemple. Les Escaliers peuvent etre mortels, tout comme les Portes qui rendent la progression difficile. Les Vitres contribuent à cet aspect cloisonné du Niveau.
+- **Décor** - Certains Endroits se ressemblent, notamment les 2 Parties avec les Vitres. Y a aussi les 2 Passages Secrets, avec soit un Gilet, soit l'Arme choisie. La Couleur Verte est omni-présente, ce qui contribue un peu à se perdre, du moins au Début.
+- **Armes** - Un Excellent Niveau en terme de Taille pour du License to Kill abusif. Les Roquettes sont terriblement dangereuses à utiliser, comme dans Facility. Les Power Weapons sont bien, tout comme les autres Armes plus classiques.
+- **Camping** - Le Campeur aime bien la Salle où on commence en Mode Solo. Y a aussi à coté de l'Escalier (n'importe lequel) qu'on peut tranquillement se faire des points en License To Kill. Les Bureaux Vitrés sont un bon endroit, mais pas assez planqués au Goût du Campeur.
+
+## Les coins à connaître
+
+- Le croisement de 4 Chemins, l'endroit le plus fréquenté. La Caisse Grise est traitre en License To Kill si on la fait sauter. On peut aussi se cacher derrière en s'agenouillant...
+- Les Bureaux Vitrés. Excellents avec des Power Weapons, c'est la Fête au Verre Pilé. Notez que le verre réapparait... Tant mieux ! Baissez-vous si vous voulez pas prendre trop de Plomb !
+- Les 2 Passages Secrets sont très importants si vous voulez chopez une Arme ou un Gilet !! Si il y a des Roquettes ou un Grenade Launcher, cet endroit est le Saint Graal.
+- Le Passage secret vers le Gilet. Vital !!! Reconnaissable à son Mur plus foncé d'un coté, à coté d'un Bureau Vitré... Ce Gilet est très convoité, car il y a beaucoup plus de circulation !
+- Les Descentes d'escaliers sont d'excellents endroits pour mettre des Mines, ou attendre en bon campeur. On peut également foutre un Boxon pas possible en restant tranquille dans ces Escaliers...
+- La Salle aux Colonnes. Ceux qui se cognent au Décor n'aiment pas cette Salle. Moi, beaucoup. Y a un Gilet, et on peut placer quelques Grenades bien loin quand toutes les Portes sont ouvertes.
+
+=== battle/ge/ge.library.htm
+Battle Goldeneye : Library
+
+- **Taille** - Très Grand Niveau, étalé sur 3 Niveaux. Pour ceux qui commencent dans le Basement, c'est pas de bol. Ce Niveau est une Grosse Randonnée car on n'arrete pas de trotter.
+- **Décor** - Ben on a 2 Décors pour le Prix d'un. Le Basement est decrit sur sa propre page. Pour le reste, c'est du Archives en hyper-épuré, et Basique. C'est marrant, mais ce Niveau est Graphiquement assez pauvre, pourtant il est vraiment très jouable (Stack alors, pas Library). C'est comme le Complex, qui n'est pas exceptionnel comme Facility. Bizarre...
+- **Armes** - Tout se vaut, sauf peut-etre les Armes genre Pistols...
+- **Camping** - Y a la Salle d'où on ne peut sortir que par 2 Passages Secrets ou les Escaliers. En fait, il n'y a vraiment que tout en haut sur les Pontons que l'on sera tranquille, car vu la Taille du Niveau, y aura pas grand monde.
+
+=== battle/ge/ge.caves.htm
+Battle Goldeneye : Caves
+
+- **Taille** - Standard lorsque l'on connait le Niveau par Coeur, Caves est une Bonne Alternative à Caverns. A part une Salle, toutes les Voies menent à des endroits précis, sans trop perdre les joueurs. Idéal !
+- **Décor** - Varié, allant du Noir au Gris, Vert, et Bruns, c'est correct. C'est une Caverne assez variée. Chaque Salle a sa propre Teinte, on la reconnait facilement. Un bon Niveau graphiquement.
+- **Armes** - Tout y passe. Par contre, les Mines sont vite identifiables vu leur couleur Grise ! Tout ce qui est Explosif est superbe dans Caves !
+- **Camping** - Y a l'Endroit sous le Passage tout Noir, mais on y va pas trop. Le Bout du Virage avec la Stalactite est subtil, pour peu que l'on ait un Personnage Noir...
+
+## Les coins à connaître
+
+- Du haut de la Grande Salle, on peut sniper au Lance Roquettes ceux d'en bas. C'est un excellent endroit pour inonder les autres de Roquettes ou Grenades.
+- Le Couloir Brun est un passage souvent utilisé, alors attention à bien viser, c'est un Point vite gagné !
+- L'autre Grande Salle, avec les 3 Balcons, est bien marrante. On peut descendre des 2 Premiers, et joyeusement Shooter ceux plus bas.
+- On peut surprendre un Sniper en tirant depuis le Haut de l'escalier de la Grande Salle.
+- Le Virage de la Stalactite est un bon endroit, difficile à garder. On peut se planquer dans le Noir au fond...
+- La Salle Banale du Niveau, plus loin après le Poste du Gilet. Rien à dire sur cette Salle.
