@@ -4,12 +4,15 @@
   var bar = document.querySelector(".progress");
   var up = document.querySelector(".to-top");
   var toggle = document.querySelector(".theme-toggle");
+  var top = document.querySelector(".top");
+  var calm = matchMedia("(prefers-reduced-motion: reduce)").matches;
 
   function onScroll() {
     var h = root.scrollHeight - root.clientHeight;
     var p = h > 0 ? Math.min(1, root.scrollTop / h) : 0;
     if (bar) bar.style.transform = "scaleX(" + p + ")";
     if (up) up.classList.toggle("show", root.scrollTop > 400);
+    if (top) top.classList.toggle("scrolled", root.scrollTop > 10);
   }
   window.addEventListener("scroll", onScroll, { passive: true });
   window.addEventListener("resize", onScroll);
@@ -23,7 +26,10 @@
     toggle.setAttribute("aria-pressed", current() === "light");
     toggle.addEventListener("click", function () {
       var next = current() === "light" ? "dark" : "light";
-      root.dataset.theme = next;
+      var apply = function () { root.dataset.theme = next; };
+      // transition douce entre les deux thèmes quand le navigateur sait le faire
+      if (document.startViewTransition && !calm) document.startViewTransition(apply); else apply();
+      toggle.classList.remove("flip"); void toggle.offsetWidth; toggle.classList.add("flip");
       toggle.setAttribute("aria-pressed", next === "light");
       try { localStorage.setItem("theme", next); } catch (e) {}
     });
@@ -73,7 +79,39 @@
     });
   }
 
-  if (!("IntersectionObserver" in window) || matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  // Cartes des jeux : légère inclinaison 3D et lueur qui suit le pointeur
+  if (!calm && matchMedia("(pointer: fine)").matches) {
+    document.querySelectorAll(".tilt").forEach(function (el) {
+      el.addEventListener("pointermove", function (e) {
+        var r = el.getBoundingClientRect(), x = (e.clientX - r.left) / r.width, y = (e.clientY - r.top) / r.height;
+        el.style.setProperty("--mx", x * 100 + "%");
+        el.style.setProperty("--my", y * 100 + "%");
+        el.style.setProperty("--rx", (0.5 - y) * 5 + "deg");
+        el.style.setProperty("--ry", (x - 0.5) * 7 + "deg");
+      });
+      el.addEventListener("pointerleave", function () {
+        el.style.setProperty("--rx", "0deg");
+        el.style.setProperty("--ry", "0deg");
+      });
+    });
+  }
+
+  // Chiffres de l'accueil : comptent jusqu'à leur valeur
+  var counters = document.querySelectorAll("[data-count]");
+  function fmt(n) { return String(n).replace(/\B(?=(\d{3})+(?!\d))/g, "\u202f"); }
+  function count(el) {
+    var end = +el.dataset.count, t0 = null, dur = 1400;
+    function step(t) {
+      if (!t0) t0 = t;
+      var k = Math.min(1, (t - t0) / dur);
+      el.textContent = fmt(Math.round(end * (1 - Math.pow(1 - k, 3))));
+      if (k < 1) requestAnimationFrame(step);
+    }
+    requestAnimationFrame(step);
+  }
+
+  if (!("IntersectionObserver" in window) || calm) return;
+  counters.forEach(function (el) { el.textContent = "0"; setTimeout(function () { count(el); }, 900); });
   var items = document.querySelectorAll(".game, ul.links li, .card, .theme h2, .content > :not(.gallery), .gallery figure, .pager a");
   var io = new IntersectionObserver(function (entries) {
     entries.forEach(function (e) {
@@ -83,6 +121,9 @@
   items.forEach(function (el, i) {
     var r = el.getBoundingClientRect();
     if (r.top < innerHeight) return; // déjà visible : pas d'animation au chargement
+    // décalage en cascade entre éléments voisins (cartes, liens, images)
+    var sib = el.parentElement ? Array.prototype.indexOf.call(el.parentElement.children, el) : 0;
+    el.style.setProperty("--d", Math.min(sib % 6, 5));
     el.classList.add("reveal");
     io.observe(el);
   });

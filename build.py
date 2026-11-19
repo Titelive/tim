@@ -535,6 +535,7 @@ def layout(link, title, inner, section=None, game="", description=""):
 <link rel="stylesheet" href="{r}assets/style.css">
 </head>
 <body{body_cls}>
+<div class="ambient" aria-hidden="true"><span></span><span></span><span></span></div>
 <div class="progress" aria-hidden="true"></div>
 <a class="skip" href="#contenu">Aller au contenu</a>
 <header class="top">
@@ -769,13 +770,14 @@ def build_page(path, page, pages, order, idx, where):
         nav_game = None
 
     orig_url = ORIGIN + page["orig"].lstrip("./")
-    head = (f'<div class="page-head"><div class="wrap">'
+    first = galleries[0][0]["src"] if galleries else GAME_ART.get(nav_game or game or "", "")
+    head = (f'<div class="page-head has-banner"{banner_style(cur_out, first)}><div class="wrap">'
             f'<div class="crumbs">{SEP.join(crumbs)}</div>'
             f'<h1>{inline(page["title"], link)}</h1></div></div>')
     inner = (head + f'<div class="wrap"><article class="content">{body_html}{pager}'
              f'<p class="source"><a href="{orig_url}" target="_blank" rel="noopener">Voir la page originale</a></p>'
              f'</article></div>')
-    return layout(link, page["title"], inner, nav_game, game)
+    return layout(link, page["title"], inner, nav_game, game or nav_game or "")
 
 
 def group_links(paths, cur_out, pages, numbered=False, icons=False):
@@ -799,6 +801,38 @@ GAME_INTRO = {
 }
 
 
+# images d'ambiance (bannières, cartes des jeux, défilé de l'accueil)
+GAME_ART = {"ge": "images/ambiance/goldeneye.jpg", "pd": "images/ambiance/perfect-dark.jpg",
+            "plus": "images/ambiance/perfect-dark-rue.jpg"}
+CART_ART = {"ge": "images/ambiance/goldeneye.jpg", "pd": "images/ambiance/perfect-dark-oeil.jpg"}
+GE_SHOTS = ["images/soluce/%s-1.jpg" % n for n in ("surface1", "bunker2", "statue", "archives", "streets", "depot",
+            "train", "jungle", "control", "caverns", "cradle", "aztec", "egyptian", "007")]
+PD_SHOTS = ["images/mysteres/%s-01.jpg" % n for n in ("area51", "defection", "extraction", "g5", "institut", "villa",
+            "skedar", "vaisseau", "maian", "labo", "crash", "abysses")] + \
+           ["images/challenges/challenge-%d-1.jpg" % n for n in (15, 16, 18, 22, 24, 26, 29)]
+
+
+def existing(paths):
+    return [p for p in paths if (ROOT / p).exists()]
+
+
+def banner_style(cur_out, img):
+    # une url() dans une variable CSS se lit depuis la feuille de style (assets/), d'où le « ../ »
+    return f' style="--banner:url(\'../{img}\')"' if img and (ROOT / img).exists() else ""
+
+
+HUB_DECO = {"ge": ('<svg class="deco dial" viewBox="0 0 200 200" aria-hidden="true">'
+                   '<circle cx="100" cy="100" r="94" fill="rgba(8,10,14,.6)" stroke="rgba(255,255,255,.18)" stroke-width="2"/>'
+                   '<g fill="none" stroke-width="8" stroke-linecap="round">'
+                   '<circle class="arc" cx="100" cy="100" r="84" stroke="#d7261e" stroke-dasharray="80 448" transform="rotate(100 100 100)"/>'
+                   '<circle class="arc" cx="100" cy="100" r="84" stroke="#f5b72e" stroke-dasharray="80 448" transform="rotate(170 100 100)"/>'
+                   '<circle class="arc" cx="100" cy="100" r="84" stroke="#38d36a" stroke-dasharray="80 448" transform="rotate(240 100 100)"/></g>'
+                   '<circle cx="100" cy="100" r="70" fill="none" stroke="rgba(220,228,236,.55)" stroke-width="7" stroke-dasharray="1.2 6.13"/>'
+                   '<line class="hand" x1="100" y1="100" x2="100" y2="38" stroke="#3fd6e8" stroke-width="3" stroke-linecap="round"/>'
+                   '<circle cx="100" cy="100" r="5" fill="#3fd6e8"/></svg>'),
+            "pd": '<div class="deco hud" aria-hidden="true"></div>'}
+
+
 def build_hub(g, pages, idx):
     gslug, gname = GAMES[g]
     cur_out = gslug + "/index.html"
@@ -815,9 +849,9 @@ def build_hub(g, pages, idx):
             cls = ' class="pd"' if g == "pd" else ""
             blocks.append(f'<section class="theme" id="{a}"><h2{cls}>{icon(GROUP_ICON[k])}{n} <span class="count">{len(paths)}</span></h2>'
                           + group_links(paths, cur_out, pages, numbered=(k == "soluce")) + "</section>")
-    head = (f'<div class="page-head"><div class="wrap">'
+    head = (f'<div class="page-head has-banner"{banner_style(cur_out, GAME_ART[g])}><div class="wrap">'
             f'<div class="crumbs"><a href="../">Accueil</a></div>'
-            f'<h1>{gname}</h1><p class="lead">{GAME_INTRO[g]}</p>{toc}</div></div>')
+            f'<h1>{gname}</h1><p class="lead">{GAME_INTRO[g]}</p>{toc}</div>{HUB_DECO.get(g, "")}</div>')
     inner = head + '<div class="wrap hub">' + "".join(blocks) + "</div>"
     return layout(link, gname, inner, g, g if g != "plus" else "")
 
@@ -829,15 +863,39 @@ def build_home(pages, idx):
         gslug, gname = GAMES[g]
         themes = " · ".join(n for k, n, a in GROUPS if k in idx[g])
         count = len({p for v in idx[g].values() for p in v})
-        cards.append(f'<a class="game {g}" href="{gslug}/"><span class="tag">{count} pages</span>'
-                     f'<h2>{icon(GAME_ICON[g])}{gname}</h2><p>{GAME_INTRO[g]}</p><p class="themes">{themes}</p><span class="go">Entrer {icon("arrow-right")}</span></a>')
+        fx = ('<i class="hit"></i><i class="hit"></i><i class="hit"></i>' if g == "ge" else '<i class="scan"></i>')
+        cards.append(f'<a class="game {g} tilt" href="{gslug}/"><span class="ridges" aria-hidden="true"></span>'
+                     f'<span class="label"{banner_style("index.html", CART_ART[g])}><span class="glow" aria-hidden="true"></span>'
+                     f'<span aria-hidden="true">{fx}</span><span class="tag">{count} pages</span>'
+                     f'<h2>{icon(GAME_ICON[g])}{gname}</h2><p>{GAME_INTRO[g]}</p><p class="themes">{themes}</p>'
+                     f'<span class="go">Entrer {icon("arrow-right")}</span></span></a>')
     plus = group_links(idx["plus"][None], "index.html", pages, icons=True)
-    inner = f"""<section class="hero"><div class="wrap">
-<p class="kicker">Nintendo 64 · le site de Tim</p>
-<h1><span class="ge">Goldeneye</span> &amp; <span class="pd">Perfect Dark</span></h1>
-<p>Soluces, <strong>Battle</strong>, codes, versions <strong>beta</strong> et mystères : <strong>choisis ton jeu</strong>.</p>
-<div class="games">{"".join(cards)}</div>
-</div></section>
+    n_img = sum(len(g["imgs"]) for v in IMG_PAGES.values() for g in v["groups"])
+    stats = [(len(pages), "pages"), (n_img, "images"), (30, "challenges"), (2, "jeux cultes")]
+    stats_html = "".join(f'<div class="stat"><b data-count="{n}">{n:,}</b><span>{l}</span></div>'.replace(",", "\u202f")
+                         for n, l in stats)
+
+    def row(paths, cls):
+        imgs = "".join(f'<img src="{p}" alt="" loading="lazy" width="240" height="180">' for p in paths)
+        # deux fois la même suite : le défilement boucle sans saut
+        return f'<div class="marquee {cls}" aria-hidden="true"><div class="track">{imgs}{imgs}</div></div>'
+
+    title = '<span class="ge">Goldeneye</span> <span class="amp">&amp;</span> <span class="pd">Perfect Dark</span>'
+    holes = "".join(f'<i style="--x:{x}%;--y:{y}%;--n:{n}"></i>' for n, (x, y) in enumerate(
+        [(64, 9), (74, 26), (89, 15), (82, 38), (95, 31)]))
+    inner = f"""<section class="hero">
+<div class="hero-bg" aria-hidden="true"><div class="half ge"{banner_style("index.html", GAME_ART["ge"])}></div><div class="half pd"{banner_style("index.html", GAME_ART["pd"])}></div></div>
+<div class="holes" aria-hidden="true">{holes}</div>
+<div class="wrap">
+<p class="kicker"><span class="dot" aria-hidden="true"></span>Nintendo 64 · le site de Tim</p>
+<h1>{title}</h1>
+<p class="sub">Soluces, <strong>Battle</strong>, <strong>codes</strong>, versions <strong>beta</strong> et <strong>mystères</strong> : <strong>choisis ton jeu</strong>.</p>
+<div class="stats">{stats_html}</div>
+</div>
+{row(existing(GE_SHOTS), "ge")}
+{row(existing(PD_SHOTS), "pd rev")}
+<div class="wrap"><div class="games">{"".join(cards)}</div></div>
+</section>
 <div class="wrap home-infos"><h2 class="section-title">Infos</h2>{plus}</div>"""
     return layout(link, "", inner, None, "", "")
 
