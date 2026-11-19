@@ -9,9 +9,11 @@ Format des fichiers de contenu :
 Usage : python3 build.py   (écrit les pages HTML à la racine du dépôt)
 """
 import html
+import json
 import os
 import posixpath
 import re
+import unicodedata
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
@@ -37,6 +39,10 @@ SECTIONS = [
 SECTION_TITLE = {s[0]: s[1] for s in SECTIONS}
 SECTION_ALIAS = {"cinema": "presentation", "plans": "battle"}
 MAIL = "tubulamarok@yahoo.fr"
+
+# images du site d'origine (préparées par tools/images.py)
+_IMG = json.loads((SRC / "images.json").read_text(encoding="utf-8")) if (SRC / "images.json").exists() else {"pages": {}, "files": {}}
+IMG_PAGES, IMG_FILES = _IMG["pages"], _IMG["files"]
 
 
 # ---------------------------------------------------------------- lecture
@@ -125,8 +131,20 @@ class Linker:
         if key in self.pages:
             rel = posixpath.relpath(out_path(key), posixpath.dirname(self.cur_out) or ".")
             return clean(rel) + anchor, False
-        # fichier du site d'origine (image, mp3, zip, txt…) : lien vers l'original
+        if target.lower() in IMG_FILES:
+            return self.to(IMG_FILES[target.lower()]), False
+        # fichier du site d'origine (mp3, zip, txt…) : lien vers l'original
         return ORIGIN + target + anchor, True
+
+    def to(self, published):
+        """Chemin publié (depuis la racine) → lien relatif depuis la page courante."""
+        return posixpath.relpath(published, posixpath.dirname(self.cur_out) or ".")
+
+    def image(self, name):
+        """Nom d'image tel qu'écrit dans le contenu → chemin publié relatif, ou None."""
+        base_dir = posixpath.dirname(self.current.rstrip("/") if not self.current.endswith("/") else self.current + "x")
+        target = posixpath.normpath(posixpath.join(base_dir, name.strip())).lower()
+        return self.to(IMG_FILES[target]) if target in IMG_FILES else None
 
     def root(self):
         depth = self.cur_out.count("/")
@@ -231,12 +249,13 @@ def is_code_para(lines):
 
 # ---------------------------------------------------------------- rendu bloc
 def render_cards(lines, link, page_game):
-    out = ['<div class="grid">']
+    out = ['<div class="grid' + (' thumbs' if any("{img:" in l for l in lines) else "") + '">']
     for line in lines:
-        m = re.match(r"^\[(?:\{img:[^|}]+\|)?([^\]}]+)\}?\]\(([^)]+)\)\s*(.*)$", line.strip())
+        m = re.match(r"^\[(?:\{img:([^|}]+)\|)?([^\]}]+)\}?\]\(([^)]+)\)\s*(.*)$", line.strip())
         if not m:
             continue
-        label, href, desc = m.groups()
+        thumb, label, href, desc = m.groups()
+        thumb = link.image(thumb) if thumb else None
         url, ext = link.resolve(href)
         tag = ""
         mt = re.match(r"^(.*?) ·\s*(.*)$", desc)
@@ -248,6 +267,7 @@ def render_cards(lines, link, page_game):
         attrs = ' target="_blank" rel="noopener"' if ext else ""
         out.append(
             f'<a class="{cls}" href="{html.escape(url)}"{attrs}>'
+            + (f'<img class="thumb" src="{html.escape(thumb)}" alt="" loading="lazy" width="240" height="180">' if thumb else "")
             + (f'<span class="tag">{html.escape(tag)}</span>' if tag else "")
             + f"<h3>{inline(label, link)}</h3>"
             + (f"<p>{inline(desc, link)}</p>" if desc else "")
@@ -311,6 +331,18 @@ def render_body(body, link, ctx):
                 j += 1
             html_out.append(render_cards(items, link, cur_game))
             i = j + 1
+            continue
+        if re.fullmatch(r"\{gal:\d+\}", s):
+            flush_para(para); para = []
+            html_out.append(gallery(ctx["galleries"][int(s[5:-1])], link))
+            i += 1
+            continue
+        if re.fullmatch(r"(\{img:[^|}]+\}\s*)+", s):
+            flush_para(para); para = []
+            names = re.findall(r"\{img:([^|}]+)\}", s)
+            imgs = [{"src": IMG_FILES.get(posixpath.normpath(posixpath.join(posixpath.dirname(link.current), n.strip())).lower()), "alt": ""} for n in names]
+            html_out.append(gallery([im for im in imgs if im["src"]], link))
+            i += 1
             continue
         if s in ("{toc}", "{toc-ge}", "{toc-pd}", "{original}", "{mail}"):
             flush_para(para); para = []
@@ -554,17 +586,146 @@ def soluce_cards(pages, link, prefix, game):
     return f'<h2 id="{game}"{" class=\"pd\"" if game == "pd" else ""}>{label}</h2>\n' + render_cards(rows, link, game)
 
 
+def norm_words(s):
+    s = unicodedata.normalize("NFKD", html.unescape(s).lower())
+    s = "".join(c for c in s if not unicodedata.combining(c))
+    return re.findall(r"[a-z0-9]+", s)
+
+
+def place_images(page):
+    """Replace les images de la page d'origine dans le texte : chaque groupe d'images
+    va après le paragraphe qui contient les derniers mots lus avant lui sur l'original."""
+    data = IMG_PAGES.get(page["orig"].lstrip("./").lower())
+    body = page["body"]
+    if not data or not data["groups"]:
+        return body, []
+    already = {n.strip().lower() for n in re.findall(r"\{img:([^|}]+)", body)}
+    groups = []
+    for g in data["groups"]:
+        imgs = [im for im in g["imgs"] if im["file"] not in already]
+        if imgs:
+            groups.append((g["anchor"].split(), g.get("next", "").split(), imgs))
+    if not groups:
+        return body, []
+    # blocs séparés par une ligne vide, sans couper les blocs de code ni les listes de cartes
+    blocks, cur, fence = [], [], False
+    for line in body.split("\n"):
+        if line.strip().startswith("```"):
+            fence = not fence
+        if not line.strip() and not fence and cur:
+            blocks.append(cur); cur = []
+        elif line.strip().startswith("- ") and not fence and cur and cur[0].lstrip().startswith("- "):
+            blocks.append(cur); cur = [line]  # chaque élément de liste à part : une image peut suivre son élément
+        elif line.strip() or fence:
+            cur.append(line)
+    if cur:
+        blocks.append(cur)
+    # flux de mots de tout le texte, avec le bloc de chaque mot
+    stream, owner = [], []
+    for b, lines in enumerate(blocks):
+        txt = re.sub(r"\]\([^)]*\)", "]", "\n".join(lines))
+        txt = re.sub(r"\{[a-z]+:[^}]*\}", " ", txt)
+        for w in norm_words(txt):
+            stream.append(w); owner.append(b)
+    after = {}  # bloc → groupes à placer après lui (-1 : avant le texte)
+    cursor = 0
+    def find(needle, frm):
+        for start in range(frm, len(stream) - len(needle) + 1):
+            if stream[start:start + len(needle)] == needle:
+                return start
+        return None
+
+    def fuzzy(words, frm, before):
+        """Texte réécrit depuis l'original : on accepte 6 mots sur 8 dans une fenêtre de 12."""
+        if len(words) < 5:
+            return None
+        need = max(4, round(len(words) * 0.62))
+        best, best_pos = 0, None
+        for pos in range(frm, len(stream)):
+            win = stream[max(0, pos - 11):pos + 1] if before else stream[pos:pos + 12]
+            if (stream[pos] != words[-1]) if before else (stream[pos] != words[0]):
+                continue
+            score = sum(1 for w in words if w in win)
+            if score > best:
+                best, best_pos = score, pos
+                if score == len(words):
+                    break
+        return best_pos if best >= need else None
+
+    for anchor, nxt, imgs in groups:
+        spot = None
+        if not anchor:
+            spot = -1
+        else:
+            # les derniers mots lus avant l'image : elle va après leur paragraphe
+            for k in (12, 8, 5, 4):
+                if len(anchor) < k and k != 4:
+                    continue
+                start = find(anchor[-k:], cursor)
+                if start is not None:
+                    end = start + min(k, len(anchor)) - 1
+                    spot, cursor = owner[end], end
+                    break
+        if spot is None and anchor:
+            e = fuzzy(anchor[-8:], cursor, before=True)
+            if e is not None:
+                spot, cursor = owner[e], e
+        if spot is None and nxt:
+            # sinon, les premiers mots lus après l'image : elle va avant leur paragraphe
+            for k in (12, 8, 5, 4):
+                if len(nxt) < k and k != 4:
+                    continue
+                start = find(nxt[:k], cursor)
+                if start is not None:
+                    spot, cursor = owner[start] - 1, start
+                    break
+        if spot is None and nxt:
+            st = fuzzy(nxt[:8], cursor, before=False)
+            if st is not None:
+                spot, cursor = owner[st] - 1, st
+        if spot is None:
+            spot = len(blocks) - 1  # introuvable : en fin de page
+        after.setdefault(spot, []).extend(imgs)
+    galleries, out = [], []
+    def put(b):
+        if b in after:
+            out.append(f"{{gal:{len(galleries)}}}")
+            galleries.append(after[b])
+    put(-1)
+    for b, lines in enumerate(blocks):
+        out.append("\n".join(lines))
+        put(b)
+    return "\n\n".join(out), galleries
+
+
+def gallery(imgs, link):
+    if not imgs:
+        return ""
+    figs = []
+    for im in imgs:
+        src = link.to(im["src"])
+        big = link.to(im["big"]) if im.get("big") else src
+        alt = html.escape(im.get("alt") or "")
+        dims = f' width="{im["w"]}" height="{im["h"]}"' if im.get("w") else ""
+        cap = f"<figcaption>{alt}</figcaption>" if alt else ""
+        figs.append(f'<figure><a class="zoom" href="{html.escape(big)}" aria-label="Agrandir l\'image">'
+                    f'<img src="{html.escape(src)}" alt="{alt}" loading="lazy"{dims}></a>{cap}</figure>')
+    cls = "gallery" + (" one" if len(imgs) == 1 else "")
+    return f'<div class="{cls}">' + "".join(figs) + "</div>"
+
+
 def build_page(path, page, pages, order, idx, where):
     link = Linker(pages, path)
     section = section_of(path)
     game = game_of(path, page["title"])
-    ctx = {"game": game, "ids": set()}
-    body_html, headings = render_body(page["body"], link, ctx)
+    body, galleries = place_images(page)
+    ctx = {"game": game, "ids": set(), "galleries": galleries}
+    body_html, headings = render_body(body, link, ctx)
 
     def placeholder(m):
         key = m.group(1)
         if key == "{original}":
-            return original_box(page)
+            return "" if galleries else original_box(page)
         if key == "{mail}":
             return f'<p class="mail"><a class="btn" href="mailto:{MAIL}">Écrire à Tim</a></p>'
         if path == "soluce/":
@@ -612,7 +773,7 @@ def build_page(path, page, pages, order, idx, where):
             f'<div class="crumbs">{SEP.join(crumbs)}</div>'
             f'<h1>{inline(page["title"], link)}</h1></div></div>')
     inner = (head + f'<div class="wrap"><article class="content">{body_html}{pager}'
-             f'<p class="source"><a href="{orig_url}" target="_blank" rel="noopener">Voir la page originale (avec images)</a></p>'
+             f'<p class="source"><a href="{orig_url}" target="_blank" rel="noopener">Voir la page originale</a></p>'
              f'</article></div>')
     return layout(link, page["title"], inner, nav_game, game)
 
