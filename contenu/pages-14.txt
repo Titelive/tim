@@ -1,0 +1,780 @@
+
+=== action.replay/ge.personnages.htm
+Goldeneye : Créer son Personnage Battle
+
+Attention, c'est simple, mais faut s'habituer à la manipulation à faire. Lorsque vous créez un Personnage, vous en prenez en fait un qui existe, et vous le modifiez avec des Codes. Il y a 5 Paramètres à respecter :
+
+- La Tête.
+- Le Corps.
+- L'Image lors de la Sélection du Personnage.
+- Le Nom du Personnage.
+- Sa Voix lorsqu'on lui tire dessus.
+
+Le Code Principal est `81026--- 00??` : remplacez `---` par ce qui sera changé (le Personnage d'origine), et `??` par ce en quoi vous le remplacez.
+
+## Tête d'Origine / Nouvelle Tête
+
+```
+6EF  Bond                     7DF  St. Petersburg Guard
+6FB  Natalya                  7EB  Civilian 1
+707  Trevelyan                7F7  Civilian 2
+713  Xenia                    803  Civilian 3
+71F  Ourumov                  80F  Civilian 4
+72B  Boris                    81B  Siberian Guard (1)
+737  Valentin                 827  Arctic Commando
+743  Mishkin                  833  Siberian Guard (2)
+74F  Mayday                   83F  Siberian Special Forces
+75B  Jaws                     84B  Jungle Commando
+767  Oddjob                   857  Janus Special Forces
+773  Baron Samedi             863  Moonraker Elite (1)
+77F  Russian Soldier          86F  Moonraker Elite (2)
+78B  Russian Infantry
+797  Scientist 1
+7A3  Scientist 2
+7AF  Russian Commandant
+7BB  Janus Marine
+7D7  Naval Officer
+7D3  Helicopter Pilot
+```
+
+```
+2A  Karl                           3C  Terrorist
+2B  Alan                           3D  Biker
+2C  Pete                           3E  Civilian 2, Graeme
+2D  Russian Commandant, Martin     3F  Janus Marine, Steve E
+2E  Russian Soldier, Mark          40  Jungle Commando, Joel
+2F  Naval Officer, Duncan          41  Siberian Guard, Scott
+30  Shawn                          42  Joe
+31  Civilian 4, Dwayne             43  St. Petersburg Guard : Ken Lobb !
+32  Janus Special Forces, B        44  Joe
+33  Scientist Dr. Doak, Dave       45  Mishkin
+34  Civilian 3, Grant              46  Sally
+35  Des                            47  Civilian 1, Marion
+36  Arctic Commando, Chris         48  Mandy
+37  Siberian Guard, Lee            49  Vivien
+38  Moonraker Elite, Neil          4A  James Bond 1
+39  Jim                            4B  James Bond 2
+3A  Robin                          4C  James Bond 3
+3B  Steve H                        4D  Bond avec sa Capuche de Sibérie !
+                                   4E  Bond en Multiplayer
+```
+
+## Corps d'Origine / Nouveau Corps
+
+Certains Personnages ne peuvent pas changer de Corps (ils étaient marqués en vert sur la page originale).
+
+```
+6ED  Bond                     7DD  St. Petersburg Guard
+6F9  Natalya                  7E9  Civilian 1
+705  Trevelyan                7F5  Civilian 2
+711  Xenia                    801  Civilian 3
+71D  Ourumov                  80D  Civilian 4
+729  Boris                    819  Siberian Guard
+735  Valentin                 825  Arctic Commando
+741  Mishkin                  821  Siberian Guard
+74D  Mayday                   83D  Siberian Special Forces
+359  Jaws                     849  Jungle Commando
+765  Oddjob                   855  Janus Special Forces
+771  Baron Samedi             861  Moonraker Elite 1
+77D  Russian Soldier          86D  Moonraker Elite 2
+789  Russian Infantry
+795  Scientist 1
+7A1  Scientist 2
+7AD  Russian Commandant
+7B9  Janus Marine
+7C5  Naval Officer
+7D1  Helicopter Pilot
+```
+
+```
+00  Jungle Commando             15  Siberian Special Forces
+01  St Petersburg               16  Tenue Bond Mission Dam
+02  Russian Soldier             17  Tenue Bond Mission Frigate
+03  Russian Infantry            18  Habits de Jungle
+04  Janus Special Forces        19  Tenue Bond Mission Surface
+05  Costard Bond en Multiplayer 1A  Bond
+06  Boris                       1B  Female Scientist
+07  Ourumov                     1C  Scientist
+08  Trevelyan (Janus)           1D  Female Civilian
+09  Trevelyan (006)             1E  Grey Shirt
+0A  Valentin                    1F  Civil Bleu Blanc
+0B  Xenia                       20  Civil Rouge
+0C  Baron Samedi                21  Civil Veste Bleue
+0D  Jaws                        22  Civile Bleu Violet
+0E  Mayday                      23  Scientist
+0F  Oddjob                      24  Helicopter Pilot
+10  Natalya                     25  Siberian Guard
+11  Janus Marine                26  Arctic Commando
+12  Russian Commandant          27  Moonraker Elite
+13  Siberian Guard              28  Female Moonraker Elite
+14  Naval Officer               4F  Natalya Habits de Jungle
+```
+
+## Image d'Origine / Nouvelle Image
+
+```
+6EB  Bond                     7DB  St. Petersburg Guard
+6F7  Natalya                  7E7  Civilian 1
+703  Trevelyan                7F3  Civilian 2
+70F  Xenia                    7FF  Civilian 3
+71B  Ourumov                  80B  Civilian 4
+727  Boris                    817  Siberian Guard
+733  Valentin                 823  Arctic Commando
+73F  Mishkin                  82F  Siberian Guard
+74B  Mayday                   83B  Siberian Special Forces
+757  Jaws                     847  Jungle Commando
+763  Oddjob                   853  Janus Special Forces
+76F  Baron Samedi             85F  Moonraker Elite 1
+77B  Russian Soldier          86B  Moonraker Elite 2
+787  Russian Infantry
+793  Scientist 1
+79F  Scientist 2
+7AB  Russian Commandant
+7B7  Janus Marine
+7C3  Naval Officer
+7CD  Helicopter Pilot
+```
+
+```
+00  Pierce Brosnan     08  Xenia
+01  Roger Moore        09  Natalya
+02  Timothy Dalton     0A  Baron Samedi
+03  Sean Connery       0B  Jaws
+04  Boris              0C  Mayday
+05  Ourumov            0D  Oddjob
+06  Trevelyan          0E  Point d'Interrogation
+07  Valentin           0F  Mishkin
+```
+
+## Voix d'Origine / Nouvelle Voix
+
+```
+6EA  Bond                     7DA  St. Petersburg Guard
+6F6  Natalya                  7E6  Civilian 1
+702  Trevelyan                7F2  Civilian 2
+70E  Xenia                    7FE  Civilian 3
+71A  Ourumov                  80A  Civilian 4
+726  Boris                    816  Siberian Guard
+732  Valentin                 822  Arctic Commando
+73E  Mishkin                  82E  Siberian Guard
+74A  Mayday                   83A  Siberian Special Forces
+756  Jaws                     846  Jungle Commando
+762  Oddjob                   852  Janus Special Forces
+76E  Baron Samedi             85E  Moonraker Elite 1
+77A  Russian Soldier          86A  Moonraker Elite 2
+786  Russian Infantry
+792  Scientist 1
+79E  Scientist 2
+7AA  Russian Commandant
+7B6  Janus Marine
+7C2  Naval Officer
+7CE  Helicopter Pilot
+```
+
+```
+00  Homme
+01  Femme
+02  Femme
+```
+
+## Nom d'Origine / Nouveau Nom
+
+```
+6E9  Bond                     7D9  St. Petersburg Guard
+6F5  Natalya                  7E5  Civilian 1
+701  Trevelyan                7F1  Civilian 2
+70D  Xenia                    7FD  Civilian 3
+719  Ourumov                  809  Civilian 4
+725  Boris                    815  Siberian Guard
+731  Valentin                 81D  Arctic Commando
+73D  Mishkin                  80D  Siberian Guard
+749  Mayday                   839  Siberian Special Forces
+755  Jaws                     845  Jungle Commando
+761  Oddjob                   851  Janus Special Forces
+76D  Baron Samedi             85D  Moonraker Elite 1
+779  Russian Soldier          869  Moonraker Elite 2
+785  Russian Infantry
+791  Scientist 1
+79D  Scientist 2
+7A9  Russian Commandant
+7B1  Janus Marine
+7C1  Naval Officer
+7CD  Helicopter Pilot
+```
+
+Tous les textes du Jeu peuvent servir de Nom ! En voici la liste :
+
+```
+00 hour                         26 00 Agent
+01 minute                       27 007
+02 second                       28 SPECIAL OPTIONS:
+03 s                            29 Enemy reaction speed
+04 START                        2A Enemy health
+05 NEXT                         2B Enemy damage
+06 PREVIOUS                     2C Enemy Accuracy
+07 TWYCROSS BOARD OF GAME       2D Unlimited
+   CLASSIFICATION               2E 5 minutes
+08 This is to certify           2F 10 minutes
+09 (c) 1997 Nintendo/Rare       30 20 minutes
+0A (c) 1962, 1995 Danjaq & LLC. 31 First to 5 points
+0B U.A.C. All Rights Reserved   32 First to 10 points
+0C (c) 1997 Eon Productions     33 First to 20 points
+0D Ltd. & Mac B. Inc            34 Last person alive wins
+0E Suitable only for 1-4 persons 35 Normal
+0F PRESIDENT                    36 You Only Live Twice
+10 VICE                         37 The Living Daylights [Flag Tag]
+11 James Bond theme by          38 The Man With The Golden Gun
+   Monty Norman                 39 License to Kill
+12 Used by permission of EMI    3A Team: 2 vs 2
+   Unart Catalog Inc.           3B Team: 3 vs 1
+13 Agent                        3C Team: 2 vs 1
+14 Secret Agent                 3D Health -10
+15 00 Agent                     3E Health -4
+16 007                          3F Health -3
+17 Erase file?                  40 Health -2
+18 cancel                       41 Health -1
+19 confirm                      42 Health +0
+1A Mission                      43 Health +1
+1B Copy                         44 Health +2
+1C Erase                        45 Health +3
+1D SELECT MISSION               46 Health +4
+1E MULTIPLAYER                  47 Health +10
+1F CHEAT OPTIONS                48 Sight OFF, Auto Aim OFF
+20 : James Bond                 49 Sight ON, Auto Aim OFF
+21 Mission                      4A Sight OFF, Auto Aim ON
+22 Part                         4B Sight ON, Auto Aim ON
+23 DIFFICULTY:
+24 Agent
+25 Secret Agent
+
+78 Arkangelsk        8C Cuba                A0 Library
+79 Dam               8D Jungle              A1 LIBRARY
+7A Facility          8E Control Center      A2 Caves
+7B Runway            8F Control             A3 CAVES
+7C Severnaya         90 Water Caverns       A4 Facility
+7D Surface           91 Caverns             A5 FACILITY
+7E Bunker            92 Antenna Cradle      A6 Severnaya Bunker
+7F Kirghizstan       93 Cradle              A7 BUNKER
+80 Launch Silo #4    94 Teotihuaca'n        A8 Military Archives
+81 Silo              95 Aztec Complex       A9 ARCHIVES
+82 Monte Carlo       96 Aztec               AA Water Caverns
+83 Frigate           97 el-Saghira          AB CAVERNS
+84 St. Petersburg    98 Egyptian Temple     AC Egyptian Temple
+85 Statue Park       99 Egyptian            AD EGYPTIAN
+86 Statue            9A Random              AE Citadel
+87 Military Archives 9B RANDOM              AF CITADEL
+88 Archives          9C Temple
+89 Streets           9D TEMPLE
+8A Depot             9E Complex
+8B Train             9F COMPLEX
+
+B8 Bond          C8 Dave        D8 Robin            E8 007
+B9 Mishkin       C9 Duncan      D9 Steve H          E9 James Bond
+BA Boris         CA B           DA Terrorist        EA Natalya Simonova
+BB Ourumov       CB Steve E     DB Biker            EB 006
+BC Trevelyan     CC Grant       DC Joel             EC Alec Trevelyan
+BD Valentin      CD Graeme      DD Scott            ED Janus Operative
+BE Xenia         CE Ken         DE Joe              EE Xenia Onatopp
+BF Natalya       CF Alan        DF Sally            EF General
+C0 Baron Samedi  D0 Pete        E0 Marion           F0 Arkady Ourumov
+C1 Jaws          D1 Shaun       E1 Mandy            F1 Boris Grishenko
+C2 Mayday        D2 Dwayne      E2 Vivien           F2 Ex KGB Agent
+C3 Oddjob        D3 Des         E3 [Blank Space]    F3 Valentin Zukovsky
+C4 Rosika        D4 Chris       E4 The Actors       F4 Defense Minister
+C5 Karl          D5 Lee         E5 Starring         F5 Dimitri Mishkin
+C6 Martin        D6 Neil        E6 Also Featuring   F6 Mayday
+C7 Mark          D7 Jim         E7 Guest Star       F7 Jaws
+                                                    F8 Oddjob
+                                                    F9 Baron Samedi
+                                                    FA Jungle Commando
+                                                    FB St. Petersburg Guard
+                                                    FC Russian Infantry
+                                                    FD Russian Soldier
+                                                    FE Janus Marine
+                                                    FF Janus Special Forces
+```
+
+## Jouer avec les Trois Anciens Bond !
+
+#### Sean Connery
+
+```
+810266FB 004B
+810266F9 001E
+810266F7 0003
+810266F5 00B8
+810266F6 0001
+```
+
+#### Roger Moore
+
+```
+81026707 004A
+81026705 001F
+81026703 0001
+81026701 00B8
+```
+
+#### Timothy Dalton
+
+```
+81026713 004B
+81026711 0017
+8102670F 0003
+8102670D 00B8
+8102670E 0001
+```
+
+=== action.replay/ge.guns.htm
+Goldeneye : Battle de la Mort !
+
+Les personnages ont TOUTES les Armes : Couteaux, Sniper, Tank et Tazer !
+
+## All Guns
+
+Attention là c'est du sérieux. Vous commencez avec la Crosse du Sniper Rifle, et vous n'avez plus qu'à faire défiler vos Armes comme le Code All Guns. Vous ne pouvez pas avoir d'Armes en Double toutefois. Attention à ne pas faire défiler TROP vite vos Armes, car il arrive que vous vous retrouviez sans rien du tout dans la poche !! Eh oui ça bugue.
+
+```
+Archives et Cradle                         Water Caverns et Statue
+P1 800B50E4 0007   P3 800BA5C4 0007        P1 800AD8E4 0007   P3 800B2DC4 0007
+P2 800B7B54 0007   P4 800BD034 0007        P2 800B0354 0007   P4 800B5834 0007
+
+Basement, Stack, Library, Complex, Temple  Caves
+P1 8008F8E4 0007   P3 80094DC4 0007        P1 800C18E4 0007   P3 800C6DC4 0007
+P2 80092354 0007   P4 80097834 0007        P2 800C4354 0007   P4 800C9834 0007
+
+Bunker                                     Facility
+P1 800A10E4 0007   P3 800A65C4 0007        P1 800B00E4 0007   P3 800B55C4 0007
+P2 800A3B54 0007   P4 800A9034 0007        P2 800B2B54 0007   P4 800B8034 0007
+
+Egyptian
+P1 800DA8E4 0007   P3 800DFDC4 0007
+P2 800DD354 0007   P4 800E2834 0007
+```
+
+## Quick Draw - Rapid Fire
+
+Quick Draw fait que lorsque vous changez d'Arme, on passe de l'une à l'autre TRES vite ! Vive le stress !! Quant à Rapid Fire, cela signifie que n'importe quelle Arme devient Automatique, et en plus ça tire à un rythme impressionnant. C'est comme si tout d'un coup votre Klobb était transformé en RCP-90 ! Attention à vos Munitions !
+
+```
+Archives et Cradle                         Water Caverns et Statue
+P1 800B478B 00A5   P3 800B9C6B 00A5        P1 800ACF8B 00A5   P3 800B246B 00A5
+P2 800B71FB 00A5   P4 800BC6DB 00A5        P2 800AF9FB 00A5   P4 800B4EDB 00A5
+
+Basement, Stack, Library, Complex, Temple  Caves
+P1 8008EF8B 00A5   P3 8009446B 00A5        P1 800C0F8B 00A5   P3 800C646B 00A5
+P2 800919FB 00A5   P4 80096EDB 00A5        P2 800C39FB 00A5   P4 800C8EDB 00A5
+
+Bunker                                     Facility
+P1 800A078B 00A5   P3 800A5C6B 00A5        P1 800AF78B 00A5   P3 800B4C6B 00A5
+P2 800A31FB 00A5   P4 800A86DB 00A5        P2 800B21FB 00A5   P4 800B76DB 00A5
+
+Egyptian
+P1 800D9F8B 00A5   P3 800DF46B 00A5
+P2 800DC9FB 00A5   P4 800E1EDB 00A5
+```
+
+## Munitions de Timbré !
+
+Ce Code fait que votre chargeur de 30 passe à 524 et des poussières. Autant mettre le Code Munitions Infinies, ça va plus vite, mais bon.
+
+```
+Archives et Cradle                         Water Caverns et Statue
+P1 800B4797 0007   P3 800B9C77 0007        P1 800ACF97 0007   P3 800B2477 0007
+P2 800B7207 0007   P4 800BC6E7 0007        P2 800AFA07 0007   P4 800B4EE7 0007
+
+Basement, Stack, Library, Complex, Temple  Caves
+P1 8008EF97 0007   P3 80094477 0007        P1 800C0F97 0007   P3 800C6477 0007
+P2 80091A07 0007   P4 80096EE7 0007        P2 800C3A07 0007   P4 800C8EE7 0007
+
+Bunker                                     Facility
+P1 800A0797 0007   P3 800A5C77 0007        P1 800AF797 0007   P3 800B4C77 0007
+P2 800A3207 0007   P4 800A86E7 0007        P2 800B2207 0007   P4 800B76E7 0007
+
+Egyptian
+P1 800D9F97 0007   P3 800DE477 0007
+P2 800DCA07 0007   P4 800E1EE7 0007
+```
+
+=== action.replay/ge.empty-bunker.htm
+Goldeneye : Le Bunker Vide
+
+Entrez le Code `81025E45 0014` et commencez une Partie Solo dans n'importe quelle Mission. Vous vous retrouverez dans le Bunker 1, mais sans les Portes ni aucun élément de mobilier que ce soit. Bizarre hein ?
+
+=== action.replay/ge.line.mode.htm
+Goldeneye : Line Mode
+
+`80058597 0001`
+
+C'est le Fameux 24ème Code que Rare a retiré. Pour l'activer directement, faites la Manip ci-dessous. Vous entendrez le Bip de la Montre de James. Ressortez des Cheat Options, puis re-rentrez. Le Code est là !!! On peut même l'utiliser en Battle, mais c'est costaud... Le Line Mode correspond au Mode "Fil-de-Fer" pour être plus précis... Sinon, vous pouvez faire ce Code en plein Jeu.
+
+```
+R + C Bas
+L et R + Bas
+L + Droite
+R + C Haut
+L et R + C Droite
+R + Haut
+L + Bas
+L + Droite
+R + C Gauche
+R + C Haut
+```
+
+=== action.replay/ge.debug.htm
+Goldeneye : Debug Mode
+
+```
+81036F6C 0000
+81036F6E 0002
+D0064F31 000C
+80024303 0001
+```
+
+Ce Code est une petite merveille. Pour l'activer, voilà comment il faut faire. Entrez le Code dans votre Gameshark. Lancez le Jeu, et une fois dans le Jeu, appuyez sur C-Haut et C-Bas en même temps. Là, 8 Colonnes de texte vont apparaître par dessus l'écran de Jeu. Choisissez les Paramètres parmi la Liste avec la Croix Directionnelle. Appuyez sur Start pour valider vos choix. Choisissez Move View et promenez-vous où vous voulez hors de votre corps ! Faites réapparaître les Textes, et hop ! Vous voilà revenu dans votre corps de James Bond !
+
+## Signification des Textes Bizarroïdes
+
+- **Move View** : sortir du Corps de Bond et se promener un peu partout...
+- **Bond** : normal.
+- **Collisions** : passer à travers les Objets / Portes.
+- **Max Ammo** : Munitions au Maximum (PAS infinies).
+- **Bond Die** : vous mourez !
+- **Play Title** : quitter le Niveau.
+- **Invincible** : être Invincible.
+- **Visible** : être invisible.
+- **All Guns** : toutes les Armes.
+- **Display Speed** : des bandes rouges bizarres à l'écran...
+- **Background** : enlever tous les décors sauf les Portes.
+- **Objectives** : pour avoir tous les Objectifs complétés.
+- **Fast** : Turbo On / Off.
+- **Testing Man Positions** : indique vos coordonnées (Room, X, Y, Z, N).
+- **Vice CVC** : Line Mode.
+
+## Balade avec le Debug Mode
+
+Ce qui est intéressant avec ce Debug Mode, c'est que c'est une bonne alternative aux autres codes genre Moon-Jump, Passe-Muraille, Niveaux en Plus, Cinématiques où l'on ne peut pas faire TOUT ce que l'on veut. La page originale en montre des Tonnes de Photos :
+
+- **Archives** : le mur derrière les fenêtres de la Salle d'Interrogatoire n'est qu'un gros Bitmap avec une texture de Briques. Derrière la Palissade, rien que des Baraques sur un Sol tout noir (notez les Rideaux pas trop mal faits !).
+- **Caverns** : la Grande Salle avec l'Escalier en Spirale... vue de loin ! Le seul endroit invisitable : la Salle du Tuyau avec les Drone Guns, on ne peut pas aller plus loin sinon c'est tout noir. Et un Garde chassant une mouche...
+- **Control** : quand on est "dans" les Amas de Caisses et qu'on tire, ça ne sort pas et ça fait un Bruit Métallique. Et la Salle de Contrôle vue depuis derrière l'écran !
+- **Cradle** : une sortie BETA de l'Ascenseur au début du Niveau ! Pouvait-on arriver ou grimper au 2ème Niveau ?
+- **Barrage** : la Baraque avec le Radar, un gros Moonjump au milieu du Barrage, la Baraque de l'Ile au Fond du Lac (RDC et 1er Etage, notez les Vitres BETA !) et l'Ile vue de derrière.
+- **Aztec** : je suis DANS le Coffre en Verre du Golden Gun ! Et le Drone Gun caché, vu de haut.
+- **Jungle** : une Vue depuis une Tourelle de Sniper (inaccessible). Natalya s'en prend à Xenia, et quand vous sortez de votre corps, Natalya vous prend pour un ennemi et s'acharne sur vous !
+- **Runway** : Facility vue de l'extérieur, qu'on ne voit pratiquement pas à cause de la brume ! Derrière la Fameuse Porte à côté du Drone Gun, rien !
+- **Silo** : un Niveau rempli de Mystères... En plus on ne peut pas accéder au Couloir secret !
+- **Surface** : gros Plan sur le Radar.
+- **Train** : la Fin du Train (rien derrière la Porte), et l'AUTRE côté du Train.
+
+=== action.replay/ge.moonjump.htm
+Goldeneye : Moonjump
+
+Le Moonjump est une petite merveille qui vous fera (re)découvrir Goldeneye sous un Nouvel Angle. En fait, James ne vole pas vraiment. Disons qu'il "allonge" son Cou à l'infini, et vous permet de voir presque tout. Vous pouvez regarder sous vous, au-dessus de vous, comme vous voulez. Le seul hic, c'est que vous ne pouvez vous déplacer QUE là où Bond peut aller en temps normal, et donc voir des choses, mais pas y aller.
+
+Ca fonctionne comment ? Entrez le Code, lancez le Jeu : à partir d'une Pente, d'un Escalier, d'un promontoire banal, gardez le Bouton B appuyé et avancez. Vous commencerez à monter tant que vous gardez B appuyé. Si vous tirez, vous redescendez. Si vous lâchez B, vous redescendez.
+
+## Mode Solo
+
+```
+Dam                          D0064F30 0040 / 810D2FDC 412B
+Facility                     D0064F30 0040 / 810B63DC 412B
+Runway, Surface, Depot       D0064F30 0040 / 810D93DC 412B
+Bunker 1 & 2, Silo           810B3BDC 412B
+Frigate                      D0064F30 0040 / 810C67DC 412B
+Surface 2                    D0064F30 0040 / 810E5BDC 412B
+Statue                       D0064F30 0040 / 810C53DC 412B
+Archives, Caverns, Cradle,
+Egyptian                     D0064F30 0040 / 810CCBDC 412B
+Streets                      D0064F30 0040 / 810D6BDC 412B
+Train, Jungle, Control       D0064F30 0040 / 810C03DC 412B
+Aztec                        D0064F30 0040 / 810AFFDC 412B
+```
+
+## Multiplayer - Battle
+
+```
+Temple, Complex, Library, Basement, Stack
+P1  D0064F30 0040 / 810A73DC 412B
+P2  D0064F36 0040 / 810A9E5C 412B
+P3  D0064F3C 0040 / 810AC8DC 412B
+P4  D0064F42 0040 / 810AF35C 412B
+
+Caves
+P1  D0064F30 0040 / 810D93DC 412B
+P2  D0064F36 0040 / 810DBE5C 412B
+P3  D0064F3C 0040 / 810DE8DC 412B
+P4  D0064F42 0040 / 810E135C 412B
+
+Facility
+P1  D0064F30 0040 / 810C7BDC 412B
+P2  D0064F36 0040 / 810CA65C 412B
+P3  D0064F3C 0040 / 810CD0DC 412B
+P4  D0064F42 0040 / 810CFB5C 412B
+
+Bunker
+P1  D0064F30 0040 / 810B8BDC 412B
+P2  D0064F36 0040 / 810BB65C 412B
+P3  D0064F3C 0040 / 810BE0DC 412B
+P4  D0064F42 0040 / 810C0B5C 412B
+
+Egyptian
+P1  D0064F30 0040 / 810F23DC 412B
+P2  D0064F36 0040 / 810F4E5C 412B
+P3  D0064F3C 0040 / 810F78DC 412B
+P4  D0064F42 0040 / 810FA35C 412B
+
+Archives
+P1  D0064F30 0040 / 810CCBDC 412B
+P2  D0064F36 0040 / 810CF65C 412B
+P3  D0064F3C 0040 / 810D20DC 412B
+P4  D0064F42 0040 / 810D4B5C 412B
+
+Caverns
+P1  D0064F30 0040 / 810C53DC 412B
+P2  D0064F36 0040 / 810C7E5C 412B
+P3  D0064F3C 0040 / 810CA8DC 412B
+P4  D0064F42 0040 / 810CD35C 412B
+```
+
+=== action.replay/ge.passemuraille.htm
+Goldeneye : Passe-Muraille
+
+`81031A1A 0000`
+
+Avec ce Code, on passe à travers les Ennemis, les Objets et Meubles, les Portes, mais pas les Murs. C'est déjà pas mal, et on arrive à facilement explorer un niveau sans se fatiguer. Vous verrez une Chambre inédite dans le Train, et pourrez même passer à travers le Rideau de Fer à la Fin ! On peut entrer avec Trevelyan dans l'Ascenseur à la fin de Control. Evidemment, si vous faites un Battle, vous aurez accès à TOUT Facility, Archives ou Caverns.
+
+=== action.replay/ge.ombres.htm
+Goldeneye : Plus d'Ombres !
+
+`800213C1 00A4`
+
+=== action.replay/ge.gravity.htm
+Goldeneye : Pas de Gravité !
+
+`80052AA4 0030`
+
+Attention c'est du grand délire de chez Gameshark. Lorsque vous tirez sur une Caisse et qu'elle explose, elle va s'envoler en tournoyant dans les airs ! Idem pour les Armes des Gardes qui s'envolent dans le ciel. Pour les Grenade Launchers, c'est du Lance-Roquettes, puisqu'elles ne font pas de courbe, mais partent en ligne droite !
+
+=== action.replay/ge.cinematiques.htm
+Goldeneye : Plus de Cinématiques de Fin !
+
+`8002BED0 FFFF`
+
+Avec des Codes, on peut couper les Cinématiques de Fin de Niveau. Ce n'est réellement intéressant que pour le Barrage et Surface. Ce qui se passe, c'est que lorsque la Cinématique doit s'enclencher, vous resterez bloqué, mais aurez le privilège de voir des choses qu'on n'est pas censé voir !
+
+- **Barrage** : lorsque l'on tombe du Barrage, on arrive à l'entrée de Facility ! Normalement, elle est presque impossible à voir même avec le Sniper depuis l'endroit où l'on saute d'habitude. C'est une vue qu'on n'a pas l'habitude d'avoir hein ?
+- **Surface 1** : l'entrée du Bunker. On tombe, on atterrit sur la Grille qui vient juste de sauter, puis on est bloqué, à genoux. On ne peut rien faire pour se dégager...
+- **Surface 2** : l'entrée du Bunker. C'est assez rigolo, car en fait, Rare a tout prévu. Même si on arrive au bout, on est bloqué par la Porte-Vitre, mais en plus elle est opaque ! Pourquoi Rare ne veut-il pas que l'on voie derrière ?
+- Voilà pourquoi : parce qu'il n'y a rien ! Et c'est assez logique en fait. Ca aurait bouffé trop de mémoire de mettre le Bunker ET Surface sur le même Espace. Ca aurait ramé comme jamais. Il reste de cette Histoire que c'est marrant de se retrouver au bord du néant, même si on ne peut pas tomber...
+
+=== action.replay/pd.armes.goldeneye.htm
+Perfect Dark : Jouer avec les Armes de Goldeneye en Battle
+
+```
+D01BCF0F 001E
+801BCF10 0007
+D01BEB7F 001E
+801BEB80 0007
+D01C07EF 001E
+801C07F0 0007
+D01C245F 001E
+801C2460 0007
+```
+
+Un Code très simple, admirez le résultat : PP7, DD44 Dostovei, Klobb, KF7 Soviet, ZMG 9mm, D5K Deutsche, AR-33, RCP-90...
+
+=== action.replay/pd.carollsims.htm
+Perfect Dark : Simulants Dr Caroll
+
+```
+800AC548 003E
+800AC594 003E
+800AC5E0 003E
+800AC62C 003E
+800AC678 003E
+800AC6C4 003E
+800AC710 003E
+800AC75C 003E
+```
+
+En Battle, tous les Simulants seront des Dr Caroll ! Ils n'utilisent pas les Armes, mais frappent comme s'ils avaient des Poings ! Ils seront donc chiants à tout le temps vous désarmer. De plus, ils sont durs à toucher, et ont tout le temps un Shield. Lorsqu'ils se prennent des Balles, ils parlent comme dans les Missions Solo et vous demandent d'arrêter ! Génial ! Et fin du fin, lorsqu'ils meurent, c'est exactement comme dans les Missions en Solo !
+
+=== action.replay/pd.institut.htm
+Perfect Dark : Duel dans l'Institut Carrington avec Velvet Dark
+
+Avec ce Code, c'est comme si vous faisiez le Niveau de l'Institut Carrington en Coopérative, mais là, c'est dans le Niveau du Menu, sans les ennemis. Vous ne pouvez pas tuer les Gars de l'Institut, mais pouvez vous amuser à faire un petit Duel...
+
+```
+8009DFE9 0026
+8009DFEB 0080
+802C92C4 0020
+D01BCF0F 001E
+801BCF10 0007
+D01BCF0F 001E
+801BBEFB 00FF
+D01BCF0F 001E
+801BC69F 00FF
+D01BEB7F 001E
+801BEB80 0007
+D01BEB7F 001E
+801BDB6B 00FF
+D01BEB7F 001E
+801BE30F 00FF
+```
+
+=== action.replay/pd.double.guns.htm
+Perfect Dark : Avoir TOUTES les Armes en Double en Mode Solo
+
+Un Code Magnifique, qui vous permet de porter TOUTES les Armes du jeu en Double, en Mode Solo. En fait, le Jeu duplique le Modèle de Droite (Joanna est droitière) pour le greffer à la Gauche de l'Ecran, en changeant la vue. C'est assez drôle, car désormais, vous avez 4 mains ! Pour le Laser, ça ne change rien, il apparaît juste à la Gauche de l'écran, on ne peut pas en avoir deux. Pour les Remote Mine, ça ne change rien. Enfin, pour le Slayer, ça ne fonctionne que dans les Niveaux où on peut l'utiliser (Skedar Ruins et WAR!). Evidemment, ce Code n'est amusant que si vous le combinez avec les Codes All Guns et Infinite Ammo... Sinon vous ne pourrez pas vous servir des Armes puisque pas de cartouches !
+
+Les Armes concernées : Callisto NTG, RCP-120, Laptop Gun, Dragon, K7 Avenger, AR-34, Super-Dragon, Timed Mine, Reaper, Sniper Rifle, Remote Mine, Devastator, Rocket Launcher, Crossbow, Tranquilizer, Grenade.
+
+```
+8006C896 00F6
+8006C722 00F6
+8006D1BA 00B6
+8006C9E6 0076
+8006CFA6 0036
+8006CDCE 0076
+8006CC1E 0076
+8006D33A 0076
+8006D53E 0036
+8006E6D2 0076
+8006E0DE 0076
+8106DA42 7250
+8106D71A 7250
+8106D88E 7250
+8006E2F2 0036
+8006E4CA 00F6
+8006DA42 0072
+8006DA43 0050
+8006D71A 0072
+8006D71B 0050
+8006D88E 0072
+8006D88F 0050
+8006DED6 00B6
+8006DF82 00B6
+8006DB1E 0036
+8006DCC6 0036
+8006E56E 00F6
+```
+
+=== action.replay/pd.moonjump.htm
+Perfect Dark : Moonjump
+
+Avec ce Code, trouvez une pente, un escalier, quelque chose qui descend. Gardez le Bouton VERT appuyé, descendez la Pente, et hop, vous vous envolez ! Pour redescendre, lâchez simplement le Bouton VERT. Vous ne pouvez pas aller partout, disons qu'en fait, Joanna allonge son cou, et vous pouvez voir le Niveau de Haut.
+
+```
+D009C7E4 0040
+81206720 40F2
+D009C7E4 0040
+802066D3 0000
+D009C7E4 0040
+811ED720 40F2
+D009C7E4 0040
+801ED6D3 0000
+D009C7E4 0040
+811D4720 40F2
+D009C7E4 0040
+801D46D3 0000
+```
+
+=== action.replay/pd.musique.htm
+Perfect Dark : Trois Musiques
+
+Mettez ces Codes, puis dans l'Institut Carrington, appuyez sur Start ou Y devant l'Ordinateur pour accéder au Menu. Vous entendrez alors ces Musiques lorsque vous vous promènerez dans les Menus et Sous-Menus ! Elles s'arrêtent lorsque l'on quitte le Menu. Vous pouvez directement Télécharger ces Musiques en cliquant dessus !
+
+#### [Musique Beta 1](../mysteres/PD%20-%20Beta%20(1%20-%20Death).mp3)
+
+Ancienne Musique lorsque Joanna mourait, pas mal !
+
+```
+800AA5FB 0015
+800AA66B 0015
+```
+
+#### [Musique Beta 2](../mysteres/PD%20-%20Beta%20(2%20-%20Mario).mp3)
+
+Six Notes rigolotes, on dirait du Mario !
+
+```
+800AA5FB 0075
+800AA66B 0075
+```
+
+#### [Musique Beta 3](../mysteres/PD%20-%20Beta%20(3%20-%20Cetan).mp3)
+
+La Musique du Niveau Abysses en beaucoup mieux ! Superbe !
+
+```
+800AA5FB 003C
+800AA66B 003C
+```
+
+=== action.replay/pd.divers.htm
+Perfect Dark : Codes Divers
+
+#### All Guns
+
+```
+80207F10 0007
+801EEF10 0007
+801D5F10 0007
+```
+
+#### Energie Infinie
+
+```
+8120677C 3F80
+811ED77C 3F80
+811D477C 3F80
+```
+
+#### Tout Débloquer
+
+```
+50004002 0000
+810A2218 0001
+5000041A 0000
+800884BD 0001
+50001A1A 0000
+81088524 0101
+5000201A 0000
+810884BE 0101
+5000201A 0000
+810884C0 0100
+```
+
+#### Munitions Infinies
+
+```
+80206EFB 00FF
+801EDEFB 00FF
+801D4EFB 00FF
+8020769F 00FF
+801EE69F 00FF
+801D569F 00FF
+```
+
+#### Turbo Joanna
+
+```
+8001AC0F 0000
+8001AC1F 0080
+8001AC4B 0081
+8001AC5B 0001
+8001AC6B 0081
+8001AC7B 0001
+8001AC8B 0081
+8001AC9B 0001
+8001ACAB 0081
+8001ACB7 0001
+```
+
+=== action.replay/pd.passemuraille.htm
+Perfect Dark : Passe-Muraille
+
+`80285798 0001`
+
+Avec ce Code, vous pouvez passer à travers TOUTES les Portes du jeu. Je me suis promené dans l'Institut Carrington en me mettant exprès "dans" la porte, pour prouver que ça fonctionne. On peut aussi s'amuser dans Extraction, et même aller au Punk Pond dans Chicago !

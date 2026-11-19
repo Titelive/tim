@@ -1,0 +1,370 @@
+=== presentation/
+Présentations
+
+Les deux jeux, leurs coulisses, leurs personnages et tout ce qui tourne autour.
+
+## Goldeneye
+
+{cards}
+[La Découverte de Goldeneye](decouverte-ge.htm) La Première Fois que j'ai joué à Goldeneye !
+[Les Niveaux du Jeu dans le Film](../cinema/index.htm) Des Tonnes d'Images de Goldeneye et Moonraker !
+[Les Personnages de Goldeneye](personnages.htm) Une Page sur les Personnages du Jeu !
+[Traduction de Rareware](rareware.htm) Une Page de leur Ancien Site que j'ai traduite !
+[Le Making-Of de Goldeneye](makingof.htm) Un Making-Of très Intéressant ! A lire Absolument !
+[Test Complet du Jeu](test-ge.htm) Mon Test de Goldeneye bien Complet !
+[C'est quoi un Diviseur ?](diviseur.htm) Ca peut être utile de le savoir !
+[Références aux autres Films](references-ge.htm) Goldeneye fait de Nombreux Emprunts aux Films !
+[Des Vidéos de PUB, Preview...](videos.htm) Quelques Vidéos histoire de bien faire !
+[Images Promotionnelles](promo.htm) De Bien Belles Images !
+{/cards}
+
+## Perfect Dark
+
+{cards}
+[Découverte et Test Complet](decouverte-pd.htm) Mon Test de Perfect Dark bien Complet !
+[Références et Clins d'Oeil](references-pd.html) Le Jeu fait quelques Clins d'Oeil un peu partout !
+[Des Vidéos de PUB, Preview...](videos.htm) Quelques Vidéos histoire de bien faire !
+[Dessin : Perfect Rare ?](perfect.rare.jpg) Fait le 27 et 28/09/00 pour le Magazine Consoles + !
+[Une BD sur Perfect Dark](http://www.acupoftim.com/article-19875577.html) Dans la Zone 52, à 4 !
+{/cards}
+
+=== soluce/
+Goldeneye : Soluce
+
+[{img:snap0001.jpg|Dam}](ge-01.htm)
+
+[{img:snap0002.jpg|Facility}](ge-02.htm)
+
+[{img:snap0003.jpg|Runway}](ge-03.htm)
+
+[{img:snap0004.jpg|Surface 1}](ge-04.htm)
+
+[{img:snap0005.jpg|Bunker 1}](ge-05.htm)
+
+[{img:snap0006.jpg|Silo}](ge-06.htm)
+
+[{img:snap0007.jpg|Frigate}](ge-07.htm)
+
+[{img:snap0008.jpg|Surface 2}](ge-08.htm)
+
+[{img:snap0009.jpg|Bunker 2}](ge-09.htm)
+
+[{img:snap0010.jpg|Statue}](ge-10.htm)
+
+[{img:snap0011.jpg|Archives}](ge-11.htm)
+
+[{img:snap0012.jpg|Streets}](ge-12.htm)
+
+[{img:snap0013.jpg|Depot}](ge-13.htm)
+
+[{img:snap0014.jpg|Train}](ge-14.htm)
+
+[{img:snap0015.jpg|Jungle}](ge-15.htm)
+
+[{img:snap0016.jpg|Control}](ge-16.htm)
+
+[{img:snap0017.jpg|Caverns}](ge-17.htm)
+
+[{img:snap0018.jpg|Cradle}](ge-18.htm)
+
+[{img:snap0019.jpg|Aztec}](ge-19.htm)
+
+[{img:snap0020.jpg|Egyptian}](ge-20.htm)
+
+[{img:confidential.gif|007}](ge-007.HTM)
+
+Perfect Dark : Soluce
+
+[{img:mission-01.jpg|Defection}](pd-01.html)
+
+[{img:mission-02.jpg|Investigation}](pd-02.html)
+
+[{img:mission-03.jpg|Extraction}](pd-03.html)
+
+[{img:mission-04.jpg|Villa}](pd-04.html)
+
+[{img:mission-05.jpg|Chicago}](pd-05.html)
+
+[{img:mission-06.jpg|G5 Building}](pd-06.html)
+
+[{img:mission-07.jpg|Infiltration}](pd-07.html)
+
+[{img:mission-08.jpg|Sauvetage}](pd-08.html)
+
+[{img:mission-09.jpg|Evasion}](pd-09.html)
+
+[{img:mission-10.jpg|Base}](pd-10.html)
+
+[{img:mission-11.jpg|Air Force One}](pd-11.htm)
+
+[{img:mission-12.jpg|Crash Site}](pd-12.htm)
+
+[{img:mission-13.jpg|Pelagic II}](pd-13.html)
+
+[{img:mission-14.jpg|Abysses}](pd-14.html)
+
+[{img:mission-15.jpg|Institut Carrington}](pd-15.html)
+
+[{img:mission-16.jpg|Vaisseau Skedar}](pd-16.html)
+
+[{img:mission-17.jpg|Ruines Skedar}](pd-17.html)
+
+[{img:mission-18.jpg|Revanche de Blonde}](pd-19.html)
+
+[{img:mission-19.jpg|Sos Maian}](pd-20.html)
+
+[{img:mission-20.jpg|La Guerre !}](pd-21.html)
+
+[{img:mission-21.jpg|Duel}](pd-18.html)
+
+=== battle/
+Goldeneye
+
+[{img:battle.ge.facility.gif|Facility}](ge/ge.facility.htm)
+
+[{img:battle.ge.basement.gif|Basement}](ge/ge.basement.htm)
+
+[{img:battle.ge.temple.gif|Temple}](ge/ge.temple.htm)
+
+[{img:battle.ge.complex.gif|Complex}](ge/ge.complex.htm)
+
+[{img:battle.ge.stack.gif|Stack}](ge/ge.stack.htm)
+
+[{img:battle.ge.bunker.gif|Bunker}](ge/ge.bunker.htm)
+
+[{img:battle.ge.egyptian.gif|Egyptian}](ge/ge.egyptian.htm)
+
+[{img:battle.ge.caverns.gif|Water Caverns}](ge/ge.caverns.htm)
+
+[{img:battle.ge.archives.gif|Archives}](ge/ge.archives.htm)
+
+[{img:battle.ge.library.gif|Library}](ge/ge.library.htm)
+
+[{img:battle.ge.caves.gif|Caves}](ge/ge.caves.htm)
+
+[{img:confidential.gif|Confidential}](confidential.htm)
+
+Perfect Dark : Pour voir les plans des niveaux, [cliquez ici](../plans/index.htm) !
+
+[{img:battle.pd.ruins.gif|Ruines}](pd/pd.ruines.htm)
+
+[{img:battle.pd.bulding.gif|G5 Building}](pd/pd.g5building.htm)
+
+[{img:battle.pd.complex.gif|Complex}](pd/pd.complexe.htm)
+
+[{img:battle.pd.fortress.gif|Fortress}](pd/pd.forteresse.htm)
+
+[{img:battle.pd.felicity.gif|Felicity}](pd/pd.felicity.htm)
+
+[{img:battle.pd.sewers.gif|Egouts}](pd/pd.egouts.htm)
+
+[{img:battle.pd.base.gif|Base}](pd/pd.base.htm)
+
+[{img:battle.pd.villa.gif|Villa}](pd/pd.villa.htm)
+
+[{img:battle.pd.grid.gif|Grid}](pd/pd.grid.htm)
+
+[{img:battle.pd.temple.gif|Temple}](pd/pd.temple.htm)
+
+[{img:battle.pd.pipes.gif|Tuyaux}](pd/pd.tuyaux.htm)
+
+[{img:battle.pd.zone.52.gif|Zone 52}](pd/pd.zone52.htm)
+
+[{img:battle.pd.skedar.gif|Skedar}](pd/pd.skedar.html)
+
+[{img:battle.pd.ravine.gif|Ravins}](pd/pd.ravins.htm)
+
+[{img:battle.pd.warehouse.gif|Entrepot}](pd/pd.warehouse.htm)
+
+=== cheats/
+Codes / Cheat Options
+
+Je n’ai pas mis les Codes « Magnum », « Golden Gun » et « Laser » car ce sont des Cheats qu’on obtient simplement en finissant un Niveau… Il existe un Dernier Code : le Line Mode, qui vous permet de jouer au Jeu en Mode « Fil de Fer », ainsi que d'autres Codes pas Super Intéressants... Mais pour débloquer ces Cheat qui furent retiré du Jeu, il vous faudra utiliser un [Action Replay](../action.replay/index.htm) (Console ou Emulateur).
+
+{toc-ge}
+
+Il existe aussi les Push-Button Codes, mais je ne les mettrais pas ici, car je trouve qu’ils ruinent l’Intérêt des Cheats qui étaient auparavant bien durs à avoir, et qui ont contribué à la Réputation de Goldeneye.
+
+Concernant Perfect Dark, j’ai fait pareil : Je ne met que les Codes qui sont « Durs » à avoir, pas ceux où il suffit de finir un Niveau ou le Jeu. Bon Courage, certains Cheats sont vraiment durs à débloquer. Pour voir des Vidéos de Joueurs finissant les Niveaux TRES vite, je ne peux que vous conseiller d’aller voir le Site « [Speed Demos Archive](http://speeddemosarchive.com/GoldenEye.html) », dans lequel vous trouverez des Vidéos de Malades qui finissent les Jeux TRES vite.
+
+{toc-pd}
+
+#### Goldeneye - Invincible : Facility 00 Agent en 2 Minutes 05
+
+Le Code le plus dur. Il est faisable, mais à force de beaucoup de Travail et de Patience. Il est très important de savoir manier James parfaitement pour savoir improviser si vous faites une infime Boulette. En effet, les Ennemis ne vous rateront pas, et vu que vous en aurez beaucoup aux Fesses, il est primordial de savoir réagir ! Il y a aussi le Fameux Dr Doak ! Vous devez ABSOLUMENT le trouver pour choper le Décodeur. Le Probleme, c'est qu'a chaque fois que vous recommencerez le Niveau, il sera dans un endroit différent parmi 3 ou 4. Là ou sont les Sientifiques.
+
+Pour choper rapidemment le Décodeur, il suffit d'avoir Doak en face de vous, et il fera son Texte. Pas la peine de lui parler, juste le voir suffira. C'est pourquoi il est primordial que Doak soit sur votre Chemin ! Pas le temps de le chercher ! Il FAUT qu'il soit sur votre chemin ! Et le meilleur endroit ou le croiser, c'est lorsque vous etes dans la Partie Scientifique avec les vitres. Normalement vous arrivez dans un long couloir puis tournez a gauche. Et bien là, avant de tourner, vous avez un recoin sur votre Droite avec un pilier. C'est ici. Doak y sera peut-etre, à coté des 2 Gardes. Regardez-le, puis tirez-vous, vous aurez le Décodeur.
+
+Attaquons le Niveau maintenant. Et c'est pas du Gateau... Sortez du conduit de Ventilation, ouvrez la porte sur votre Gauche, et descendez l'Escalier rapidement en vous dirigeant vers la Porte sous l'Escalier. Vous devriez entendre le Garde tirer derriere vous. Pas grave. Chopez la Carte sur le Garde, puis revenez à la Porte Blindée. Ouvrez-là, puis pendant qu'elle s'ouvre, ne restez pas à découvert ! Mettez-vous juste au début de l'escalier et ca ira, si les Gardes des toilettes ne déboulent pas.
+
+Entrez dans la Salle de l'Ordinateur et cliquez-le. Si vous etes Rapide, vous pouvez le faire sans que les 3 Gardes à l'interieur ne vous touchent. Une fois ceci fait, ressortez et avec le KF7 Soviet, shootez le ou les Gardes au fond en vous dirigeant vers la Porte que vous avez ouvert. En fait, tirez sur les Gardes pour les empecher de tirez sur vous. Pas grave si vous les touchez pas, ce qui compte, c'est d'au moins les blesser pour les ralentir. Une fois dans le Sas, sortez une Mine et dirigez-vous vers la Porte qui s'ouvre rapidemment. Ca va etre la Fete !
+
+Ouvrez-la, jetez rapidement la Mine, puis décalez-vous sur la Gauche et faites A+B. Les 3 Gardes au fond devraient etre tous morts. Foncez en essayant de zigzaguer pour ramasser un peu de munitions. Continuez jusqu'a la l'intersection et prenez à Gauche. Tuez les Gardes sur votre chemin. Arrivé devant la Porte fermée (celle qui mene au Labo, celle qui vous fait remplir l'Objectif "Entrer dans le Labo") shootez la Porte et le Garde derriere, affolé, devrait l'ouvrir. Plombez-le !
+
+Continuez en montant les escaliers et vous arriverez a la partie avec tous les Scientifiques. Foncez en tirant sur les Gardes pour au moins les blesser. Si Dr Doak est là où on a dit, tres bien, continuez et butez les 2 Derniers Gardes juste avant la Porte où il faut le Décodeur. Si Doak n'est pas là, recommencez ! Sortez votre Décodeur et utilisez-le. Des que vous entendez le Tac-Tac-Tac du Bidule, vous pouvez sortir votre KF7, la Porte va s'ouvrir. Entrez dans la Salle et passez devant Trevelyan pour qu'il commence son Texte. Placez les 4 Mines restantes entre 2 Barils a chaque fois et attendez que l'Alarme retentisse. Là, dès que Trevelyan a fini son Texte, faites tout peter et finissez les 2 Derniers Barils au KF7 Soviet. Il se peut que des Gardes vous aient suivi. Si ils sont dans la Salle avec vous, zigzaguez entre les Barils pour eviter leurs Balles. Trevelyan continuera son Texte normalement. Une fois les Barils détruits, sortez du Niveau. Ouf !
+
+#### Goldeneye - All Guns : Egyptian 00 Agent en 6 Minutes
+
+Hmm, ce Code est assez facile, puisqu'il n'y a pas grand-chose à faire. Récuperez le Golden Gun, killez le Baron Samedi, et voilà.
+
+#### Goldeneye - Bond Invisible : Archives 00 Agent en 1 Minute 20
+
+Un des Codes les plus dur à avoir. Déjà, le Niveau n'aide pas, et les Garde sont bien en formes ! Il faut bien connaitre le Niveau et vous verrez que meme les plus petits détails aident ! GO ! Frappez rapidos les 2 Gardes pour choper la Clé et sortir de la Salle. Foncez sur le Garde à Droite et frappez-le. Montez à l'Escalier et tracez vers le Porte tout au fond pour acceder à la partie "Librairie". Ouvrez la Porte tout au fond à coté de l'Escalier et flinguez le Garde juste derriere. Vous arrivez pres de la Salle de Natalya. Ouvrez la porte, regardez Natalya puis revenez à l'escalier rapidemment. Si vous faites du grabuge, Natalya aura peur et se sauvera, et vous pouvez recommencer le Niveau.
+
+Descendez l'Escalier et prenez la Porte sur votre droite. Attention, mémorisez bien dans quel sens elle s'ouvre ! C'est important pour grapiller quelques infimes secondes ! Prenez ensuite à Gauche et entrez dans la 1ere Porte devant vous. dans le couloir, rangez votre Arme, et prenez la Porte à Gauche pour penetrer dans la Salle de Mishkin. Il va commencer son Speech qui dure des heures... Il se peut que Natalya déboule dans la Salle. Il se peut également qu'un Garde arrive ! Le Meilleur Truc à faire est de se placer derriere Mishkin, qui vous protegera des balle ! Mais si le Garde sort une Grenade, vous pouvez recommencer le Niveau. Ah la la ces Gardes...
+
+Placez-vous devant le Coffre sans le regarder. Quand vous entendez le Clic de la Clé, ouvrez le Coffre, et prenez l'autre Porte de la Salle. En continuant sur votre Droite, vous arriverez dans une Salle avec des Fenetres. Brisez-les et sauvez-vous. A vous la Belle Vie si tout s'est bien passé !
+
+#### Goldeneye - Infinite Ammo : Control Secret Agent en 10 Minutes
+
+Pas trop trop trop dur a avoir non plus. En fait, il faut surtout ne pas rebrousser Chemin ou s'attarder sur des Trucs sans importances (genre les Gardes) à part quand vous devez proteger Natalya. Frappez vite et fort, et pas le Temps de se retourner ! Vous avez meme le temps de prendre le Gilet.
+
+#### Goldeneye - DK Mode : Runway Agent en 5 Minutes
+
+Si vous ne réussissez pas a avoir ce Code, je ne peux plus rien pour vous.
+
+#### Goldeneye - Tiny Bond : Surface 2 00 Agent en 4 Minutes 15
+
+Un Code pas génial, mais bon... Il faut juste essayer de bien eviter les Balles en pas chassés et le Tour est joué. Si vous connaissez le Niveau les yeux fermés , c'est encore mieux. Foncez directement vers la Barraque du General. Vous trouverez la Clé ouvrant le Batiment du Radar. Attention à bien buter la Camera en arrivant, vous avez 3 ou 4 secondes de répit sinon couic. Foncez ensuite vers la Barraque avec les Plans du Bunker t explosez la Camera située sur elle, dans le Coin pres du Grillage.
+
+Continuez plus loin vers les 2 Barraques du Cul-de-Sac. Explosez rapidos la Camera située sur la Barraque de Droite et foncez vers le Radar. En entrant dans le Batiment, foncez et vous verrez devant vous sur la Passerelle la Derniere Camera. Boum ! Ouvrez la Porte en face, explosez tout ! Ensuite, tracez vite fait bien fait vers l'entrée du Bunker. Posez votre Mine sur l'Helico et entrez dans le Bunker.
+
+#### Goldeneye - Paintball Mode : Dam Secret Agent en 2 Minutes 40
+
+Un Code simple a avoir. Les Objectifs s'enchainent de maniere linéaire, donc pas la peine de s'affoler. Faites normalemment le Niveau c'est à dire en pas chassés et en ignorant les ennemis) jusqu'a la 1ere Alarme. Là, tuez juste le Garde qui court pour l'allumer, et foncez direction le Barrage. Detruisez les 3 Alarmes restantes tranquilemment et une fois la 3eme explosée, revenez au Ponton et sautez. Facile. Si vous trouvez des Gardes sur le retour, tirez avec le KF7 tout en avancant, et vous aurez le Code facilement.
+
+#### Goldeneye - Silver PP7 : Train 00 Agent en 5 Minutes 25
+
+GROSSE Crise de nerfs en perspective. Ceci est le Code le plus dur à avoir apres celui de Facility. Beaucoup d'éléments perturbateurs vont vous faire grimper aux rideaux. Les voici : Le Premier et le Deuxieme Wagon : C'est dans ces 2 Premiers Wagons qu'il vous faudra etre le PLUS rapide possible. C'est là que tout se joue ou presque. Dur dur ! Les Wagons avec couloir : Chiants a cause du Bug des Balles qui passent pas. Vous galererez a tous les tuer car ils sont en file indienne ces Abrutis. On Peut passer en force mais attention à l'Energie ! Elle est TRES importante dans ce Niveau pour la Fin, lorsque vous sortez du Train, à cause des 3 Gardes embusqués au fond. Il ne vous reste rien, vous sortez, et POF !
+
+Les Janus Special Forces : Ils sont costauds c'est pas possible ! On leur tire dessus, ils bronchent à peine en vous envoyant un coup de ZMG ! Les Bleus sont les pire je crois, mais je suis pas sur que la Couelur des Berets soit significative... Concernant Natalya, c'est la pire de tous ! Elle met 10 Plombes à bidouiller son Ordinateur et meurt dans l'Explosion du Wagon ! Insupportable...
+
+Maintenant que vous etes (presque) parés, allons-y : Le 1er Wagon est moins dur que le 2eme. Cachez-vous derriere des Caisses et allez-y comme au Jeu de Fete Foraine, l'un apres l'autre. N'oubliez pas le Frein et passez au Second Wagon. Le 2eme Wagon contient plus de Gardes, + un Janus Special Forces, voire 2 si vous etes Malchanceux. Dans la 1ere Partie, allez-y à la Fête Foraine, et dans la 2eme Partie, c'est plus dur, car ils sont planqués tout au fond. Saleté de Brume Noire ! On voit que dalle !! Continuez ainsi en fusillant les Freins et en avançant au maximum sans reculer pour s'occuper de Gardes blessés. Pas-le-temps !
+
+Lorsque vous arriverez devant Oroumov, il faut faire vite car si vous le flinguez bien, un Rideau de Fer empechera les Gardes restant du Niveau d'arriver et de vous embeter. Dès qu'Oroumov est mort, sortez aussi sec votre Montre. Si vous etes rapides, vous aurez coupé à moitié la plaque quand Trevelyan vous dira "Good Luck with the floor James". Restez devant l'Ouverture, mais ne sortez pas ! Attendez que Natalya ait fini ses 2 Objectifs puis foncez ! Si vous avez de la Vie, prenez à droite à fond. Sinon, flinguez à distance les 3 Gardes et hop ! Un Code tres dur a avoir à cause de Natalya à 90%. E-NER-VANT !
+
+#### Goldeneye - Gold PP7 : Cradle Agent en 2 Minutes 15
+
+Pas trop dur ce Code... Foncez, simplement. Rien à dire d'autre. Point.
+
+#### Goldeneye - 2x Lasers : Aztec Secret Agent en 9 Minutes
+
+Je sais que çà va paraitre facile, mais allez voir la [Soluce](../soluce/index.htm) . Le chemin que je prends, la façon dont je remplis les Objectifs, tout çà c'est le Chemin le plus rapide. Reste ensuite à VITE finir les Ennemis pour ne pas galerer 10 Plombes à cause d'une Blatte. Courrir, courrir, courrir !
+
+#### Goldeneye - No Radar (Multi) : Frigate Secret Agent en 4 Minutes 30
+
+Assez dur en fait, à cause de la Configuration du Niveau. Mais à part çà pas de Problemes de Gardes ou de Scientifiques chiants à trouver... Gardez votre D5K Silencieux, c'est bien utile comme Arme. Foncez direct vers l'Arriere du Bateau pour arriver à l'Helicoptere. Placez votre Bug et ouvrez le Rideau de Fer. Continuez en nettoyant les Gardes en avançant (si ils sont juste blessés, pas grave). Descendez l'escalier, et vous arriverez à la Salle des Machines. Désamorcez la Bombe et sauvez les Otages en-dessous. Remontez ensuite par l'autre coté de la Salle pour sauver les Otages restant dans les couloirs alentours. Remontez ensuite vers le Pont.
+
+Vous arriverez dans la Partie ou il y a 2 Salles aux Ordinateurs. Essayez de sauver les Otages s'y trouvant (ce sont les plus chiants a avoir) et continuez vers le Pont Principal. Une fois dans la Salle, faites un Boucan de tous les diables et sauvez l'Otage. Gaffe à pas shooter l'Ordinateur avec la Bombe dessus. Désactivez-là et revenez à votre Petit Canot. Fini !
+
+#### Goldeneye - Turbo Mode : Silo Agent en 3 Minutes
+
+Tres simple. L'idée Générale est de toujours avancer. Pensez juste à récuperer la Carte du Scientifique dans chaque Salle pour continuer. dans la Salle du Satellite, y en a pas ! Un Truc pour bien se reperer : Dans le Niveau, dès que vous avez une intersection, prenez à Droite ! Dès que vous etes devant Oroumov, c'est à Gauche par contre, et direction l'Ascensceur. Dans la Salle du Sattelite, pensez a bien tuer des Gardes qui risqueraient d'exploser le precieux Satellite.
+
+#### Goldeneye - Fast Animation : Statue Secret Agent en 3 Minutes 15
+
+Pas de Consignes particulieres. Vous ne devriez meme pas avoir besoin de sortir votre Arme de tout le Niveau. Rangez-la dès le Début. Descendez la Colline, prenez à Gauche et foncez en pas chassés. Vous arriverez un peu plus tard à Valentin dans sa Boite. Parlez-lui et foncez ensuite tout droit. Dès que vous etes devant le Mur, prenez à Gauche en longeant...
+
+Vous arriverez à la Statue de Lénine. Dès que vous avez rempli l'Objectif B, foncez sans vous préocuper des Gardes de Janus vers le Début du Niveau ! Arrivé à l'Helicoptere, reveillez Natalya et emmenez-là derriere le gros bloc en Béton. Gardez un oeil sur l'Helico. Dès qu'il pete, descendez la Colline et si vous avez de la chance, la Boite Noire (qui est Jaune) devrait etre devant vous. Elle apparait a différents endroits pas trop loin. Chopez-là, foncez aux grilles et ouvrez-les. Fin.
+
+#### Goldeneye - Slow Animation : Depot Secret Agent en 1 Minute 40
+
+Hmmm, j'ai un peu Galeré pour l'avoir celui-là. Pas de Technique particuliere, mais ca se frite severe dans le coin... Il faut aller directement vers le Hangar avec le Drone Gun. Et là c'est chaud. Commencez par tuer les Gardes en vous cachant de cette Saleté de Drone Gun. Et lorsque vous etes paré, il faut rapidemment lui tirer dessus pour qu'il explose. Si vous vous faites toucher et reculez, continuez, il devrait faire Boum. Il n'y a que cet incident qui vous enlevera pas mal d'Energie dans le Niveau, alors faut faire vite. Récuperez la Clé, flinguez les 2 Ordinateurs et l'Ecran, et direction le Train. Chopez les Plans à l'etage et entrez dans le Train. C'est tout ? Ben oui c'est tout, en fait c'est vraiment bateau à avoir, et il n'y a que l'episode du Drone Gun qui devrait vous ralentir.
+
+#### Goldeneye - Enemy Rockets : Streets Agent en 1 Minute 45
+
+Pas trop difficile ce Code, sauf que les Roquettes des Enemis sont assez enervantes, ca vous ralentit c'est insupportable ! Prenez le Tank, puis tournez à Droite. Ensuite, c'est TOUJOURS sur votre Gauche, et vous aurez fini le Niveau.
+
+#### Goldeneye - 2x Rocket Launcher : Bunker I 00 Agent en 4 Minutes
+
+Hmmm voilà un Code dur... Pas autant que Invincible, mais quand meme assez prise de Tête. Pour vous aider dans ce Niveau, il faut appliquer a la lettre la Methode dite "du Débutant" : Pas la peine d'explorer tout le Niveau et de buter tout le Monde pour finir le Niveau ! En plus si vous savez ou sont les Ennemis qui vous font perdre du temps pour rien, c'est encore mieux.
+
+Pour ce Code, le Silence est d'OR. Utilisez au maximum votre Silencieux ! Des le Début, tuez les 2 Gardes dans la Salle de l'Alarme. Butez la Camera en face à travers la Vitre. Si un Gradé arrive, laissez-le entrer et chopez sa Carte. Tous ceux qui ont un Beret Noir ont des Cartes utiles pour la suite. Revenez où vous avez commencé le Niveau. Prenez la direction opposée et flinguez la Caméra pres du Radiateur. Mettez-vous pres de la Porte et shootez le Garde debout dans le couloir. Une fois tué, dans le Couloir, shootez au loin le Garde si il vous a vu. Si personne vous a vu, profitez-en et shootez la Camera au coin au fond. Attention ! Ne laissez pas les Gardes au fond vous voir ! Sinon il vont débouler à l'improviste !!!
+
+Revenez a la Salle des Ordinateurs à laquelle vous pouvez désormais acceder grace aux Cartes des Gradés. Finissez les 3 Gardes dedans au KF7 si vous voulez. Touchez pas aux Ordinateurs ! Descendez ensuite l'Escalier pour arriver a la Grande Salle. De loin, zoomez sur la Derniere Camera et essayer aussi d'avoir le Garde à coté derriere sa Caisse. Ensuite, tuez tous les Gardes que vous pouvez en vous planquant à coté de l'escalier. Ici, vous avez la Permission Officielle de faire du bruit. Atention à Boris ! Chopez ensuite la Clé du Goldeneye, analysez-la, puis jetez là en enchainant sur la Photo de l'Ecran de Controle.
+
+Si Boris est pas loin, arretez-le et il marchera devant vous jusqu'a la Salle aux Ordinateurs. Le mieux est encore de lui ouvrir les Portes pour gagner un peu de temps. Lorsqu'il commencera a tripatouiller l'Ordinateur, laissez-le faire, mais enclenchez votre Datathief. Dès que l'Alarme retentit, et seulement à ce moment, utilisez-le sur l'Ordinateur et foncez vers la Sortie. Là, si vous avez fais attention à votre Energie, vous serez content. En effet, y a pleins de Janus Special Forces qui vont arriver à l'infini, par Groupes de 3. Foncez ! Le Code est à vous. Gaffe aux 2 Gardes en Haut de l'Escalier.
+
+#### Goldeneye - 2x Grenade Launcher : Surface I Secret Agent en 3 Minutes 30
+
+Simple aussi ce Code, et bien sympa à utiliser en plus de çà. Commenez normalemment en suivant le Chemin. En fait, vous pouvez vous aider du chemin, mais il faut surtout foncer vers la Barraque oùse trouve le General. Arrivé a la Barraque avec les Barils, avancez derriere elle et continuez tout droit. Passez la tourelle et vous y êtes.
+
+Chopez sa Clé, puis revenez a fond vers la Barraque aux Barils. Entrez dans celle en face et chopez la Clé du Coffre. Reprenez le chemin vers le Radar, mais obliquez legerement sur la Gauche, pour arriver aux 2 Barraques entourées de Grillage. Dans la 1ere Barraque se trouve le Coffre avec les Plans. Hop ! Revenez au Radar, éteignez-le, puis direction le Conduit de Ventilation. Entrez dedans et vous avez le Code. Fastoche !
+
+#### Goldeneye - 2x RCP90 : Caverns 00 Agent en 9 Minutes 30
+
+Un autre Code très dur, puisque le Niveau est long, et qu'il n'y a qu'a la fin que l'on peut se rendre compte de sa défaite... Allons-y. Jusqu'a la Salle avec le chemin en colimaçon pas de problemes. Foncez en pas chassés, tuez ce que vous pouvez, mais ne vous arretez pas ! Arrivé en haut de la Salle en Colimaçon, les VRAIS ennuis commencent.
+
+Prenez le chemin vers la Salle aux Munitions, celle avec le Passage Secret qui mene à la Salle avec le Drone Gun. Ne chopez pas les Munitions, pas le temps. Flinguez les casiers, et à distance, tuez les Gardes arrivant en descendant de l'Escalier en Pierre tout au fond. Explosez les 4 Ordinateurs, et récupererez la Carte que l'un des Gardes avait. Attention au Drone Gun ! Revenez par le Passage Secret et remontez sur la Passerelle. Filez comme le vent vers la Dernière Salle, celle avec la Radio. Butez tous les Gardes au passage cette fois-ci car ils vont facilemment vous suivre. Chopez un RCP-90, et on y va.
+
+La Salle de la Radio est dure. Il faut etre rapide et tuer ceux à Gauche quand vous entrez. Ensuite, avec l'AR33, flinguez ceux au fond. Mainetant la Radio. En douceur, j'y vais au PP7. Butez les Gardes avec uen balle dans la Tete. Pas d'AR33 ! Sinon Boum ! Laissez filer les Scientifiques, quoique je crois que vous pouvez vous permettre d'en griller un en faisant tout sauter. N'oubliez pas de contacter Jack Wade ! Entrez dans le Tunnel et butez tout le monde pour ensuiet acceder au Couloir de la Mort. Baissez-vous et vous pourrez facilement exploser les 2 Drone Guns. Maintenant... ON S'MAGNE !! Si vous avez en-dessous de 9.30, à vous les 2 RCP-90 !
+
+#### Goldeneye - 2x Throwing Knife : Bunker II Agent en 1 Minute 30
+
+Très facile à avoir. Sortez de votre Cellule peinard, et faites sortir Natalya. Ne l'attendez pas, car tant qu'elle est en vie, le Jeu considere qu'elle est sauvée. Foncez à Gauche, montez l'Escalier, prenez à Droite. En faisant du bruit, un Garde vous ouvrira la Porte. Continuez, tournez à Droite et entrez dans la Salle du radiateur. Continuez, et vous arriverez dans la Salle de l'Alarme. Chopez la K7 et hop on se tire vite fait vers la Grande Salle ! Shootez quelques Gardes au passage et ouvrez la Porte. Si vous avez bien tué les Gardes sur votre passage, vous aurez la Clé pour ouvrir la Porte Vitre. Exit !
+
+#### Goldeneye - 2x Hunting Knife : Jungle Agent en 3 Minutes 45
+
+Simple ! Une Promenade de Santé plutot marrante. Vous pouvez commencer par foncer sur les Drone Guns avec votre AR33 et les shooter à bout portant ! Vu qu'il y a 2 Gilets dans le Niveau, pas la peine de s'en faire. En plus ils enlevent pas beaucoup d'energie alors faut en profiter !! Détruisez les Drone Guns ranquillement, et n'arretez pas de courrir, comme çà Natalya sera loin des combats et ne mourra pas betement. Killez Xenia dans la Tete et n'oubliez pas le Drone Gun juste à coté. Dans la Partie "Cave" pensez bien à tuer les Gardes sur votre Passage. Pour les 2 Derniers Drone Guns, un coup de Grenade Launcher et c'est bueno.
+
+#### Perfect Dark - Psychosis Gun : Chicago Perfect Agent en 2 Minutes
+
+Voilà un Code bien dur ! Allons-y pour ce Code qui vous donne accès à une Arme bien sympathique... Dès le départ, mettez-vous en fonction "Désarmer" puis piquez son Arme au 1er Garde que vous verrez sur votre Gauche. Prenez le Couloir et en sortant, agressez le Type qui avertit les Gardes de votre Arrivée. Rapidemment, dirigez-vous vers l'autre petit Couloir sur la Droite (celui qui mene à la Salle ou il y a 2 Civils). Si vous voulez, désarmez aussi le Garde juste avant l'entrée de ce couloir (il devrait se retourner de lui-même). Une fois dans le Couloir, désarmez le Garde marchant devant vous tranquillement. Vous etes alors dans cette Petite Salle. Laissez les Civils sortir et poussez pendant ce temps le Conteneur vers les 3 Barils, en prenant bien soin de le pousser en forçant sur la Gauche, pour qu'il soit en biais. Sinon, il n'explosera pas !
+
+Une fois déplacé, les Civils partis, explosez un des 2 Barils et sans attendre la Fin de l'Explosion en chaine, dirigez-vous vers le Couloir menant à l'autre Salle avec l'Escalier Exterieur. Shootez les Gardes en prenant bien soin de pas trop vous exposer. Restez dans le Couloir etavec le Falcon, un petit Zoom et çà marche. Une fois les Gardes morts (5 ou 6) occupez-vous des 2 premiers Gardes sur l'Escalier Exterieur. Une fois morts, redescendez et en vous plaquant contre le Mur, shootez les Gardes restants. Faites gaffe au Garde tout en haut de l'Escalier (n'allez pas le tuer, ne perdez pas de Temps) et revenez vers la Salle ou vous avez explosé le Container. Vous trouverez le Bombspy.
+
+Revenez dans la Rue rapidemment, la Limousine ne devrait pas etre encore partie. Jetez dessus le Bug puis directemment, dirigez-vous vers l'Egout ou vous attend une Valise avec dedans une Mine et un Reprogrammeur. Prenez-la et prenez en main la Mine. Revenez à l'Escalier Exterieur et placez-là au 1er Etage contre le Mur. Aussitot, placez-vous contre le Mur, de sorte à esquiver les Balles d'éventuels gêneurs, et sortez votre Bombspy.Au besoin, baissez-vous. Avec ce Bidule, descendez l'Escalier et dirigez vous à Droite. Foncez vers l'Entrée du Building G5. Faites-le sauter juste devant l'Ascenseur et la Diversion sera créée. Maintenant foncez à toute allure vers l'Entrée du Building G5 et en principe le Compte est bon !
+
+#### Perfect Dark - Magnum de Trent : Site du Crash Agent en 2 Minutes 50
+
+Un Code un peu lourd à avoir, mais faisable sans risque de grosse Crise de Nerfs. Si vous avez "largué" le Hover-Bike dans le Niveau Précédent vous devriez avoir juste derriere vous la Bécane vous attendant tranquilemment en ronronnant à 10 cm du Sol Neigeux... Prenez-le et foncez tout droit (à partir de là ou vous commencez le Niveau j'entends) en tournant ensuite à Droite. Glissez ensuite tout doucemment sur une diagonale à 45°. Vous arriverez à la Capsule qu'il faut actionner. Faites-le, puis revenez tout droit derrière vous en longeant le "Mur" de Neige sur votre Droite lorsque vous faites demi-tour. Pour actionner la Capsule, il faut descendre de Selle, et çà, c'est lourd.
+
+Vous croiserez 2 Gardes en Noir et un Mr. Blonde. Ignorez-les et continuez tout droit dans la Tranchée. Vous arrivez ensuite dans une "Salle" plus grande. Prenez rapidos la 2eme sur la Gauche, puis suivez le Chemin "caillouteu" pour arriver à une Salle close remplie de Gardes Noirs, avec un Gros Trou au Sol. Ici, il faut balancer une Mine en bas, sur le Clone du Président. Dès qu'elle est larguée (et bien larguée comme il faut) retournez sur vos pas. En chemin, evitez les Types qui vous suivent et appuyez sur A et B en meme temps, pour blaster le Clone en 2 temps 3 mouvements.
+
+Vous arriverez encore à la Salle de tout à l'heure. Prenez à Droite et vous arriverez à une Caverne. Laissez la Bécane à l'entrée, sinon les mouvements sont impossibles. Dirigez-vous à Droite et descendez pour vous trouver sur une sorte de Balcon d'ou vous verrez Trent, le Président, et 2 Robots. Tirez sur Trent, pour le faire fuir, puis occupez-vous des 2 Robots.
+
+En principe, c'est là que tous les types qui vous suivaient vont se faire remarquer. Tirez-leur dessus lorsque vous les verrez, tout en courant vers l'autre voie de la Caverne, celle qui mène au Centre en bas, là ou est le Président. Vous n'avez qu' longer la Roche sur la Droite et vous arriverez en bas. Flinguez les 2 Robots qui restent dans un recoin, et le Président vous suivera bien sagemment. Remontez et flinguez les types qui risqueraient de blesser ce cher Président. Prenez la 1ere à Droite, un Chemin en pente qui mène à un Vaste Espace (où se trouve la Soucoupe d'Elvis) et courrez tout droit jusqu'a elle. Ca devrait etre bon !
+
+Ce Code est difficile à cause des nombreux Gardes qui vont vous suivre. Pour cela, essayez autant que possible de shooter les Gardes lorsqu'ils se trouvent droit sur votre Chemin. Ne perdez pas de Temps à revenir en arrière pour les finir. Vous les tuez, ou vous les blessez, mais pas de marche arrière !
+
+#### Perfect Dark - Farsight XR-20 : Epave Cetan Perfect Agent en 7 Minutes 27
+
+Un Code Lourd au Niveau de l'Energie, car les CMP150 et les Shotguns, CA FAIT MAL !!! Il n'y pas de Technique particulière mais y a des Choses TRES Importantes à savoir ! Voilà ce que je fais ! Dès le Début, sortez le Shotgun et foncez. Dans la Grande Salle avec les Herbes tombant du Plafond, tracez en pas chassé (va falloir bien assurer ce coup-ci !!) car il ne faut pas perdre UN Gramme de Vie. Une fois passé les 2 Portes, vous serez à l'Endroit ou y a un Skedar Mort. Là, il faut encore faire le plus de pas chassés possibles, car ils ont encore plus de Chance de vous avoir, le Coin étant plus petit.
+
+Une fois descendu la Pente, vous tomberez sur des Gardes avec des CMP150, qu'il faut absolumment descendre rapidos, car le CMP150, c'est presque pire que le Shotgun (çà racle). Foncez dans le Conduit à Gauche, et tuez tous les Gardes en avançant. C'est un des Passages les plus dur du Niveau, alors faut pas desesperer. Une fois, les Gardes Morts, et les Loupiotes allumées, vous arriverez à la Salle avec l'Ordinateur Bizarre que Elvis va cliquer. En fait, dès qu'Elvis monte la Pente pour acceder à l'Ordinateur, vous pouvez foncer, il sera assez grand pour finir l'Objectif tout seul. Gaffe en sortant du Conduit, des Gardes Invisibles vous attendent ! Soit vous les esquivez (sympa) soit vous les butez (moins marrant). Dans les 2 Cas, passez la Porte, et foncez toujours à Droite jusqu'au Téléporteur. Elvis en s'en tape, il sera téléporté automatiquemment !
+
+Une fois téléporté, sortez le CMP150 plutot que le Farsight, et foncez buter les Gardes rapidos. Une fois passé la Grande Salle, sortez le Farsight, et shootez les 2 ou 3 Gardes immobiles dans la Salle d'après, avec un autre Téléporteur sur la Gauche. Prenez le Téléporteur et préparez-vous au Passage le plus lourd, mais aussi le plus rapide et marrant du Niveau. Vous atterissez dans une Partie ou il vous faudra exploser des Colonnes Fluos avec le Farsight. Ce passage est hyper-rapide. Attention cependant aux 3 Sentinelles (ou 2 je sais plus trop) que vous aurez facilemment grace au Farsight. Celles dans les Couloirs sont simples à avoir. La Dernière est dans la Salle ou vous finissez l'Objectif de l'Arme Cetan.
+
+Dans cette Partie, vous aurez à faire à des Mini-Skedars. Inutile de vous préciser que avec le Farsight, il est presque impossible de les avoir. La SEULE Solution est de les ignorer. Un Truc: lorsque vous etes devant une Porte menant à une Salle avec une Colonne dedans, shootez-là avec le Farsight SANS OUVRIR LA PORTE, et 3 ou 4 Bestioles creveront dans l'esplosion !!
+
+Continuez donc tranquillement votre chemin, et pensez bien à shootez DE LOIN les Colonnes ! Pour la Dernière Salle, shootez la Sentinelle sans ouvrir la Porte, et ensuite visez dans les 2 Parties Metalliques sur les Cotés. Vous devriez voir facilemment ce qu'il faut shooter. Ce Passage est bien stressant, avec les Skedar aux Fesses, mais TRES Rapides à faire, si on y va bien en pas chassés, et en esquivant les Skedars. Une fois ce passage fini, vous atterirrez devant une Porte. A travers celle-ci, shootez les 2 Mr. Blonde, et utilisez votre Disquette sur Dr. Caroll. Zappez la Cinématique, puis tracez vers le Début du Niveau. Vous devriez retrouver votre chemin en principe, puisque vous l'avez deja exploré en Agent, et en Special Agent. Attention aux Gardes avec leurs CMP150. Plombez-les avec le K7 Avenger !! Et voilà !
+
+#### Perfect Dark - Jouer Elvis : Zone 51 Sauvetage Perfect Agent en 7 Minutes 59
+
+Certainemment un des plus stressants de tous les Codes à avoir ! Surtout le Début dans l'Entrepot, qui est TRES chaud à passer, pour cause de plein de Gardes avec des Dragons !! Dès le Début, foncez vers le Garde au fond et tuez-le avec le Silencieux. Longez bien le Mur sur la Gauche, et regardez derrière vous : 2 Gardes devraient arriver en marchant, ou en courant, si vous avez foutu le Bazar partout. A coté de l'Ascenseur également se tient un Garde nerveux. Shootez-les rapidos et grimpez dans l'Ascenseur. Parfois, il se peut que vous ayez été entendu par le Garde au-dessus, qui vous shootera d'en haut. S'il vous gratte la Tête, recommencez.
+
+Pour résumer, il faut entrer dans l'Ascenseur en ayant tué le moins de Gardes possibles, car moins y en a, moins il en viendra. Une fois à l'Etage, prenez à Gauche et shootez par surprise le Garde au fond à Gauche. Ensuite, shootez de loin les 2 Gardes près de la Porte en Metal. ATTENTION ! Ne ramassez qu'UN Dragon ! Jetez-le dans le 2ème Ascenseur, et ameutez les Gardes en haut, pour qu'ils viennent exploser. Pendant ce temps, revenez récuperer un Dragon, et shootez des Gardes s'il en arrive. Retour au 2ème Ascenseur, mettez vos Rayons X et regardez si des Gardes arrivent. Si c'est le cas, attendez-les et tuez-les en vous cachant bien avec le Mur. Il se peut qu'ils restent en haut à vous viser, pour celà, une seule chose à faire: attendre.
+
+Une fois tout le Monde Tué, foncez vers le Mur Friable, avec la Croix de Jonathan dessus. Faites peter le Dragon à cet endroit, puis foncez sur votre Droite en esquivant les Balles d'eventuels Gardes. Vous devriez arriver à buter un Garde et choper son Dragon. Prenez donc tout au fond à droite, et shootez dans la Tete le Garde qui est de dos, juste avant la Salle Cryogénique. Fermez les Portes, sortez les Rayons X et faites monter le Caisson, que vous regarderez jusqu'a ce que l'Objectif soit rempli. Des Gardes devraient certainemment arriver. Butez-les tranquillement, puis foncez sur votre Gauche, toujours tout droit, en tuant tout le monde. Prenez à Droite juste après le Trou dans le Mur, et descendez les 2 Gardes que vous rencontrerez. Entrez dans la Salle de Droite en tuant la Sentinelle. Tuez les Scientifiques sans trop perdre de temps, puis téléchargez l'Ordinateur au Fond. Les Porte vont s'ouvrir toutes seuls à présent.
+
+Foncez sur votre droite en sortant, et prenez tout droit. Vous arrivez dans une Grande Salle. Tracez tout droit vers l'Escalier. Montez, puis prenez vite à droite pour passer sur la Passerelle Metalique. Vous allez débarquer dans les Douchez. Prenez tout droit, suivez votre chemin, et vous tomberez sur un Type. Tuez-le, puis sortez vos Rayons X. Vous trouverez son Uniforme dans un des Casiers de la Salle. Mettez-le et sortez votre Super-Dragon en 2ème Fonction. Revenez vers une des 2 Sorties des Douches. Vous tomberez suremment sur des Types. Butez tout le monde en un seul coup avec une Grenade, et foncez tout droit en remontant la Pente.
+
+Arrivé tout en haut, entrez dans la Salle sur votre Droite. Y a 2 Gardes un peu chiants. Nettoyez-les, puis faites sauter l'Ordinateur. Faites machine arrière et prenez tout droit en sortant de la Salle. Rangez votre Arme et entrez dans le Premier Labo sur la Droite. Le Type au fond va vous parler, et ensuite vous ouvrir. Tuez-le ! Un Coup de poing suffira. Foncez en tuant tout le monde et tuez le Scientifique dans la Chambre d'Autopsie. Il vous donnera une Carte. Revenez en arrière, puis tuez tous les Gardes et Scientifiques qui arrivent. Un Coup de Grenades et Hop tout le Monde est cuit ! Revenez alors dans le Couloir Principal, où vous irez à Droite, en entrant dans le 2ème Labo. A partir de là, pas de quartier ! Tuez tout le monde !!! Une fois dans le Sas, prenez votre inspiration, rechargez, et entrez. Dans la dernière Salle se trouvent des Gardes et des Scientifiques. L'un d'eux possede une Carte permettant d'entrer dans le Labo d'Elvis. Une fois acquise, foncez vers le Labo et entrez. Ouf !!!! Fini !
+
+#### Perfect Dark - Invincible : Zone 51 Evasion Agent en 3 Minutes 50
+
+Incroyable ! Le Code le plus dur de Goldeneye se révele d'une faciité déconcertante dans Perfect Dark ! Dès le Départ, sortez de la Salle puis foncez tout droit vers la Porte "Penchée". Si vous le pouvez, essayez de marcher en diagonale avec les pas chassés. C'est toujours ça de gagné. Une fois sorti, prenez à Droite, ouvrez la Porte, puis foncez tout droit en shootant le Scientifique se trouvant droit devant vous. Vous vous occuperez du second plus tard. Ouvrez le Passage Secret (Porte à Texture Rocheuse) et descendez pour poser le Lit Volant dans la Salle. Une fois immobilisé, Jonathan va vous parler. Remontez, ouvrez le Passage Secret et shootez le 2eme Scientifique. Prenez à Droite et continuez tout droit. La Porte Metallique est ouverte.
+
+Directemment, tournez à Droite et truffez le Garde devant vous de Plomb. En fait, dirigez-vous vers la Porte au fond à Gauche, et si vous le pouvez, flinguez le Garde si ça vous amuse. Vous etes en Agent et ils ne sont pas du tout forts. Ouvrez la Porte et passez le Pont. Cette fois-ci, butez les Gardes de ce passage, pour que Jonathan ne perde pas de temps à leur tirer dessus, çà le ralentit. Une fois la Porte ouverte, Jonathan sera sur votre Gauche. Mettez-vous à coté de lui jusqu'à ce que l'Objectif Accompli soit affiché. Dès cela, revenez par le Pont vers la Salle. Avant de rentrer, pendant que vous courez, mettez le Super-Dragon en Mode Grenade Launcher. Ouvrez la Porte en visant vers le Sol (pas trop non plus, juste en diagonale à 45°) et explosez-moi tous les Gardes présents d'un seul coup.
+
+Jonathan va arriver et commencer à bidouiller le Mur. Pendant ce temps, restez dans l'entrebaillement de la Porte et shootez de loin les Gardes arrivant par le Pont. Une fois le Mur explosé, entrez et butez le Garde au fond contre le Mur. Puis très rapidemment, sautez en bas puis foncez vers le Mur Rocheux pour retrouver la Salle où est Elvis. Il va se reveiller, zappez la Cinématique. Revenez au Hangar, et pendant que Jonathan et Elvis courent vers la Soucoupe, shootez les Gardes arrivant par la breche. Il faut faire celà pour éviter que nos 2 Amis ne s'arretent et perdent du temps à essayer de tuer des Gardes. Dès qu'ils ont passé le Mur, suivez-les. Approchez-vous d'eux pour le Dialogue, et flinguez le Garde sur votre Gauche en haut, près d'un Ordinateur. Parfois il essaie de vous tirer dessus.
+
+Une fois le Dialogue terminé, revenez flinguez les Gardes arivant par la Breche, et laissez Jonathan ouvrir les Portes du Hangar. Butez bien tous les Gardes arrivant, et Jonathan n'aura aucun probleme. En principe, la Soucoupe décollera et vous aurez le Code. Facile !
+
+#### Perfect Dark - Occulteur : G5 Building Agent en 1 Minute 40
+
+Un Code dur à avoir, sauf si on connait le Truc !! En effet, il semble qu'il est litteralemment impossible de finir normalemment le Niveau dans les Temps. A vue de nez c'est clair. L'Astuce vient du Camspy et de la Cinématique avec Trent Easton, Cassandra de Vries et Mr. Blonde. Commençons. Il faut etre très rapide dans les 3 premières Salles. Apprenez à savoir où "sont" les Ennemis Invisibles lorsque vous commencez. C'est super important car c'est dans les 2 Premieres Salles qu'il faut etre le plus rapide. Après c'est du Gateau. Si vous tournez en rond pour essayer de buter un Garde Invisible, vous pouvez recommencer. Je sais que c'est lourd à force mais ça ne marche que de cette façon.
+
+Une fois passé la 1ere Salle, tuez facilemment le Garde devant l'Alarme dans la Salle suivante. Dans la Salle suivante, courez vers la Porte à Droite. Les lumières vont s'éteindre et des Gardes apparaitre. Tuez-les et récuperez la Carte que possède un des Gardes (en général le Dernier) pour entrer dans la Salle suivante, plus petite. Shootez facilemment le Garde, pris par surprise. Ensuite, entrez dans la Salle aux Lasers, mais tracez à Droite pour tuer le Garde qui est le plus près de l'Alarme. Après seulemment, occupez-vous rapidemment des autres qui rappliquent. Désactivez les Lasers, puis montez jusqu'au Niveau de la Porte que vous ne pouvez pas ouvrir. Et c'est là qu'il faut faire gaffe.
+
+Sortez votre Camspy et placez-le juste devant le petit conduit, mais ne le faites pas entrer !! Laissez-le là et descendez nettoyer la Salle en-dessous bien propremment. Continuez normalemment votre chemin pour foncez au Coffre-Fort. Une fois dans la Salle du Coffre-Fort, placez le Décodeur sur l'Ordinateur et là revenez à votre Camspy. Comme par Magie, le Chrono va défiler

@@ -1,0 +1,309 @@
+
+=== presentation/makingof.htm
+Goldeneye : Making-Of (Traduction)
+
+**Par David Doak - Presenté au National Film Theatre, le 13 Juillet 2005 à Londres. Texte original écrit par Graham S - Traduction : Nodjo pour [Adonf-Jv](http://jimmy130.free.fr/?page=ge_conf2)**
+
+Ceci vient d’un très bon exposé du NFT aujourd’hui. Dave a joué à Goldeneye sur le grand écran, et a expliqué pas mal de choses pendant qu’il jouait. Je n’ai pris aucune note, donc ce qui suit vient tout droit de ma mémoire et pourrait être faux. Je n’ai pas fait beaucoup d’effort dans la qualité d’écriture, donc ça peut rendre assez mal. Je m’en excuse (…)
+
+Dave a rejoint l’équipe de Goldeneye environ un an après le début du développement. Il a été recruté en tant qu’administrateur système pour s’occuper des machines Silicon Graphics. Goldeneye était le bébé de Martin Hollis. Martin est un gars balaise en maths qui vient de Cambridge. Il était le lien initial entre Rare, SGI et Nintendo. Dans ce temps là, il n’y avait pas de bibliothèques pour faire des choses en 3D : vous deviez vous plonger dans le manuel, et Martin était un expert : l’ « étudiant intelligent » qui le comprenait. Nintendo a récupéré la licence : ceux qui l’avaient ne l’ont pas vraiment estimée, ils ont lu le contrat en diagonale pour pouvoir mettre le travail sur pied.
+
+Nintendo a pensé que Rare pourrait être intéressé par le développement du jeu : ils le voyaient comme un jeu de SNES en scrolling, à la Donkey Kong Country. Ils ont pensé que Martin pourrait être celui qu’il fallait : il était intelligent, s’intégrait bien dans une équipe.
+
+Hollis dit que s’il faisait le jeu, ce devrait être un jeu de shoot en 3D, sur l’Ultra. Il a écrit un document de conception de deux pages, qui voyait le jeu comme un Virtua Cop, un jeu de tir sur rails, avec plein d’action et une IA qui ferait des trucs sympas comme courir actionner une alarme.
+
+Ils ont commencé à créer la technologie. Ils n’étaient pas très productifs. Leur pack graphique original était fait à partir d’un outil de développement de simulateur de vol. On leur promettait sans cesse que la machine finale tournerait deux fois plus vite que leurs machines de développement. Créer la technologie, pour le jeu et les outils, était un sacré challenge. L’équipe comprenait moins de dix membres dans les 25 ans qui feront tout pour faire le meilleur jeu possible, travaillant de longues heures, dans un environnement adapté à une étroite collaboration des membres de l’équipe pour développer le jeu à plusieurs.
+
+Les artistes (Karl Hilton et quelqu’un d’autre) ont visité les lieux, bien entendu ils étaient beaucoup plus complexe que ce qui pouvait se faire sur N64. Pendant un moment, on pensait que le jeu devrait sortir en même temps que le film, mais alors que le film était déjà en production, qu’il prenait moins de temps à être réalisé qu’un jeu (Goldeneye a pris 3 ans), on a compris que les deux ne sortiraient jamais en même temps, et puis la N64 allait être retardée de toute façon.
+
+Goldeneye a été montré à une présentation au Shoshinkai [95] et est passé plutôt inaperçu. (Il s’appelait alors simplement « Bond », aux cotés de « Digger », le nom de code pour Blast Corps). C’était encore un jeu à la Virtua Cop à ce moment là.
+
+C’était une démo à travers Archives. Ils ont réalisé qu’ils avaient déjà programmé la caméra pour voler à travers le niveau sur des rails, et Doom et Quake étaient si populaires, qu’ils ont réalisés qu’ils pouvaient en faire un FPS.
+
+Ils ont d’abord créés les environnement à l’image de lieux réels, et c’est seulement après qu’ils ont rajoutés des ennemis et des objectifs. Le résultat ressemblait vraiment à des lieux réels. Au début, vous pouviez choisir votre Bond. Là où vous voyez l’image de Pierce sur l’écran de sélection du niveau de difficulté, vous pouviez sélectionner la photo et la changer en Sean. A un moment relativement tardif du développement, les propriétaires de la licence l’ont remarqué et leur ont dit : « Vous pouvez pas faire ça ! On va devoir payer Sean ! » Ils n’avaient pas de problème avec les autres personnages (Grace Jones etc.) puisqu’ils avaient les droits des images. Une partie de Sean a survécu dans le jeu. Un bug montre parfois le bras de Bond flotter en l’air, d’avant en arrière, et on peut voir la veste blanche de Sean.
+
+C’était vital de mettre le barrage dans le jeu. C’était une partie importante de la pub pour le film : le saut à l’élastique de Bond précédant le générique, et les joueurs s’attendraient à le trouver dans le jeu. Mais c’était une quantité énorme de géométrie à afficher pour la N64. Courir sur le barrage et sauter prendrait quelques secondes, donc ils devaient rajouter la zone initiale où l’on doit passer les gardes, les tours, le tunnel, le bunker… C’est l’un des passages du début les plus compliqués, qu’ils ont ajoutés pour que cela ait une bonne gueule. Monter pour récupérer le sniper, en mentionnant que les angles des escaliers sont un peu étroits pour être confortable dans un FPS, mais ils n’avaient pas le temps de les améliorer.
+
+Le véhicule derrière lequel Bond court est assez lamentable. Il mentionne que le garde court actionner l’alarme comme prévu dans le document de développement (un des quelques bouts d’IA du document de développement qu’ils ont réussi à faire : ils voulaient aussi les faire se cacher derrière des tables et se protéger entre eux et tout et tout). Dave tue un garde, « Oh, regardez, c’est moi ! ». La salle de la baraque est vide à part un garde : parce que le jeu doit afficher la géométrie du barrage, ils ne leur restaient plus de polygones à disposition pour remplir la salle avec quoi que ce soit.
+
+Dans la zone extérieure, il n’y a aucun baril ou quoi que ce soit d’autre. La porte de cette zone s’ouvre un peu différemment (avec un interrupteur) que toutes les autres portes du jeu. Les double portes que le camion traverse servent à empêcher le jeu de devoir afficher le barrage et la zone du début en même temps.
+
+Il fait remarquer un accessoire de la porte : le cadenas. Ils devront peut-être mettre une instruction sur la version japonaise du jeu pour dégommer le cadenas.
+
+Sur le barrage. L’IA des gardes fait qu’ils ne peuvent vous voir tant que vous n’êtes pas en vue directe sur la représentation 2D du jeu. C’est assez sympa, vu qu’ils ne peuvent pas vous voir à travers les vitres ou depuis les tours. Ca vous laisse le loisir de faire des vrais trucs de James Bond, regarder leurs animations avant de les tuer. Et cela vous rend plus fort : vous pouvez choisir l’instant de leur mort avec votre sniper, plutôt que de se faire allumer en passant les portes. Vous n’êtes pas non plus menacé d’être attaqué sur ce morceau du barrage, donc vous êtes libre de prendre tout votre temps et de jouer avec le sniper. Il a rigolé au sujet d’un site Internet qui relatait ce que devait être les pensées d’un des gardes des tours, juste avant d’être dégommé par Bond.
+
+Le sniper a un zoom analogique (on peut zoomer plus ou moins) : le grand truc de la N64 c’était qu’elle avait un stick analogique et ils essayaient de voir ce qu’ils pouvaient en faire. Le KF7 a un zoom fixe en mode visée, ce qu’ils trouvaient bien cool. La partie où on saute du barrage : vous vous en tirerez jamais comme ça dans un jeu récent d’EA. Qu’est ce que vous êtes supposé faire ? Faire un tel saut comme ça n’a rien d’intuitif. Aujourd’hui, vous auriez un message « Appuyez sur X pour sauter à l’élastique ». Et là la caméra se contente de tomber (vous êtes mort ?), et ça passe à la scène de fin. Cette scène de fin est assez incompréhensible si vous n’avez pas vu le film (le fait qu’il saute avec un élastique n’est pas évident), mais on s’attend à ce que tout le monde l’ai vu. Dans les niveaux suivants, vous allez devoir faire plein de choses bien cool à la James Bond et ainsi terminer la séquence du film d’avant le générique (et rencontrer les méchants).
+
+Les quelques niveaux suivants n’apparaissent pas dans le film. Ils avaient ces superbes environnements (surface, bunker, d’ailleurs ils ont du tricher et les utiliser deux fois) mais Bond n’y va jamais dans le film. Ils ont dû enlever la scène du film où Bond et sa Bentley font la course avec Xenia Onatopp dans sa ferrari à côté de Monte Carlo, parce qu’ils étaient pas en train de faire un jeu de course et que la N64 ne pourrait jamais reproduire Monte Carlo. Ils devaient changer l’utilisation de la frégate par rapport au film, et y ajouter des otages, etc.
+
+Ils ont mis silo dans le jeu parce que les gars de Bond ont demandé à l’artiste chargé des niveaux « Qu’est ce que tu aimerais mettre dans le jeu, si tout était possible », et il a pensé qu’un silo de missile (plein de couloirs) et un gros missile seraient marrants. Ils ont aussi réalisés qu’ils avaient un personnage modélisé pour Boris, donc ils devaient lui donner quelque chose à faire (il n’était à la base qu’un bouffon intello dans le film), y compris un moment où vous le menacez. Ils font remarquer qu’il y a plein de choses à faire dans GE autres que simplement tirer, des trucs que Bond aurait vraiment fait.
+
+Ils ont utilisé Bunker comme un niveau de test pour tout, donc Dave y a joué pendant deux ans d’affilées. Du coup, il pense qu’il est parfait comme niveau vu que tout a été amélioré au maximum. Il a montré Bond qui meurt : il y avait d’abord le sang qui coule sur l’écran, et ensuite seulement ils ont pensé à laisser une vue interne pendant la mort. Ensuite vous voyez la mort trois fois d’une vue extérieure (la seule fois dans le jeu que vous voyez Bond, à part les scènes d’intro et de fin). Ca fétichise la mort de Bond. C’est choquant aussi, parce qu’on ne voit jamais Bond mourir dans les films. Ca veut dire : « C’est de ta faute. T’as intérêt à réessayer, et à faire en sorte de tout faire correctement cette fois ». Ils ont du mettre la scène du tank dans le jeu, parce que, avec le barrage, Bond qui conduit à travers les rues russes dans un tank était la chose la plus mémorable du film. Mais ils ont finit avec un FPS dans un tank. Bon nombre des niveaux d’après suivent scrupuleusement le film.
+
+Pendant qu’il jouait Archives, il a mis les codes Invisibles, deux armes, et munitions infinies. Leur influence principale après Bond était celle de John Woo. Avant que Halo 2 et la double utilisation apparaisse, ils l’appelait juste « deux armes ». Ils avaient les vitres qui se brisaient, la fumée, les explosions. Ils étaient fiers des effets de fumée et d’explosion. Bond n’a pas l’habitude de tirer comme ça sur tout dans les films : c’est du Woo. Tout, les caisses, les barils, même les tables étaient destinées à exploser. La table allait exploser, tout allait en tomber.
+
+Vous pouviez mettre en place des réactions en chaîne avec ça. Ca avait son importance pour le gameplay : si vous étiez trop près d’une table qui explosait, surtout dans les niveaux de difficultés élevés, vous étiez quasiment morts. Tout comme ils regardaient Woo, ils écoutaient beaucoup la bande originale de Heat, surtout le passage avec la grosse fusillade dans les rues, en pensant que ça serait terrible de faire en sorte que le jeu fasse des sons comme ça.
+
+Ensuite il a joué le niveau Jungle. La jungle, c’est un cauchemar pour la modéliser dans les jeux. Il rigolait de la façon dont, sur un écran de présentation de Jungle, les mots « la Jungle Cubaine » étaient affichés à côté de ce qui ressemblait vaguement à une plante dans un pot. Ca commence avec Natalya qui cite Reservoir Dogs : « Let’s go to work ». C’est en fait une AI amie utile, surtout dans les bas niveaux de difficulté où elle peut en gros vous terminer le niveau pour vous pendant que vous vous baladez. Elle a aussi pas mal d’animations d’attente qui font qu’on dirait qu’elle recherche les ennemis, alors qu’elle se contente d’attendre de vous suivre quand vous avancez. Ils ont du bidouiller l’IA de tous les ennemis, qui normalement ne font attention qu’à vous, pour qu’ils s’occupent aussi de Natalya. Il y avait aussi le multijoueur, une raison importante de la réussite de GE, qui a été implanté à la dernière minute par Steve Ellis. Au début, GE ne s’est pas bien vendu, et ensuite, grâce au bouche à bouche, ça a commencé à se vendre, il se sera vendu 8 millions de cartouches.
+
+C’est pas que Dave ait vu beaucoup de tout ça, en tant qu’employé. Mais combien ça coûte à faire ?
+
+Les salariés, pas grand chose. Mais les stations de travail Onyx était extrêmement chères (250.000$ chacune) d’autant plus qu’il en fallait un pour chaque membre de l’équipe, même si Rare était probablement bien aidé par Nintendo pour la plupart de ces coûts matériels.
+
+C’était une énorme usine à gaz, un cube de bonne taille, avec un tableau complet pour faire le Z buffering.
+
+Dans le temps, avec une petite équipe qui apprenait quasiment sur le tas (l’équipe de GE n’avait que peu d’expérience dans le développement des jeux), ils pouvaient changer les choses jusqu’à les faire correctement. Si vous aviez une idée sympa, tout le monde venait regarder au dessus de votre épaule et vous donner quelques idées. C’est infaisable dans une équipe de 50 personnes : ça coûte trop cher que tout le monde dérive de la voie originelle et les idées ne se développent pas de la même façon. Vous ne pouvez pas non plus faire des changements facilement : il montre une pièce à trois niveaux dans Archives, et explique comment l’apparence de la pièce a été modifiée pendant le développement. Il rigole en disant qu’au début, ils ont essayé de modéliser les livres eux même plutôt que d’utiliser une texture plate. Aujourd’hui, construire un tel environnement est tellement coûteux, vous compromettriez le gameplay plutôt que de retravailler ce genre de choses.
+
+Au sujet de Goldeneye : Rogue Agent. Les gars de l’équipe d’EA sont venus à lui et lui ont dit : « On va faire un jeu meilleur que le tien ». Il prit un ton cynique, la discussion ne volait pas bien haut, et il dit finalement qu’il attendrait de voir quelque chose. Ils ont vraiment essayé de faire le jeu de N64 fidèle à l’univers de James Bond, mais dans GE : RA, vous ne jouez même pas Bond ! Pourquoi feriez vous le choix de ne pas jouer Bond ? Si GE 007 est +Bond, alors GE : RA doit être –Bond. Donc vous devez être un méchant dans le jeu. 007 a déjà le permis de tuer, quoi d’autre de plus méchant voudriez vous faire ?
+
+=== presentation/test-ge.htm
+Goldeneye : Test Complet
+
+**Présentation** - D’emblée, nous sommes dans l’Univers de James Bond. Musique, Ouverture comme dans les Films, Systèmes de Dossier selon les Parties, bruits de Feuilles qu’on tourne. Lorsque l’on met le Jeu en Pause, on entre dans la Montre de James Bond, l’Aiguille tourne encore dans le fond, on navigue facilement dans tous les Interfaces (Solo, Multiplayer, Pause) sans se prendre la tête pendant des Heures. Question présentation, c’est un sans faute. On peut reprocher une sobriété (ou pauvreté, c’est selon) des Visuels. Mon Argument sur cette pauvreté des Visuels est la suivante : Goldeneye est un des très rares Jeux qui ne font pas mal aux yeux une fois qu’on a passé un Après-Midi dessus. Pas de couleurs criardes, pas de flashes dans tous les sens. C’est sobre, simple, efficace.
+
+**Graphismes** - Pour son époque, Goldeneye est une claque, n’oubliez pas que la Concurrence s’appelle Playstation en ces temps-là, et qu’à coté de ça, Goldeneye fait figure du Jeu le plus Beau du Monde. Turok imitait les Graphismes d’une Jungle, de Temples. Goldeneye, lui, devait paraître « réel ». Et il y arrive sans aucun problème, on sait très bien où l’on est, même si cela reste assez basique par endroits.
+
+Le Truc le plus bluffant est que si vous avez vu le Film, vous vous retrouvez dans exactement les mêmes décors que le Film, d’où une immersion totale du Joueur. Le Graphisme ne devient alors pas un facteur « Visuel » mais un Facteur de « Gameplay ». Beaux ou Laids, les Graphismes de Goldeneye plongent le Joueur dans le Film, et pour un Jeu-License, à l’Epoque, c’est énorme. Le Niveau le plus réussi est sans aucun doute Facility, de par sa variété. Autre détail qui tue, comparé à Turok : pas de Brume !
+
+Les Textures sont souvent fines, réalistes, on sait sur quoi on marche. On tire sur un mur, et il y a l’impact de balle dedans ! Pour l’Epoque, c’est beaucoup. Les Ennemis sont un peu carrés, les couleurs ne sont pas très chatoyantes, mais… le plaisir l’emporte. Il suffit de lancer un Petit Battle dans le Temple, et on oublié très vite les Graphismes assez pauvres pour tout simplement s’amuser à chercher l’Adversaire. Les Graphismes sont également très variés, on voyage beaucoup dans ce Jeu, on voit du Pays !
+
+**Animation** – Fluide pour l’Epoque, aujourd’hui Goldeneye paraît lent. Lent, mais Fluide. Les Bonhommes bougent bien, en Battle, à 4 Joueurs, ça marche très bien, rien à dire. Attention aux Ralentissements si on joue trop avec les Explosifs, genre les Roquettes en Battle, là, la Nintendo 64 montre ses Limites.
+
+**Gameplay** – On est tout de suite dans le Jeu, à 100%. On met très exactement 5 minutes pour s’habituer aux mouvements, hyper simples, et c’est le Bonheur. En Battle, faites jouer une Personne qui n’a jamais touché à une Manette de sa vie, et vous verrez, c’est génial. Il y a beaucoup de Maniabilités différentes, si vous êtes habitué à celle de Turok. Le Système de Visée est simple. Aujourd’hui, il paraît Archaïque, comparé aux Manettes à Double Joysticks, mais le Numérique à son petit Charme… Autre Facteur qui a son Charme, l’Intelligence Artificielle. Pour l’Epoque, ils sont rusés, les Bonhommes ! Ils vous tournent autour, il ouvrent les Portes, ils vous courent après, on se cache. C’est tout simple, ça marche. Vous êtes directement dans la Peau de James Bond. En terme de Gameplay, c’est un sans fautes.
+
+**Musiques et Sons** – Les Musiques ne sont pas si variées que ça, vu qu’elles sont toutes axées autour du Thème de James Bond. Cela dit, il y en a de très mémorables. Celle du Barrage, par exemple, ou celle de Surface, dans la Neige, avec ces Notes très basses rappelant le Vent. Celle de Statue fait très Film d’Espionnage ! Une des Meilleures, la Musique d’Archives, est particulièrement adaptée aux Parties de Battle fourbes. Celle de Cradle est merveilleuse, stressante, surtout lorsque vous jouez ce Niveau en Agent 00. Petit Détail : les Musiques d’Ascenseur, superbes, compte tenu de leur toute petite importance. Un Souci du détail que j’apprécie.
+
+Les Bruits des Armes surprennent par leur Réalisme. On est loin des Rayons Lasers et autres Armes Nucléaires. Tous les Sons ont cette touche réaliste qui fait qu’on est en plein dans le Jeu. Chaque Arme à un Son différent, c’est assez bluffant. Qui n’a jamais adoré entendre le Bruit du RCP-90 lorsque vous le déchargez en pleine figure sur l’Adversaire ? Et le M-16, avec les étoiles jaunes qui apparaissent ? Question Sons, c’est très bon.
+
+**Difficulté** – Il y a 3 Niveaux de Difficulté, Agent (Facile), Agent Secret (Moyen) et Agent 00 (Difficile). Selon la Difficulté choisie, vous avez plus ou moins d’Objectifs à remplir. Les Ennemis sont plus intelligents, rapides, et visent très bien. Du moins, plus la Difficulté augmente, plus les Balles font mal. Détail qui tue : vous ne pouvez pas récupérer d’Energie, vous pouvez trouver quelques fois un Gilet Pare-Balles, et c’est tout. Lorsque vous avez fini le Jeu à 100% (Bon Courage), vous avez le Mode 007. Lorsque vous commencez une Mission, vous pourrez paramétrer l’Energie des Ennemis, celle qu’ils vous enlèvent, leur Degré de Précision, et leur Temps de Réaction, tout cela entre 0 et 1000% ! Incroyable ! Allez voir [ici](../soluce/ge-007.HTM) si ça vous intéresse.
+
+Dans ce Jeu, il y a des Codes comme « Munition Infinies » ou « Invincibilité ». Là où Rare sont des Génies, c’est qu’on ne peut pas utiliser ces Codes pour finir une Mission. Vous pouvez finir la Dernière Mission du Jeu en étant Invincible, elle ne sera pas validée ! De plus, la façon d’obtenir ces Codes est ingénieuse : il faut finir un Niveau (avec tous les Objectifs, cela va sans dire) sous un certain temps, souvent court. C’est dur, souvent crispant, et il faut s’accrocher pour ne pas devenir fou. Allez donc faire un Tour dans les Partie où je dis comment avoir ces [Codes](../cheats/), c’est une parcours du Combattant. Certains Code sont essentiels pour améliorer la Difficulté du Mode Battle, comme le Code « No Radar ». Le Système de Codes de Goldeneye a beaucoup fait parler de lui à l’Epoque. Rien à voir avec ces Jeux ou il suffit d’entrer un Mot de Passe, et hop, vous avez fini le Jeu 3 jours après l’avoir acheté.
+
+**Durée de Vie** – Rien qu’avec le Système des Codes, c’est parfait, car pour finir une Mission, il n’y a pas d’autres choix que de le faire à la loyale. A l’Ancienne ! Avant de finir Goldeneye à 100%, en Mode Solo, vous avez donc le temps. Et puis vous pouvez toujours vous amuser à explorer le Jeu. Le Battle Mode rend Goldeneye inusable. Littéralement. Les Niveaux sont variés, bien foutus, avec des recoins, escaliers, passages secrets, etc. Vous avez 4 Manettes ? Commencez en début d’après-midi, vous n’avez pas fini. Vous pouvez même faire des compétitions. Il y en a pour tous les Goûts, vous pouvez tout paramétrer, c’est un vrai bonheur. Beaucoup de gens ont acheté une N64 rien que pour Goldeneye. Je les comprends. C’est le Jeu auquel j’ai le plus joué.
+
+=== presentation/diviseur.htm
+Goldeneye : C'est quoi un Diviseur ?
+
+Il s'agit de placer au milieu de l'Ecran une Plaque de Carton qui sépare la Télé en 2 dans le sens de la Hauteur. Ainsi, quand vous jouez à 4, par Equipes de 2, y a deux Joueurs à gauche qui savent où ils sont l'un par rapport à l'autre, puisqu'ils voient leurs ecrans respectifs. Et là où c'est interessant, c'est que les 2 Equipes ne savent pas ou elles sont par rapport à celle d'à coté ! Fini de zieuter l'ecran des autres ! C'est à vous de jouer !!
+
+Ce qu'on fait en Général, c'est que les Equipes ont chacun un Pote de la meme couleur (Vert contre Noir) comme çà c'est plus pratique. Je vous jure que ce Mode est GENIAL ! J'ai vu des pros de Goldeneye se ramasser en oubliant par exemple d'assurer leurs arrières, de bien observer le décor, en fin de compte, de se concentrer sur SON Ecran. L'essayer, c'est l'acheter !
+
+=== presentation/references-ge.htm
+Goldeneye : References
+
+Goldeneye est basé principalemment sur le Film du meme nom sorti en 1995. Mais beaucoup d'objets et de noms sont utilisés dans le Jeu, faisant réference aux autres Films.
+
+## Dr. No
+
+Honey - La Configuration de Base de la Manette (1.1 Honey) est une Réference à Ursula Andress qui joue Honey Rider dans le Film.
+
+## Goldfinger
+
+Oddjob - Le garde du Corps d'Auric Goldfinger est un Lutteur Coréen. Son Chapeau tranchant est célebre ! Dommage que dans le Jeu on ne puisse pas utiliser le Chapeau !
+
+Galore - La Configuration 2.2 est nommée d'après Pussy Galore, la James Bond-Girl du Film.
+
+Costume Blanc - On ne peut le voir que dans des Photos de la Version Beta (mais le retrouver avec l'Action Replay). Dans Perfect dark, on peut utiliser ce Costume.
+
+## Thunderball
+
+Domino - Domino Vitali est la James Bond-Girl du Film, et elle a donné son Nom a la Configuration 2.3 Domino.
+
+Watch Geiger Counter - Un Gadget accessible avec l'Action Replay.
+
+## On Ne Vit que Deux Fois
+
+Kissy - Comme les autres James Bond-Girl, Kissy Suzuki donne son nom a la Configuration 1.3 Kissy !
+
+You Only Live Twice - Le Nom est devenu un Mode de Battle.
+
+## Les Diamants sont Eternels
+
+Plenty - Plenty O'Toole donne son nom a la Configuration 2.1 Plenty.
+
+## Vivre Et Laisser Mourir
+
+Baron Samedi - Il est tombé du Train dans le Film, et était supposé mort. Voilà pourquoi il refait une apparition dans Goldeneye !
+
+Solitaire - C'est la Configuration 1.2, comme son nom.
+
+Watch Magnet - Cette Montre est aussi dans Goldeneye, tout comme le Watch Repel.
+
+## L'Homme Au Pistolet D'Or
+
+Golden Gun - L'Arme de Scaramanga, bien connue...
+
+The Man With The Golden Gun - C'est un des Scenarios du Battle.
+
+Scaramanga - Le Briefing d'Egyptian le mentionne comme le plus Dangereux Assassin de tous les Temps (hum hum...).
+
+Goodnight - Mary Goodnight est la Configuration 1.4.
+
+## L'Espion Qui M'aimait
+
+Requin - Que dire de plus ?
+
+Egyptian - Dans le Film, Bond se bat contre Requin dans des Ruines Egyptiennes. Peut-etre se battait-on contre Requin dans Egyptian ?
+
+## Moonraker
+
+Requin - Il est de retour, et il est pas content du tout !
+
+Moonraker Laser - Ils apparaissent dans Aztec et en Battle. A l'origine il y en avait dans beaucoup plus de Niveaux Solo en Beta.
+
+Moonraker Elite - Ce sont les mêmes que ceux du Film, tout simplement, sauf qu'il manque les Femmes.
+
+Goodhead - C'est Holly Goodhead, Configuration 2.4.
+
+Drax - La Drax Company, tout comme Hugo Drax, sont dans le Film.
+
+## Rien que pour vos yeux
+
+For Your Eyes Only - Sur le tout premier Ecran, on peut lire "For Your Eyes Only".
+
+## Octopussy
+
+Throwing Knives - Kamal Khan utilisait ces Couteaux de Lancer.
+
+## Dangereusement Vôtre (A View To A Kill)
+
+Mayday - Elle est juste disponible en Battle.
+
+## Tuer n'est pas jouer (The Living Daylights)
+
+Gas Key Ring - Un Objet accessible avec le Gameshark.
+
+The Living Daylights - C'est le Mode Drapeau : Flag Tag !
+
+## Permis de tuer (License To Kill)
+
+Costume de Dalton - Tout comme le Costume de Sean Connery, il est absent du jeu, du moins dans la Version Finale.
+
+License To Kill - Ce (Génial) Scenario Battle tire son nom de là...
+
+## Au Service Secret De Sa Majesté
+
+OHMSS - On Her Majesty's Secret Service est un Sigle que l'on retrouve en Battle.
+
+=== presentation/videos.htm
+Des Vidéos de PUB, Preview...
+
+Le site original propose ces vidéos en téléchargement :
+
+## Goldeneye
+
+- **Le Niveau Citadel** : Un Grand Merci à Zoinkity ! [Télécharger](Citadel%20(Zoinkity).wmv)
+- **PUB de 1997** : Pas mal d'Elements Beta et des Voix ! [Télécharger](Goldeneye%20-%20PUB%20(1997).avi)
+- **Shoshinkai 1995** : Quand Goldeneye était un Virtua Cop ! [Télécharger](Goldeneye%20-%20Shoshinkai%20(1995).avi)
+- **Shyne Factory - Bring Me Down** : Un Clip basé sur Goldeneye ! [Télécharger](Shyne%20Factory%20-%20Bring%20Me%20Down%20(2006).qtl)
+
+## Perfect Dark
+
+- **Preview du Jeu en 1999** : La Vidéo qui faisait rêver à l'Epoque...! [Télécharger](Perfect%20Dark%20-%20Preview%20(1999).avi)
+
+=== presentation/promo.htm
+Goldeneye : Images Promotionelles
+
+Une petite galerie d'images promotionnelles officielles de Goldeneye : Bond aux Archives, à la fenêtre, dans le Silo, devant la Statue, dans les flammes et dans le Tank.
+
+{original}
+
+=== presentation/decouverte-pd.htm
+Perfect Dark : Découverte et Test
+
+Nous sommes Trois Ans après Goldeneye, et sur Internet, beaucoup de choses circulent : images, vidéos, intrigue, trucs plus ou moins dévoilés. Le Fan de Goldeneye a faim, le Fan de Goldeneye regarde à quoi va ressembler la Suite de son jeu Préferé. L’effet de Surprise de Perfect Dark est donc un peu mince, puisqu’il est une Suite : Même maniabilité ou presque, même Moteur Graphique, même Gameplay, tout est parti pour que Perfect Dark soit une Version Améliorée de Goldeneye, mais le Jeu étant fait par Rare, on en attend plus ! Après avoir été maintes fois retardé, le Jeu sort enfin, et je réussis à me procurer la Version US, avant que ne sorte la Version Européenne.
+
+Dès la Présentation, l’Ambiance est là, soignée, comme pour Goldeneye. Graphiquement, Perfect Dark enfonce Goldeneye. Beaucoup plus lisse, plus fin, plus coloré, le Jeu étant axé Science Fiction, les Graphistes peuvent se permettre plus d’audaces Graphiques. Ces audaces sont bien pensées, malgré les Limites de la Nintendo 64. Ainsi, les Niveaux sont réellement variés, la Gamme Colorée est beaucoup plus étendue. Le jeu propose également un Mode Haute Résolution, qui lisse encore plus les Graphismes, mais cela entraîne fatalement des ralentissements.
+
+Quel plaisir d’évoluer dans un Environnement aussi réaliste que le Toit de l’Immeuble Datadyne ! Se promener dans la Villa Carrington, les Ruelles de Chicago, l’Immeuble G5. Mon Niveau Préféré, la Zone 51, est de toute beauté, avec des teintes très réalistes. L’Institut Carrington et les Ruines Skedar sont également très réussies. Goldeneye était un peu le prélude « Je me promène dans un environnement réaliste, humainement familier. » et Perfect Dark pousse un peu plus loin le délire. En Battle, les Zones ne sont pas en reste.
+
+Niveau Animation, on a le droit à des mouvements un peu plus réalistes que Goldeneye, les Attitudes et les Réflexes augmentant. Le Détail qui tue, pour l’époque, est de voir Joanna recharger les Armes sous vos yeux, alors que dans Goldeneye, ça se passait hors-champ. Perfect Dark est tellement gourmand en ressources qu’il vous faudra un Expansion Pack pour en profiter pleinement. Et c’est là qu’on voit les Limites de la Console : avec les Simulants, en Battle, beaucoup de ralentissements se font ressentir. Cela dit, c’est jouable.
+
+Le Gameplay est presque le même que Goldeneye, avec quelques trucs en plus. Les Armes à 2ème Fonction, et d’autres détails qui font tout le charme une fois qu’on est vraiment dans le Jeu. Reproche : lorsqu’on se prend une claque, l’Effet de Flou qui persiste en Battle : si vous vous faites tuer à coups de Baffes, lorsque vous réapparaissez, vous êtes « encore » sous le choc, avec ce flou très énervant. La Maniabilité est très bien pensée, sur le même modèle ultra-simple et convivial de Goldeneye.
+
+Question Musiques et Sons, on est loin de Goldeneye. Fini le Thème de James Bond, cette fois-ci, le Musicien a beaucoup plus de liberté pour composer, et ça donne quelques Morceaux très intéressants comme Chicago. Le 2ème Morceau de la Zone 51 fait très Metroid, c’est un pur plaisir. Crash Site, Deep Sea, et d’autres Morceaux Incontournables comme Skedar Ruins, Maian SOS, sans compter la Musique de Fin, très Heavy Metal, sympatoche. Les Sons sont encore mieux que dans Goldeneye, avec nettement les Voix ! Et oui, dans Perfect Dark, ça cause. Mine de rien, sur une Nintendo 64, c’est grand. Les Bruits des Armes sont beaucoup plus variés, riches, le Thème du Jeu laissant une grande part à l’imagination des Bruiteurs.
+
+La Difficulté est faussée. Faussée, car connaissant par cœur la Maniabilité de Goldeneye, nous sommes en terrain connu. Donc il n’y a plus de « période d’adaptation » où on rame pour éviter les Balles, et où on peste contre la manette. Ici, il s’agit « juste » de comprendre les Objectifs, et de ne pas se faire avoir. C’est déjà bien, je sais, mais c’est comme pour Megaman et tous ces autres Jeux basés sur le même modèle. Cela dit, les Gars de chez Rare l’ont bien compris, et c’est pourquoi le Jeu se rattrape avec le Mode Battle Paramétrable à l’Infini, pour créer sa propre Partie, son Personnage, le Stand de Tir etc. Donc, certes, le Jeu est dur, même très dur à certains endroits, mais… Ce ne sera pas la même difficulté que pour Goldeneye, pas le même contexte.
+
+Pour les Codes, c’est le même Système que pour Goldeneye. A un moment, Rareware a pensé que l’on pourrait obtenir les Codes juste en trouvant un Bout de Fromage dans le Niveau, heureusement, ils ont viré ce Système, laissant quand même les Bouts de Fromage ici et là.
+
+La Durée de Vie de Perfect Dark est presque la même que celle de Goldeneye. Je trouve les Missions Solo de Goldeneye plus amusantes que celles de Perfect Dark, car trouve totalement sans interêt de se battre contre des Raptors (les Skedar) comme dans Turok. Ceci dit, je ne me lasse pas des Missions dans la Zone 51, Chicago ou dans l’Immeuble Datadyne, qui sont plus axées Infiltration Discrète. J’adore également Maian SOS, puisqu’on doit se taper presque toute la Zone pour finir la Mission. Avantage de Perfect Dark : le Mode Coopérative, qui est réellement génial, pour peu que le 2ème Joueur sache aussi bien jouer. Le Battle, Paramétrable à Loisir, promet également de très longues heures surtout à 4 contre pleins de Simulants !
+
+En Conclusion, Perfect Dark est une très bonne suite à Goldeneye, et toutes les Innovations qu’il apporte par rapport à Goldeneye le placent quand même au-dessus, vu la Durée de Vie beaucoup plus importante, et le Gameplay plus travaillé. A vous de voir si vous préférez l’Univers de James, ou celui de Joanna !
+
+=== presentation/references-pd.html
+Perfect Dark : References
+
+Dans ce Jeu, Rare a utilisé de nombreuses scènes tirées de Films ou de Séries. On trouve dans chaque Niveau au moins UN Truc qui nous interpelle à ce sujet. Voici une Liste plus ou moins incomplète de ces Références. Il ne s'agit pas de descendre le Jeu en l'accusant de plagiat mais de montrer de quoi Rare s'est inspiré pour nous pondre le Jeu. L'autre but de cette Section est de vous faire participer au Site, en nous envoyant vos remarques à ce sujet. Les Références sont classées selon plusieurs catégories.
+
+## Datadyne Defection
+
+Déjà les Voitures Volantes çà rappelle Blade Runner ou pour être moins sérieux, Retour vers le Futur 2. Personnellement je pencherais pour Blade Runner, étant donné le Contexte. Dans la Cinématique d'Ouverture, l'Hélicoptère de l'Institut Carrington vole à travers les Buildings. En regardant bien, vous devriez apercevoir durant cette Cinématique une Station de Taxis. On peut penser au Cinquième Elément. La Descente sur le Toit de l'Immeuble Datadyne me rappelle Die Hard à cause de l'Hélicoptère.
+
+## Datadyne Investigation
+
+La Cinématique d'Ouverture fait (encore) penser à Die Hard, bien que la Scène ne soit pas tout à fait la même. Et puis le coup du Type planqué dans l'Ascenseur est assez connu. On dira que c'est une coïncidence.
+
+## Datadyne Extraction
+
+Alors là, tout le monde sera d'accord pour dire que l'Hélicoptère à abattre rappelle The Matrix. La manière varie, mais l'idée est la même. Notez que l'on trouve une Scène (Cinématique) similaire dans Resident Evil : Code Veronica sur Dreamcast. Ce Truc de l'Hélicoptère est d'ailleurs en passe de devenir un classique du Film d'Action.
+
+## Carrington Villa
+
+Rien trouvé pour le moment... Quelque chose me vient à l'Esprit cependant. Ce genre de Villa rappelle les Maisons Luxueuses que l'on pourrait trouver dans un James Bond (Goldfinger par exemple) avec vue sur la Mer et Cave bien remplie.
+
+## Chicago
+
+Les Voitures bien présentes dans la Cinématique d'Ouverture rappellent encore Blade Runner. Et les Enseignes Asiatiques sont aussi présentes au Début de Blade Runner, quand Harisson Ford déguste des Nouilles. Aucun doute possible.
+
+## Zone 51
+
+Qui n'a pas entendu au moins UNE fois le nom de cette Zone étrange. Un Double Episode des X-Files lui est consacré (Dreamland). Selon les Rumeurs les plus répandues, elle abriterait des Extra-Terrestres, ou servirait juste de Centre d'Aviation Expérimentale. Le Jeu exploite bien la Première Hypothèse dans ses moindres recoins : Expériences sur les Roswell (Merci Pradel...), Avions Expérimentaux (Les Intercepteurs ou le Hover-Bike) et Chambres de Cryogénisations... Tout y est. Le Lieu ou se trouve la Zone 51 ne figure sur aucune Carte. Elle est cependant près de Groom Lake, dans le Nevada.
+
+## Base en Alaska
+
+Le Jeu la situe à Brooks Range, en Alaska. Que dire de plus sinon que l'Ascenseur menant à l'Avion rappelle Akira, sauf que dans notre cas l'Ascenseur est BEAUCOUP plus court, et sa fonction est largement moins symbolique.
+
+## Air Force One
+
+Là on va pas discuter toute la Nuit : c'est grâce au Film du même nom que cet Avion a été rendu célèbre. Un Film avec pour acteur principal Harisson Ford (encore lui) bien que ce ne soit qu'un grosse coïncidence bien sur. A part ce Film, Air Force One n'est pas très présent ailleurs.
+
+## Crash Site
+
+Plusieurs choses ici. Tout d'abord un peu de X-Files. La Dernière Grande Scène du Film (Combattre le Futur) se déroule dans un Environnement similaire, bien que ce soit au Pôle Sud pour Mulder et Scully. L'Avion écrasé rappelle une courte Scène de Mad Max 3 (Le Dôme du Tonnerre) mais cette Scène se passe en plein désert Australien... Le Jeu nous donne même la Position du Crash, à savoir Victoria Island 71° Nord 118° Ouest. Regardez sur une Carte si vous en avez l'Occasion.
+
+## Vaisseau Cetan
+
+Ici, clairement, nous sommes à la Fin du Film des X-Files. La Couleur change pour être Verdâtre, mais l'Aspect est le même: gluant et ancien. Les Programmeurs de Rare font d'ailleurs un clin d'œil plus qu'EVIDENT avec les Eclairages, en forme de X entourés d'un Cercle.
+
+## Ruines Skedar
+
+Rien non plus. Même pas Alien. Peut être que les 3 Soleils font penser à Star Wars, plus particulièrement la Planète Tatooine, mais dans le Film il n'y en a que 2. Et puis le coup des Soleils multiples est maintenant si répandu qu'il est devenu un Cliché courant.
+
+## Armes : Laptop Gun / Occulteur / Shield / Laser
+
+Le Laptop Gun est inspiré de Robocop 2, on ne le voit qu'une seul fois et assez rapidement, mais on le distingue bien. C'est quand le gamin dealer sort d'une camionette dans un hangar. Il a un Laptop Gun. L'Occulteur vient bien évidemment de Predator. Le Shield : Probablement de Dune ! Certainement « Predator » encore, pour son Laser attaché à l'Epaule. En deuxieme Fonction, il est clair que c'est la Montre de James Bond dans Goldeneye (tiens tiens, comme par hasard) !
+
+## Armes Roswell : Phoenix - Callisto NTG - Farsight XR-20
+
+Leur Forme Aérodynamique et leurs teintes Bleutées font penser à un Croisement entre le « T-1000 » et « Abyss ». Le Son lorsque l'on recharge renforce cette idée. A Noter que lorsque l'on va voir les Armes au Stand de Tir, on peut voir le Nom des Constructeurs. Et bien pour le Farsight XR-20, y a rien ! Erreur ou Origine Inconnue ? Je penche pour un Oubli de Programmation tout bêtement. Autre Chose sur le Farsight XR-20 : C'est dommage mais Rare a chopé une BONNE Idée à un Film Ridicule, nommé « L'Effaceur », avec Schwarzennegger. Le Coté Roswell de l'Arme contre-balance l'Origine Vaseuse de celle-ci.
+
+## Armes : SuperDragon / Reaper
+
+Cette Arme est la Concrétisation Matérielle d'un Bricolage de Légende. Rappelez-vous à la Fin d'Aliens, lorsque Ripley descend vers le Nid de la Reine Alien. Elle attache avec du Scotch une Mitrailleuse et un Lance-Grenades, obtenant une Arme bien puissante juste avant le Duel de Légende. Ce n'est bien sur qu'une idée mais elle me plait rien que pour la Comparaison avec ce Fabuleux Passage du Film. Pour le Reaper, Vous avez vu « Braindead » ? Le Reaper (en Fonction Charcuterie) me rappelle le Passage à la Fin du Film, ou le Heros attaque une Foule de Zombies à l'Aide d'une Tondeuse à Gazon Traditionnelle. Le Bruit de l'Arme lui vaut aussi le surnom de « Moulinex ».
+
+## Joanna Dark et Matrix
+
+Son costume dans le Niveau « G5 Building » est directement tiré de « Matrix » sans aucun doute. Il ne manque que les Ray-Ban.
+
+## Trent Easton
+
+Nicolas Cage, au début de Volte Face, est la copie conforme de Trent Easton, il a meme un Cougar Magnum Doré !
+
+## Les Roswell
+
+Si vous ne voyez pas je ne peux plus rien pour vous. Avant Pradel, ils faisaient partie des nombreuses descriptions d'Extra-terrestres. Depuis, ils sont devenus une Icône de la Culture X-Filienne. D'ailleurs on ne dit plus un « Extra-Terrestre » mais « un Roswell » ou un « Ptit Gris ».
+
+## Les Skedars
+
+Un Croisement de Gremlin et de Raptor. Des Créatures bizarres. On se demande bien comment ils font pour arriver à créer des vaisseaux, des Armes, et surtout à se faire passer pour des Hommes via les Mr. Blonde. Une Enorme incohérence heureusement cantonnée dans les Derniers Niveaux du Jeu...

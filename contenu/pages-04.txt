@@ -1,0 +1,368 @@
+liers. C'est l'endroit d'ou vous pourrez le mieux les avoir. Visez juste ! Si ils viennent par le Chemin montant vers le Petit Obélisque, idem. Si ils arrivent par le Haut, bonne Chance ! C'est faisable en slalomant a travers les Piliers pour vous cacher et tourner autour.
+
+- La Salle Enneigée avec le Trou à sens Unique. Difficile mais faisable. Placez-vous si vous avez le temps le plus loin possible de l'entrée, là ou est disposé le Mauler (Sol Violet). Comme ça si les Simulants arrivent, ils se braqueront sur vous et vous n'aurez pas de problèmes pour les toucher. Soyez le plus rapide et anticipez leur arrivée !
+
+- Le Coin du Campeur au fond du Couloir. Simple, sauf si les Simulants arrivent par la Droite. Pour que cela n'arrive pas, euh… Priez. Il suffit de les cueillir de loin en anticipant leur arrivée. Vous pouvez aussi faire des pas chassés Gauche - Droite pour éviter leurs tirs. C'est la Zone ou le Simulant est le plus utile car ce qu'on lui demande de faire est très simple : « Pas bouger ! Tirer !! »
+
+- La Zone du Grand Obélisque. Si vous etes rapide vous avez toutes vos chances car dans cette Salle on peu attraper les Simulants de bien loin. En regardant le Radar, mettez vous en place et shootez les dès que leur Tête est en vue. Soyez les Premiers à ouvrir le Feu ! Si par malheur ils entraient, je vous souhaite bien du Courage, mais il est tout à fait possible de s'en débarrasser malgré tout.
+
+Ce Challenge est dur dans le Sens ou le Niveau est grand, surtout. Ainsi les Simulants vous touchent plus. Le Truc est donc de bien longer les Murs et de Speeder autant que possible sans trop perdre de temps. Evidemment, si le Simulant reste avec vous, vous marquerez 2 Points et non 1 seul. Les Doubles Maulers sont indispensables. A défaut, les Doubles Magnums sont aussi efficaces mais bonjour le Temps de Rechargement ! On peut aussi essayer les Doubles Falcon 2, car ils ont une Très bonne Cadence de Tir. Les Magsec 4 sont pas mal, mais sont moins précis. C'est fini. Les Challenges sont terminés !
+
+=== beta/
+Versions Beta
+
+C’est quoi une Version Beta ? C’est le Jeu quand il est en Cours de Développement. Pour faire la Promotion du Jeu longtemps avant qu’il ne sorte, le Développeur envoie des Photos aux Magazines afin qu’ils puissent faire la Preview du Jeu, un peu comme la Bande-Annonce d’un Film. Sauf qu’entre le moment où un Jeu est en Développement, et celui où il sort, beaucoup de Choses changent. C’est ce que je me propose de vous montrer ci-dessous. Cliquez sur les Images pour voir ce qui a été retiré ou modifié !
+
+## Goldeneye : Version Beta
+
+{cards}
+[Dam](ge.beta.01.HTM)
+[Facility](ge.beta.02.HTM)
+[Runway](ge.beta.03.HTM)
+[Surface 1 & 2](ge.beta.04.HTM)
+[Bunker 1 & 2](ge.beta.05.HTM)
+[Silo](ge.beta.06.HTM)
+[Frigate](ge.beta.07.HTM)
+[Statue](ge.beta.10.HTM)
+[Archives](ge.beta.11.HTM)
+[Streets](ge.beta.12.HTM)
+[Train](ge.beta.14.HTM)
+[Jungle](ge.beta.15.HTM)
+[Control](ge.beta.16.HTM)
+[Caverns](ge.beta.17.HTM)
+[Cradle](ge.beta.18.HTM)
+[Aztec](ge.beta.19.HTM)
+[Egyptian](ge.beta.20.HTM)
+[All Bonds](ge.beta.all.bonds.htm)
+[Armes](ge.beta.armes.htm)
+[Cheats](ge.beta.cheats.htm)
+[Battle](ge.beta.battle.htm)
+[Véhicules](ge.beta.vehicules.htm)
+[D'autres images](new/ge.beta.new.HTM)
+{/cards}
+
+## Perfect Dark : Version Beta
+
+{cards}
+[Defection](pd.beta.01.htm)
+[Investigation](pd.beta.02.htm)
+[Extraction](pd.beta.03.htm)
+[Villa](pd.beta.04.htm)
+[Chicago](pd.beta.05.htm)
+[G5 Building](pd.beta.06.htm)
+[Infiltration](pd.beta.07.htm)
+[Sauvetage](pd.beta.08.htm)
+[Evasion](pd.beta.09.htm)
+[Base](pd.beta.10.htm)
+[Air Force One](pd.beta.11.htm)
+[Abysses](pd.beta.14.htm)
+[Institut Carrington](pd.beta.15.htm)
+[Vaisseau Skedar](pd.beta.16.htm)
+[Ruines Skedar](pd.beta.17.htm)
+[Coopération](pd.beta.coop.htm)
+[Gadgets](pd.beta.gadgets.htm)
+[Simulants](pd.beta.simulants.htm)
+[Entraînement](pd.beta.entrainement.htm)
+[Armes](pd.beta.armes.htm)
+[Face Mapping](pd.beta.facemapping.htm)
+[Battle](pd.beta.battle.htm)
+[Munitions](pd.beta.munitions.htm)
+[Divers](pd.beta.divers.htm)
+{/cards}
+
+=== mysteres/
+Plein de Mysteres...
+
+Dans cette Section sont regroupés tous les Trucs un peu Louches ou Bizarroïdes que vous verrez si vous regardez un peu partout dans les coins des Jeux Goldeneye et Perfect Dark… Note - Vous ne pourrez pas profiter de ces Petits Trucs à fond si vous n'avez pas d'Action Replay. Avec un Emulateur, vous pouvez tout vérifier si vous voulez.
+
+## Goldeneye : Mysteres
+
+{cards}
+[Barrage](ge-barrage.htm) Tout sur ce Niveau qui a bien changé (Objectifs, Lieux etc)
+[Silo](ge-silo.htm) Tout sur ce Niveau mysterieux (Ascenseur, Ouroumov, Valise etc)
+[Citadel](ge-citadel.htm) Le Fameux Niveau disparu qui a été retrouvé !
+[Casino](ge-casino.htm) Niveau completement passé à la trappe ! Inédit !
+[Jouer avec les autres James Bond !](ge-allbonds.htm) Le Fameux Code All Bonds !
+[Endroits Mysterieux + Vehicules + Cheats ETC](ge-variete.htm) Plein de Choses variées !
+{/cards}
+
+## Perfect Dark : Mysteres
+
+{cards}
+[Fromages](pd-cheese.html) Pour tout savoir sur ce Mystere Globalement rigolo et amusant à chercher !
+[Lucerne Tower](pd-lucerne.htm) Defection, Investigation et Extraction passés au Peigne fin !
+[Villa Carrington](pd-villa.html) Un Fromage, une Eolienne Bizarre et du Vin.
+[Chicago](pd-chicago.html) Le Punk Pond qui ne sert à rien.
+[G5 Building](pd-g5.html) Un Conduit bien curieux.
+[Zone 51](pd-zone.htm) Infiltration, Sauvetage et Evasion.
+[Base en Alaska](pd-base.htm) Une Plante Mysterieuse !
+[Air Force One](pd-avion.html) Ordinateurs planqués et Passages Secrets.
+[Pelagic 2](pd-bateau.html) Une Porte qui ne sert plus à rien.
+[Vaisseau Cetan](pd-abysses.htm) Des Plaques Invisibles !
+[Institut Carrington](pd-institut.html) Les Gardes Invisibles.
+[Vaisseau Skedar](pd-vaisseau.htm) Le Maian, le Fromage et Cassandra.
+[Ruines Skedar](pd-ruines.html) Piliers Bizarres et Mini-Ordinateur.
+[Mode Battle](pd-battle.html) Zones inaccessibles et Mission Battle.
+[Divers](pd-divers.html) Pleins de petits trucs rigolos !
+{/cards}
+
+L'Immeuble de la Datadyne Corporation porte le nom de [Lucerne Tower](pd-lucerne.htm) . Vous jouez dans ce Niveau le Temps de 2 Missions. Portes Fermées, Fromage et Dragon, Carte de Bureau de Cassandra de Vries, et même des Mini-Boites de Munitions presque Invisibles si vous passez devant trop rapidement ! Conaissez-vous la Ville Perdue ? Les Surprises du Labo? Dans cette Partie, [Defection, Investigation et Extraction](pd-lucerne.htm) sont passés au Peigne fin !
+
+La [Villa Carrington](pd-villa.html) cache un Fromage, et son Eolienne est Bizarre. Notez aussi quelques Bouteilles de Vin. Passez directement à Chicago, et son [Punk Pond](pd-chicago.html) qui ne sert à rien mais ce Secret est bien grand ! Juste après le Punk Pond, entrez dans le [G5 Building](pd-g5.html) et explorez un [Conduit](pd-g5.html) bien curieux. En étant invisible, en passant à travers les Portes, on peut même dire Bonjour à Cassandra et Mr Blonde...
+
+Dans la Zone 51, [Infiltration, Sauvetage et Evasion](pd-zone.htm) , de bien belles choses sont à voir. Plusieurs Elvis, le Fameux Coffre-Fort Jaune, 2 [Paroles Inédites de Carrington](pd-zone.htm) seulement accessibles avec le Moon-Jump. Enfin, lors du Passage avec Elvis, il y a des Brancards Vides, [Plusieurs Maians](pd-zone.htm) et une Caisse Hovercrate Indestructible qui est juste là comme ça. Dans cette Partie, vous trouverez une [Traduction d'une Page du Site Detstar](pd-zone.htm) !
+
+La [Base en Alaska](pd-base.htm) recèle une [Plante Mysterieuse](pd-base.htm) cachée dans un endroit incroyable ! Allez donc voir sur cette page si vous arrivez à la voir ! Dans [Air Force One](pd-avion.html) , à part des explosions inéxpliquées, il y a aussi des Ordinateurs planqués dans le Conduit Ombilical. Il y a aussi les fameux Passages Secrets inutilisés. Enfin, si vous allez faire un Tour sur le [Pellagic 2](pd-bateau.html) , vous pouvez voir une [Porte](pd-bateau.html) qui ne sert plus à rien, mais visible avec le Farsight ou les Rayonx X !
+
+Dans le Vaisseau Cetan, des [Plaques Invisibles](pd-abysses.htm) ! Que font-elles là ? Ce ne sont pas des Plaques qu'on ouvre comme dans Chicago, et l'une d'elle est vraiment invisible sauf au Farsight XR20 ou aux Rayons X ! Dans l' [Institut Carrington](pd-institut.html) , un Truc sur les [Gardes Invisibles](pd-institut.html) (avec des Images de Detstar), ainsi que la Porte Noire Fermée qui mène pas très loin du Fromage sur la Plate-Forme juste à coté.
+
+Pour le Vaisseau Skedar, voilà une [Traduction](pd-vaisseau.htm) d'une Page de Detstar sur le Mysterieux Maian qu'Elvis tue sans pitié ! Il y a également le [Fromage](pd-vaisseau.htm) que j'ai pu approcher de près. Sur cette Page, un Dossier sur [Cassandra et son Collier](pd-vaisseau.htm) qui triture le Cerveau. Le Vaisseau Skedar est un Niveau très bizarre, avec des Skedars et des Maians planqués dans tous les Coins ! Voyez par vous-même ! Et essayez avec un Emulateur !
+
+Dans les [Ruines](pd-ruines.html) Skedar à la Fin du Jeu, des Piliers Bizarres, soit en Forme de Triforce, soit renfermant des débris etranges, au choix, comme vous voulez ! Un Mini-Ordinateur Datadyne est caché sous l'Autel au Dieu de la Guerre, vraiment tout petit, j'ai fait un Gros Zoom de la Mort pour le voir !!! Et le pire du pire, un Rectangle Mysterieux sous le Pont vers le Sanctuaire...
+
+Une Grosse Page sur pleins de Mysteres concernant le [Mode Battle](pd-battle.html) ! [Zones inaccessibles](pd-battle.html) avec de Nombreuses Photos ! En Bonus, une [Mission Battle](pd-battle.html) ! Merci Detstar ! Enfin, pleins de petits trucs rigolos, que j'ai mis dans la Page [Divers](pd-divers.html) ! Voilà voilà, j'espere que vous avez passé un bon moment dans les Mysteres de Perfect Dark ! Si vous en trouvez d'autre (des Mystères, pas des Bugs), n'hésitez pas à me Contacter !
+
+=== action.replay/
+Action Replay
+
+C'est quoi un Action Replay ou un Gameshark ? Lisez donc la [Page](explication.htm) où tout est expliqué ! Pour tout savoir sur l'Emulation, c'est sur cette [Page](../emulation/index.htm) que je vous donne Rendez-Vous !
+
+## Goldeneye
+
+{cards}
+[Nouveaux Niveaux Battle](niveaux/ge.nouveaux.niveaux.htm) Emulateur · Plein de Nouveaux Niveaux !
+[Codes Divers](ge.divers.HTM) Jeu Français · Couleurs, Graphismes, Animations !
+[Le Modificateur](ge.modificateur.htm) Jeu Français · Pour retrouver des Objets Beta !
+[Jouer à 4 en Battle](ge.jouer.a.4.htm) Jeu Français · Dans tous les Niveaux Battle !
+[Niveaux Complets](ge.full.levels.htm) Jeu Français · Facility, Caverns et Archives !
+[Personnages Battle](ge.personnages.htm) Jeu Français · Créer son Personnage (Bon Courage) !
+[Battle de la Mort](ge.guns.htm) Jeu Français · Toutes les Armes, Munitions de Fous !
+[Le Bunker Vide](ge.empty-bunker.htm) Jeu Français · Un Bunker Etrange, sans rien dedans !
+[Le Line Mode](ge.line.mode.htm) Jeu Français · Le 24eme Code enfin retrouvé !
+[Debug Mode](ge.debug.htm) Jeu Americain · Pour se promener où on veut !
+[Le Moonjump](ge.moonjump.htm) Jeu Americain · Pour voler presque n'importe où !
+[Passe-Muraille](ge.passemuraille.htm) Jeu Americain · Pour passer à travers les Portes !
+[Plus d'Ombres](ge.ombres.htm) Jeu Americain · Pour voir le Jeu sous un Autre Angle !
+[Plus de Gravité](ge.gravity.htm) Jeu Americain · Pour voir s'envoler des Barils !
+[Plus de Cinématiques](ge.cinematiques.htm) Jeu Americain · Pour voir ce qu'il y a après la Fin !
+{/cards}
+
+## Perfect Dark
+
+{cards}
+[Armes de Goldeneye](pd.armes.goldeneye.htm) Emulateur · Pour jouer avec le Klobb en Battle !
+[Dr Caroll Simulants](pd.carollsims.htm) Emulateur · Jouez contre des Simulants Etranges !
+[Duel dans l'Institut](pd.institut.htm) Emulateur · Jouer contre Velvet Dark dans l'Institut !
+[Double Guns](pd.double.guns.htm) Emulateur · Toutes les Armes en Double en Solo !
+[Moonjump](pd.moonjump.htm) Emulateur · Pour voler presque partout dans le Jeu !
+[Musiques](pd.musique.htm) Emulateur · Trois Musiques Mysterieuses !
+[Codes Divers](pd.divers.htm) Emulateur · Pour tout débloquer (bien Pratique) !
+[Passe-Muraille](pd.passemuraille.htm) Emulateur · Pour passer à travers les Portes !
+{/cards}
+
+=== emulation/
+Jouer sur Emulateur
+
+L’Emulation c’est quoi ? Cela peut être des Tas de Choses, mais ici, ce qui nous intéresse, c’est jouer à Goldeneye ou Perfect Dark sur un Emulateur. C’est quoi ça veut dire ? Ca veut dire jouer au Jeu Console, MAIS sur Ordinateur, comme n’importe quel autre Jeu PC. On a besoin de quoi pour faire ça ? On a un peu besoin de la même chose que quand on joue sur Console : Il faut le Jeu, la Console, et une Manette. Sur votre Ordinateur, il vous faudra un Programme (l’Emulateur) ainsi que la ROM du Jeu (le Jeu converti en Fichier d’Ordinateur, comme un MP3 ou une Vidéo par exemple).
+
+Ensuite, comme il est très Soporifique de jouer avec un Clavier à ce genre de Jeu, il vous faudra trouver un moyen de brancher une Manette sur votre Ordinateur. Comme Goldeneye et Perfect Dark se jouent avec un Joystick, il faudra trouver une Manette avec un Joystick dessus. Si vous voulez vraiment vous faire plaisir, vous pouvez dépenser 10 Dollars (9.99 pour être précis) et commander un Adaptateur USB qui vous permettra de brancher directement votre Manette N64 sur votre PC. Et là, c’est vraiment le Rêve.
+
+## Pourquoi jouer sur un Emulateur ?
+
+Bien que ce soit plus agréable de jouer sur un Canapé, jouer sur Emulateur vous fera découvrir les Jeux comme vous ne les aviez jamais vu. Pourquoi ? Parce qu’avec un Emulateur (si vous avez une Bonne Machine) vous redécouvrirez les Jeux tels que les Programmeurs les ont fait. Vous jouerez au Jeu sans passer par la Case « Clipping, Brume et Ralentissement(s) » que nous faisait subir la N64. Les Captures d’Ecrans du site original ont été faites avec l’Emulateur Project 64. Bien que ces Jeux soient Vieux, admirez à quel Point la Résolution est Fine ! On peut voir loin ! Et c’est Fluide ! Bon, certaines choses ne sont pas encore émulées (les Emulateurs évoluent au fil du temps) comme le Ciel ou des Détails, mais c'est déjà Sublime...
+
+Bref, avec un Emulateur, c’est comme si vous jouiez à Goldeneye et Perfect Dark sur une Télé Haute Définition, sans Brume et sans Flou ! Que du Bonheur ! En plus de ça, les Emulateurs ont quelques Petites Fonctions en Plus, vous pourrez tout configurer (Résolution, Vitesse), calibrer votre Manette, et il y a même un Action Replay incorporé dedans, avec en Mémoire des Codes tout prêts pour s’amuser. Touche Finale, il y a même une Fonction pour jouer en Ligne contre d’autres Joueurs du Monde Entier !
+
+## Est-ce que c’est Légal ?
+
+C’est la Partie que chaque Site sur l’Emulation se doit de préciser : Si vous possédez la Cartouche Originale, vous avez le Droit de posséder la Rom du Jeu sur votre Ordinateur et d'y jouer tranquillement sans être inquiété. Par contre, comme je n’ai aucun moyen de savoir si vous l’avez ou pas, je ne fournirais pas la ROM. Néanmoins, vu l’Age du Jeu, il est très peu probable que ayez des Ennuis à avoir la ROM sans avoir la Cartouche chez vous…
+
+## Quel Emulateur Choisir ?
+
+Le Meilleur Emulateur est Project 64. Allez sur le Site Officiel et téléchargez la Dernière Version. Cet Emulateur n’est pas très dur à configurer, si vous avez des soucis, contactez-moi. La Chose Importante à configurer est ici : Allez dans Options, puis Reglages, et décochez la Case « Cacher les Réglages Avancés ». Ainsi, vous pourrez entrer des Codes Action Replay ! Voici ci-dessous la Liste des Emulateurs que je vous conseille.
+
+- **Project 64** : Le Meilleur Emulateur pour jouer aux Jeux N64 !
+- **Mupen** : Le Meilleur Emulateur pour jouer à Goldeneye en Ligne !
+
+## Comment jouer en Ligne avec Mupen ?
+
+Pour pouvoir jouer contre quelqu’un, il faut avoir la même ROM que lui. Pour cela, lancez Mupen, cliquez une fois sur la ROM de Goldeneye dans la Liste des ROMs que vous avez, puis allez dans « Utilitaires », puis « Propriétés ROM ». Regardez à la Ligne « Somme de » : Il faut absolument qu’il y ait écrit « 70C525880240C1E838B8B1BE35666C3B ». Si c’est OK, on passe à la Suite…
+
+Pour jouer en Ligne, c’est assez simple. Coupez tous vos Programmes qui bouffent de la Bande Passante (eMule, Soulseek, Bittorrent etc) et lancez Mupen. Une fois dedans, allez dans Utilitaires, puis KailleraClient (NetPlay).
+
+Vous vous retrouverez dans une Fenetre où vous êtes dans « All Servers ». Le Programme va chercher tout seul tous les Serveurs qui utilisent le Protocole KailleraClient (NetPlay). Triez les Serveurs par Location et cherchez un Serveur proche de chez vous. Pourquoi près de chez vous ? A cause du Ping. Le Ping, c’est le Temps que met une Information à aller de chez vous au Serveur. Plus ce Temps est Court, mieux c’est.
+
+Vous remarquerez que le Serveur « alz.ath.cx » a un Ping de 43ms, ce qui signifie qu’entre le moment où vous appuyez sur votre Bouton et le moment où le Jeu réagira, il y aura 43 Millisecondes de retard. Ce n’est rien du tout. Par contre, vous remarquerez que dans la Liste des Serveurs, il y en a un en Corée du Sud où votre Ping sera de 360 !!! Il est donc inutile d’aller jouer sur un Serveur Sud-Coréen pour jouer à un Jeu où chaque Milliseconde est importante. Choisissez-vous un Pseudo, mettez-vous en Good (20keyframes/s) et double-cliquez sur le Serveur Français « alz.ath.cx » !
+
+Vous êtes sur le Serveur « alz.ath.cx » ! Sur votre Droite, la Liste des Gens qui y sont présents, avec leur Ping. Si vous jouez contre quelqu’un qui a un Ping plus grand que vous, vous aurez un Avantage sur lui, et vice-versa. Pour pouvoir jouer contre quelqu’un, il faut également être en « Good (20keyframes/s) » comme nous avons vu ci-dessus. Sur votre Gauche, la Fenetre de Tchat. C’est ici que vous pouvez discuter…
+
+En Bas, vous verrez la Liste des Jeux. Exemple : Sur ce Salon, Gautxo a créé une Partie de Cadillacs and Dinosaurs (World 930201) et il y joue sur l’Emulateur Mame 32k. C’est un Jeu qui se joue à 2, et il attend que quelqu’un joue contre lui. Pour pouvoir jouer contre lui, vous devrez être arrivé sur ce Serveur avec le même Emulateur. Pour jouez contre Gautxo, il vous suffit de double-cliquer sur sa Ligne… Pour créer une Partie, cliquez sur « Create New Game » !
+
+Et voilà ! Vous avez créé votre Partie ! Vous pouvez choisir le Nombre de Joueurs Maximum (« Max Users »), ou annulez votre Partie (« Cancel ») Il ne vous reste plus qu’à attendre que quelqu’un vienne rejoindre votre Partie. Vous pouvez un peu discuter avant histoire de voir en quel Mode on va jouer. Si le Joueur vous soule, vous pouvez le Kicker… Une fois que tout est OK, cliquez sur « Start Game » !
+
+Et voilà ! Rendez-vous sur le Serveur !
+
+=== complex/
+The Complex !!!
+
+## Goldeneye : The Complex
+
+The Complex est une Mission Solo se passant dans le Niveau du Complexe. Je l’ai entièrement imaginé, et avec l’Aide de Subdrag et du Merveilleux Goldeneye Setup Editor. Vous pouvez téléchargez le Patch sur [GoldeneyeVault](http://www.goldeneyevault.com/viewfile.php?id=77) ! La Version Française arrive bientôt ! Pour voir une Vidéo du Niveau, allez par [ici](http://www.youtube.com/watch?v=XcbG9mUs05A) !
+
+## Goldeneye : The Library
+
+The Library est une Mission imaginée par BMW, et très réussie ! Pour y jouer, il vous faudra Patcher la ROM du Jeu. Voilà le Patch sur ce [Lien](http://www.goldeneyevault.com/viewfile.php?id=0) ! Pour savoir comment Patcher votre ROM, allez voir la Page des [Nouveaux Niveaux dans Goldeneye](../action.replay/niveaux/ge.nouveaux.niveaux.htm) !
+
+=== autres/
+Autres Jeux
+
+## Jet Force Gemini
+
+Il existe des tonnes de Codes Action Replay pour ce jeu, mais aucun n’est vraiment intéressant. Plutôt que de vous taper des pâtés de codes, je vous propose simplement deux codes, mais du bon. Le premier code vous donne TOUTES les armes dès le début du jeu. Le second vous file des munitions infinies pour TOUTES ces armes… De quoi vous promener dans ce magnifique jeu !
+
+**Toutes les Armes**
+801E6251 0002
+811E61EC FFFF
+801E62C7 0002
+811E6262 FFFF
+801E61DB 0002
+811E6176 FFFF
+
+**Munitions Infinies**
+50001002 0000
+811E626C 03E7
+50001002 0000
+811E61F6 03E7
+50001002 0000
+811E6180 03E7
+
+## Faxanadu
+
+Un jeu d’aventure-action sorti en 1987 sur la NES, et qui me plait toujours autant quand je décide de le refaire une fois tous les 5 ans. Sur le site original, je vous propose de télécharger la carte complète du jeu que j’ai fabriqué en collant bout à bout chaque ecran du Jeu. Visitez cette [Page](http://faxanadu.nintendoforever.com) pour un dossier complet sur Faxanadu !
+
+## The Adventures of Rad Gravity
+
+Un jeu d’aventure-action sorti en 1990 sur la NES. Le ton humoristique aide à finir ce jeu tant il est costaud ! En effet, la maniabilité est pas ce qu’il y a de plus fluide, et pour savoir ce qu’il faut faire sur chaque planète c’est vraiment du n’importe quoi ! Qu’importe, ce jeu a une place spéciale sur ce site car mine de rien il est varié, et l’ambiance me plait.
+
+Si ce genre de Geekerie vous plait, n’hésitez pas à aller voir l’excellent [Video Game Atlas](http://www.vgmaps.com/) !
+
+=== liens/
+Liens / Ailleurs
+
+## Autres Sites de Tim
+
+- [A Cup of Tim](http://www.acupoftim.com/)
+- [Quotidien Survival](http://quotidien.survival.over-blog.com)
+- [Tubulamarok](http://tubulamarok.free.fr)
+- [Glauque-Land](http://glauqueland.com)
+- [Night Fire Photography](http://oxynelle.free.fr/feu)
+- [Tim's Room](http://www.tim-illustrateur.com/)
+
+## Autres Sites sur Goldeneye
+
+- **[Detstar](http://goldeneye.detstar.com/)** : Le Site de Reference qui contient pas mal de Choses que j'ai Traduit !
+- **[Beta Goldeneye](http://www.betagoldeneye.com/)** : LE Site pour tout ce qui concerne la Version Beta de Goldeneye !
+- **[Goldeneye Forever](http://www.goldeneyeforever.com/)** : LE Site avec Plein de Codes pour Goldeneye !
+- **[Goldeneye Vault](http://www.goldeneyevault.com/)** : LE Site pour trouver Plein de [Patches](../action.replay/niveaux/ge.nouveaux.niveaux.htm) Terribles !
+- **[Adonf-JV](http://jimmy130.free.fr/?page=ge_index)** : Le Site de Jimmy130, pas mal, et qui parle d'autres Jeux N64 !
+
+=== contact/
+Contacter Tim
+
+Vous pouvez me laisser un Petit E-Mail pour toutes vos Questions concernant Goldeneye ou Perfect Dark. Merci d’avance de me préciser si vous jouez sur Console ou sur Emulateur, ça aide. (Sur le site original, on clique sur le Gâteau de la Fin de Super Mario 64 !)
+
+{mail}
+
+=== presentation/decouverte-ge.htm
+Goldeneye : La Découverte
+
+Sorti le [31 Juillet 1997](http://fr.wikipedia.org/wiki/GoldenEye_007) , Goldeneye 007 est tout simplement le Meilleur Jeu sorti sur la N64 en terme d’innovation, de Jouabilité et de Plaisir. Il s’agit tout bêtement d’un Jeu dans lequel vous incarnez James Bond, et devez affronter plusieurs Missions tirées du Film du même nom. Vous pouvez aussi jouer à 2, 3 ou 4 Joueurs dans un Mode Multiplayer.
+
+De mon Point de Vue, beaucoup de choses me faisaient craindre le pire pour ce Jeu. Tout d’abord, c’est un Jeu-License. Beaucoup de Jeux-License sont de bonnes grosses daubes, genre vous avez aimé le Film, alors achetez le Jeu ! Beaucoup de Jeux-License sont très souvent bâclés, et comptent sur le Succès de l’œuvre dont ils sont tirés pour se vendre. Avec Goldeneye, je m’attendais à un Jeu de Tir Basique, dans l’Univers de James Bond. Pas très excitant, sur le papier. La Musique de James Bond, les Niveaux du Film, emballez c’est pesé, et hop ! Un Jeu-License de plus
+
+Autre chose qui jouait en sa défaveur : c’est un Doom-Like, du moins, à l’époque c’était le terme en vigueur, puisque le terme FPS n’existait pas encore. FPS signifie « First Person Shooter », donc « Jeu de Tir à la Première Personne ». Concrètement, vous êtes dans le Corps de James Bond, vous ne voyez que son bras qui dépasse, avec l’Arme qui pointe vers l’Ennemi. Le problème est qu’à l’Epoque, le Jeu Référence dans ce Domaine s’appelle Doom. Le Principe de Doom est de tirer sur tout ce qui bouge, sans aucune réflexion, c’est gore, c’est gras, et je pensais que Goldeneye serait du même tonneau. Sur la Nintendo 64, le Premier FPS fut Turok. Il s’agissait de shooter ou massacrer des Raptors et des Indiens. Passé une heure de Jeu, on se fait royalement chier. Donc je n’attendais pas grand chose de Goldeneye, annoncé depuis longue date à l’Epoque.
+
+Un Ami a amené le Jeu à la Maison, pour me le montrer. Je ne m’attendais pas à grand-chose. J’avais des idées préconçues, je ne pensais pas que j’allais être surpris. Mon Ami allume la Console, entre dans le Menu, et me montre la Mission « [Surface](../soluce/ge-04.htm) ». Il me dit « Je suis bloqué à cette Mission, faut trouver un Radar pour réussir l’Objectif ». Moi : Quoi ? Il y a des Objectifs ? Et il faut explorer ? Ma Surprise était grande. Il démarre la Mission, et là, je suis surpris : on nous demande d’être discret (Sniper Rifle) et de repérer un Radar qu’il faut ensuite désactiver pour ensuite entrer discrètement dans un Bunker par la Système d’Aération ! Que du bonheur ! Exploration, Réflexion (un petit peu quand même) et surtout Discrétion ? On ne me prendrait donc pas pour un Con et on me demanderait de jouer finement ? J’achète ! Et voilà, j’étais conquis par le Mode Solo de Goldeneye.
+
+Après avoir passé cette Mission (quelle joie de finir Surface pour la Première Fois) on a essayé le Mode Multiplayer. Et là encore, Surprise, c’est que du Bonheur ! La Maniabilité est Ultra-Simple, rien à voir avec Turok où l’on marche la tête en bas pendant des heures ! C’est rapide, c’est fluide, c’est tout bête, ça marche ! Nous avons passé l’après-midi dessus. Ca faisait longtemps que je n’avais pas ressenti autant d’excitation devant un Jeu Vidéo. Et le Truc bien, c’était que c’était sur un Jeu d’Action ! A l’Epoque, rares étaient les Jeu d’Action qui demandent à la fois de la Réflexion, mais aussi une très bonne maîtrise de la Manette ! Le Dernier en Date était Super Metroid : Exploration, Action, un peu de Réflexion pour se souvenir par où on est passé, quel endroit il faut explorer etc.
+
+Je m’intéressais alors à l’Editeur de ce Jeu, ce « [Rareware](http://www.rareware.com) » et me rappelait que Donkey Kong Country, c’était eux. Graphismes Fabuleux pour une Super Nintendo, des heures de recherches pour finir le Jeu à 101%, une difficulté adulte. J’ai alors suivi les Jeux Rareware avec grand intérêt, Banjo Kazooie, Diddy Kong Racing, Donkey Kong 64, et bien sur le Génial Conker’s Bad Fur Day ! Maintenant que vous savez tout, je vous invite à lire mon [Test de Goldeneye](test-ge.htm) !
+
+=== cinema/index.htm
+Goldeneye : Les Niveaux dans les Films
+
+Cette page du site original est une immense galerie d'images tirées des Films Goldeneye, Moonraker (pour Aztec) et L'Espion qui m'aimait (pour Egyptian), niveau par niveau : Dam / Barrage, Facility, Runway, Surface, Bunker, Frigate, Statue, Archives, Streets, Depot, Train, Control, Cradle, Aztec, Egyptian, et enfin Baron Samedi, Mayday et Oddjob.
+
+{original}
+
+=== presentation/personnages.htm
+Goldeneye : Personnages
+
+Voici les principaux Personnages du Jeu. Certains sont plus sympas que d'autres, à vous de voir. En Battle, certains de ces Personnages se revelent bien efficaces (Requin, Oddjob). Pour plus de détails sur ces Personnages, je ne peux que vous conseiller de voir les Films ou ils apparaissent !!
+
+#### James Bond 007
+
+Le Heros du Film !
+
+#### Natalya Simonova
+
+Natalya est présente dans 6 Niveaux. Là ou elle vous aidera, c'est dans la Jungle, avec son Cougar Magnum. En plus elle vise pas mal !
+
+#### Valentin Zukovsky
+
+On ne le voit que dans 2 Niveaux. Dans Statue, il vous indique ou attendre 006 et c'est tout. Dans Streets, il sert pour un Objectif. Un Personnage surtout Rigolo car c'est le Seul de son Genre...
+
+#### Dimitri Mishkin
+
+Le Ministre Russe de la Défense. Deux Niveaux, comme Valentin. C'est peu, surtout qu'il ne fait vraiment pas grand-chose.
+
+#### Alec Trevelyan 006
+
+Toujours vetu de Noir, Alec Trevelyan, alias 006, alias Janus, est le Big Boss du Jeu. Bien relou dans Cradle avec son AR33, ses Gardes du Corps sont égalemment crispants.
+
+#### Xenia Onatopp
+
+La Copine de Trevelyan aime le RCP-90 et le Lance Grenades. Visez-là de loin en biais dans la Tete et elle ne vous embettera plus.
+
+#### General Ourumov
+
+Génial dans le Film avec son Visage particulier, Oroumov ne vous donnera pas de fil à retordre. En Battle, ce Personnage à la particularité d'etre plus grand que les autres !
+
+#### Boris Grishenko
+
+Que dire de Boris... C'est un Cretin, çà tout le monde sera d'accord. Et 2 Niveaux c'est court... En Battle par contre, il fait un Tabac avec son Short et sa Chemise Bariolée !
+
+#### Jaws / Requin
+
+Assez dur à avoir dans Aztec, Requin est un bon Personnage, que beaucoup utilisent en Battle du fait de sa Taille. Comme Oroumov, il tire direct dans la Tete !
+
+#### Baron Samedi
+
+Un Bon Personnage, bien original, avec son Chapeau et son Short Bizarre. Tres Facile à avoir dans Egyptian, il n'en reste pas moins aussi populaire que Requin, bien que moins connu.
+
+#### Mayday
+
+Bon Personnage de Battle, sans plus...
+
+#### Oddjob
+
+Rien !
+
+=== presentation/rareware.htm
+Goldeneye : Traduction de la Page Goldeneye de l'Ancien Site de Rareware
+
+> Le Goldeneye est un de ces 2 Galinacé : Bucephala clangula ou Bucephala islandica, vivant dans le Nord de l'Europe. On les voit en Hiver sur les Lacs, estuaires et cotes de l'Europe du Sud, et ils forment de grands groupes sur les plages. Ils se reproduisent sur les Cotes de l'Océan Arctique. On reconnait le Male à sa Tete Vert-Blanche, et ses taches Blanches sur ses joues. — Dictionnaire Illustré du Reader's Digest
+
+Comme beaucoup de Jeux Rare, **Goldeneye** était très différent de ce qu'il est devenu. Originairement prévu sur **Super Nintendo** comme un Jeu de Plate-Forme, il passa le cap de la Super Nintendo avec l'arrivée de la N64. Il devait etre une sorte de **Virtua Cop** , aux premières vues des capacités de la N64. Puis, à force de travail, il devint possible de travailler sur un Jeu en 3D Temps Réel, permettant de recréer des Cinématiques plus proches du Film. Le Joueur ne devint plus alors spectateur, mais aussi acteur du jeu dans sa Totalité.
+
+Le réalisme de Goldeneye et sa fidelité au Film sont les principaux facteurs qui le démarquent des autres Doom-Like, avec le fait de ne pas forcément tuer tout le monde jusqu'a la fin du Niveau puis point. Bond commence les Missions avec un certain nombre d'objectifs spécifiques au Scenario, le tout augmentant selon la Difficulté. Le Stick Analogique est pleinement exploité, et on l'emploie plus pour se cacher, se faufiler. On peut marcher, courrir, s'accroupir, grimper, regarder dans différentes directions, et interagir avec le Scenario (en explosant le materiel par exemple, ou en plombant les murs de balles).
+
+Les Soldats ennemis, en plus d'arborer fièrement les visages des membres de Rare, ont presque 30 animations différentes, comme les façons de marcher, de se faire tuer, dépendant de là ou vous tirez. L'Equipe a beaucoup travaillé sur l'Intelligence Artificielle, essayant au maximum de donner aux Gardes des comportements Humains.
+
+Pour plus d'authenticité, le Script Original fut suivi dans le Processus de création, en plus des notes prises par l'Equipe lors de la Visite des Décors Originaux. Les Acteurs originaux se sont égalemment gracieusement pretés au Jeu du Face-Mapping, en permettant que l'on utilise leurs visages pour le Jeu, ainsi que d'autres Personnages cachés dans le Jeu...
+
+Un des plus forts aspects de Goldeneye est le Deathmatch, qui permet aux joueurs de s'affronter dans l'Arene de leur choix, avec les Personnages de leur choix, tout comme les Armes, l'Energie, etc.
+
+Goldeneye est sorti en Aout 97 aux USA et au Japon, et fut déclaré Meilleur Jeu de l'Année un peu partout. Plus tard, en Novembre, le Jeu sortit en Europe, et devint rapidemment la Meilleure Vente N64 dans l'Angleterre à ce Jour.
+
+Sur le site original, cette page est accompagnée de pleins de Photos chopées sur le Vieux Site Officiel de Goldeneye ! C'est là que l'on voit bien le travail de Rare pour etre le plus fidèle possible au Film. On ne voit que Streets par contre...
