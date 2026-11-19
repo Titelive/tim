@@ -344,9 +344,49 @@ ul.links .num{font-family:var(--mono);font-size:12px;color:var(--accent);min-wid
 .source a{color:var(--muted)}
 
 /* Bouton retour en haut */
-.to-top{position:fixed;right:18px;bottom:18px;z-index:45;display:grid;place-items:center;width:44px;height:44px;border-radius:var(--r-pill);border:1px solid var(--line);background:var(--card);color:var(--accent);box-shadow:var(--shadow);cursor:pointer;opacity:0;transform:translateY(12px);pointer-events:none;transition:opacity .25s var(--ease),transform .25s var(--ease),border-color .2s}
-.to-top.show{opacity:1;transform:none;pointer-events:auto}
-.to-top:hover{border-color:var(--accent);transform:translateY(-2px)}
+/* Retour en haut : un bouton par jeu, l'anneau se remplit avec la lecture */
+.to-top{--p:0;position:fixed;right:16px;bottom:16px;z-index:45;width:58px;height:58px;padding:0;border:0;background:none;color:var(--accent);cursor:pointer;opacity:0;transform:translateY(16px) scale(.8);pointer-events:none;transition:opacity .3s var(--ease),transform .3s var(--ease);-webkit-tap-highlight-color:transparent}
+.to-top.show,.to-top.fire{opacity:1;transform:none;pointer-events:auto}
+.to-top svg{width:100%;height:100%;overflow:visible;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.to-top .track{fill:var(--card);stroke:var(--line);stroke-width:2;filter:drop-shadow(0 8px 18px rgba(0,0,0,.35))}
+.to-top .fill{stroke:var(--accent);stroke-width:3;stroke-dasharray:100;stroke-dashoffset:calc(100 - var(--p) * 100);transition:stroke-dashoffset .15s linear}
+.to-top .glyph{stroke:currentColor;stroke-width:2.4;transform-origin:28px 28px;transform-box:view-box;transition:transform .45s var(--ease)}
+.to-top:focus-visible{outline:none}
+.to-top:focus-visible .track{stroke:var(--accent);stroke-width:3}
+/* Goldeneye : viseur et lunette de montre, tir au clic */
+.tt-ge{color:var(--gold)}
+.tt-ge .fill{stroke:var(--fire)}
+.tt-ge .bezel line{stroke:var(--gold);stroke-width:1.4;opacity:.5}
+.tt-ge .bezel{transform-origin:28px 28px;transform-box:view-box;transition:transform .6s var(--ease)}
+.tt-ge .dot{fill:var(--blood);stroke:none;transition:transform .3s var(--ease);transform-origin:28px 28px;transform-box:view-box}
+.tt-ge .flash{fill:var(--fire);stroke:none;opacity:0;transform-origin:28px 28px;transform-box:view-box}
+.tt-ge:hover .sight{transform:rotate(45deg) scale(.86)}
+.tt-ge:hover .bezel{transform:rotate(30deg)}
+.tt-ge:hover .dot{transform:scale(1.6)}
+.tt-ge.fire .flash{animation:tt-flash .45s var(--ease)}
+.tt-ge.fire .sight{animation:tt-recoil .45s var(--ease)}
+@keyframes tt-flash{0%{opacity:.9;transform:scale(.3)}100%{opacity:0;transform:scale(1.9)}}
+@keyframes tt-recoil{0%{transform:scale(1)}25%{transform:translateY(-5px) scale(1.12)}100%{transform:none}}
+/* Perfect Dark : hexagone néon et propulseur */
+.tt-pd{color:var(--neon)}
+.tt-pd .fill{stroke:var(--pd);filter:drop-shadow(0 0 4px var(--pd))}
+.tt-pd .thrust path{transition:transform .35s var(--ease),opacity .35s}
+.tt-pd .c2{opacity:.55}
+.tt-pd .beam{stroke:var(--cyan);stroke-width:2.4;opacity:0;stroke-dasharray:18;stroke-dashoffset:18}
+.tt-pd:hover .thrust .c1,.tt-pd:hover .thrust .c2{animation:tt-thrust .9s var(--ease) infinite}
+.tt-pd:hover .thrust .c2{animation-delay:.15s}
+.tt-pd:hover .track{animation:tt-glitch 1.8s steps(1) infinite}
+.tt-pd.fire .beam{animation:tt-beam .5s var(--ease)}
+.tt-pd.fire .thrust{animation:tt-lift .5s var(--ease)}
+@keyframes tt-thrust{0%{transform:translateY(3px);opacity:.4}50%{transform:translateY(-2px);opacity:1}100%{transform:translateY(3px);opacity:.4}}
+@keyframes tt-glitch{0%,100%{transform:none}92%{transform:translateX(1.5px)}94%{transform:translateX(-1.5px)}96%{transform:none}}
+@keyframes tt-beam{0%{opacity:1;stroke-dashoffset:18}100%{opacity:0;stroke-dashoffset:-18}}
+@keyframes tt-lift{0%{transform:none}40%{transform:translateY(-9px);opacity:0}41%{transform:translateY(9px);opacity:0}100%{transform:none;opacity:1}}
+/* Accueil et pages communes : flèche aux deux couleurs */
+.tt-mix{color:var(--text)}
+.tt-mix .fill{stroke:url(#tt-g)}
+.tt-mix:hover .arrow{transform:translateY(-3px)}
+.tt-mix.fire .arrow{animation:tt-lift .5s var(--ease)}
 
 footer{border-top:1px solid var(--line);color:var(--muted);font-size:14px;padding:20px 0 36px}
 footer p{margin:0}

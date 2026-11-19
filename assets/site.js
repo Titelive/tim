@@ -12,12 +12,20 @@
     var p = h > 0 ? Math.min(1, root.scrollTop / h) : 0;
     if (bar) bar.style.transform = "scaleX(" + p + ")";
     if (up) up.classList.toggle("show", root.scrollTop > 400);
+    if (up) up.style.setProperty("--p", p.toFixed(3));
     if (top) top.classList.toggle("scrolled", root.scrollTop > 10);
   }
   window.addEventListener("scroll", onScroll, { passive: true });
   window.addEventListener("resize", onScroll);
   onScroll();
-  if (up) up.addEventListener("click", function () { window.scrollTo({ top: 0, behavior: "smooth" }); });
+  if (up) up.addEventListener("click", function () {
+    // petite animation propre au jeu (tir, propulsion…), puis remontée
+    up.classList.remove("fire");
+    up.offsetWidth;
+    up.classList.add("fire");
+    setTimeout(function () { up.classList.remove("fire"); }, 700);
+    setTimeout(function () { window.scrollTo({ top: 0, behavior: calm ? "auto" : "smooth" }); }, calm ? 0 : 160);
+  });
 
   function current() {
     return root.dataset.theme || (matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark");
