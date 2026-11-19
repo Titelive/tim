@@ -40,6 +40,10 @@ SECTION_TITLE = {s[0]: s[1] for s in SECTIONS}
 SECTION_ALIAS = {"cinema": "presentation", "plans": "battle"}
 MAIL = "tubulamarok@yahoo.fr"
 
+# version des fichiers CSS/JS dans leurs adresses : un navigateur ne garde jamais une ancienne feuille de style
+import hashlib
+ASSET_V = hashlib.sha1(b"".join((ROOT / "assets" / f).read_bytes() for f in ("style.css", "site.js"))).hexdigest()[:8]
+
 # images du site d'origine (préparées par tools/images.py)
 _IMG = json.loads((SRC / "images.json").read_text(encoding="utf-8")) if (SRC / "images.json").exists() else {"pages": {}, "files": {}}
 IMG_PAGES, IMG_FILES = _IMG["pages"], _IMG["files"]
@@ -532,7 +536,7 @@ def layout(link, title, inner, section=None, game="", description=""):
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="{r}assets/style.css">
+<link rel="stylesheet" href="{r}assets/style.css?v={ASSET_V}">
 </head>
 <body{body_cls}>
 <div class="ambient" aria-hidden="true"><span></span><span></span><span></span></div>
@@ -556,7 +560,7 @@ def layout(link, title, inner, section=None, game="", description=""):
   </div>
 </footer>
 <button class="to-top" type="button" aria-label="Retour en haut">{icon("arrow-up")}</button>
-<script src="{r}assets/site.js" defer></script>
+<script src="{r}assets/site.js?v={ASSET_V}" defer></script>
 </body>
 </html>
 """
@@ -821,7 +825,7 @@ def banner_style(cur_out, img):
     return f' style="--banner:url(\'../{img}\')"' if img and (ROOT / img).exists() else ""
 
 
-HUB_DECO = {"ge": ('<svg class="deco dial" viewBox="0 0 200 200" aria-hidden="true">'
+HUB_DECO = {"ge": ('<svg class="deco dial" viewBox="0 0 200 200" width="220" height="220" aria-hidden="true">'
                    '<circle cx="100" cy="100" r="94" fill="rgba(8,10,14,.6)" stroke="rgba(255,255,255,.18)" stroke-width="2"/>'
                    '<g fill="none" stroke-width="8" stroke-linecap="round">'
                    '<circle class="arc" cx="100" cy="100" r="84" stroke="#d7261e" stroke-dasharray="80 448" transform="rotate(100 100 100)"/>'
