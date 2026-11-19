@@ -35,7 +35,7 @@
     });
   }
 
-  // Agrandissement des images (galeries) : clic, flèches du clavier, Échap pour fermer.
+  // Agrandissement des images (galeries) : clic, flèches du clavier, balayage au doigt, Échap pour fermer.
   var zooms = Array.prototype.slice.call(document.querySelectorAll(".gallery .zoom"));
   if (zooms.length) {
     var svg = function (d) { return '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + d + "</svg>"; };
@@ -68,8 +68,41 @@
       });
     });
     box.querySelector(".lb-close").addEventListener("click", close);
-    box.querySelector(".lb-prev").addEventListener("click", function () { show(cur - 1); });
-    box.querySelector(".lb-next").addEventListener("click", function () { show(cur + 1); });
+    var fig = box.querySelector("figure");
+    // Changement d'image avec un petit glissement dans le sens du geste
+    var go = function (step) {
+      show(cur + step);
+      fig.style.transition = "none";
+      fig.style.transform = "translateX(" + (step > 0 ? 40 : -40) + "%)";
+      fig.style.opacity = "0";
+      fig.offsetWidth;
+      fig.style.transition = "";
+      fig.style.transform = "";
+      fig.style.opacity = "";
+    };
+    box.querySelector(".lb-prev").addEventListener("click", function () { go(-1); });
+    box.querySelector(".lb-next").addEventListener("click", function () { go(1); });
+    // Balayage au doigt : gauche = suivante, droite = précédente, vers le bas = fermer
+    var sx = null, sy = 0, dx = 0, dy = 0;
+    box.addEventListener("touchstart", function (e) {
+      if (e.touches.length !== 1 || e.target.closest("button")) { sx = null; return; }
+      sx = e.touches[0].clientX; sy = e.touches[0].clientY; dx = dy = 0;
+      fig.style.transition = "none";
+    }, { passive: true });
+    box.addEventListener("touchmove", function (e) {
+      if (sx === null) return;
+      dx = e.touches[0].clientX - sx; dy = e.touches[0].clientY - sy;
+      if (Math.abs(dx) > Math.abs(dy)) fig.style.transform = "translateX(" + dx + "px) rotate(" + dx / 40 + "deg)";
+      else if (dy > 0) fig.style.transform = "translateY(" + dy + "px) scale(" + Math.max(.85, 1 - dy / 1200) + ")";
+      e.preventDefault();
+    }, { passive: false });
+    box.addEventListener("touchend", function () {
+      if (sx === null) return;
+      sx = null;
+      fig.style.transition = "";
+      if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy)) go(dx < 0 ? 1 : -1);
+      else { fig.style.transform = ""; if (dy > 90 && dy > Math.abs(dx)) close(); }
+    });
     box.addEventListener("click", function (e) { if (e.target === box) close(); });
     document.addEventListener("keydown", function (e) {
       if (!box.classList.contains("open")) return;
