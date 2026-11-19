@@ -61,7 +61,7 @@ Le Code Principal est `81026--- 00??` : remplacez `---` par ce qui sera changé 
 
 ## Corps d'Origine / Nouveau Corps
 
-Certains Personnages ne peuvent pas changer de Corps (ils étaient marqués en vert sur la page originale).
+Certains Personnages ne peuvent pas changer de Corps.
 
 ```
 6ED  Bond                     7DD  St. Petersburg Guard
@@ -453,7 +453,7 @@ Ce Code est une petite merveille. Pour l'activer, voilà comment il faut faire. 
 
 ## Balade avec le Debug Mode
 
-Ce qui est intéressant avec ce Debug Mode, c'est que c'est une bonne alternative aux autres codes genre Moon-Jump, Passe-Muraille, Niveaux en Plus, Cinématiques où l'on ne peut pas faire TOUT ce que l'on veut. La page originale en montre des Tonnes de Photos :
+Ce qui est intéressant avec ce Debug Mode, c'est que c'est une bonne alternative aux autres codes genre Moon-Jump, Passe-Muraille, Niveaux en Plus, Cinématiques où l'on ne peut pas faire TOUT ce que l'on veut. Quelques exemples :
 
 - **Archives** : le mur derrière les fenêtres de la Salle d'Interrogatoire n'est qu'un gros Bitmap avec une texture de Briques. Derrière la Palissade, rien que des Baraques sur un Sol tout noir (notez les Rideaux pas trop mal faits !).
 - **Caverns** : la Grande Salle avec l'Escalier en Spirale... vue de loin ! Le seul endroit invisitable : la Salle du Tuyau avec les Drone Guns, on ne peut pas aller plus loin sinon c'est tout noir. Et un Garde chassant une mouche...

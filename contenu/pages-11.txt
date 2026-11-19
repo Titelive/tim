@@ -119,7 +119,7 @@ Le N64 Magazine nous dit que c'est un Objet capable de révéler l'utilité d'un
 Quand vous entrez ces Codes allez dans Felicity juste à coté des Toilettes en haut et vous trouverez ces Trucs marrants...
 
 - Un Ordinateur de Goldeneye !! `811EED4C 0018` et `811EEDF4 0018`
-- Un Coffre à la Zelda... (même code que ci-dessus sur le site original)
+- Un Coffre à la Zelda... (même code que ci-dessus)
 - Des Boucliers Beta ! L'un gicle du Garde (comme dans le Vrai Jeu), l'autre ressemble à ceux de Goldeneye. En plus au niveau Scénario c'est crédible, les Shields que l'on connait n'étant qu'en construction dans la Mission suivante ! `811EED4C 0182` et `811EEDF4 0182`
 - Une Chaise, probablement de chez Datadyne ! `811EED4C 0172` et `811EEDF4 0172`
 
@@ -253,7 +253,7 @@ Vous trouverez dans cette Partie presque tous les Mystères qui entourent le Bar
 
 ## L'Ile Perdue
 
-De tous les Niveaux de Goldeneye, le Barrage est certainement le plus vaste, juste après Surface peut-etre. C'est aussi le Niveau ou on trouve un GRAND Lac, avec au fond une Petite Ile qui ne sert plus à grand-chose. Le site original montre en images ce que beaucoup ne peuvent pas voir, faute d'Action Replay. Vous trouverez en Bas des Codes au cas ou vous voudriez aller voir par vous-meme.
+De tous les Niveaux de Goldeneye, le Barrage est certainement le plus vaste, juste après Surface peut-etre. C'est aussi le Niveau ou on trouve un GRAND Lac, avec au fond une Petite Ile qui ne sert plus à grand-chose. Beaucoup ne peuvent pas voir ce qui s'y cache, faute d'Action Replay. Vous trouverez en Bas des Codes au cas ou vous voudriez aller voir par vous-meme.
 
 On peut aussi grimper dans la Tour pour admirer le Paysage, même si y a pas grand chose à voir. Les images avec Bond ont été faites avec le Debug Mode, qui permet de se déplacer HORS du Corps de Bond. Ahurissant, et celà sert dans pas mal de Niveaux vous verrez ! Note - En fait, on ne peut pas monter dans la Tour. On peut passer au travers de TOUT ce qu'il y a sur l'Ile. Et avec un coup de Moonjump, on a de belles vues.
 
@@ -301,7 +301,6 @@ Avec d'autres Codes, on peut aussi faire apparaitre le Bateau servant à aller s
 
 - Enlever les Cinématiques de Fin (Cartouche) : `8002BED0 FFFF`
 - Enlever les Cinématiques de Fin (Emulateur) : `80030980 FFFF`
-- Sauvegarde avec Bond sur l'Ile (Project 64) : [Télécharger](../sauvegardes/goldeneye.ile.barrage.zip)
 
 Pour utiliser la Sauvegarde, lancez le Jeu Goldeneye avec l'Emulateur, puis faites Système > Charger > Choisissez la Sauvegarde, et voilà ! Pensez à vous créer un Dossier Sauvegardes...
 
@@ -318,11 +317,11 @@ Oroumov possède une Clé et une Valise dans ce Niveau. Normalement, on ne peut 
 
 Le Toit d'un des Silos à Missiles peut etre ouvert mystérieusement ! Mais celà ne changera rien à la Mission, ne vous attendez pas à voir décoller la Fusée ! Dans la Version Beta, après la Deuxième Salle de Fuel, on pouvait ouvrir le Toit du Silo (et éventuellement faire décoller un Missile).
 
-Pour ouvrir le Toit, il faut la Clé d'Oroumov. Mettez-vous invisible et flinguez-le avec le PP7 Doré. Il ne bougera pas lorsque vous arriverez si vous etes Invisible. Une fois Mort, vous aurez une Clé, qui dans l'inventaire s'appelle " _ ". Choisissez la Clé comme Arme, et revenez 2 Salles de Fuel plus loin. Une fois la Deuxième Salle passée, continuez tout Droit dans le Couloir jusqu'à un Silo à Missile. Regardez en l'Air, et en appuyant sur B, le toit devrait s'ouvrir. Marrant, celà dit je n'ai jamais réussi à le faire... Detstar, lui, y est arrivé (images sur le site original).
+Pour ouvrir le Toit, il faut la Clé d'Oroumov. Mettez-vous invisible et flinguez-le avec le PP7 Doré. Il ne bougera pas lorsque vous arriverez si vous etes Invisible. Une fois Mort, vous aurez une Clé, qui dans l'inventaire s'appelle " _ ". Choisissez la Clé comme Arme, et revenez 2 Salles de Fuel plus loin. Une fois la Deuxième Salle passée, continuez tout Droit dans le Couloir jusqu'à un Silo à Missile. Regardez en l'Air, et en appuyant sur B, le toit devrait s'ouvrir. Marrant, celà dit je n'ai jamais réussi à le faire... Detstar, lui, y est arrivé.
 
 ## Un Conduit, un Ascenseur et des Portes !
 
-Cette partie est un peu spéciale. C'est la Traduction d'une page disponible sur le Site de Detstar. Je l'ai appelée le Voyage de Detstar car c'était assez marrant de le voir déambuler dans le Silo à la Recherche de ce foutu Ascenseur qu'on voit dans une Ancienne PUB de Goldeneye ([Télécharger la pub](Goldeneye%20-%20Silo.mpeg)). Pour ceux qui voudraient essayer ces Codes, je rappelle que pour transformer un Action Replay en Gameshark, il suffit de posséder une N64 US, un Jeu Goldeneye US, et un Action Replay Européen. C'est celui que j'ai et ça marche.
+Cette partie est un peu spéciale. C'est la Traduction d'une page disponible sur le Site de Detstar. Je l'ai appelée le Voyage de Detstar car c'était assez marrant de le voir déambuler dans le Silo à la Recherche de ce foutu Ascenseur qu'on voit dans une Ancienne PUB de Goldeneye. Pour ceux qui voudraient essayer ces Codes, je rappelle que pour transformer un Action Replay en Gameshark, il suffit de posséder une N64 US, un Jeu Goldeneye US, et un Action Replay Européen. C'est celui que j'ai et ça marche.
 
 #### Le Voyage de Detstar
 
@@ -353,14 +352,14 @@ Enfin, si on regarde tout en haut du Conduit, on voit un long Conduit, comme cel
 - Sauvegarde Deuxième Passerelle Inaccessible : [Voir Image](silo.endroit.3.jpg)
 - Sauvegarde dans le Conduit du Début (Attention ça Bugue) : [Voir Image](silo.endroit.4.jpg)
 
-Les sauvegardes sont téléchargeables sur le site original. Pour utiliser une Sauvegarde, lancez le Jeu Goldeneye avec l'Emulateur, puis faites Système > Charger > Choisissez la Sauvegarde, et voilà ! Pensez à vous créer un Dossier Sauvegardes...
+Pour utiliser une Sauvegarde, lancez le Jeu Goldeneye avec l'Emulateur, puis faites Système > Charger > Choisissez la Sauvegarde, et voilà ! Pensez à vous créer un Dossier Sauvegardes...
 
 === mysteres/ge-citadel.htm
 Mystères de Goldeneye : Citadel
 
 Citadel était un Niveau de Test, qui fut retiré du Jeu quand Goldeneye sortit en 1997. On ne sait comment les Rumeurs sont arrivées, mais des Joueurs ont commencé à parler de ce Niveau, dont le Nom était dans la Mémoire de la Cartouche. Rareware répondit que c'était un Niveau de Test, et qu'il n'était plus du tout dans le Jeu, ce qui ne découragea pas les plus Acharnés à le trouver via l'Action Replay / Gameshark. Beaucoup d'Images truquées circulèrent, et finalement, en Juin 2005, un Joueur du Nom de Zoinkity sortit un Patch qui permit de retrouver ce Niveau, et même de jouer dedans en Battle !
 
-Pour savoir comment ça marche, contactez-moi ! En attendant, le site original montre pleins d'Images du Niveau !!! De mon coté, je n'arrive pas à faire apparaitre le Ciel... Les images proviennent du Merveilleux Site [GoldeneyeForever](http://www.goldeneyeforever.com) ! Il existe aussi une [vidéo du niveau Citadel](../presentation/videos.htm).
+Pour savoir comment ça marche, contactez-moi ! De mon coté, je n'arrive pas à faire apparaitre le Ciel... Les images proviennent du Merveilleux Site [GoldeneyeForever](http://www.goldeneyeforever.com) ! Il existe aussi une [vidéo du niveau Citadel](../presentation/videos.htm).
 
 === mysteres/ge-casino.htm
 Mystères de Goldeneye : Casino
@@ -382,7 +381,6 @@ Mystères de Goldeneye : All Bonds
 
 Dans la Version Beta, on pouvait jouer avec les autres Acteurs incarnant Bond ! Malheureusement, pour des Raisons de Droits, ils ont disparu du Jeu. On peut toutefois retrouver leurs Photos, leur Tête et leur Costume dans le Jeu avec l'Action Replay ! Rendez-vous à la Section [Action Replay](../action.replay/index.htm) et à la page [All Bonds](../beta/ge.beta.all.bonds.htm) de la section Beta !
 
-Le site original propose aussi une [vidéo de Sean Connery en Battle](Goldeneye%20-%20Sean%20Connery.mov) !
 
 === mysteres/ge-variete.htm
 Mystères de Goldeneye : Variétés

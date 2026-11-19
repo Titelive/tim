@@ -169,7 +169,7 @@ Ensuite, comme il est très Soporifique de jouer avec un Clavier à ce genre de 
 
 ## Pourquoi jouer sur un Emulateur ?
 
-Bien que ce soit plus agréable de jouer sur un Canapé, jouer sur Emulateur vous fera découvrir les Jeux comme vous ne les aviez jamais vu. Pourquoi ? Parce qu’avec un Emulateur (si vous avez une Bonne Machine) vous redécouvrirez les Jeux tels que les Programmeurs les ont fait. Vous jouerez au Jeu sans passer par la Case « Clipping, Brume et Ralentissement(s) » que nous faisait subir la N64. Les Captures d’Ecrans du site original ont été faites avec l’Emulateur Project 64. Bien que ces Jeux soient Vieux, admirez à quel Point la Résolution est Fine ! On peut voir loin ! Et c’est Fluide ! Bon, certaines choses ne sont pas encore émulées (les Emulateurs évoluent au fil du temps) comme le Ciel ou des Détails, mais c'est déjà Sublime...
+Bien que ce soit plus agréable de jouer sur un Canapé, jouer sur Emulateur vous fera découvrir les Jeux comme vous ne les aviez jamais vu. Pourquoi ? Parce qu’avec un Emulateur (si vous avez une Bonne Machine) vous redécouvrirez les Jeux tels que les Programmeurs les ont fait. Vous jouerez au Jeu sans passer par la Case « Clipping, Brume et Ralentissement(s) » que nous faisait subir la N64. Mes Captures d’Ecrans ont été faites avec l’Emulateur Project 64. Bien que ces Jeux soient Vieux, admirez à quel Point la Résolution est Fine ! On peut voir loin ! Et c’est Fluide ! Bon, certaines choses ne sont pas encore émulées (les Emulateurs évoluent au fil du temps) comme le Ciel ou des Détails, mais c'est déjà Sublime...
 
 Bref, avec un Emulateur, c’est comme si vous jouiez à Goldeneye et Perfect Dark sur une Télé Haute Définition, sans Brume et sans Flou ! Que du Bonheur ! En plus de ça, les Emulateurs ont quelques Petites Fonctions en Plus, vous pourrez tout configurer (Résolution, Vitesse), calibrer votre Manette, et il y a même un Action Replay incorporé dedans, avec en Mémoire des Codes tout prêts pour s’amuser. Touche Finale, il y a même une Fonction pour jouer en Ligne contre d’autres Joueurs du Monde Entier !
 
@@ -238,7 +238,7 @@ Il existe des tonnes de Codes Action Replay pour ce jeu, mais aucun n’est vrai
 
 ## Faxanadu
 
-Un jeu d’aventure-action sorti en 1987 sur la NES, et qui me plait toujours autant quand je décide de le refaire une fois tous les 5 ans. Sur le site original, je vous propose de télécharger la carte complète du jeu que j’ai fabriqué en collant bout à bout chaque ecran du Jeu. Visitez cette [Page](http://faxanadu.nintendoforever.com) pour un dossier complet sur Faxanadu !
+Un jeu d’aventure-action sorti en 1987 sur la NES, et qui me plait toujours autant quand je décide de le refaire une fois tous les 5 ans. J’en avais même fabriqué la carte complète en collant bout à bout chaque ecran du Jeu ! Visitez cette [Page](http://faxanadu.nintendoforever.com) pour un dossier complet sur Faxanadu !
 
 ## The Adventures of Rad Gravity
 
@@ -269,7 +269,7 @@ Liens / Ailleurs
 === contact/
 Contacter Tim
 
-Vous pouvez me laisser un Petit E-Mail pour toutes vos Questions concernant Goldeneye ou Perfect Dark. Merci d’avance de me préciser si vous jouez sur Console ou sur Emulateur, ça aide. (Sur le site original, on clique sur le Gâteau de la Fin de Super Mario 64 !)
+Vous pouvez me laisser un Petit E-Mail pour toutes vos Questions concernant Goldeneye ou Perfect Dark. Merci d’avance de me préciser si vous jouez sur Console ou sur Emulateur, ça aide.
 
 {mail}
 
@@ -291,9 +291,8 @@ Je m’intéressais alors à l’Editeur de ce Jeu, ce « [Rareware](http://www.
 === cinema/index.htm
 Goldeneye : Les Niveaux dans les Films
 
-Cette page du site original est une immense galerie d'images tirées des Films Goldeneye, Moonraker (pour Aztec) et L'Espion qui m'aimait (pour Egyptian), niveau par niveau : Dam / Barrage, Facility, Runway, Surface, Bunker, Frigate, Statue, Archives, Streets, Depot, Train, Control, Cradle, Aztec, Egyptian, et enfin Baron Samedi, Mayday et Oddjob.
+Une immense galerie d'images tirées des Films Goldeneye, Moonraker (pour Aztec) et L'Espion qui m'aimait (pour Egyptian), niveau par niveau : Dam / Barrage, Facility, Runway, Surface, Bunker, Frigate, Statue, Archives, Streets, Depot, Train, Control, Cradle, Aztec, Egyptian, et enfin Baron Samedi, Mayday et Oddjob.
 
-{original}
 
 === presentation/personnages.htm
 Goldeneye : Personnages
@@ -365,4 +364,4 @@ Un des plus forts aspects de Goldeneye est le Deathmatch, qui permet aux joueurs
 
 Goldeneye est sorti en Aout 97 aux USA et au Japon, et fut déclaré Meilleur Jeu de l'Année un peu partout. Plus tard, en Novembre, le Jeu sortit en Europe, et devint rapidemment la Meilleure Vente N64 dans l'Angleterre à ce Jour.
 
-Sur le site original, cette page est accompagnée de pleins de Photos chopées sur le Vieux Site Officiel de Goldeneye ! C'est là que l'on voit bien le travail de Rare pour etre le plus fidèle possible au Film. On ne voit que Streets par contre...
+Le Vieux Site Officiel de Goldeneye montrait pleins de Photos des Décors : c'est là que l'on voit bien le travail de Rare pour etre le plus fidèle possible au Film. On ne voyait que Streets par contre...
