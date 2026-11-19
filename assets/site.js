@@ -79,6 +79,18 @@
     });
   }
 
+  // Montre de la page Goldeneye : affiche l'heure et la date du jour
+  var clock = document.querySelector(".dial .clock"), day = document.querySelector(".dial .date");
+  if (clock) {
+    var tickClock = function () {
+      var d = new Date();
+      clock.textContent = String(d.getHours()).padStart(2, "0") + ":" + String(d.getMinutes()).padStart(2, "0");
+      if (day) day.textContent = d.toLocaleDateString("fr-FR", { weekday: "short", day: "numeric", month: "short" }).toUpperCase();
+    };
+    tickClock();
+    setInterval(tickClock, 15000);
+  }
+
   // Cartes des jeux : légère inclinaison 3D et lueur qui suit le pointeur
   if (!calm && matchMedia("(pointer: fine)").matches) {
     document.querySelectorAll(".tilt").forEach(function (el) {
