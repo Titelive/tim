@@ -813,8 +813,63 @@ def build_page(path, page, pages, order, idx, where):
     return layout(link, page["title"], inner, nav_game, game or nav_game or "")
 
 
-def group_links(paths, cur_out, pages, numbered=False, icons=False):
+# pages sans photo à elles : image choisie dans le même thème
+THUMB_FALLBACK = {
+    ("ge", "cheats/"): "images/soluce/surface1-1.jpg",
+    ("ge", "complex/"): "images/complex/the-complex-01.jpg",
+    ("ge", "presentation/personnages.htm"): "images/presentation/film-natalya.jpg",
+    ("ge", "presentation/diviseur.htm"): "images/presentation/golden-logo.jpg",
+    ("ge", "presentation/references-ge.htm"): "images/presentation/film-007.jpg",
+    ("ge", "presentation/videos.htm"): "images/presentation/boite-007-fr.jpg",
+    ("pd", "cheats/"): "images/mysteres/area51-01.jpg",
+    ("pd", "challenges/"): "images/challenges/challenge-22-1.jpg",
+    ("pd", "presentation/videos.htm"): "images/presentation/boite-pd-fr.jpg",
+    ("pd", "plans/"): "images/plans/villa.jpg",
+    ("pd", "action.replay/pd.musique.htm"): "images/mysteres/skedar-01.jpg",
+    ("pd", "action.replay/pd.divers.htm"): "images/mysteres/institut-01.jpg",
+    ("plus", "autres/"): "images/autres/jet-force-gemini.jpg",
+    ("plus", "liens/"): "images/ambiance/perfect-dark-rue.jpg",
+    ("plus", "contact/"): "images/ambiance/goldeneye-jaquette.jpg",
+}
+
+def _img_key(p):
+    """Clé de page (canon) → clé de contenu/images.json."""
+    return p + "index.htm" if p.endswith("/") else p
+
+
+_THUMBS_TO = {}
+for _src_page, _v in IMG_PAGES.items():
+    for _target, _img in _v["thumbs"].items():
+        if _img:
+            _THUMBS_TO.setdefault(canon(_target), _img)
+
+
+def page_thumb(p, used, game=None):
+    """Image représentative d'une page : sa première vraie photo, sinon la vignette
+    qui menait vers elle. Évite de répéter une image déjà prise dans la même liste."""
+    cands = []
+    for k in (_img_key(p), p, p + "l" if p.endswith(".htm") else p):
+        v = IMG_PAGES.get(k)
+        if v:
+            for g in v["groups"]:
+                for im in g["imgs"]:
+                    if (im.get("w") or 200) >= 120 and (im.get("h") or 150) >= 80:
+                        cands.append(im.get("big") or im["src"])
+            break
+    if p in _THUMBS_TO:
+        cands.append(_THUMBS_TO[p])
+    if not cands and (game, p) in THUMB_FALLBACK:
+        cands.append(THUMB_FALLBACK[(game, p)])
+    for c in cands:
+        if c not in used:
+            used.add(c)
+            return c
+    return cands[0] if cands else None
+
+
+def group_links(paths, cur_out, pages, numbered=False, icons=False, game=None):
     items = []
+    used = set()
     for n, p in enumerate(paths, 1):
         t = html.escape(short_title(pages[p]["title"]))
         num = ""
@@ -823,7 +878,10 @@ def group_links(paths, cur_out, pages, numbered=False, icons=False):
             num = f'<span class="num">{num}</span>'
         if icons:
             num = icon(PLUS_ICON.get(p, "info"))
-        items.append(f'<li><a href="{href_from(cur_out, out_path(p))}" title="{t}">{num}<span class="t">{t}</span></a></li>')
+        img = page_thumb(p, used, game)
+        th = (f'<span class="th"><img src="{href_from(cur_out, img)}" alt="" loading="lazy" decoding="async" width="320" height="180"></span>'
+              if img else '<span class="th none"></span>')
+        items.append(f'<li><a href="{href_from(cur_out, out_path(p))}" title="{t}">{th}<span class="b">{num}<span class="t">{t}</span></span></a></li>')
     return '<ul class="links">' + "".join(items) + "</ul>"
 
 
@@ -864,7 +922,7 @@ def build_hub(g, pages, idx):
     link = Linker(pages, gslug + "/index.htm")
     blocks = []
     if g == "plus":
-        blocks.append(group_links(idx["plus"][None], cur_out, pages, icons=True))
+        blocks.append(group_links(idx["plus"][None], cur_out, pages, icons=True, game="plus"))
         toc = ""
     else:
         present = [(k, n, a) for k, n, a in GROUPS if k in idx[g]]
@@ -873,7 +931,7 @@ def build_hub(g, pages, idx):
             paths = idx[g][k]
             cls = ' class="pd"' if g == "pd" else ""
             blocks.append(f'<section class="theme" id="{a}"><h2{cls}>{icon(GROUP_ICON[k])}{n} <span class="count">{len(paths)}</span></h2>'
-                          + group_links(paths, cur_out, pages, numbered=(k == "soluce")) + "</section>")
+                          + group_links(paths, cur_out, pages, numbered=(k == "soluce"), game=g) + "</section>")
     head = (f'<div class="page-head has-banner"{banner_style(cur_out, GAME_ART[g])}><div class="wrap">'
             f'<div class="crumbs"><a href="../">Accueil</a></div>'
             f'<h1>{gname}</h1><p class="lead">{GAME_INTRO[g]}</p>{toc}</div>{HUB_DECO.get(g, "")}</div>')
@@ -890,11 +948,12 @@ def build_home(pages, idx):
         count = len({p for v in idx[g].values() for p in v})
         fx = ('<i class="hit"></i><i class="hit"></i><i class="hit"></i>' if g == "ge" else '<i class="scan"></i>')
         cards.append(f'<a class="game {g} tilt" href="{gslug}/"><span class="ridges" aria-hidden="true"></span>'
+                     f'<span class="notch l" aria-hidden="true"></span><span class="notch r" aria-hidden="true"></span>'
                      f'<span class="label"{banner_style("index.html", CART_ART[g])}><span class="glow" aria-hidden="true"></span>'
                      f'<span aria-hidden="true">{fx}</span><span class="tag">{count} pages</span>'
                      f'<h2>{icon(GAME_ICON[g])}{gname}</h2><p>{GAME_INTRO[g]}</p><p class="themes">{themes}</p>'
                      f'<span class="go">Entrer {icon("arrow-right")}</span></span></a>')
-    plus = group_links(idx["plus"][None], "index.html", pages, icons=True)
+    plus = group_links(idx["plus"][None], "index.html", pages, icons=True, game="plus")
     n_img = sum(len(g["imgs"]) for v in IMG_PAGES.values() for g in v["groups"])
     stats = [(len(pages), "pages"), (n_img, "images"), (30, "challenges"), (2, "jeux cultes")]
     stats_html = "".join(f'<div class="stat"><b data-count="{n}">{n:,}</b><span>{l}</span></div>'.replace(",", "\u202f")
