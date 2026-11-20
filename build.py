@@ -167,6 +167,30 @@ def slug(s):
     return s or "section"
 
 
+# Fichiers d'origine disparus (vidéos, sons, logiciels) : on pointe vers une source vivante.
+LINK_FIX = [
+    ("goldeneyesetupeditorinstaller2", "https://www.goldeneyevault.com/"),
+    ("PD%20-%20Beta", "https://tcrf.net/Perfect_Dark#Unused_Music"),
+    ("PD%20-%20Area%2051", "https://tcrf.net/Perfect_Dark/Unused_Content_By_Level/Area_51"),
+    ("Goldeneye%20-%20Silo", "https://www.youtube.com/watch?v=VcCq4uOoI6g"),
+]
+
+
+def yt_cards(items):
+    """Vidéos YouTube : vignette + titre ; le lecteur ne se charge qu'au clic (rien ne vient de YouTube avant)."""
+    out = ['<div class="videos">']
+    for vid, title, desc in items:
+        t = html.escape(title)
+        out.append(
+            f'<figure class="yt"><a class="yt-go" href="https://www.youtube.com/watch?v={vid}" data-yt="{vid}" target="_blank" rel="noopener" '
+            f'aria-label="Regarder la vidéo : {t}">'
+            f'<img src="https://i.ytimg.com/vi/{vid}/hqdefault.jpg" alt="" loading="lazy" width="480" height="360">'
+            '<span class="yt-play" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5.5v13l10.5-6.5z"/></svg></span></a>'
+            f'<figcaption><strong>{t}</strong>' + (f'<span>{html.escape(desc)}</span>' if desc else "") + '</figcaption></figure>')
+    out.append("</div>")
+    return "\n".join(out)
+
+
 def inline(text, link):
     codes = []
 
@@ -189,6 +213,9 @@ def inline(text, link):
 
     def a(m):
         label, href = m.group(1), m.group(2)
+        fix = next((v for k, v in LINK_FIX if posixpath.basename(html.unescape(href)).startswith(k)), None)
+        if fix:
+            return f'<a href="{html.escape(fix)}" target="_blank" rel="noopener">{label}</a>'
         url, ext = link.resolve(html.unescape(href))
         if not label.strip():
             return ""
@@ -342,6 +369,16 @@ def render_body(body, link, ctx):
                 j += 1
             html_out.append(render_cards(items, link, cur_game))
             i = j + 1
+            continue
+        if s.startswith("{yt:"):
+            flush_para(para); para = []
+            vids = []
+            while i < len(lines) and (lines[i].strip().startswith("{yt:") or not lines[i].strip()):
+                mm = re.fullmatch(r"\{yt:([\w-]{11})\|([^|}]*)(?:\|([^}]*))?\}", lines[i].strip())
+                if mm:
+                    vids.append((mm.group(1), mm.group(2).strip(), (mm.group(3) or "").strip()))
+                i += 1
+            html_out.append(yt_cards(vids))
             continue
         if re.fullmatch(r"\{gal:\d+\}", s):
             flush_para(para); para = []
@@ -523,8 +560,8 @@ def nav_html(link, current_game):
     for g, (slug_, name) in GAMES.items():
         on = (' class="on pd"' if g == "pd" else ' class="on"') if g == current_game else ""
         cur = ' aria-current="page"' if g == current_game else ""
-        items.append(f'<li><a href="{r}{slug_}/"{on}{cur}>{icon(GAME_ICON[g])}{name}</a></li>')
-    return "\n".join(items)
+        items.append(f'<li><a href="{r}{slug_}/"{on}{cur}>{icon(GAME_ICON[g], "icon ni ni-" + g)}{name}</a></li>')
+    return "\n".join(items) + '\n<li class="nav-ind" aria-hidden="true"></li>'
 
 
 def to_top(game):
@@ -542,8 +579,8 @@ def to_top(game):
         hexa = "M28 3 L49.6 15.5 L49.6 40.5 L28 53 L6.4 40.5 L6.4 15.5 Z"
         ring = (f'<path class="track" d="{hexa}"/>'
                 f'<path class="fill" d="{hexa}" pathLength="100"/>')
-        glyph = ('<g class="glyph thrust"><path class="c1" d="M20 32l8-8 8 8"/><path class="c2" d="M20 40l8-8 8 8"/></g>'
-                 '<path class="beam" d="M28 22V4"/>')
+        glyph = ('<g class="glyph thrust"><path class="c1" d="M20 28l8-8 8 8"/><path class="c2" d="M20 36l8-8 8 8"/></g>'
+                 '<path class="beam" d="M28 18V4"/>')
         label = "Retour en haut : propulsion"
     else:
         ring = ('<defs><linearGradient id="tt-g" x1="0" y1="0" x2="1" y2="1">'
@@ -557,14 +594,88 @@ def to_top(game):
             f'<svg viewBox="0 0 56 56" aria-hidden="true">{ring}{glyph}</svg></button>')
 
 
+# ---------------------------------------------------------------- SEO : titres de pages
+BRAND = "GE & PD 64"
+GNAME = {"ge": "GoldenEye 007", "pd": "Perfect Dark"}
+SEO_TITLES = {
+    "index.html": "GoldenEye 007 & Perfect Dark N64 : soluces, codes et secrets",
+    "goldeneye/index.html": "GoldenEye 007 N64 : soluce, Battle, codes et secrets",
+    "perfect-dark/index.html": "Perfect Dark N64 : soluce, challenges, codes et secrets",
+    "infos/index.html": "Infos : émulation, Action Replay, liens et contact",
+    "action-replay/explication.html": "Action Replay et GameShark N64 : mode d'emploi",
+    "autres/index.html": "Les autres jeux préférés de Tim sur Nintendo 64",
+    "challenges/index.html": "Perfect Dark : les 30 challenges du Combat Simulator",
+    "cheats/index.html": "Codes et cheats de GoldenEye 007 et Perfect Dark",
+    "cinema/index.html": "GoldenEye 007 : les niveaux du jeu dans le film",
+    "complex/index.html": "GoldenEye 007 : The Complex, l'arène Battle culte",
+    "contact/index.html": "Contacter Tim, l'auteur du site",
+    "emulation/index.html": "Jouer à GoldenEye et Perfect Dark sur émulateur",
+    "liens/index.html": "Liens : les meilleurs sites sur GoldenEye et Perfect Dark",
+    "plans/index.html": "Perfect Dark : plans des niveaux multijoueur",
+    "battle/confidential.html": "Battle GoldenEye 007 : niveaux confidentiels",
+    "presentation/videos.html": "GoldenEye et Perfect Dark : pubs et vidéos d'époque",
+    "presentation/rareware.html": "GoldenEye 007 : la page de Rare traduite en français",
+    "presentation/makingof.html": "GoldenEye 007 : le making-of du jeu traduit",
+    "presentation/test-ge.html": "Test complet de GoldenEye 007 sur Nintendo 64",
+    "presentation/decouverte-pd.html": "Perfect Dark sur Nintendo 64 : découverte et test",
+    "presentation/decouverte-ge.html": "GoldenEye 007 sur Nintendo 64 : la découverte",
+    "presentation/diviseur.html": "GoldenEye 007 : c'est quoi un diviseur ?",
+    "battle/index.html": "Battle GoldenEye 007 : toutes les arènes multijoueur",
+    "beta/index.html": "Versions beta de GoldenEye 007 et Perfect Dark",
+    "mysteres/index.html": "Mystères et secrets de GoldenEye 007 et Perfect Dark",
+    "presentation/index.html": "Présentation de GoldenEye 007 et Perfect Dark",
+    "soluce/index.html": "Soluces complètes de GoldenEye 007 et Perfect Dark",
+    "action-replay/index.html": "Codes Action Replay de GoldenEye 007 et Perfect Dark",
+    "action-replay/niveaux/ge-nouveaux-niveaux.html": "Action Replay GoldenEye 007 : nouveaux niveaux à 2 joueurs",
+}
+
+
+def _tidy(name):
+    name = html.unescape(name)
+    name = re.sub(r"\s*\([^)]*\)", "", name).strip(" !.…")
+    name = re.sub(r"\s+-\s+", " – ", name)
+    name = re.sub(r"\bReferences\b", "Références", name)
+    return name
+
+
+def seo_title(out, title, game):
+    """Titre unique et parlant pour l'onglet et les moteurs de recherche (≈ 60 caractères)."""
+    if out in SEO_TITLES:
+        t = SEO_TITLES[out]
+    else:
+        sec = out.split("/", 1)[0]
+        g = GNAME.get(game, "")
+        name = _tidy(short_title(html.unescape(title)))
+        name = re.sub(r"^(Goldeneye|Perfect Dark)( Version Beta)?\s*:\s*", "", name)
+        if sec == "soluce":
+            t = f"Soluce {g} : mission {name}" if "007" not in name else f"Soluce {g} : le mode 007"
+        elif sec == "battle":
+            t = f"Battle {g} : arène {name} en multijoueur"
+        elif sec == "beta":
+            t = f"{g} : {name} dans la version beta"
+        elif sec == "mysteres":
+            t = f"Mystères de {g} : {name}"
+        elif sec == "action-replay":
+            t = f"Action Replay {g} : {name}"
+        elif sec == "challenges":
+            t = f"Perfect Dark : {name}"
+        elif sec == "presentation":
+            t = f"{g} N64 : {name}" if g else name
+        else:
+            t = f"{g} : {name}" if g else name
+    if len(t) + len(BRAND) + 3 <= 68:
+        t += " · " + BRAND
+    return t
+
+
 SITE_URL = "https://titelive.me/tim/"
 
 
-def layout(link, title, inner, section=None, game="", description=""):
+def layout(link, title, inner, section=None, game="", description="", tab_title=None):
     r = link.root()
     body_cls = f' class="theme-{game}"' if game else ""
     desc = html.escape(description or "Goldeneye 007 et Perfect Dark sur Nintendo 64 : soluces, battle, codes, beta, mystères.")
-    page_title = html.escape(title) + (" · " if title else "") + "Goldeneye & Perfect Dark"
+    page_title = html.escape(tab_title or seo_title(link.cur_out, title, game))
     if not description:
         for para in re.findall(r"<p\b[^>]*>(.*?)</p>", inner, re.S):
             txt = re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", "", para))).strip()
@@ -576,7 +687,29 @@ def layout(link, title, inner, section=None, game="", description=""):
     share = {"ge": "goldeneye", "pd": "perfect-dark"}.get(game, "accueil")
     url = SITE_URL + clean(link.cur_out).lstrip("./") if clean(link.cur_out) != "./" else SITE_URL
     og_img = f"{SITE_URL}images/partage/{share}.jpg"
-    head_meta = (f'<link rel="canonical" href="{url}">\n'
+    # données structurées : site, fil d'Ariane, jeu vidéo
+    ld = []
+    if url == SITE_URL:
+        ld.append({"@context": "https://schema.org", "@type": "WebSite", "name": "GoldenEye 007 & Perfect Dark",
+                   "url": SITE_URL, "inLanguage": "fr-FR", "description": html.unescape(desc)})
+    cm = re.search(r'<div class="crumbs">(.*?)</div>', inner, re.S)
+    if cm:
+        items, base = [], posixpath.dirname(link.cur_out)
+        for href, label in re.findall(r'<a href="([^"#]*)[^"]*">(.*?)</a>', cm.group(1)):
+            target = clean(posixpath.normpath(posixpath.join(base, href)) + ("/" if href.endswith("/") or href.endswith("../") else ""))
+            target = "" if target in ("./", ".", "./.") else target.lstrip("./")
+            items.append((html.unescape(re.sub("<[^>]+>", "", label)), SITE_URL + target))
+        items.append((html.unescape(title) or "Accueil", url))
+        ld.append({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+            {"@type": "ListItem", "position": i + 1, "name": n, "item": u} for i, (n, u) in enumerate(items)]})
+    if link.cur_out in ("goldeneye/index.html", "perfect-dark/index.html"):
+        g2 = "ge" if link.cur_out.startswith("goldeneye") else "pd"
+        ld.append({"@context": "https://schema.org", "@type": "VideoGame", "name": GNAME[g2],
+                   "gamePlatform": "Nintendo 64", "publisher": {"@type": "Organization", "name": "Nintendo" if g2 == "ge" else "Rare"},
+                   "author": {"@type": "Organization", "name": "Rare"}, "datePublished": "1997-08-25" if g2 == "ge" else "2000-05-22",
+                   "genre": "Jeu de tir à la première personne", "image": og_img, "url": url})
+    ld_html = "".join(f'<script type="application/ld+json">{json.dumps(d, ensure_ascii=False)}</script>\n' for d in ld)
+    head_meta = (ld_html + f'<link rel="canonical" href="{url}">\n'
                  f'<meta property="og:type" content="website">\n<meta property="og:locale" content="fr_FR">\n'
                  f'<meta property="og:site_name" content="Goldeneye &amp; Perfect Dark">\n'
                  f'<meta property="og:title" content="{page_title}">\n<meta property="og:description" content="{desc}">\n'
@@ -798,6 +931,10 @@ def build_page(path, page, pages, order, idx, where):
     ctx = {"game": game, "ids": set(), "galleries": galleries}
     body_html, headings = render_body(body, link, ctx)
     # petite image + texte qui la suit : côte à côte (image à gauche, texte à droite)
+    # textes alternatifs : chaque image de galerie sans légende reçoit une description tirée du titre de la page
+    alt_base = html.escape(short_title(html.unescape(page["title"])), quote=True)
+    alt_n = iter(range(1, 10000))
+    body_html = re.sub(r'(<a class="zoom"[^>]*><img [^>]*?)alt=""', lambda m: f'{m.group(1)}alt="{alt_base} : image {next(alt_n)}"', body_html)
     body_html = re.sub(r'(<div class="gallery side">(?:(?!</div>).)*</div>)\s*(<(p|ul|ol)\b.*?</\3>)',
                        r'<div class="media">\1<div class="media-t">\2</div></div>', body_html, flags=re.S)
 
@@ -955,7 +1092,7 @@ def banner_style(cur_out, img):
 
 
 HUB_DECO = {"ge": ('<svg class="deco dial" viewBox="0 0 200 200" width="240" height="240" aria-hidden="true"><defs><clipPath id="lcd-clip"><circle cx="100" cy="100" r="58"/></clipPath><radialGradient id="lcd" cx="50%" cy="42%" r="60%"><stop offset="0" stop-color="#8dff5a"/><stop offset=".6" stop-color="#3fd23a"/><stop offset="1" stop-color="#15701c"/></radialGradient><linearGradient id="scan-g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#eaffd8" stop-opacity=".45"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient></defs><circle cx="100" cy="100" r="99" fill="#08090b" stroke="rgba(255,255,255,.22)" stroke-width="2"/><path class="seg" style="--i:0" d="M44.0 25.7A93 93 0 0 1 56.3 17.9L64.3 32.9A76.0 76.0 0 0 0 54.3 39.3Z" fill="#ff2414"/><path class="seg" style="--i:0" d="M143.7 17.9A93 93 0 0 1 156.0 25.7L145.7 39.3A76.0 76.0 0 0 0 135.7 32.9Z" fill="#2b4dff"/><path class="seg" style="--i:1" d="M29.8 39.0A93 93 0 0 1 40.2 28.8L50.3 40.8A77.3 77.3 0 0 0 41.7 49.3Z" fill="#ff3616"/><path class="seg" style="--i:1" d="M159.8 28.8A93 93 0 0 1 170.2 39.0L158.3 49.3A77.3 77.3 0 0 0 149.7 40.8Z" fill="#4362ff"/><path class="seg" style="--i:2" d="M18.7 54.9A93 93 0 0 1 26.7 42.7L38.1 51.6A78.6 78.6 0 0 0 31.3 61.9Z" fill="#ff4717"/><path class="seg" style="--i:2" d="M173.3 42.7A93 93 0 0 1 181.3 54.9L168.7 61.9A78.6 78.6 0 0 0 161.9 51.6Z" fill="#5c76ff"/><path class="seg" style="--i:3" d="M11.1 72.8A93 93 0 0 1 16.4 59.2L28.2 65.0A79.9 79.9 0 0 0 23.6 76.6Z" fill="#ff5818"/><path class="seg" style="--i:3" d="M183.6 59.2A93 93 0 0 1 188.9 72.8L176.4 76.6A79.9 79.9 0 0 0 171.8 65.0Z" fill="#748aff"/><path class="seg" style="--i:4" d="M7.4 91.9A93 93 0 0 1 9.8 77.5L21.2 80.4A81.2 81.2 0 0 0 19.1 92.9Z" fill="#ff6a1a"/><path class="seg" style="--i:4" d="M190.2 77.5A93 93 0 0 1 192.6 91.9L180.9 92.9A81.2 81.2 0 0 0 178.8 80.4Z" fill="#8c9fff"/><path class="seg" style="--i:5" d="M7.7 111.3A93 93 0 0 1 7.1 96.8L17.6 97.1A82.5 82.5 0 0 0 18.1 110.1Z" fill="#ff7c1c"/><path class="seg" style="--i:5" d="M192.9 96.8A93 93 0 0 1 192.3 111.3L181.9 110.1A82.5 82.5 0 0 0 182.4 97.1Z" fill="#a5b4ff"/><path class="seg" style="--i:6" d="M12.1 130.3A93 93 0 0 1 8.4 116.1L17.5 114.6A83.8 83.8 0 0 0 20.8 127.3Z" fill="#ff8d1d"/><path class="seg" style="--i:6" d="M191.6 116.1A93 93 0 0 1 187.9 130.3L179.2 127.3A83.8 83.8 0 0 0 182.5 114.6Z" fill="#bdc8ff"/><path class="seg" style="--i:7" d="M20.3 147.9A93 93 0 0 1 13.8 134.8L21.1 131.9A85.1 85.1 0 0 0 27.1 143.8Z" fill="#ff9e1e"/><path class="seg" style="--i:7" d="M186.2 134.8A93 93 0 0 1 179.7 147.9L172.9 143.8A85.1 85.1 0 0 0 178.9 131.9Z" fill="#d6dcff"/><path class="seg" style="--i:8" d="M32.0 163.4A93 93 0 0 1 22.9 152.0L28.4 148.3A86.4 86.4 0 0 0 36.8 158.9Z" fill="#ffb020"/><path class="seg" style="--i:8" d="M177.1 152.0A93 93 0 0 1 168.0 163.4L163.2 158.9A86.4 86.4 0 0 0 171.6 148.3Z" fill="#eef1ff"/><g fill="#9aa0a8"><rect x="97" y="9" width="2.4" height="11" rx="1"/><rect x="101" y="9" width="2.4" height="11" rx="1"/><rect x="98.8" y="180" width="2.4" height="11" rx="1"/><rect x="9" y="98.8" width="11" height="2.4" rx="1"/><rect x="180" y="98.8" width="11" height="2.4" rx="1"/></g><circle class="lcd" cx="100" cy="100" r="58" fill="url(#lcd)"/><g clip-path="url(#lcd-clip)"><rect class="scanl" x="40" y="36" width="120" height="10" fill="url(#scan-g)"/></g><g class="sweep"><circle cx="100" cy="4.5" r="2.6" fill="#fff"/></g><g class="lcd-txt" fill="#0a2a0c" font-family="ui-monospace,Menlo,Consolas,monospace" text-anchor="middle"><text x="100" y="66" font-size="6.5" font-weight="700">G-WATCH 007</text><text x="100" y="75" font-size="5.2">MISSION STATUS : <tspan class="blink">ACTIVE</tspan></text><text class="clock" x="100" y="108" font-size="27" font-weight="700">00:07</text><text class="date" x="100" y="121" font-size="7">MI6 · N64</text><text x="100" y="136" font-size="5.2"><tspan class="m m1">WATCH</tspan> · <tspan class="m m2">LASER</tspan> · <tspan class="m m3">MAGNET</tspan></text></g></svg>'),
-            "pd": '<div class="deco hud" aria-hidden="true"></div>'}
+            "pd": '<div class="deco hud" aria-hidden="true"></div>' + '<svg class="deco dial radar" viewBox="0 0 200 200" width="240" height="240" aria-hidden="true"><defs><radialGradient id="rd-bg" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#0c1e3a"/><stop offset="1" stop-color="#05080f"/></radialGradient><linearGradient id="rd-sw" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3dff7a" stop-opacity="0"/><stop offset="1" stop-color="#3dff7a" stop-opacity=".55"/></linearGradient><clipPath id="rd-clip"><circle cx="100" cy="100" r="84"/></clipPath></defs><circle cx="100" cy="100" r="99" fill="#06090f" stroke="rgba(61,139,255,.55)" stroke-width="2"/><g class="ring" stroke="#3d8bff" stroke-width="1.4" opacity=".8"><line x1="100" y1="4" x2="100" y2="12" transform="rotate(0 100 100)"/><line x1="100" y1="7" x2="100" y2="12" transform="rotate(6 100 100)"/><line x1="100" y1="7" x2="100" y2="12" transform="rotate(12 100 100)"/><line x1="100" y1="7" x2="100" y2="12" transform="rotate(18 100 100)"/><line x1="100" y1="7" x2="100" y2="12" transform="rotate(24 100 100)"/><line x1="100" y1="4" x2="100" y2="12" transform="rotate(30 100 100)"/><line x1="100" y1="7" x2="100" y2="12" transform="rotate(36 100 100)"/><line x1="100" y1="7" x2="100" y2="12" transform="rotate(42 100 100)"/><line x1="100" y1="7" x2="100" y2="12" transform="rotate(48 100 100)"/><line x1="100" y1="7" x2="100" y2="12" transform="rotate(54 100 100)"/><line x1="100" y1="4" x2="100" y2="12" transform="rotate(60 100 100)"/><line x1="100" y1="7" x2="100" y2="12" transform="rotate(66 100 100)"/><line x1="100" y1="7" x2="100" y2="12" transform="rotate(72 100 100)"/><line x1="100" y1="7" x2="100" y2="12" transform="rotate(78 100 100)"/><line x1="100" y1="7" x2="100" y2="12" transform="rotate(84 100 100)"/><line x1="100" y1="4" x2="100" y2="12" transform="rotate(90 100 100)"/><line x1="100" y1="7" x2="100" y2="12" transform="rotate(96 100 100)"/><line x1="100" y1="7" x2="100" y2="12" transform="rotate(102 100 100)"/><line x1="100" y1="7" x2="100" y2="12" transform="rotate(108 100 100)"/><line x1="100" y1="7" x2="100" y2="12" transform="rotate(114 100 100)"/><line x1="100" y1="4" x2="100" y2="12" transform="rotate(120 100 100)"/><line x1="100" y1="7" x2="100" y2="12" transform="rotate(126 100 100)"/><line x1="100" y1="7" x2="100" y2="12" transform="rotate(132 100 100)"/><line x1="100" y1="7" x2="100" y2="12" transform="rotate(138 100 100)"/><line x1="100" y1="7" x2="100" y2="12" transform="rotate(144 100 100)"/><line x1="100" y1="4" x2="100" y2="12" transform="rotate(150 100 100)"/><line x1="100" y1="7" x2="100" y2="12" transform="rotate(156 100 100)"/><line x1="100" y1="7" x2="100" y2="12" transform="rotate(162 100 100)"/><line x1="100" y1="7" x2="100" y2="12" transform="rotate(168 100 100)"/><line x1="100" y1="7" x2="100" y2="12" transform="rotate(174 100 100)"/><line x1="100" y1="4" x2="100" y2="12" transform="rotate(180 100 100)"/><line x1="100" y1="7" x2="100" y2="12" transform="rotate(186 100 100)"/><line x1="100" y1="7" x2="100" y2="12" transform="rotate(192 100 100)"/><line x1="100" y1="7" x2="100" y2="12" transform="rotate(198 100 100)"/><line x1="100" y1="7" x2="100" y2="12" transform="rotate(204 100 100)"/><line x1="100" y1="4" x2="100" y2="12" transform="rotate(210 100 100)"/><line x1="100" y1="7" x2="100" y2="12" transform="rotate(216 100 100)"/><line x1="100" y1="7" x2="100" y2="12" transform="rotate(222 100 100)"/><line x1="100" y1="7" x2="100" y2="12" transform="rotate(228 100 100)"/><line x1="100" y1="7" x2="100" y2="12" transform="rotate(234 100 100)"/><line x1="100" y1="4" x2="100" y2="12" transform="rotate(240 100 100)"/><line x1="100" y1="7" x2="100" y2="12" transform="rotate(246 100 100)"/><line x1="100" y1="7" x2="100" y2="12" transform="rotate(252 100 100)"/><line x1="100" y1="7" x2="100" y2="12" transform="rotate(258 100 100)"/><line x1="100" y1="7" x2="100" y2="12" transform="rotate(264 100 100)"/><line x1="100" y1="4" x2="100" y2="12" transform="rotate(270 100 100)"/><line x1="100" y1="7" x2="100" y2="12" transform="rotate(276 100 100)"/><line x1="100" y1="7" x2="100" y2="12" transform="rotate(282 100 100)"/><line x1="100" y1="7" x2="100" y2="12" transform="rotate(288 100 100)"/><line x1="100" y1="7" x2="100" y2="12" transform="rotate(294 100 100)"/><line x1="100" y1="4" x2="100" y2="12" transform="rotate(300 100 100)"/><line x1="100" y1="7" x2="100" y2="12" transform="rotate(306 100 100)"/><line x1="100" y1="7" x2="100" y2="12" transform="rotate(312 100 100)"/><line x1="100" y1="7" x2="100" y2="12" transform="rotate(318 100 100)"/><line x1="100" y1="7" x2="100" y2="12" transform="rotate(324 100 100)"/><line x1="100" y1="4" x2="100" y2="12" transform="rotate(330 100 100)"/><line x1="100" y1="7" x2="100" y2="12" transform="rotate(336 100 100)"/><line x1="100" y1="7" x2="100" y2="12" transform="rotate(342 100 100)"/><line x1="100" y1="7" x2="100" y2="12" transform="rotate(348 100 100)"/><line x1="100" y1="7" x2="100" y2="12" transform="rotate(354 100 100)"/></g><circle cx="100" cy="100" r="84" fill="url(#rd-bg)" stroke="#3d8bff" stroke-opacity=".6"/><g clip-path="url(#rd-clip)"><g fill="none" stroke="#3d8bff" stroke-opacity=".35"><circle cx="100" cy="100" r="28"/><circle cx="100" cy="100" r="50"/><circle cx="100" cy="100" r="70"/><path d="M16 100H184M100 16V184" stroke-dasharray="2 4"/></g><g class="sweep-w"><path d="M100 100L184 100A84 84 0 0 0 159.4 40.6Z" fill="url(#rd-sw)"/><line x1="100" y1="100" x2="184" y2="100" stroke="#3dff7a" stroke-width="1.6"/></g><g fill="#3dff7a"><circle class="blip" style="--d:0.4s" cx="126.0" cy="55.0" r="2.6"/><circle class="blip" style="--d:1.6s" cx="131.9" cy="111.6" r="2.6"/><circle class="blip" style="--d:2.5s" cx="54.0" cy="138.6" r="2.6"/><circle class="blip" style="--d:3.3s" cx="71.7" cy="66.3" r="2.6"/><circle class="blip" style="--d:1.0s" cx="93.9" cy="169.7" r="2.6"/></g><rect class="hscan" x="16" y="16" width="168" height="2" fill="#9fd0ff" opacity=".5"/></g><polygon class="hex" points="100.0,78.0 119.1,89.0 119.1,111.0 100.0,122.0 80.9,111.0 80.9,89.0" fill="rgba(61,139,255,.15)" stroke="#9fd0ff" stroke-width="1.4"/><circle class="core" cx="100" cy="100" r="6" fill="#3dff7a"/><g font-family="ui-monospace,Menlo,Consolas,monospace" text-anchor="middle" fill="#9fd0ff"><text x="100" y="40" font-size="6.5" font-weight="700" letter-spacing="1.5">CARRINGTON</text><text x="100" y="166" font-size="5.6" letter-spacing="1">SCAN <tspan class="blink" fill="#3dff7a">● ACTIF</tspan></text></g></svg>'}
 
 
 def build_hub(g, pages, idx):
@@ -1045,6 +1182,15 @@ def main():
         dest.parent.mkdir(parents=True, exist_ok=True)
         dest.write_text(build_hub(g, pages, idx), encoding="utf-8")
     (ROOT / "index.html").write_text(build_home(pages, idx), encoding="utf-8")
+    # plan du site pour les moteurs de recherche
+    import datetime
+    today = datetime.date.today().isoformat()
+    urls = sorted(clean(str(f.relative_to(ROOT)).replace(os.sep, "/")) for f in ROOT.rglob("*.html")
+                  if not any(part.startswith(".") or part in ("tools", "contenu", "fichiers") for part in f.relative_to(ROOT).parts))
+    def prio(u):
+        return "1.0" if u == "./" else "0.9" if u in ("goldeneye/", "perfect-dark/") else "0.6"
+    (ROOT / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + "".join(
+        f"  <url><loc>{SITE_URL}{'' if u == './' else u}</loc><lastmod>{today}</lastmod><priority>{prio(u)}</priority></url>\n" for u in urls) + "</urlset>\n", encoding="utf-8")
     hidden = [p for p in order if p not in where]
     print("pages non rangées :", hidden)
     print(f"{written} pages + accueil générés.")

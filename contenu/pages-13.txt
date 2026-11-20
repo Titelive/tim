@@ -232,8 +232,8 @@ C'est la Partie que chaque Site sur l'Emulation se doit de préciser : si vous p
 
 Le Meilleur Emulateur est Project 64. Allez sur le Site Officiel et téléchargez la Dernière Version. Cet Emulateur n'est pas très dur à configurer. La Chose Importante à configurer est ici : allez dans Options, puis Réglages, et décochez la Case « Cacher les Réglages Avancés ». Ainsi, vous pourrez entrer des Codes Action Replay ! Voici la Liste des Emulateurs que je vous conseille.
 
-- **Project 64** : le Meilleur Emulateur pour jouer aux Jeux N64 !
-- **Mupen** : le Meilleur Emulateur pour jouer à Goldeneye en Ligne !
+- **[Project 64](https://www.pj64-emu.com/)** : le Meilleur Emulateur pour jouer aux Jeux N64 !
+- **[Mupen64Plus](https://mupen64plus.org/)** : le Meilleur Emulateur pour jouer à Goldeneye en Ligne !
 
 ## Comment jouer en Ligne avec Mupen ?
 
