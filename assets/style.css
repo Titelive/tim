@@ -157,35 +157,34 @@ main{animation:enter .6s var(--ease) both}
 
 /* Cartes des jeux en forme de cartouche N64 : plastique gris (Goldeneye) ou noir (Perfect Dark), étiquette illustrée */
 .games{display:flex;flex-wrap:wrap;gap:40px 48px;margin-top:56px;padding:0 20px 40px 0}
-/* Cartouches Nintendo 64 en 3D : façade grise, ailes latérales, tranche et dessus visibles */
-.game{--cart:#a3a6ad;--cart-hi:#c4c7cd;--cart-lo:#7c7f86;--cart-side:#8a8d94;--depth:44px;position:relative;flex:1 1 320px;display:flex;padding:40px 6.5% 30px;border-radius:30px 30px 16px 16px;color:#fff;
-  background:
-    linear-gradient(90deg,transparent calc(5.2% - 2px),rgba(0,0,0,.22) calc(5.2% - 2px) 5.2%,rgba(255,255,255,.35) 5.2% calc(5.2% + 1px),transparent calc(5.2% + 1px) calc(94.8% - 1px),rgba(0,0,0,.22) calc(94.8% - 1px) 94.8%,rgba(255,255,255,.3) 94.8% calc(94.8% + 2px),transparent calc(94.8% + 2px)),
-    radial-gradient(120% 60px at 50% 0,rgba(255,255,255,.45),transparent 70%),
-    linear-gradient(180deg,var(--cart-hi),var(--cart) 22%,var(--cart) 78%,var(--cart-lo));
-  box-shadow:inset 0 2px 0 rgba(255,255,255,.55),inset 0 -4px 0 rgba(0,0,0,.18),0 40px 50px -30px rgba(0,0,0,.75);
-  transform-style:preserve-3d;perspective:520px;perspective-origin:150% -70%;--cart-t:perspective(1600px) rotateX(calc(var(--tilt,0deg) + var(--rx,0deg))) rotateY(calc(var(--turn,0deg) + var(--ry,0deg))) translateY(var(--lift,0px));transform:var(--cart-t);transition:transform .4s var(--ease),box-shadow .3s var(--ease)}
-.game.reveal.in{transform:var(--cart-t)}
-.game.reveal:not(.in){transform:translateY(24px) var(--cart-t)}
-.game.pd{--cart:#5d6069;--cart-hi:#7d808a;--cart-lo:#43464e;--cart-side:#4a4d55}
-/* tranche latérale (épaisseur) et dessus arrondi */
-.game::after{content:"";position:absolute;top:14px;bottom:6px;right:0;width:var(--depth);border-radius:0 14px 10px 0;transform-origin:100% 50%;transform:rotateY(-90deg);
-  background:repeating-linear-gradient(180deg,transparent 0 9px,rgba(0,0,0,.18) 9px 11px),linear-gradient(90deg,var(--cart-side),var(--cart-lo));pointer-events:none}
-.game::before{content:"";position:absolute;left:24px;right:24px;top:0;height:var(--depth);border-radius:16px 16px 0 0;transform-origin:50% 0;transform:rotateX(-90deg);
-  background:repeating-linear-gradient(90deg,var(--cart-hi) 0 6px,var(--cart) 6px 8px);pointer-events:none}
-/* encoches du bas des ailes et rainures du haut */
-.game .ridges{position:absolute;top:12px;left:28%;right:28%;height:14px;border-radius:var(--r-pill);background:repeating-linear-gradient(180deg,rgba(0,0,0,.25) 0 2px,rgba(255,255,255,.28) 2px 4px);opacity:.75}
-.game .notch{position:absolute;bottom:22px;width:2.6%;height:46px;border-radius:4px;background:linear-gradient(180deg,rgba(0,0,0,.35),rgba(0,0,0,.12));box-shadow:inset 0 1px 2px rgba(0,0,0,.4),0 1px 0 rgba(255,255,255,.25)}
-.game .notch.l{left:1.3%}.game .notch.r{right:1.3%}
-.game .label{position:relative;flex:1;display:flex;flex-direction:column;min-height:440px;padding:22px 22px 20px;border-radius:var(--r-sm,8px);overflow:hidden;isolation:isolate;background:#0b0c10;box-shadow:0 0 0 3px rgba(0,0,0,.18),0 0 0 4px rgba(255,255,255,.25),inset 0 0 0 1px rgba(0,0,0,.45)}
+/* Cartouches Nintendo 64, vues de face : bloc central plus haut et bombé, ailes latérales plus basses
+   aux angles extérieurs très arrondis, étiquette en creux. Mêmes proportions que la vraie cartouche. */
+.game{--w:clamp(44px,7vw,84px);box-sizing:border-box;min-width:0;position:relative;isolation:isolate;flex:1 1 400px;display:flex;padding:30px calc(var(--w) + 16px) 30px;color:#fff;
+  filter:drop-shadow(0 22px 22px rgba(0,0,0,.42));
+  transform:perspective(1400px) rotateX(var(--rx,0deg)) rotateY(var(--ry,0deg)) translateY(var(--lift,0px));transition:transform .4s var(--ease),filter .3s var(--ease)}
+.game.reveal.in{transform:perspective(1400px) rotateX(var(--rx,0deg)) rotateY(var(--ry,0deg)) translateY(var(--lift,0px))}
+.game.reveal:not(.in){transform:translateY(24px)}
+/* bloc central */
+.game::before{content:"";position:absolute;z-index:-1;left:calc(var(--w) - 1px);right:calc(var(--w) - 1px);top:0;bottom:0;border-radius:22px 22px 6px 6px / 30px 30px 6px 6px;
+  background:radial-gradient(90% 26px at 50% 0,rgba(255,255,255,.55),transparent 80%),linear-gradient(180deg,#c9cbd0,#acaeb3 7%,#a2a4a9 60%,#8f9196 97%,#7b7d82);
+  box-shadow:inset 1px 0 0 rgba(255,255,255,.35),inset -1px 0 0 rgba(0,0,0,.18),inset 0 -2px 0 rgba(0,0,0,.15)}
+/* ailes */
+.game .wing{position:absolute;z-index:-2;top:5%;bottom:0;width:calc(var(--w) + 12px);
+  background:linear-gradient(180deg,rgba(255,255,255,.28),transparent 9%,transparent 92%,rgba(0,0,0,.18)),linear-gradient(90deg,#8a8c91,#a0a2a7 22%,#a6a8ad 26%,#9a9ca1 30%,#a4a6ab 70%,#96989d)}
+.game .wing.l{left:0;border-radius:34px 0 0 8px / 46px 0 0 8px;box-shadow:inset 1px 0 0 rgba(255,255,255,.3)}
+.game .wing.r{right:0;border-radius:34px 0 0 8px / 46px 0 0 8px;transform:scaleX(-1)}
+/* sillon entre le bloc central et chaque aile */
+.game .wing::after{content:"";position:absolute;top:8px;bottom:6px;right:12%;width:2px;border-radius:2px;background:linear-gradient(90deg,rgba(0,0,0,.22),rgba(255,255,255,.35))}
+.game:hover{text-decoration:none;--lift:-6px}
+.game .label{position:relative;flex:1;display:flex;flex-direction:column;min-height:520px;padding:22px 22px 20px;border-radius:10px;overflow:hidden;isolation:isolate;background:#0b0c10;box-shadow:0 0 0 2px rgba(0,0,0,.22),0 1px 0 3px rgba(255,255,255,.3),inset 0 0 0 1px rgba(0,0,0,.45)}
 .game .label::before{content:"";position:absolute;inset:0;z-index:-2;background:var(--banner) center 22%/cover no-repeat;transform:scale(1.03);transition:transform .9s var(--ease),filter .5s var(--ease)}
 .game .label::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(8,9,12,0) 0%,rgba(8,9,12,.15) 30%,rgba(8,9,12,.85) 58%,rgba(8,9,12,.96) 80%)}
 .game.ge .label::before{background-position:52% 20%}
-.game.pd .label::before{background-position:50% 64%}
+.game.pd .label::before{background-position:50% 88%}
 .game.ge .label::before{filter:contrast(1.05)}
 .game:hover{text-decoration:none;--lift:-6px}
-.game.ge:hover{box-shadow:inset 0 2px 0 rgba(255,255,255,.55),inset 0 -4px 0 rgba(0,0,0,.18),0 40px 60px -26px rgba(255,122,26,.6)}
-.game.pd:hover{box-shadow:inset 0 2px 0 rgba(255,255,255,.3),inset 0 -4px 0 rgba(0,0,0,.25),0 40px 60px -26px rgba(61,139,255,.75)}
+.game.ge:hover{filter:drop-shadow(0 26px 26px rgba(255,122,26,.5))}
+.game.pd:hover{filter:drop-shadow(0 26px 26px rgba(61,139,255,.55))}
 .game:hover .label::before{transform:scale(1.1)}
 .game.ge:hover .label::before{filter:none}
 .game .glow{position:absolute;inset:0;z-index:-1;opacity:0;transition:opacity .3s var(--ease);background:radial-gradient(340px circle at var(--mx,50%) var(--my,50%),rgba(255,140,40,.28),transparent 60%)}
@@ -205,7 +204,7 @@ main{animation:enter .6s var(--ease) both}
 .game.ge:hover .label .hit:nth-of-type(3){animation-delay:.24s}
 .game .tag{align-self:flex-start;margin-top:auto;font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:3px 10px;border-radius:var(--r-pill);color:#ffd27a;border:1px solid rgba(255,170,60,.5);background:rgba(255,122,26,.16);backdrop-filter:blur(6px)}
 .game.pd .tag{color:var(--neon);border-color:rgba(61,255,122,.45);background:rgba(61,255,122,.1)}
-.game h2{font-family:var(--display);font-weight:400;font-size:54px;line-height:1;margin:8px 0 8px;display:flex;align-items:center;gap:10px;background:var(--g-fire);-webkit-background-clip:text;background-clip:text;color:transparent}
+.game h2{font-family:var(--display);font-weight:400;font-size:clamp(38px,3.6vw,50px);line-height:1;margin:8px 0 8px;display:flex;align-items:center;gap:10px;background:var(--g-fire);-webkit-background-clip:text;background-clip:text;color:transparent}
 .game h2 .icon{width:32px;height:32px;stroke:#ffb347}
 .game.pd h2{background:var(--g-pd);-webkit-background-clip:text;background-clip:text;font-style:italic;letter-spacing:2px}
 .game.pd h2 .icon{stroke:#7cb7ff}
@@ -215,7 +214,7 @@ main{animation:enter .6s var(--ease) both}
 .game.pd .go{color:#fff;background:var(--g-pd)}
 .game:hover .go{gap:12px;box-shadow:0 8px 22px -6px var(--fire)}
 .game.pd:hover .go{box-shadow:0 8px 22px -6px var(--pd)}
-@media (max-width:600px){.hero{padding-top:44px}.hero-bg .ge{clip-path:polygon(0 0,100% 0,100% 46%,0 54%)}.hero-bg .pd{clip-path:polygon(0 54%,100% 46%,100% 100%,0 100%)}.hero-bg::before{display:none}.marquee img{width:140px;height:96px}.stat b{font-size:32px}.game h2{font-size:44px}.game .label{min-height:420px}.game{padding:34px 8% 26px;--depth:30px}}
+@media (max-width:600px){.hero{padding-top:44px}.hero-bg .ge{clip-path:polygon(0 0,100% 0,100% 46%,0 54%)}.hero-bg .pd{clip-path:polygon(0 54%,100% 46%,100% 100%,0 100%)}.hero-bg::before{display:none}.marquee img{width:140px;height:96px}.stat b{font-size:32px}.game h2{font-size:44px}.game .label{min-height:420px}.game{--w:30px;flex-basis:100%;padding:22px calc(var(--w) + 10px) 22px}.game .wing{top:4%}}
 .section-title{font-family:var(--display);font-weight:400;font-size:32px;letter-spacing:.5px;margin:var(--section) 0 12px;color:var(--text)}
 .home-infos{padding-bottom:var(--section)}
 .home-infos ul.links li{flex-basis:180px}
@@ -226,12 +225,12 @@ ul.links{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:var(
 ul.links li{flex:1 1 230px;display:flex}
 ul.links a{flex:1;display:flex;flex-direction:column;border-radius:var(--r-md);background:var(--card);border:1px solid var(--line);color:var(--text);font-size:15px;line-height:1.35}
 /* image de chaque encart : même hauteur partout, léger zoom et halo au survol */
-ul.links .th{position:relative;display:block;height:132px;overflow:hidden;border-radius:calc(var(--r-md) - 1px) calc(var(--r-md) - 1px) 0 0;background:color-mix(in srgb,var(--accent) 14%,var(--card))}
+ul.links .th{position:relative;display:block;height:132px;overflow:hidden;clip-path:inset(0);-webkit-clip-path:inset(0);isolation:isolate;border-radius:calc(var(--r-md) - 1px) calc(var(--r-md) - 1px) 0 0;background:color-mix(in srgb,var(--accent) 14%,var(--card))}
 ul.links .th img{width:100%;height:100%;object-fit:cover;display:block;transform:scale(1.02);transition:transform .7s var(--ease),filter .4s var(--ease);filter:saturate(.9)}
 ul.links .th::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 55%,color-mix(in srgb,var(--card) 70%,transparent));pointer-events:none}
 ul.links a:hover .th img{transform:scale(1.1);filter:saturate(1.15)}
 ul.links .b{flex:1;display:flex;align-items:center;gap:10px;padding:10px 14px;min-height:58px}
-ul.links a{position:relative;overflow:hidden}
+ul.links a{position:relative;overflow:hidden;isolation:isolate}
 ul.links a::before{content:"";position:absolute;inset:0;background:linear-gradient(110deg,transparent 30%,color-mix(in srgb,var(--accent) 16%,transparent) 50%,transparent 70%);transform:translateX(-100%);transition:transform .6s var(--ease);pointer-events:none}
 ul.links a:hover::before{transform:translateX(100%)}
 ul.links a:hover{border-color:var(--accent);text-decoration:none;transform:translateY(-3px);box-shadow:0 14px 30px -16px color-mix(in srgb,var(--accent) 60%,transparent)}
