@@ -252,20 +252,20 @@
     var ui = document.createElement("div");
     var ic = function (d) { return '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="' + d + '"/></svg>'; };
     ui.className = "game-audio " + game;
-    ui.innerHTML = '<button class="pa-play" type="button">' +
+    ui.innerHTML = '<span class="pa-btn"><button class="pa-play" type="button">' +
       '<svg class="i-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5z"/></svg>' +
       '<svg class="i-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z"/></svg></button>' +
+      '<div class="pa-yt" aria-hidden="true"><div id="pa-yt"></div></div></span>' +
       '<span class="pa-txt"><span class="pa-song"><b class="pa-title"></b></span><span class="pa-sub"></span></span>' +
       '<span class="pa-eq" aria-hidden="true"><i></i><i></i><i></i><i></i></span>' +
       '<span class="pa-skip"><button class="pa-prev" type="button" aria-label="Morceau précédent">' + ic("M6 5h2.5v14H6zM19 5.5v13L9.5 12z") + '</button>' +
       '<button class="pa-next" type="button" aria-label="Morceau suivant">' + ic("M15.5 5H18v14h-2.5zM5 5.5v13L14.5 12z") + '</button></span>' +
-      '<input class="pa-vol" type="range" min="0" max="100" step="1" aria-label="Volume">' +
-      '<div class="pa-yt" aria-hidden="true"><div id="pa-yt"></div></div>';
+      '<input class="pa-vol" type="range" min="0" max="100" step="1" aria-label="Volume">';
     document.body.appendChild(ui);
     var btn = ui.querySelector(".pa-play"), title = ui.querySelector(".pa-title"), sub = ui.querySelector(".pa-sub"), vol = ui.querySelector(".pa-vol");
     var song = ui.querySelector(".pa-song"), skip = ui.querySelector(".pa-skip");
     vol.value = store.get("vol", "60");
-    var player = null, ready = false, want = false, loading = false, meta = {};
+    var player = null, ready = false, want = false, loading = false, meta = {}, loadedId = "";
 
     function track() { return AUDIO[game].list[idx]; }
     function info() {
@@ -321,20 +321,24 @@
       if (loading) return; loading = true;
       if (auto) sub.textContent = "Chargement…";
       window.onYouTubeIframeAPIReady = function () {
-        var id = track().id;
+        var id = track().id; loadedId = id;
         player = new YT.Player("pa-yt", {
           host: "https://www.youtube-nocookie.com", videoId: id, width: 200, height: 200,
           playerVars: { autoplay: auto ? 1 : 0, controls: 0, playsinline: 1, rel: 0, start: Math.floor(+store.get("t-" + id, "0")) },
           events: {
             onReady: function () {
               ready = true; player.setVolume(+vol.value);
-              if (player.getVideoData && player.getVideoData().video_id !== track().id) cue(false); // morceau changé entre-temps
+              if (track().id !== loadedId) cue(false); // morceau changé entre-temps
               if (want) player.playVideo();
+              // le vrai lecteur YouTube, invisible, est posé exactement sur le bouton : le premier clic
+              // tombe directement dedans, ce que tous les navigateurs acceptent pour lancer le son
+              ui.classList.add("yt-ready");
               render();
             },
             onStateChange: function (e) {
               if (e.data === 0) { store.set("t-" + track().id, "0"); go(1); return; } // morceau fini : le suivant
               if (e.data === 1) {
+                want = true; ui.classList.add("armed"); // ensuite, le bouton du site pilote le lecteur
                 var d = player.getVideoData && player.getVideoData(), t = track();
                 if (d && d.title && !store.get("meta-" + t.id, "")) {
                   meta[t.id] = { title: cleanTitle(d.title, t.title), artist: d.author || AUDIO[game].artist };
@@ -350,7 +354,7 @@
     }
     function saveTime() { if (ready && player.getCurrentTime) store.set("t-" + track().id, String(player.getCurrentTime() || 0)); }
     function cue(fromStart) {
-      var id = track().id, at = fromStart ? 0 : Math.floor(+store.get("t-" + id, "0"));
+      var id = track().id; if (ready) loadedId = id; var at = fromStart ? 0 : Math.floor(+store.get("t-" + id, "0"));
       if (fromStart) store.set("t-" + id, "0");
       if (ready) { if (want) player.loadVideoById({ videoId: id, startSeconds: at }); else player.cueVideoById({ videoId: id, startSeconds: at }); }
       store.set("idx-" + game, idx);
@@ -370,6 +374,9 @@
     function prepare() { if (!loading) load(false); }
     ui.addEventListener("pointerenter", prepare);
     ui.addEventListener("focusin", prepare);
+    // et, de toute façon, peu après l'affichage de la page (le lecteur se charge sans jamais jouer seul)
+    var idle = window.requestIdleCallback || function (f) { return setTimeout(f, 1); };
+    setTimeout(function () { idle(prepare); }, 1200);
     function pause() { want = false; if (ready) player.pauseVideo(); setState(false); }
     btn.addEventListener("click", function () { ui.classList.contains("on") ? pause() : play(); });
     ui.querySelector(".pa-prev").addEventListener("click", function () {
