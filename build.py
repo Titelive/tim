@@ -594,6 +594,7 @@ def layout(link, title, inner, section=None, game="", description=""):
 <footer>
   <div class="wrap">
     <p>Contenu écrit par <strong>Tim</strong>, passionné de <strong>Goldeneye 007</strong> et de <strong>Perfect Dark</strong>. Ce sont des jeux Rare / Nintendo ; ce site de fan n'est affilié à aucune de ces sociétés.</p>
+    <p class="credit"><a class="tlc" href="https://titelive.me" target="_blank" rel="noopener" title="titelive.me"><span>Site réalisé par</span><img src="/img/titelive-logo.png" alt="" width="22" height="22" loading="lazy"><b>Titelive</b></a></p>
   </div>
 </footer>
 {to_top(game)}
@@ -734,9 +735,15 @@ def place_images(page):
     return "\n\n".join(out), galleries
 
 
+LOWRES_W = 400    # en dessous de cette largeur d'origine, l'image est jugée de faible qualité
+LOWRES_MAX = 220  # largeur d'affichage maximale de ces images
+
+
 def gallery(imgs, link):
     if not imgs:
         return ""
+    # image de faible résolution : affichée petite (taille d'origine au plus), texte à droite
+    lowres = all(im.get("w") and im["w"] < LOWRES_W for im in imgs)
     figs = []
     for im in imgs:
         src = link.to(im["src"])
@@ -744,10 +751,17 @@ def gallery(imgs, link):
         alt = html.escape(im.get("alt") or "")
         dims = f' width="{im["w"]}" height="{im["h"]}"' if im.get("w") else ""
         cap = f"<figcaption>{alt}</figcaption>" if alt else ""
-        figs.append(f'<figure><a class="zoom" href="{html.escape(big)}" aria-label="Agrandir l\'image">'
+        size = f' style="--w:{min(im["w"], LOWRES_MAX)}px"' if lowres else ""
+        figs.append(f'<figure{size}><a class="zoom" href="{html.escape(big)}" aria-label="Agrandir l\'image">'
                     f'<img src="{html.escape(src)}" alt="{alt}" loading="lazy"{dims}></a>{cap}</figure>')
-    cls = "gallery" + (" one" if len(imgs) == 1 else "")
-    return f'<div class="{cls}">' + "".join(figs) + "</div>"
+    if lowres:
+        cls = "gallery side" if len(imgs) <= 2 else "gallery small"
+    else:
+        cls = "gallery" + (" one" if len(imgs) == 1 else "")
+    n = len(imgs)
+    cols = n if n <= 3 else (2 if n % 2 == 0 and n % 3 else 3)
+    style = f' style="--n:{cols}"' if cls == "gallery small" else ""
+    return f'<div class="{cls}"{style}>' + "".join(figs) + "</div>"
 
 
 def build_page(path, page, pages, order, idx, where):
@@ -757,6 +771,9 @@ def build_page(path, page, pages, order, idx, where):
     body, galleries = place_images(page)
     ctx = {"game": game, "ids": set(), "galleries": galleries}
     body_html, headings = render_body(body, link, ctx)
+    # petite image + texte qui la suit : côte à côte (image à gauche, texte à droite)
+    body_html = re.sub(r'(<div class="gallery side">(?:(?!</div>).)*</div>)\s*(<(p|ul|ol)\b.*?</\3>)',
+                       r'<div class="media">\1<div class="media-t">\2</div></div>', body_html, flags=re.S)
 
     def placeholder(m):
         key = m.group(1)
@@ -939,6 +956,31 @@ def build_hub(g, pages, idx):
     return layout(link, gname, inner, g, g if g != "plus" else "")
 
 
+GAME_YEAR = {"ge": 1997, "pd": 2000}
+
+
+def cart_shell(g):
+    """Coque de cartouche Nintendo 64 vue de face (proportions de la vraie : 370 × 242)."""
+    wing = "M0 46 C0 22 12 10 36 10 H80 V242 H5 Q0 242 0 237 Z"
+    side = (f'<path d="{wing}" fill="url(#cw-{g})"/>'
+            '<path d="M24 20V236" stroke="rgba(0,0,0,.2)" stroke-width="1.4"/><path d="M25.6 20V236" stroke="rgba(255,255,255,.35)" stroke-width="1"/>'
+            '<path d="M8 22C14 14 22 12 34 12" stroke="rgba(255,255,255,.5)" stroke-width="1.5" fill="none"/>'
+            '<rect x="0" y="202" width="7" height="40" fill="rgba(0,0,0,.16)"/><path d="M7 202V242" stroke="rgba(255,255,255,.3)"/>')
+    return (f'<svg class="shell" viewBox="0 0 370 242" aria-hidden="true"><defs>'
+            f'<linearGradient id="cw-{g}" x1="0" x2="1"><stop offset="0" stop-color="#8d8f94"/><stop offset=".3" stop-color="#a6a8ad"/>'
+            f'<stop offset=".75" stop-color="#abadb2"/><stop offset="1" stop-color="#9a9ca1"/></linearGradient>'
+            f'<linearGradient id="cc-{g}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#c6c8cd"/><stop offset=".07" stop-color="#b0b2b7"/>'
+            f'<stop offset=".88" stop-color="#a5a7ac"/><stop offset="1" stop-color="#909297"/></linearGradient></defs>'
+            f'{side}<g transform="translate(370 0) scale(-1 1)">{side}</g>'
+            f'<path d="M73 13Q73 0 87 0H283Q297 0 297 13V242H73Z" fill="url(#cc-{g})"/>'
+            '<path d="M86 1.5H284" stroke="rgba(255,255,255,.7)" stroke-width="1.6"/>'
+            '<path d="M73.5 14V242M296.5 14V242" stroke="rgba(0,0,0,.25)" stroke-width="1.2"/>'
+            '<path d="M75 14V242M295 14V242" stroke="rgba(255,255,255,.3)" stroke-width="1"/>'
+            '<rect x="87.5" y="13.5" width="195" height="220" rx="9" fill="#6f7176"/>'
+            '<rect x="87.5" y="13.5" width="195" height="220" rx="9" fill="none" stroke="rgba(0,0,0,.35)"/>'
+            '<path d="M90 234H280" stroke="rgba(255,255,255,.45)"/></svg>')
+
+
 def build_home(pages, idx):
     link = Linker(pages, "index.htm")
     cards = []
@@ -947,10 +989,12 @@ def build_home(pages, idx):
         themes = " · ".join(n for k, n, a in GROUPS if k in idx[g])
         count = len({p for v in idx[g].values() for p in v})
         fx = ('<i class="hit"></i><i class="hit"></i><i class="hit"></i>' if g == "ge" else '<i class="scan"></i>')
-        cards.append(f'<a class="game {g} tilt" href="{gslug}/"><span class="wing l" aria-hidden="true"></span><span class="wing r" aria-hidden="true"></span>'
+        year = GAME_YEAR[g]
+        cards.append(f'<a class="game {g} tilt" href="{gslug}/"><span class="cart">{cart_shell(g)}'
                      f'<span class="label"{banner_style("index.html", CART_ART[g])}><span class="glow" aria-hidden="true"></span>'
-                     f'<span aria-hidden="true">{fx}</span><span class="tag">{count} pages</span>'
-                     f'<h2>{icon(GAME_ICON[g])}{gname}</h2><p>{GAME_INTRO[g]}</p><p class="themes">{themes}</p>'
+                     f'<span aria-hidden="true">{fx}</span><span class="logo">{gname}</span>'
+                     f'<span class="box l">N64 · {year}</span><span class="box r">{count} pages</span></span></span>'
+                     f'<span class="info"><h2>{icon(GAME_ICON[g])}{gname}</h2><p>{GAME_INTRO[g]}</p><p class="themes">{themes}</p>'
                      f'<span class="go">Jouer {icon("arrow-right")}</span></span></a>')
     plus = group_links(idx["plus"][None], "index.html", pages, icons=True, game="plus")
     n_img = sum(len(g["imgs"]) for v in IMG_PAGES.values() for g in v["groups"])
