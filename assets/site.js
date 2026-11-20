@@ -125,11 +125,15 @@
   if (clock) {
     var tickClock = function () {
       var d = new Date();
-      clock.textContent = String(d.getHours()).padStart(2, "0") + ":" + String(d.getMinutes()).padStart(2, "0");
+      var NS = "http://www.w3.org/2000/svg", colon = document.createElementNS(NS, "tspan");
+      colon.setAttribute("class", "colon"); colon.textContent = ":";
+      clock.textContent = String(d.getHours()).padStart(2, "0");
+      clock.appendChild(colon);
+      clock.appendChild(document.createTextNode(String(d.getMinutes()).padStart(2, "0")));
       if (day) day.textContent = d.toLocaleDateString("fr-FR", { weekday: "short", day: "numeric", month: "short" }).toUpperCase();
     };
     tickClock();
-    setInterval(tickClock, 15000);
+    setInterval(tickClock, 10000);
   }
 
   // Bandeaux d'images : défilement piloté en JS (une boucle continue qui ne se fige jamais,
@@ -192,6 +196,69 @@
     });
   }
 
+  // Pages Goldeneye et Perfect Dark : lecteur audio (la musique d'une vidéo YouTube, sans afficher la vidéo).
+  // Rien ne se charge avant le premier clic ; le choix, le volume et la position sont mémorisés.
+  var AUDIO = { ge: ["ljsgAMrFUoM", "Goldeneye 007"], pd: ["DneuOuF8shQ", "Perfect Dark"] };
+  // pages d'un jeu : sa musique ; pages neutres ou communes aux deux : l'une des deux, au hasard
+  var audioKey = document.body.classList.contains("theme-pd") ? "pd" : document.body.classList.contains("theme-ge") ? "ge" : "mix";
+  var audioGame = audioKey === "mix" ? (Math.random() < .5 ? "ge" : "pd") : audioKey;
+  (function () {
+    var VID = AUDIO[audioGame][0], NAME = AUDIO[audioGame][1], store = {
+      get: function (k, d) { try { var v = localStorage.getItem("audio-" + (k === "t" ? VID : audioKey) + "-" + k); return v === null ? d : v; } catch (e) { return d; } },
+      set: function (k, v) { try { localStorage.setItem("audio-" + (k === "t" ? VID : audioKey) + "-" + k, v); } catch (e) {} }
+    };
+    var ui = document.createElement("div");
+    ui.className = "game-audio " + audioGame;
+    ui.innerHTML = '<button class="pa-play" type="button" aria-label="Lancer la musique de ' + NAME + '">' +
+      '<svg class="i-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5z"/></svg>' +
+      '<svg class="i-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z"/></svg></button>' +
+      '<span class="pa-txt"><b>' + NAME + '</b><span class="pa-sub">Musique · cliquer pour écouter</span></span>' +
+      '<span class="pa-eq" aria-hidden="true"><i></i><i></i><i></i><i></i></span>' +
+      '<input class="pa-vol" type="range" min="0" max="100" step="1" aria-label="Volume">' +
+      '<div class="pa-yt" aria-hidden="true"><div id="pa-yt"></div></div>';
+    document.body.appendChild(ui);
+    var btn = ui.querySelector(".pa-play"), sub = ui.querySelector(".pa-sub"), vol = ui.querySelector(".pa-vol");
+    vol.value = store.get("vol", "60");
+    var player = null, ready = false, want = false, loading = false;
+    function setState(on) {
+      ui.classList.toggle("on", on);
+      btn.setAttribute("aria-label", on ? "Mettre la musique en pause" : "Lancer la musique de " + NAME);
+      sub.textContent = on ? "Musique en cours" : (store.get("on", "0") === "1" ? "Cliquer pour reprendre" : "Musique · cliquer pour écouter");
+    }
+    function load() {
+      if (loading) return; loading = true; sub.textContent = "Chargement…";
+      window.onYouTubeIframeAPIReady = function () {
+        player = new YT.Player("pa-yt", {
+          host: "https://www.youtube-nocookie.com", videoId: VID, width: 200, height: 200,
+          playerVars: { autoplay: 1, controls: 0, loop: 1, playlist: VID, playsinline: 1, rel: 0, start: Math.floor(+store.get("t", "0")) },
+          events: {
+            onReady: function () { ready = true; player.setVolume(+vol.value); if (want) player.playVideo(); },
+            onStateChange: function (e) { setState(e.data === 1 || e.data === 3); }
+          }
+        });
+      };
+      var tag = document.createElement("script"); tag.src = "https://www.youtube.com/iframe_api"; document.head.appendChild(tag);
+    }
+    function play() { want = true; store.set("on", "1"); if (ready) player.playVideo(); else load(); setState(true); }
+    function pause() { want = false; store.set("on", "0"); if (ready) player.pauseVideo(); setState(false); }
+    btn.addEventListener("click", function () { ui.classList.contains("on") ? pause() : play(); });
+    vol.addEventListener("input", function () { store.set("vol", vol.value); if (ready) player.setVolume(+vol.value); });
+    setInterval(function () { if (ready && ui.classList.contains("on")) store.set("t", String(player.getCurrentTime() || 0)); }, 2000);
+    addEventListener("pagehide", function () { if (ready) store.set("t", String(player.getCurrentTime() || 0)); });
+    setState(false);
+    // déjà activée sur une page précédente : reprend au premier geste (le navigateur l'exige pour le son)
+    if (store.get("on", "0") === "1") {
+      ui.classList.add("resume");
+      var once = function (e) {
+        if (ui.contains(e.target)) return;
+        removeEventListener("pointerdown", once, true); removeEventListener("keydown", once, true);
+        ui.classList.remove("resume"); play();
+      };
+      addEventListener("pointerdown", once, true); addEventListener("keydown", once, true);
+      btn.addEventListener("click", function () { ui.classList.remove("resume"); removeEventListener("pointerdown", once, true); removeEventListener("keydown", once, true); });
+    }
+  })();
+
   // Chiffres de l'accueil : comptent jusqu'à leur valeur
   var counters = document.querySelectorAll("[data-count]");
   function fmt(n) { return String(n).replace(/\B(?=(\d{3})+(?!\d))/g, "\u202f"); }
@@ -223,4 +290,5 @@
     el.classList.add("reveal");
     io.observe(el);
   });
+
 })();

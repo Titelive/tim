@@ -1,0 +1,16 @@
+{
+  "name": "Goldeneye & Perfect Dark",
+  "short_name": "GE & PD",
+  "description": "Goldeneye 007 et Perfect Dark sur Nintendo 64 : soluces, Battle, codes, beta et mystères.",
+  "start_url": "/tim/",
+  "scope": "/tim/",
+  "display": "standalone",
+  "background_color": "#0d0f14",
+  "theme_color": "#0d0f14",
+  "lang": "fr",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
