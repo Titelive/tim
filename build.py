@@ -947,12 +947,11 @@ def build_home(pages, idx):
         themes = " · ".join(n for k, n, a in GROUPS if k in idx[g])
         count = len({p for v in idx[g].values() for p in v})
         fx = ('<i class="hit"></i><i class="hit"></i><i class="hit"></i>' if g == "ge" else '<i class="scan"></i>')
-        cards.append(f'<a class="game {g} tilt" href="{gslug}/"><span class="ridges" aria-hidden="true"></span>'
-                     f'<span class="notch l" aria-hidden="true"></span><span class="notch r" aria-hidden="true"></span>'
+        cards.append(f'<a class="game {g} tilt" href="{gslug}/"><span class="wing l" aria-hidden="true"></span><span class="wing r" aria-hidden="true"></span>'
                      f'<span class="label"{banner_style("index.html", CART_ART[g])}><span class="glow" aria-hidden="true"></span>'
                      f'<span aria-hidden="true">{fx}</span><span class="tag">{count} pages</span>'
                      f'<h2>{icon(GAME_ICON[g])}{gname}</h2><p>{GAME_INTRO[g]}</p><p class="themes">{themes}</p>'
-                     f'<span class="go">Entrer {icon("arrow-right")}</span></span></a>')
+                     f'<span class="go">Jouer {icon("arrow-right")}</span></span></a>')
     plus = group_links(idx["plus"][None], "index.html", pages, icons=True, game="plus")
     n_img = sum(len(g["imgs"]) for v in IMG_PAGES.values() for g in v["groups"])
     stats = [(len(pages), "pages"), (n_img, "images"), (30, "challenges"), (2, "jeux cultes")]
