@@ -960,25 +960,26 @@ GAME_YEAR = {"ge": 1997, "pd": 2000}
 
 
 def cart_shell(g):
-    """Coque de cartouche Nintendo 64 vue de face (proportions de la vraie : 370 × 242)."""
-    wing = "M0 46 C0 22 12 10 36 10 H80 V242 H5 Q0 242 0 237 Z"
+    """Coque de cartouche Nintendo 64 vue de face, calquée sur une vraie (324 × 238) :
+    ailes presque aussi hautes que le bloc central, étiquette réduite au centre,
+    large bande grise dessous."""
+    wing = "M0 40C0 24 8 16 26 16H54V238H6Q0 238 0 232Z"
     side = (f'<path d="{wing}" fill="url(#cw-{g})"/>'
-            '<path d="M24 20V236" stroke="rgba(0,0,0,.2)" stroke-width="1.4"/><path d="M25.6 20V236" stroke="rgba(255,255,255,.35)" stroke-width="1"/>'
-            '<path d="M8 22C14 14 22 12 34 12" stroke="rgba(255,255,255,.5)" stroke-width="1.5" fill="none"/>'
-            '<rect x="0" y="202" width="7" height="40" fill="rgba(0,0,0,.16)"/><path d="M7 202V242" stroke="rgba(255,255,255,.3)"/>')
-    return (f'<svg class="shell" viewBox="0 0 370 242" aria-hidden="true"><defs>'
+            '<path d="M13 30V226" stroke="rgba(0,0,0,.2)" stroke-width="1.3"/><path d="M14.5 30V226" stroke="rgba(255,255,255,.35)"/>'
+            '<path d="M5 30C9 21 15 18 26 18" stroke="rgba(255,255,255,.5)" stroke-width="1.4" fill="none"/>'
+            '<rect x="0" y="206" width="6" height="32" fill="rgba(0,0,0,.14)"/>')
+    return (f'<svg class="shell" viewBox="0 0 324 238" aria-hidden="true"><defs>'
             f'<linearGradient id="cw-{g}" x1="0" x2="1"><stop offset="0" stop-color="#8d8f94"/><stop offset=".3" stop-color="#a6a8ad"/>'
             f'<stop offset=".75" stop-color="#abadb2"/><stop offset="1" stop-color="#9a9ca1"/></linearGradient>'
-            f'<linearGradient id="cc-{g}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#c6c8cd"/><stop offset=".07" stop-color="#b0b2b7"/>'
-            f'<stop offset=".88" stop-color="#a5a7ac"/><stop offset="1" stop-color="#909297"/></linearGradient></defs>'
-            f'{side}<g transform="translate(370 0) scale(-1 1)">{side}</g>'
-            f'<path d="M73 13Q73 0 87 0H283Q297 0 297 13V242H73Z" fill="url(#cc-{g})"/>'
-            '<path d="M86 1.5H284" stroke="rgba(255,255,255,.7)" stroke-width="1.6"/>'
-            '<path d="M73.5 14V242M296.5 14V242" stroke="rgba(0,0,0,.25)" stroke-width="1.2"/>'
-            '<path d="M75 14V242M295 14V242" stroke="rgba(255,255,255,.3)" stroke-width="1"/>'
-            '<rect x="87.5" y="13.5" width="195" height="220" rx="9" fill="#6f7176"/>'
-            '<rect x="87.5" y="13.5" width="195" height="220" rx="9" fill="none" stroke="rgba(0,0,0,.35)"/>'
-            '<path d="M90 234H280" stroke="rgba(255,255,255,.45)"/></svg>')
+            f'<linearGradient id="cc-{g}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#c3c5ca"/><stop offset=".08" stop-color="#b0b2b7"/>'
+            f'<stop offset=".9" stop-color="#a6a8ad"/><stop offset="1" stop-color="#919398"/></linearGradient></defs>'
+            f'{side}<g transform="translate(324 0) scale(-1 1)">{side}</g>'
+            f'<path d="M52 12Q52 3 62 2.4Q162 -2 262 2.4Q272 3 272 12V238H52Z" fill="url(#cc-{g})"/>'
+            '<path d="M64 3.6Q162 0 260 3.6" stroke="rgba(255,255,255,.7)" stroke-width="1.4" fill="none"/>'
+            '<path d="M52.5 13V238M271.5 13V238" stroke="rgba(0,0,0,.25)" stroke-width="1.2"/>'
+            '<path d="M54 13V238M270 13V238" stroke="rgba(255,255,255,.3)"/>'
+            '<rect x="91.5" y="15.5" width="141" height="155" rx="6" fill="#6f7176" stroke="rgba(0,0,0,.3)"/>'
+            '<path d="M94 171.5H230" stroke="rgba(255,255,255,.5)"/></svg>')
 
 
 def build_home(pages, idx):
@@ -993,7 +994,7 @@ def build_home(pages, idx):
         cards.append(f'<a class="game {g} tilt" href="{gslug}/"><span class="cart">{cart_shell(g)}'
                      f'<span class="label"{banner_style("index.html", CART_ART[g])}><span class="glow" aria-hidden="true"></span>'
                      f'<span aria-hidden="true">{fx}</span><span class="logo">{gname}</span>'
-                     f'<span class="box l">N64 · {year}</span><span class="box r">{count} pages</span></span></span>'
+                     f'</span><span class="box l">N64</span><span class="box c">{count} pages</span><span class="box r">{year}</span></span>'
                      f'<span class="info"><h2>{icon(GAME_ICON[g])}{gname}</h2><p>{GAME_INTRO[g]}</p><p class="themes">{themes}</p>'
                      f'<span class="go">Jouer {icon("arrow-right")}</span></span></a>')
     plus = group_links(idx["plus"][None], "index.html", pages, icons=True, game="plus")

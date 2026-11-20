@@ -132,6 +132,49 @@
     setInterval(tickClock, 15000);
   }
 
+  // Bandeaux d'images : défilement piloté en JS (une boucle continue qui ne se fige jamais,
+  // même après un retour arrière, un onglet en arrière-plan ou un long moment sur la page)
+  var tracks = [].slice.call(document.querySelectorAll(".marquee .track"));
+  if (tracks.length && !calm) {
+    var state = tracks.map(function (t) {
+      t.style.animation = "none";
+      var m = t.parentNode;
+      var o = { t: t, x: 0, half: 0, speed: m.classList.contains("rev") ? 0.6 : 0.75, dir: m.classList.contains("rev") ? 1 : -1, paused: false };
+      m.addEventListener("pointerenter", function () { o.paused = true; });
+      m.addEventListener("pointerleave", function () { o.paused = false; });
+      return o;
+    });
+    function measure() {
+      state.forEach(function (o) {
+        var gap = parseFloat(getComputedStyle(o.t).columnGap) || 0;
+        o.half = (o.t.scrollWidth + gap) / 2;
+        if (o.dir > 0 && o.x === 0) o.x = -o.half;
+      });
+    }
+    measure();
+    addEventListener("resize", measure);
+    addEventListener("load", measure);
+    var last = 0;
+    function loop(now) {
+      var dt = last ? Math.min(now - last, 50) : 16; last = now;
+      state.forEach(function (o) {
+        if (!o.half) return;
+        if (!o.paused) o.x += o.dir * o.speed * dt / 16;
+        if (o.x <= -o.half) o.x += o.half;
+        if (o.x > 0) o.x -= o.half;
+        o.t.style.transform = "translate3d(" + o.x.toFixed(2) + "px,0,0)";
+      });
+      requestAnimationFrame(loop);
+    }
+    requestAnimationFrame(loop);
+    document.addEventListener("visibilitychange", function () { last = 0; });
+  }
+  // Retour arrière (cache du navigateur) : relance toutes les animations CSS
+  addEventListener("pageshow", function (e) {
+    if (!e.persisted || !document.getAnimations) return;
+    document.getAnimations().forEach(function (a) { try { a.play(); } catch (_) {} });
+  });
+
   // Cartes des jeux : légère inclinaison 3D et lueur qui suit le pointeur
   if (!calm && matchMedia("(pointer: fine)").matches) {
     document.querySelectorAll(".tilt").forEach(function (el) {
