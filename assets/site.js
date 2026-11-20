@@ -285,7 +285,7 @@
         sub.appendChild(a);
       } else sub.textContent = m.artist;
       if (n > 1) sub.appendChild(document.createTextNode(" · " + (idx + 1) + "/" + n));
-      ui.title = m.title + " — " + m.artist;
+      ui.removeAttribute("title");
       btn.setAttribute("aria-label", (on ? "Mettre en pause : " : "Écouter : ") + m.title + " (" + m.artist + ")");
       skip.hidden = n < 2;
       requestAnimationFrame(scrollTitle);

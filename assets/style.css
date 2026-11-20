@@ -615,3 +615,11 @@ footer .music-credit svg{flex:none;width:18px;height:18px;fill:none;stroke:var(-
   .pa-song,.pa-sub{max-width:118px}
   .pa-skip button{width:28px;height:28px}
 }
+
+/* replié : seulement la pastille ronde du bouton lecture / pause, sans cadre ni texte */
+.game-audio.mini,.game-audio.mini.on,.game-audio.mini:not(.on){padding:0;gap:0;background:transparent;border-color:transparent;box-shadow:none;backdrop-filter:none;-webkit-backdrop-filter:none}
+.game-audio.mini .pa-txt,.game-audio.mini.on .pa-txt,.game-audio.mini .pa-eq,.game-audio.mini .pa-skip,.game-audio.mini .pa-vol{max-width:0;opacity:0;margin:0;overflow:hidden}
+.game-audio.mini .pa-eq,.game-audio.mini.on .pa-eq{display:none}
+.game-audio.mini .pa-play{width:46px;height:46px;box-shadow:0 8px 22px -8px rgba(0,0,0,.55)}
+.game-audio.mini.on .pa-play{box-shadow:0 8px 22px -8px rgba(0,0,0,.55),0 0 18px -2px color-mix(in srgb,var(--ac) 75%,transparent)}
+.game-audio{transition:box-shadow .4s var(--ease),padding .45s var(--ease),gap .45s var(--ease),background-color .35s var(--ease),border-color .35s var(--ease)}
