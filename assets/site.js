@@ -316,16 +316,22 @@
     }
     function fetchAll(g) { AUDIO[g].list.forEach(fetchMeta); }
     function setState(on) { ui.classList.toggle("on", on); render(); }
-    function load() {
+    // auto = créé par un clic sur Lecture : la vidéo démarre dès qu'elle est prête
+    function load(auto) {
       if (loading) return; loading = true;
-      sub.textContent = "Chargement…";
+      if (auto) sub.textContent = "Chargement…";
       window.onYouTubeIframeAPIReady = function () {
         var id = track().id;
         player = new YT.Player("pa-yt", {
           host: "https://www.youtube-nocookie.com", videoId: id, width: 200, height: 200,
-          playerVars: { autoplay: 0, controls: 0, playsinline: 1, rel: 0, start: Math.floor(+store.get("t-" + id, "0")) },
+          playerVars: { autoplay: auto ? 1 : 0, controls: 0, playsinline: 1, rel: 0, start: Math.floor(+store.get("t-" + id, "0")) },
           events: {
-            onReady: function () { ready = true; player.setVolume(+vol.value); if (want) player.playVideo(); },
+            onReady: function () {
+              ready = true; player.setVolume(+vol.value);
+              if (player.getVideoData && player.getVideoData().video_id !== track().id) cue(false); // morceau changé entre-temps
+              if (want) player.playVideo();
+              render();
+            },
             onStateChange: function (e) {
               if (e.data === 0) { store.set("t-" + track().id, "0"); go(1); return; } // morceau fini : le suivant
               if (e.data === 1) {
@@ -358,7 +364,12 @@
       idx = (idx + step + n) % n;
       cue(true);
     }
-    function play() { want = true; if (ready) player.playVideo(); else load(); setState(true); }
+    function play() { want = true; if (ready) player.playVideo(); else load(true); setState(true); }
+    // le lecteur YouTube se prépare (sans jouer) dès que l'on approche du bouton : le premier clic lance alors
+    // la musique immédiatement, car les navigateurs n'autorisent le son que pendant le geste lui-même
+    function prepare() { if (!loading) load(false); }
+    ui.addEventListener("pointerenter", prepare);
+    ui.addEventListener("focusin", prepare);
     function pause() { want = false; if (ready) player.pauseVideo(); setState(false); }
     btn.addEventListener("click", function () { ui.classList.contains("on") ? pause() : play(); });
     ui.querySelector(".pa-prev").addEventListener("click", function () {
