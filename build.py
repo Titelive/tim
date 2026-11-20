@@ -912,7 +912,6 @@ GAME_INTRO = {
 # images d'ambiance (bannières, cartes des jeux, défilé de l'accueil)
 GAME_ART = {"ge": "images/ambiance/goldeneye.jpg", "pd": "images/ambiance/perfect-dark.jpg",
             "plus": "images/ambiance/perfect-dark-rue.jpg"}
-CART_ART = {"ge": "images/ambiance/goldeneye.jpg", "pd": "images/ambiance/perfect-dark-oeil.jpg"}
 GE_SHOTS = ["images/soluce/%s-1.jpg" % n for n in ("surface1", "bunker2", "statue", "archives", "streets", "depot",
             "train", "jungle", "control", "caverns", "cradle", "aztec", "egyptian", "007")]
 PD_SHOTS = ["images/mysteres/%s-01.jpg" % n for n in ("area51", "defection", "extraction", "g5", "institut", "villa",
@@ -956,30 +955,9 @@ def build_hub(g, pages, idx):
     return layout(link, gname, inner, g, g if g != "plus" else "")
 
 
-GAME_YEAR = {"ge": 1997, "pd": 2000}
 
 
-def cart_shell(g):
-    """Coque de cartouche Nintendo 64 vue de face, calquée sur une vraie (324 × 238) :
-    ailes presque aussi hautes que le bloc central, étiquette réduite au centre,
-    large bande grise dessous."""
-    wing = "M0 40C0 24 8 16 26 16H54V238H6Q0 238 0 232Z"
-    side = (f'<path d="{wing}" fill="url(#cw-{g})"/>'
-            '<path d="M13 30V226" stroke="rgba(0,0,0,.2)" stroke-width="1.3"/><path d="M14.5 30V226" stroke="rgba(255,255,255,.35)"/>'
-            '<path d="M5 30C9 21 15 18 26 18" stroke="rgba(255,255,255,.5)" stroke-width="1.4" fill="none"/>'
-            '<rect x="0" y="206" width="6" height="32" fill="rgba(0,0,0,.14)"/>')
-    return (f'<svg class="shell" viewBox="0 0 324 238" aria-hidden="true"><defs>'
-            f'<linearGradient id="cw-{g}" x1="0" x2="1"><stop offset="0" stop-color="#8d8f94"/><stop offset=".3" stop-color="#a6a8ad"/>'
-            f'<stop offset=".75" stop-color="#abadb2"/><stop offset="1" stop-color="#9a9ca1"/></linearGradient>'
-            f'<linearGradient id="cc-{g}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#c3c5ca"/><stop offset=".08" stop-color="#b0b2b7"/>'
-            f'<stop offset=".9" stop-color="#a6a8ad"/><stop offset="1" stop-color="#919398"/></linearGradient></defs>'
-            f'{side}<g transform="translate(324 0) scale(-1 1)">{side}</g>'
-            f'<path d="M52 12Q52 3 62 2.4Q162 -2 262 2.4Q272 3 272 12V238H52Z" fill="url(#cc-{g})"/>'
-            '<path d="M64 3.6Q162 0 260 3.6" stroke="rgba(255,255,255,.7)" stroke-width="1.4" fill="none"/>'
-            '<path d="M52.5 13V238M271.5 13V238" stroke="rgba(0,0,0,.25)" stroke-width="1.2"/>'
-            '<path d="M54 13V238M270 13V238" stroke="rgba(255,255,255,.3)"/>'
-            '<rect x="91.5" y="15.5" width="141" height="155" rx="6" fill="#6f7176" stroke="rgba(0,0,0,.3)"/>'
-            '<path d="M94 171.5H230" stroke="rgba(255,255,255,.5)"/></svg>')
+CART_H = {"ge": 690, "pd": 690}
 
 
 def build_home(pages, idx):
@@ -989,12 +967,10 @@ def build_home(pages, idx):
         gslug, gname = GAMES[g]
         themes = " · ".join(n for k, n, a in GROUPS if k in idx[g])
         count = len({p for v in idx[g].values() for p in v})
-        fx = ('<i class="hit"></i><i class="hit"></i><i class="hit"></i>' if g == "ge" else '<i class="scan"></i>')
-        year = GAME_YEAR[g]
-        cards.append(f'<a class="game {g} tilt" href="{gslug}/"><span class="cart">{cart_shell(g)}'
-                     f'<span class="label"{banner_style("index.html", CART_ART[g])}><span class="glow" aria-hidden="true"></span>'
-                     f'<span aria-hidden="true">{fx}</span><span class="logo">{gname}</span>'
-                     f'</span><span class="box l">N64</span><span class="box c">{count} pages</span><span class="box r">{year}</span></span>'
+        cart_img = {"ge": "goldeneye", "pd": "perfect-dark"}[g]
+        cards.append(f'<a class="game {g} tilt" href="{gslug}/"><span class="cart" style="--m:url(images/cartouches/{cart_img}.webp)">'
+                     f'<img src="images/cartouches/{cart_img}.webp" alt="Cartouche Nintendo 64 de {gname}" width="1040" height="{CART_H[g]}" loading="lazy" decoding="async">'
+                     f'</span>'
                      f'<span class="info"><h2>{icon(GAME_ICON[g])}{gname}</h2><p>{GAME_INTRO[g]}</p><p class="themes">{themes}</p>'
                      f'<span class="go">Jouer {icon("arrow-right")}</span></span></a>')
     plus = group_links(idx["plus"][None], "index.html", pages, icons=True, game="plus")
