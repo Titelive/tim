@@ -753,6 +753,7 @@ def layout(link, title, inner, section=None, game="", description="", tab_title=
 <footer>
   <div class="wrap">
     <p>Contenu écrit par <strong>Tim</strong>, passionné de <strong>Goldeneye 007</strong> et de <strong>Perfect Dark</strong>. Ce sont des jeux Rare / Nintendo ; ce site de fan n'est affilié à aucune de ces sociétés.</p>
+    <p class="music-credit"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18V5l11-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="17" cy="16" r="3"/></svg><span>Musiques du lecteur : remakes de <a href="https://www.youtube.com/@DiegoLealComposer" target="_blank" rel="noopener"><strong>Diego Leal E.</strong></a>, merci pour ces merveilles !</span></p>
     <p class="credit"><a class="tlc" href="https://titelive.me" target="_blank" rel="noopener" title="titelive.me"><span>Site réalisé par</span><img src="/img/titelive-logo.png" alt="" width="22" height="22" loading="lazy"><b>Titelive</b></a></p>
   </div>
 </footer>

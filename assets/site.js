@@ -209,48 +209,85 @@
   // La musique d'une vidéo YouTube, sans afficher la vidéo. Le lecteur reste en place quand on
   // change de page : la musique continue, et ne change que si l'on passe d'un jeu à l'autre.
   var AUDIO = {
-    ge: { id: "ljsgAMrFUoM", game: "GoldenEye 007", title: "Thème de GoldenEye 007", artist: "Grant Kirkhope & Graeme Norgate" },
-    pd: { id: "DneuOuF8shQ", game: "Perfect Dark", title: "Alien Conflict", artist: "Perfect Dark · remake non compressé" }
+    ge: { game: "GoldenEye 007", artist: "Diego Leal E.", list: [
+      { id: "81yPNZ8Yetw", title: "GoldenEye 007" },
+      { id: "ljsgAMrFUoM", title: "GoldenEye 007" },
+      { id: "dSEAXUYpMMc", title: "Mission Briefing / Main Menu" },
+      { id: "l-lKcEePwx4", title: "Bunker II" }
+    ] },
+    pd: { game: "Perfect Dark", artist: "Diego Leal E.", list: [
+      { id: "DneuOuF8shQ", title: "Alien Conflict" },
+      { id: "CP5Pwo1Fz5E", title: "Deep Sea (beta / trailer)" },
+      { id: "-vYfi7tIIJE", title: "Perfect Dark" }
+    ] }
   };
   function pageGame() {
     var b = document.body.classList;
     return b.contains("theme-pd") ? "pd" : b.contains("theme-ge") ? "ge" : null;
   }
-  function cleanTitle(t, g) {
+  function cleanTitle(t, fb) {
     t = String(t || "")
       .replace(/^\s*(goldeneye(\s*007)?|perfect\s*dark)\s*(\(n64\))?\s*(ost|soundtrack|music)?\s*[:\-–—|]\s*/i, "")
-      .replace(/\s*[\[(](?:n64|hq|hd|ost|official[^)\]]*|nintendo 64)[\])]\s*/gi, " ")
+      .replace(/\s*[\[(](?:n64|hq|hd|ost|official[^)\]]*|nintendo 64|uncompressed[^)\]]*|remaster[^)\]]*)[\])]\s*/gi, " ")
       .replace(/\s{2,}/g, " ").trim();
-    return t || AUDIO[g].title;
+    return t || fb;
   }
   var audio = (function () {
     var store = {
       get: function (k, d) { try { var v = localStorage.getItem("audio-" + k); return v === null ? d : v; } catch (_) { return d; } },
       set: function (k, v) { try { localStorage.setItem("audio-" + k, v); } catch (_) {} }
     };
-    var game = pageGame() || (store.get("last", "") in AUDIO ? store.get("last") : (Math.random() < .5 ? "ge" : "pd"));
+    function pickIdx(g) {
+      var n = AUDIO[g].list.length, s = +store.get("idx-" + g, "-1");
+      return s >= 0 && s < n ? s : Math.floor(Math.random() * n);
+    }
+    // pages d'un jeu : sa liste ; pages communes : un morceau au hasard parmi tous ceux des deux jeux
+    var game = pageGame(), idx;
+    if (game) idx = pickIdx(game);
+    else {
+      var all = [];
+      Object.keys(AUDIO).forEach(function (g) { AUDIO[g].list.forEach(function (_, i) { all.push([g, i]); }); });
+      var r = all[Math.floor(Math.random() * all.length)]; game = r[0]; idx = r[1];
+    }
     var ui = document.createElement("div");
+    var ic = function (d) { return '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="' + d + '"/></svg>'; };
     ui.className = "game-audio " + game;
     ui.innerHTML = '<button class="pa-play" type="button">' +
       '<svg class="i-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5z"/></svg>' +
       '<svg class="i-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z"/></svg></button>' +
       '<span class="pa-txt"><span class="pa-song"><b class="pa-title"></b></span><span class="pa-sub"></span></span>' +
       '<span class="pa-eq" aria-hidden="true"><i></i><i></i><i></i><i></i></span>' +
+      '<span class="pa-skip"><button class="pa-prev" type="button" aria-label="Morceau précédent">' + ic("M6 5h2.5v14H6zM19 5.5v13L9.5 12z") + '</button>' +
+      '<button class="pa-next" type="button" aria-label="Morceau suivant">' + ic("M15.5 5H18v14h-2.5zM5 5.5v13L14.5 12z") + '</button></span>' +
       '<input class="pa-vol" type="range" min="0" max="100" step="1" aria-label="Volume">' +
       '<div class="pa-yt" aria-hidden="true"><div id="pa-yt"></div></div>';
     document.body.appendChild(ui);
     var btn = ui.querySelector(".pa-play"), title = ui.querySelector(".pa-title"), sub = ui.querySelector(".pa-sub"), vol = ui.querySelector(".pa-vol");
-    var song = ui.querySelector(".pa-song");
+    var song = ui.querySelector(".pa-song"), skip = ui.querySelector(".pa-skip");
     vol.value = store.get("vol", "60");
     var player = null, ready = false, want = false, loading = false, meta = {};
 
-    function info() { return meta[game] || AUDIO[game]; }
+    function track() { return AUDIO[game].list[idx]; }
+    function info() {
+      var t = track(), m = meta[t.id];
+      return { title: m ? m.title : t.title, artist: game === "ge" || !m ? AUDIO[game].artist : m.artist };
+    }
     function render() {
-      var m = info(), on = ui.classList.contains("on");
+      var m = info(), on = ui.classList.contains("on"), n = AUDIO[game].list.length;
       title.textContent = m.title;
-      sub.textContent = m.artist;
+      // crédit : le compositeur des remakes, avec un lien vers sa chaîne
+      sub.textContent = "";
+      if (/diego\s*leal/i.test(m.artist)) {
+        var a = document.createElement("a");
+        a.href = "https://www.youtube.com/@DiegoLealComposer"; a.target = "_blank"; a.rel = "noopener";
+        a.innerHTML = "<strong>Diego Leal E.</strong>";
+        sub.appendChild(document.createTextNode("Remake de "));
+        sub.appendChild(a);
+      } else sub.textContent = m.artist;
+      if (n > 1) sub.appendChild(document.createTextNode(" · " + (idx + 1) + "/" + n));
       ui.title = m.title + " — " + m.artist;
       btn.setAttribute("aria-label", (on ? "Mettre en pause : " : "Écouter : ") + m.title + " (" + m.artist + ")");
+      skip.hidden = n < 2;
       requestAnimationFrame(scrollTitle);
     }
     // titre trop long pour la place : il défile doucement
@@ -263,38 +300,39 @@
         title.classList.add("run");
       }
     }
-    // vrais titre et artiste de la vidéo (mis en cache) ; sinon les valeurs ci-dessus
-    function fetchMeta(g) {
-      var id = AUDIO[g].id, key = "meta-" + id, c = store.get(key, "");
-      if (c) { try { meta[g] = JSON.parse(c); render(); return; } catch (_) {} }
+    // vrais titre et artiste de chaque vidéo (mis en cache) ; sinon les valeurs ci-dessus
+    function fetchMeta(t) {
+      var key = "meta-" + t.id, c = store.get(key, "");
+      if (c) { try { meta[t.id] = JSON.parse(c); render(); return; } catch (_) {} }
       if (!window.fetch) return;
-      fetch("https://noembed.com/embed?url=" + encodeURIComponent("https://www.youtube.com/watch?v=" + id))
+      fetch("https://noembed.com/embed?url=" + encodeURIComponent("https://www.youtube.com/watch?v=" + t.id))
         .then(function (r) { return r.json(); })
         .then(function (d) {
           if (!d || !d.title) return;
-          meta[g] = { title: cleanTitle(d.title, g), artist: d.author_name || AUDIO[g].artist };
-          store.set(key, JSON.stringify(meta[g]));
-          if (g === game) render();
+          meta[t.id] = { title: cleanTitle(d.title, t.title), artist: d.author_name || AUDIO[game].artist };
+          store.set(key, JSON.stringify(meta[t.id]));
+          render();
         }).catch(function () {});
     }
+    function fetchAll(g) { AUDIO[g].list.forEach(fetchMeta); }
     function setState(on) { ui.classList.toggle("on", on); render(); }
     function load() {
       if (loading) return; loading = true;
       sub.textContent = "Chargement…";
       window.onYouTubeIframeAPIReady = function () {
-        var id = AUDIO[game].id;
+        var id = track().id;
         player = new YT.Player("pa-yt", {
           host: "https://www.youtube-nocookie.com", videoId: id, width: 200, height: 200,
           playerVars: { autoplay: 1, controls: 0, playsinline: 1, rel: 0, start: Math.floor(+store.get("t-" + id, "0")) },
           events: {
             onReady: function () { ready = true; player.setVolume(+vol.value); if (want) player.playVideo(); },
             onStateChange: function (e) {
-              if (e.data === 0) { player.seekTo(0); player.playVideo(); return; } // en boucle
+              if (e.data === 0) { store.set("t-" + track().id, "0"); go(1); return; } // morceau fini : le suivant
               if (e.data === 1) {
-                var d = player.getVideoData && player.getVideoData();
-                if (d && d.title && !store.get("meta-" + AUDIO[game].id, "")) {
-                  meta[game] = { title: cleanTitle(d.title, game), artist: d.author || AUDIO[game].artist };
-                  store.set("meta-" + AUDIO[game].id, JSON.stringify(meta[game]));
+                var d = player.getVideoData && player.getVideoData(), t = track();
+                if (d && d.title && !store.get("meta-" + t.id, "")) {
+                  meta[t.id] = { title: cleanTitle(d.title, t.title), artist: d.author || AUDIO[game].artist };
+                  store.set("meta-" + t.id, JSON.stringify(meta[t.id]));
                 }
               }
               setState(e.data === 1 || e.data === 3);
@@ -304,10 +342,31 @@
       };
       var tag = document.createElement("script"); tag.src = "https://www.youtube.com/iframe_api"; document.head.appendChild(tag);
     }
-    function saveTime() { if (ready && player.getCurrentTime) store.set("t-" + AUDIO[game].id, String(player.getCurrentTime() || 0)); }
+    function saveTime() { if (ready && player.getCurrentTime) store.set("t-" + track().id, String(player.getCurrentTime() || 0)); }
+    function cue(fromStart) {
+      var id = track().id, at = fromStart ? 0 : Math.floor(+store.get("t-" + id, "0"));
+      if (fromStart) store.set("t-" + id, "0");
+      if (ready) { if (want) player.loadVideoById({ videoId: id, startSeconds: at }); else player.cueVideoById({ videoId: id, startSeconds: at }); }
+      store.set("idx-" + game, idx);
+      render();
+    }
+    // précédent / suivant (la liste tourne en boucle)
+    function go(step) {
+      var n = AUDIO[game].list.length;
+      if (n < 2) { if (ready) { player.seekTo(0); if (want) player.playVideo(); } return; }
+      saveTime();
+      idx = (idx + step + n) % n;
+      cue(true);
+    }
     function play() { want = true; store.set("on", "1"); ui.classList.remove("resume"); if (ready) player.playVideo(); else load(); setState(true); }
     function pause() { want = false; store.set("on", "0"); if (ready) player.pauseVideo(); setState(false); }
     btn.addEventListener("click", function () { ui.classList.contains("on") ? pause() : play(); });
+    ui.querySelector(".pa-prev").addEventListener("click", function () {
+      // comme sur un baladeur : revient au début du morceau s'il joue depuis plus de 4 s
+      if (ready && player.getCurrentTime && player.getCurrentTime() > 4) { player.seekTo(0); return; }
+      go(-1);
+    });
+    ui.querySelector(".pa-next").addEventListener("click", function () { go(1); });
     vol.addEventListener("input", function () { store.set("vol", vol.value); if (ready) player.setVolume(+vol.value); });
     setInterval(function () { if (ui.classList.contains("on")) saveTime(); }, 2000);
     addEventListener("pagehide", saveTime);
@@ -319,14 +378,14 @@
     ui.addEventListener("pointerenter", function () { unfold(); });
     ui.addEventListener("pointerleave", function () { clearTimeout(foldT); foldT = setTimeout(fold, 1200); });
     ui.addEventListener("focusin", function () { unfold(); });
-    ui.addEventListener("click", function (e) { if (ui.classList.contains("mini") && !e.target.closest(".pa-play")) unfold(); });
+    ui.addEventListener("click", function (e) { if (ui.classList.contains("mini") && !e.target.closest("button")) unfold(); });
     addEventListener("scroll", function () { if (!ui.matches(":hover") && !ui.classList.contains("mini")) { clearTimeout(foldT); fold(); } }, { passive: true });
     addEventListener("resize", function () { requestAnimationFrame(scrollTitle); });
 
     setState(false);
-    fetchMeta(game);
+    fetchAll(game);
     unfold(4000);
-    store.set("last", game);
+    store.set("idx-" + game, idx);
     // arrivée par un lien extérieur ou un rechargement alors que la musique était en route :
     // le navigateur exige un geste ; le bouton pulse et un clic dessus relance la musique là où elle était
     if (store.get("on", "0") === "1") ui.classList.add("resume");
@@ -337,15 +396,10 @@
         var g = pageGame();
         if (!g || g === game) return;
         saveTime();
-        game = g; store.set("last", g);
+        game = g; idx = pickIdx(g);
         ui.classList.remove("ge", "pd"); ui.classList.add(g);
-        fetchMeta(g);
-        var id = AUDIO[g].id, at = Math.floor(+store.get("t-" + id, "0"));
-        if (ready) {
-          if (want) player.loadVideoById({ videoId: id, startSeconds: at });
-          else player.cueVideoById({ videoId: id, startSeconds: at });
-        }
-        render();
+        fetchAll(g);
+        cue(false);
         unfold(3000);
       },
       pauseForVideo: function () { if (ui.classList.contains("on")) pause(); }
