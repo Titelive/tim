@@ -593,3 +593,25 @@ body.loading .progress{opacity:.6}
 body.swapped main,body.swapped .crumbs{animation:enter .45s var(--ease) both}
 .yt-go img{color:transparent}
 .yt-go{background:radial-gradient(circle at 50% 45%,color-mix(in srgb,var(--accent) 35%,#111),#050608 70%)}
+
+/* ---------- Lecteur : précédent / suivant ---------- */
+.pa-skip{display:flex;gap:2px;max-width:80px;overflow:hidden;transition:max-width .45s var(--ease),opacity .3s var(--ease)}
+.pa-skip[hidden]{display:none}
+.pa-skip button{display:grid;place-items:center;width:30px;height:30px;padding:0;border:0;border-radius:50%;background:transparent;color:var(--text);cursor:pointer;opacity:.75;transition:background-color .2s var(--ease),opacity .2s,transform .2s var(--ease)}
+.pa-skip button:hover{opacity:1;background:color-mix(in srgb,var(--ac) 22%,transparent);transform:scale(1.1)}
+.pa-skip button:active{transform:scale(.9)}
+.pa-skip svg{width:16px;height:16px;fill:currentColor}
+.game-audio.mini .pa-skip{max-width:0;opacity:0}
+.pa-sub a{color:var(--ac);text-decoration:none}
+.pa-sub a:hover{text-decoration:underline}
+footer .music-credit{display:flex;align-items:center;gap:10px}
+footer .music-credit svg{flex:none;width:18px;height:18px;fill:none;stroke:var(--accent,var(--pd));stroke-width:2;stroke-linecap:round;stroke-linejoin:round;animation:mc-bob 2.4s ease-in-out infinite}
+@keyframes mc-bob{50%{transform:translateY(-2px) rotate(-6deg)}}
+@media (prefers-reduced-motion: reduce){footer .music-credit svg{animation:none}}
+/* mobile : lecteur déplié plus compact, sans chevaucher le bouton de retour en haut */
+@media (max-width:600px){
+  .game-audio{max-width:calc(100vw - 100px);gap:8px}
+  .game-audio:not(.mini) .pa-eq{display:none}
+  .pa-song,.pa-sub{max-width:118px}
+  .pa-skip button{width:28px;height:28px}
+}
