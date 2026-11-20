@@ -957,7 +957,7 @@ def build_hub(g, pages, idx):
 
 
 
-CART_H = {"ge": 690, "pd": 690}
+CART_H = {"ge": 730, "pd": 730}
 
 
 def build_home(pages, idx):
@@ -968,8 +968,8 @@ def build_home(pages, idx):
         themes = " · ".join(n for k, n, a in GROUPS if k in idx[g])
         count = len({p for v in idx[g].values() for p in v})
         cart_img = {"ge": "goldeneye", "pd": "perfect-dark"}[g]
-        cards.append(f'<a class="game {g} tilt" href="{gslug}/"><span class="cart" style="--m:url(images/cartouches/{cart_img}.webp)">'
-                     f'<img src="images/cartouches/{cart_img}.webp" alt="Cartouche Nintendo 64 de {gname}" width="1040" height="{CART_H[g]}" loading="lazy" decoding="async">'
+        cards.append(f'<a class="game {g} tilt" href="{gslug}/"><span class="cart" style="--m:url(images/cartouches/{cart_img}.webp?v=2)">'
+                     f'<img src="images/cartouches/{cart_img}.webp?v=2" alt="Cartouche Nintendo 64 de {gname}" width="1040" height="{CART_H[g]}" loading="lazy" decoding="async">'
                      f'</span>'
                      f'<span class="info"><h2>{icon(GAME_ICON[g])}{gname}</h2><p>{GAME_INTRO[g]}</p><p class="themes">{themes}</p>'
                      f'<span class="go">Jouer {icon("arrow-right")}</span></span></a>')
