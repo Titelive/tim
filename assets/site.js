@@ -323,7 +323,7 @@
         var id = track().id;
         player = new YT.Player("pa-yt", {
           host: "https://www.youtube-nocookie.com", videoId: id, width: 200, height: 200,
-          playerVars: { autoplay: 1, controls: 0, playsinline: 1, rel: 0, start: Math.floor(+store.get("t-" + id, "0")) },
+          playerVars: { autoplay: 0, controls: 0, playsinline: 1, rel: 0, start: Math.floor(+store.get("t-" + id, "0")) },
           events: {
             onReady: function () { ready = true; player.setVolume(+vol.value); if (want) player.playVideo(); },
             onStateChange: function (e) {
@@ -358,8 +358,8 @@
       idx = (idx + step + n) % n;
       cue(true);
     }
-    function play() { want = true; store.set("on", "1"); ui.classList.remove("resume"); if (ready) player.playVideo(); else load(); setState(true); }
-    function pause() { want = false; store.set("on", "0"); if (ready) player.pauseVideo(); setState(false); }
+    function play() { want = true; if (ready) player.playVideo(); else load(); setState(true); }
+    function pause() { want = false; if (ready) player.pauseVideo(); setState(false); }
     btn.addEventListener("click", function () { ui.classList.contains("on") ? pause() : play(); });
     ui.querySelector(".pa-prev").addEventListener("click", function () {
       // comme sur un baladeur : revient au début du morceau s'il joue depuis plus de 4 s
@@ -386,9 +386,8 @@
     fetchAll(game);
     unfold(4000);
     store.set("idx-" + game, idx);
-    // arrivée par un lien extérieur ou un rechargement alors que la musique était en route :
-    // le navigateur exige un geste ; le bouton pulse et un clic dessus relance la musique là où elle était
-    if (store.get("on", "0") === "1") ui.classList.add("resume");
+    // jamais de lecture automatique : la musique ne démarre que sur le bouton Lecture
+    try { localStorage.removeItem("audio-on"); } catch (_) {}
 
     return {
       // nouvelle page : on garde la musique, sauf si l'on passe à l'autre jeu
