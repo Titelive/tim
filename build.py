@@ -686,7 +686,7 @@ def layout(link, title, inner, section=None, game="", description="", tab_title=
                 break
     share = {"ge": "goldeneye", "pd": "perfect-dark"}.get(game, "accueil")
     url = SITE_URL + clean(link.cur_out).lstrip("./") if clean(link.cur_out) != "./" else SITE_URL
-    og_img = f"{SITE_URL}images/partage/{share}.jpg?v=2"
+    og_img = f"{SITE_URL}images/partage/{share}.jpg?v=3"
     # données structurées : site, fil d'Ariane, jeu vidéo
     ld = []
     if url == SITE_URL:
